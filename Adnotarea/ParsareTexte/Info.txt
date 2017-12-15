@@ -1,0 +1,7 @@
+Side note: Toate documentele le-am facut in format .docx
+
+Instalare: pip install suds-jurko
+	   pip install python-docx
+
+Exemplu:
+https://prakashpandey.in/2015/Aug/13/access-soap-web-services-using-python-suds.html
