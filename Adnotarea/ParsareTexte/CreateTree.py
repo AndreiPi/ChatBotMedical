@@ -25,14 +25,26 @@ def create_dictionary(node):
     dictionary = dict()
 
     if len(node.children) > 0:
-        dictionary.update({node.word: [(node.children[0].deprel, node.children[0].lemma)]})
+        if node.lemma:
+            dictionary.update({node.lemma: [(node.children[0].deprel, node.children[0].lemma)]})
+        else:
+            dictionary.update({node.word: [(node.children[0].deprel, node.children[0].lemma)]})
 
     i = 1
     while i < len(node.children):
-        ceva = dictionary[node.word]
+        if node.lemma:
+            ceva = dictionary[node.lemma]
+        else:
+            ceva = dictionary[node.word]
+
         ceva2 = (node.children[i].deprel, node.children[i].lemma)
+
         ceva.append(ceva2)
-        dictionary[node.word] = ceva
+
+        if node.lemma:
+            dictionary[node.lemma] = ceva
+        else:
+            dictionary[node.word] = ceva
 
         i += 1
 
@@ -102,11 +114,11 @@ def get_list_of_dictionaries(path):
 
     #print(dictionaries_tuple_list)
 
-    #for dic in dictionaries_tuple_list:
-    #    print("{")
-    #    for x in dic:
-    #        print(x + ":" + str(dic[x]))
-    #    print("}")
+    '''for dic in dictionaries_tuple_list:
+        print("{")
+        for x in dic:
+            print(x + ":" + str(dic[x]))
+        print("}")'''
 
     #for prop in lista_propozitiilor:
     #    print(prop)
@@ -121,13 +133,13 @@ def get_list_of_dictionaries(path):
 
     #print(final_list)
 
-    #with open("dictionaries_list.pkl", "wb") as f:
-    #    f.write(cPickle.dumps(final_list))
-
     return final_list
 
 
-#dir_path = os.path.dirname(os.path.realpath(__file__))
-#file_output = os.path.join(dir_path, 'DocumenteOutput\\Fisier1.xml') # Andrei
+def create_tree_from_xml(xml_file_path):
+    final_list = get_list_of_dictionaries(xml_file_path)
 
-#print(get_list_of_dictionaries(file_output))
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+
+    with open(os.path.join(dir_path, "Fisiere pkl", "dictionaries_list_" + str(os.path.basename(xml_file_path).split(".")[0]) + ".pkl"), "wb") as f:
+        f.write(cPickle.dumps(final_list))
