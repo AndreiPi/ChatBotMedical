@@ -2,6 +2,8 @@ import wikipedia
 import requests
 from bs4 import BeautifulSoup
 from re import split
+import os
+import urllib
 
 def extractText(page):
     content = wikipedia.page(page).content
@@ -18,8 +20,21 @@ def extractImages(page):
     for i in teme:
         for j in rezultat:
             if i in j:
-                rezultatFinal.append(j);
+                rezultatFinal.append(j)
     return rezultatFinal
 
-print(extractImages("Albert Einstein"))
 
+def extractContent(theme):
+    directory = os.path.dirname(os.path.realpath(__file__))
+    textContent = extractText(theme)
+    images = extractImages(theme)
+    directory = os.path.join(directory,theme)
+    if ( not os.path.exists(directory) ):
+        os.makedirs(theme)
+    os.chdir(directory)
+    fisierText = theme + ".txt"
+    open(fisierText,"wt", encoding="utf8").write(textContent)
+    for i in images:
+        fisier = split("/",i)
+        x ="https:"+i
+        urllib.request.urlretrieve(x,fisier[-1])
