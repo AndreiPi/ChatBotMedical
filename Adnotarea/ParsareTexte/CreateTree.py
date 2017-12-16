@@ -141,5 +141,8 @@ def create_tree_from_xml(xml_file_path):
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    with open(os.path.join(dir_path, "Fisiere pkl", "dictionaries_list_" + str(os.path.basename(xml_file_path).split(".")[0]) + ".pkl"), "wb") as f:
+    with open(os.path.join(dir_path,
+                           "Fisiere pkl",
+                           "dictionaries_list_" + str(os.path.basename(xml_file_path).split(".")[0]) + ".pkl"),
+              "wb") as f:
         f.write(cPickle.dumps(final_list))

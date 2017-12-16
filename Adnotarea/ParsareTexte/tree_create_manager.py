@@ -3,6 +3,7 @@ from createtree import create_tree_from_xml
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+
 file_output1 = os.path.join(dir_path, 'DocumenteOutput\\Fisier1.xml')
 file_output2 = os.path.join(dir_path, 'DocumenteOutput\\Fisier2.xml')
 file_output3 = os.path.join(dir_path, 'DocumenteOutput\\Fisier3.xml')
