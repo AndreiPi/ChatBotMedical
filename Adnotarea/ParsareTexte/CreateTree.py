@@ -52,73 +52,82 @@ class Node:
         self.children = []
 
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-file_output = os.path.join(dir_path, 'DocumenteOutput\\Fisier1.xml') # Andrei
+def get_list_of_dictionaries(path):
+    #dir_path = os.path.dirname(os.path.realpath(__file__))
+    #file_output = os.path.join(dir_path, 'DocumenteOutput\\Fisier1.xml') # Andrei
 
-tree = etree.parse(file_output)
+    tree = etree.parse(path)
 
-initial = tree.getroot()
-initial_node = Node(None, initial.tag, None, None)
+    initial = tree.getroot()
+    initial_node = Node(None, initial.tag, None, None)
 
-lista_propozitiilor = []
-nr_prop = -1
+    lista_propozitiilor = []
+    nr_prop = -1
 
-for s in initial:
-    nr_prop += 1
+    for s in initial:
+        nr_prop += 1
 
-    nodes_list = []
+        nodes_list = []
 
-    s_node = Node(None, s.tag, None, None)
-    s_node.parent_node = initial_node
-    initial_node.children.append(s_node)
+        s_node = Node(None, s.tag, None, None)
+        s_node.parent_node = initial_node
+        initial_node.children.append(s_node)
 
-    lista_propozitiilor.append("")
+        lista_propozitiilor.append("")
 
-    for w in s:
-        lista_propozitiilor[nr_prop] = lista_propozitiilor[nr_prop] + " " + w.text
+        for w in s:
+            lista_propozitiilor[nr_prop] = lista_propozitiilor[nr_prop] + " " + w.text
 
-        node = Node(w.get('head'), w.text, w.get('LEMMA'), w.get('deprel'))
-        nodes_list.append(node)
+            node = Node(w.get('head'), w.text, w.get('LEMMA'), w.get('deprel'))
+            nodes_list.append(node)
 
-        if w.get('head') == '0':
-            s_node.children.append(node)
+            if w.get('head') == '0':
+                s_node.children.append(node)
 
-    for node in nodes_list:
-        if node.head != '0':
-            node.parent_node = nodes_list[int(node.head) - 1]
-            node.parent_node.children.append(node)
-        else:
-            continue
+        for node in nodes_list:
+            if node.head != '0':
+                node.parent_node = nodes_list[int(node.head) - 1]
+                node.parent_node.children.append(node)
+            else:
+                continue
 
 
-#print("[0]", end='')
-#print_hierarchy(initial_node)
+    #print("[0]", end='')
+    #print_hierarchy(initial_node)
 
-dictionaries_tuple_list = []
+    dictionaries_tuple_list = []
 
-for root_child in initial_node.children:
-    dictionaries_tuple_list.append(create_dictionary(root_child))
+    for root_child in initial_node.children:
+        dictionaries_tuple_list.append(create_dictionary(root_child))
 
-#print(dictionaries_tuple_list)
+    #print(dictionaries_tuple_list)
 
-#for dic in dictionaries_tuple_list:
-#    print("{")
-#    for x in dic:
-#        print(x + ":" + str(dic[x]))
-#    print("}")
+    #for dic in dictionaries_tuple_list:
+    #    print("{")
+    #    for x in dic:
+    #        print(x + ":" + str(dic[x]))
+    #    print("}")
 
-#for prop in lista_propozitiilor:
-#    print(prop)
+    #for prop in lista_propozitiilor:
+    #    print(prop)
 
-final_list = []
+    final_list = []
 
-i = 0
-for dic in dictionaries_tuple_list:
-    final_list.append((dic, lista_propozitiilor[i]))
+    i = 0
+    for dic in dictionaries_tuple_list:
+        final_list.append((dic, lista_propozitiilor[i]))
 
-    i += 1
+        i += 1
 
-#print(final_list)q
+    #print(final_list)
 
-with open("dictionaries_list.pkl", "wb") as f:
-    f.write(cPickle.dumps(final_list))
+    #with open("dictionaries_list.pkl", "wb") as f:
+    #    f.write(cPickle.dumps(final_list))
+
+    return final_list
+
+
+#dir_path = os.path.dirname(os.path.realpath(__file__))
+#file_output = os.path.join(dir_path, 'DocumenteOutput\\Fisier1.xml') # Andrei
+
+#print(get_list_of_dictionaries(file_output))
