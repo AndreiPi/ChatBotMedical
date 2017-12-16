@@ -38,3 +38,5 @@ def extractContent(theme):
         fisier = split("/",i)
         x ="https:"+i
         urllib.request.urlretrieve(x,fisier[-1])
+
+extractContent("Albert Einstein")
