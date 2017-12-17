@@ -1,78 +1,123 @@
 <!DOCTYPE html>
-<html lang="ro"  >
-    <head>
+<html lang="ro">
 
-        <meta charset="UTF-8" />
-        <title>Chat Bot</title>
-        <meta name="generator" content="MediaWiki 1.24.3" />
+<head>
 
-        <link rel="stylesheet" href="/static/mainStyle.css"/>
-        <link rel="stylesheet" href="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
-        <meta name="ResourceLoaderDynamicStyles" content="" />
+    <meta charset="UTF-8" />
+    <title>Chat Bot</title>
+    <meta name="generator" content="MediaWiki 1.24.3" />
 
-        <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+    <link rel="stylesheet" href="/static/mainStyle.css" />
+    <link rel="stylesheet" href="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*"
+    />
+    <meta name="ResourceLoaderDynamicStyles" content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+    <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+    <style>
+            li {
+                list-style: none;
+    
+            }
+    
+            .but {
+                margin-top: 10px;
+            }
+    
+            a{
+                text-decoration: none;
+            }
+            a:active{
+                text-decoration: none;
+            }
+            a:visited{
+                text-decoration: none;
+            }
+            a:link {
+                 text-decoration: none;
+            }
+        </style>
+
+</head>
+
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Pagina_principală skin-vector action-view vector-animateLayout">
+    <div id="mw-page-base" class="noprint"></div>
+
+    <div id="content" class="mw-body" role="main">
 
 
-    </head>
-
-    <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Pagina_principală skin-vector action-view vector-animateLayout">
-        <div id="mw-page-base" class="noprint"></div>
-
-        <div id="content" class="mw-body" role="main">
-
-
-            <h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Chat Bot</span></h1>
-            <div id="bodyContent" class="mw-body-content">
-                <!-- Add space betwwen titile and content -->
-                <div id="contentSub"></div>
+        <h1 id="firstHeading" class="firstHeading" lang="ro">
+            <span dir="auto">Chat Bot</span>
+        </h1>
+        <div id="bodyContent" class="mw-body-content">
+            <!-- Add space betwwen titile and content -->
+            <div id="contentSub"></div>
 
 
-                <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><p><br />
-                    Chatbot, un asistent personal inteligent, va juca rolul unui help-desk in procesul tau de invatare. Sunt multe intrebari din domeniul medical carora poate nu le acorzi completa atentie, insa daca nu le cunosti raspunsul  poti ajunge confuz si stresat cand e vremea examenelor.
-
-                    Exista multe intrebari relevante care poate nu necisita un raspuns de la profesor dar cu care, cu siguranta, chatbot-ul te poate ajuta. Cu atat mai mult, sa cauti un raspuns pe google poate fi de cele mai multe ori complicat si fara folos, pentru ca, cum stim cu totii, internetul poate fi plin de stiri si informatii false.
-                    </br></br>
+            <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
+                <p>
+                    <br /> Chatbot, un asistent personal inteligent, va juca rolul unui help-desk in procesul tau de invatare.
+                    Sunt multe intrebari din domeniul medical carora poate nu le acorzi completa atentie, insa daca nu le
+                    cunosti raspunsul poti ajunge confuz si stresat cand e vremea examenelor. Exista multe intrebari relevante
+                    care poate nu necisita un raspuns de la profesor dar cu care, cu siguranta, chatbot-ul te poate ajuta.
+                    Cu atat mai mult, sa cauti un raspuns pe google poate fi de cele mai multe ori complicat si fara folos,
+                    pentru ca, cum stim cu totii, internetul poate fi plin de stiri si informatii false.
+                    </br>
+                    </br>
                     <div id="holder">
-                         <img id= "img" src="/static/chatbot.jpg"  >
+                        <img id="img" src="/static/chatbot.jpg">
                     </div>
-                </div> </br> </br>
+            </div>
+            </br>
+            </br>
 
-                    <h1>Ai o intrebare?</h1>
 
-                <!-- Chat Bot -->
-                <form name="chat-form" action="." method="post">
-                    <input type="text" name="search" placeholder="Ai o intrebare?">
-                </form>
 
-                <div id="conversation">
-                    <!-- Aici va fi conversatia -->
+            <!-- Chat Bot -->
+            <form name="chat-form" action="." method="post">
+                <div class="form-group col-xs-4">
+                    <label for="usr">Ai o intrebare?</label>
+                    <input type="text" class="form-control" id="usr">
                 </div>
+            </form>
+
+            <div id="conversation">
+                <!-- Aici va fi conversatia -->
+            </div>
 
             </br>
 
-                </div>
-            </div>
+        </div>
+    </div>
 
-        <div id="mw-navigation">
-            <h2>Meniu de navigare</h2>
+    <div id="mw-navigation">
+        <h2>Meniu de navigare</h2>
 
-            <div id="mw-head">
-                <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+        <div id="mw-head">
+            <!-- <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
                     <ul>
                     <li id="pt-login"><a href="#" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
                    </ul>
+                </div> -->
+            <div id="left-navigation">
+                <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+                    <ul>
+                        <li id="ca-nstab-main" class="selected">
+                            <span>
+                                <a href="#" title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a>
+                            </span>
+                        </li>
+                    </ul>
                 </div>
-                <div id="left-navigation">
-                    <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
-                        <ul>
-                            <li  id="ca-nstab-main" class="selected"><span><a href="#"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
-                        </ul>
-                    </div>
 
-                </div>
-                <div id="right-navigation">
+            </div>
+            <div id="right-navigation">
 
-                    <div id="p-search" role="search">
+                <!-- <div id="p-search" role="search">
                         <h3>
                             <label for="searchInput">Căutare</label>
                         </h3>
@@ -83,15 +128,17 @@
                                 <input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />
                             </div>
                         </form>
-                    </div>
-                </div>
+                    </div> -->
+            </div>
+        </div>
+
+        <div id="mw-panel">
+            <div id="p-logo" role="banner">
+                <a style="background-image: url(../static/logo.PNG); background-size: cover" href="#" title="Pagina principală"></a>
             </div>
 
-            <div id="mw-panel">
-                <div id="p-logo" role="banner"><a style="background-image: url(../static/logo.PNG); background-size: cover"  href="#"  title="Pagina principală"></a></div>
 
-
-                <div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+            <!-- <div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
                     <h3 id='p-navigation-label'>Navigare</h3>
 
                     <div class="body">
@@ -100,34 +147,388 @@
 
                         </ul>
                     </div>
-                </div>
-                <div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
-                    <h3 id='p-Baze_de_date-label'>Capitole</h3>
+                </div> -->
+            <div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+                <h3 id='p-Baze_de_date-label'>Capitole</h3>
 
-                    <div class="body">
-                        <ul>
+                <div class="capitolee">
 
-                            <li id="capitol1"><a href="#">Capitol 1</a></li>
-                            <li id="capitol2"><a href="#">Capitol 2</a></li>
-                            <li id="capitol3"><a href="#">Capitol 3</a></li>
-                            <li id="capitol4"><a href="#">Capitol 4</a></li>
-                            <li id="capitol5"><a href="#">Capitol 5</a></li>
-                            <li id="capitol6"><a href="#">Capitol 6</a></li>
-                            <li id="capitol7"><a href="#">Capitol 7</a></li>
-                            <li id="capitol8"><a href="#">Capitol 8</a></li>
-                            <li id="capitol9"><a href="#">Capitol 9</a></li>
-                            <li id="capitol10"><a href="#">Capitol 10</a></li>
-                            <li id="capitol11"><a href="#">Capitol 11</a></li>
-                            <li id="capitol12"><a href="#">Capitol 12</a></li>
-                            <li id="capitol13"><a href="#">Capitol 13</a></li>
+
+                    <ul>
+                        <!-- capitol 1 -->
+                        <button class="btn btn-default but btn-xs " data-toggle="collapse" data-target="#cap1"><li id="1"><a href="#">Capitol 1</a></li></button>
+                        <ul id="cap1" class="collapse">
+                                <button class="btn btn-default but btn-xs "><li id="11" data-toggle="collapse" data-target="#sub11"><a href="#">Sub1</a></li></button>
+                                        <ul id="sub11" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="111"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="122"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="133"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="144"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="155"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="12" data-toggle="collapse" data-target="#sub12"><a href="#">Sub2</a></li></button>
+                                        <ul id="sub12" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="121"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="122"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="123"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="124"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="125"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="13" data-toggle="collapse" data-target="#sub13"><a href="#">Sub3</a></li></button>
+                                        <ul id="sub13" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="131"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="132"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="133"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="134"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="135"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                
+                                <button class="btn btn-default but btn-xs "><li id="14" data-toggle="collapse" data-target="#sub14"><a href="#">Sub4</a></li></button>
+                                        <ul id="sub14" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="141"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="142"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="143"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="144"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="145"><a href="#">Sub5</a></li></button>
+                                        </ul>
+
+                                <button class="btn btn-default but btn-xs "><li id="15" data-toggle="collapse" data-target="#sub15"><a href="#">Sub5</a></li></button>
+                                        <ul id="sub15" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="151"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="152"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="153"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="154"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="155"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                         
                         </ul>
-                    </div>
+
+                        <!-- capitol 2 -->
+                        <button class="btn btn-default but btn-xs " data-toggle="collapse" data-target="#cap2"><li id="2"><a href="#">Capitol 2</a></li></button>
+                        <ul id="cap2" class="collapse">
+                                <button class="btn btn-default but btn-xs "><li id="21" data-toggle="collapse" data-target="#sub21"><a href="#">Sub1</a></li></button>
+                                        <ul id="sub21" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="211"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="222"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="233"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="244"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="255"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="22" data-toggle="collapse" data-target="#sub22"><a href="#">Sub2</a></li></button>
+                                        <ul id="sub22" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="221"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="222"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="223"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="224"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="225"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="23" data-toggle="collapse" data-target="#sub33"><a href="#">Sub3</a></li></button>
+                                        <ul id="sub33" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="231"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="232"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="233"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="234"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="235"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                
+                                <button class="btn btn-default but btn-xs "><li id="24" data-toggle="collapse" data-target="#sub24"><a href="#">Sub4</a></li></button>
+                                        <ul id="sub24" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="241"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="242"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="243"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="244"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="245"><a href="#">Sub5</a></li></button>
+                                        </ul>
+
+                                <button class="btn btn-default but btn-xs "><li id="25" data-toggle="collapse" data-target="#sub25"><a href="#">Sub5</a></li></button>
+                                        <ul id="sub25" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="251"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="252"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="253"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="254"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="255"><a href="#">Sub5</a></li></button>
+                                        </ul>            
+                        </ul>
+
+                        <!-- capitol 3 -->
+                        <button class="btn btn-default but btn-xs " data-toggle="collapse" data-target="#cap3"><li id="3"><a href="#">Capitol 3</a></li></button>
+                        <ul id="cap3" class="collapse">
+                                <button class="btn btn-default but btn-xs "><li id="31" data-toggle="collapse" data-target="#sub31"><a href="#">Sub1</a></li></button>
+                                        <ul id="sub31" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="311"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="322"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="333"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="344"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="355"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="32" data-toggle="collapse" data-target="#sub32"><a href="#">Sub2</a></li></button>
+                                        <ul id="sub32" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="321"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="322"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="323"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="224"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="325"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="33" data-toggle="collapse" data-target="#sub33"><a href="#">Sub3</a></li></button>
+                                        <ul id="sub33" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="231"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="232"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="233"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="234"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="235"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                
+                                <button class="btn btn-default but btn-xs "><li id="34" data-toggle="collapse" data-target="#sub34"><a href="#">Sub4</a></li></button>
+                                        <ul id="sub34" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="341"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="342"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="343"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="344"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="345"><a href="#">Sub5</a></li></button>
+                                        </ul>
+
+                                <button class="btn btn-default but btn-xs "><li id="35" data-toggle="collapse" data-target="#sub35"><a href="#">Sub5</a></li></button>
+                                        <ul id="sub35" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="351"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="352"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="353"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="354"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="355"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                         
+                        </ul>
+
+                        <!-- capitol 4 -->
+                        <button class="btn btn-default but btn-xs " data-toggle="collapse" data-target="#cap4"><li id="4"><a href="#">Capitol 4</a></li></button>
+                        <ul id="cap4" class="collapse">
+                                <button class="btn btn-default but btn-xs "><li id="41" data-toggle="collapse" data-target="#sub41"><a href="#">Sub1</a></li></button>
+                                        <ul id="sub41" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="411"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="422"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="433"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="444"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="455"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="42" data-toggle="collapse" data-target="#sub42"><a href="#">Sub2</a></li></button>
+                                        <ul id="sub42" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="421"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="422"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="423"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="424"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="425"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                <button class="btn btn-default but btn-xs "><li id="43" data-toggle="collapse" data-target="#sub43"><a href="#">Sub3</a></li></button>
+                                        <ul id="sub43" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="431"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="432"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="433"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="434"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="435"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                
+                                <button class="btn btn-default but btn-xs "><li id="44" data-toggle="collapse" data-target="#sub44"><a href="#">Sub4</a></li></button>
+                                        <ul id="sub44" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="441"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="442"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="443"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="444"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="445"><a href="#">Sub5</a></li></button>
+                                        </ul>
+
+                                <button class="btn btn-default but btn-xs "><li id="45" data-toggle="collapse" data-target="#sub45"><a href="#">Sub5</a></li></button>
+                                        <ul id="sub45" class="collapse">
+                                            <button class="btn btn-default but btn-xs "><li id="451"><a href="#">Sub1</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="452"><a href="#">Sub2</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="453"><a href="#">Sub3</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="454"><a href="#">Sub4</a></li></button>
+                                            <button class="btn btn-default but btn-xs "><li id="455"><a href="#">Sub5</a></li></button>
+                                        </ul>
+                                         
+                        </ul>
+             
+                    </ul>
                 </div>
 
-
+                <!-- <div id="0">
+                        
+                    </div>
+                    <div id="demo">
+                        
+                </div> -->
             </div>
+
+
         </div>
+    </div>
+
+    <script>
+
+        //var data = '{"name": "mkyong","age": 30,"address": {"streetAddress": "88 8nd Street","city": "New York"},"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
+        //var data = '{"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
+        //var capitole='{"capitole": [{"nume":"capitol1","id":"1","href":"#"},{"nume":"capitol2","id":"2","href":"#"},{"nume":"capitol3","id":"3","href":"#"}],"subcapitole1": [{"nume":"subcapitol1","id":"12","href":"#",parinte="1"},{"nume":"subcapitol2","id":"12","href":"#",parinte="2"},{"nume":"subcapitol3","id":"13","href":"#",parinte="3"}]}';
+        var capitole = '{"capitole": [{"nume": "capitol1","id": "1","parinte":"0"},{"nume": "capitol2","id": "2","parinte":"0"}],"subcapitole1": [{"nume": "sub1","id": "1","parinte":"1"},{"nume": "sub2","id": "2","parinte":"2"}]}';
+        //var json1 = JSON.parse(capitole);
+        //document.getElementById("demo").textContent +=json1.capitole[1].nume;
+        //var json2 = JSON.parse(subcapitole1);
+
+        var ia_id_div = document.getElementById("0");
+        var ia_id_div1 = document.getElementById("demo");
+
+        for (var i = 0; i <= capitole.length; i++) {
+
+            // document.getElementById("demo").textContent +=json1.capitole[i].nume;
+            var ul = document.createElement("ul");
+            //ul.setAttribute("id", json1.capitole[i].id);
+
+            var buton = document.createElement("button");
+            buton.setAttribute("class", "btn btn-default btn-xs")
+
+            var li = document.createElement("li");
+            //li.setAttribute("id",json1.capitole[i].id.concat(i) );
+            var a = document.createElement("a");
+            a.setAttribute("href", "#");
+            a.setAttribute("id", json1.capitole[i].id);
+            a.textContent = json1.capitole[i].nume;
+
+            var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+
+        }
+        // for(var i=0;i<=subcapitole1.length;i++){
+        //       var ul=document.createElement("ul");
+        //      //ul1.setAttribute("id", json2.subcapitole1[i].id);
+
+        //      var buton=document.createElement("button");
+        //      buton.setAttribute("class","btn btn-default btn-xs")
+
+        //      var li=document.createElement("li");
+        //      //li.setAttribute("id",json1.subcapitole1[i].id.concat(i) );
+
+        //       var a=document.createElement("a");
+        //      a.setAttribute("href", "#");
+        //      a.setAttribute("id", json1.subcapitole1[i].id);
+        //      a.textContent=json1.subcapitole1[i].nume;
+
+        //     //cap1=json1.subcapitole1[i].parinte;
+        //      var cap=ia_id_div1.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+        //  }
+        //var json2 = JSON.parse(capitole);
+        for (var i = 0; i <= capitole.length; i++) {
+            // document.getElementById("demo").textContent +=json1.capitole[i].nume;
+            var ul1 = document.createElement("ul");
+            //ul.setAttribute("id", json1.capitole[i].id);
+
+            var buton1 = document.createElement("button");
+            //buton1.setAttribute("class","btn btn-default btn-xs")
+
+            var li1 = document.createElement("li");
+            //li.setAttribute("id",json1.capitole[i].id.concat(i) );
+
+            var a1 = document.createElement("a");
+            //a.setAttribute("href", "#");
+            //a.setAttribute("id", json1.capitole[i].id);
+            a1.textContent = json1.capitole[i].nume;
+
+            var cap = ia_id_div1.appendChild(ul1).appendChild(buton1).appendChild(li1).appendChild(a1);
+        }
 
 
-    </body>
+                //document.getElementById("demo").textContent=i;
+
+                        // var xmlhttp = new XMLHttpRequest();
+                        //     xmlhttp.onreadystatechange = function() {
+                        //         if (this.readyState == 4 && this.status == 200) {
+                        //             var myObj = JSON.parse(this.responseText);
+                        //             document.getElementById("demo").innerHTML = myObj.name;
+                        //         }
+                        //     };
+                        //     xmlhttp.open("GET", "json.txt", true);
+                        //     xmlhttp.send();
+                            // var ok=1;
+                            // while (ok==1)
+                            // {
+                            //     cap_1= {
+                            //     titlu:"titlu1",
+                            //     id:"1",
+                            //     href:"#",
+                            //     parinte:"0"
+                            //     }
+
+                            // cap_2= {
+                            //        titlu:"Ford1",
+                            //         href:"BMW"
+                            //     }
+                            // }
+
+                            // document.getElementById("demo").innerHTML = obj.obj1.name + ", " + obj.obj1.age;
+
+
+                //             var nr_capitole=10;
+                //             //nume capitole
+
+                //             for (i=1;i<=nr_capitole;i++)
+                //             {
+                //                 var ia_id_div=document.getElementById("capitole");
+                //                 var ul=document.createElement("ul");
+                //                 ul.setAttribute("id", "capitol_".concat(i));
+
+                //                 var buton=document.createElement("button");
+                //                 buton.setAttribute("class","btn btn-default btn-xs")
+
+                //                 var li=document.createElement("li");
+                //                 li.setAttribute("id", "capitol".concat(i));
+                 //                 var a=document.createElement("a");
+                //                 a.setAttribute("href", "#");
+                //                 a.textContent="capitol".concat(i);
+
+                //                 var cap=ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                //             }
+                //             var myObj, x;
+                //             myObj = {
+                //                 "cap 1": {
+                //                     "titlu":"Ford",
+                //                     "href":"BMW",
+                //                 },
+                //                 "cap 2": {
+                //                     "titlu":"Ford1",
+                //                     "href":"BMW",
+                //                 }
+
+                //             };
+
+                //             cap_1={
+                //                 titlu="titlu1",
+                //                 id="1",
+                //                 href="#",
+                //                 parinte="0"
+                //             }
+
+                //             cap_2={
+                //                 titlu="titlu2",
+                //                 id="1",
+                //                 href="#",
+                //                 parinte="0"
+                //             }
+                //            // x = myObj.cars[0];
+                //            //x = myObj["name"];
+                //            //x=myObj.cars2[0];
+                //          //  for (x in myObj) {
+                //    // document.getElementById("demo").innerHTML += myObj[x][x]
+                // //x=myObj.cars1.car1;
+                //             //document.getElementById("demo").innerHTML = x;
+
+
+                //             for (i = 0; i < myObj.length; i++) {
+                //              x += myObj[i][titlu] + "<br>";
+                //             }
+                //             document.getElementById("demo").innerHTML = x;
+                // $(document).ready(function(){
+                // $('button').click(function() {
+                //     $(this).removeClass('btn btn-default');
+                //     $(this).addClass('btn btn-success');
+                // });
+
+                // });
+    </script>
+</body>
+
 </html>
