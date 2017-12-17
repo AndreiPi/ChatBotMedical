@@ -60,40 +60,45 @@
     <div id="mw-page-base" class="noprint"></div>
 
     <div id="content" class="mw-body" role="main">
+            {%for item in dialogue%}
+                {%if item[2]%}
+                    <h1 id="firstHeading" class="firstHeading" lang="ro">
+                        <span dir="auto">{{item[0]}}</span>
+                    </h1>
 
-
-        <h1 id="firstHeading" class="firstHeading" lang="ro">
-            <span dir="auto">Chat Bot</span>
-        </h1>
-        <div id="bodyContent" class="mw-body-content">
-            <!-- Add space betwwen titile and content -->
-            <div id="contentSub"></div>
-
-
-            <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
-                <p>
-                    <br /> Chatbot, un asistent personal inteligent, va juca rolul unui help-desk in procesul tau de invatare.
-                    Sunt multe intrebari din domeniul medical carora poate nu le acorzi completa atentie, insa daca nu le
-                    cunosti raspunsul poti ajunge confuz si stresat cand e vremea examenelor. Exista multe intrebari relevante
-                    care poate nu necisita un raspuns de la profesor dar cu care, cu siguranta, chatbot-ul te poate ajuta.
-                    Cu atat mai mult, sa cauti un raspuns pe google poate fi de cele mai multe ori complicat si fara folos,
-                    pentru ca, cum stim cu totii, internetul poate fi plin de stiri si informatii false.
-                    </br>
-                    </br>
-                    <div id="holder">
-                        <img id="img" src="/static/chatbot.jpg">
+                    <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
+                        <div id="holder">
+                            <img id="img" src="{{item[2]}} ">
+                        </div>
+                        <br />
+                        <p>
+                            {{item[1]}}
+                        </p>
                     </div>
-            </div>
+                {%else%}
+                    <h1 id="firstHeading1" class="firstHeading" lang="ro">
+                        <span dir="auto">{{item[0]}}</span>
+                    </h1>
+
+                    <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
+                        <p>
+                            {{item[1]}}
+                        </p>
+                            <br />
+                    </div>
+                {%endif%}
+
+            {%endfor%}
             </br>
             </br>
 
 
 
             <!-- Chat Bot -->
-            <form name="chat-form" action="." method="post">
+            <form name="chat-form" action="/discutie" method="post">
                 <div class="form-group col-xs-4">
                     <label for="usr">Ai o intrebare?</label>
-                    <input type="text" class="form-control" id="usr">
+                    <input type="text" class="form-control" id="usr" name="querry">
                 </div>
             </form>
 
