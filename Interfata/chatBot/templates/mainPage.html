@@ -40,6 +40,25 @@
             a:link {
                  text-decoration: none;
             }
+
+            .size_img{
+            width:190px !important;
+            height: 180px !important;
+            }
+
+            .margin_col{
+            margin-left: 30px !important;
+            }
+            .margin_col:first-letter {
+                text-transform: uppercase;
+            }
+
+            .margin_col1{
+            margin-left: 17px !important;
+            }
+            .margin_col1:first-letter {
+                text-transform: uppercase;
+            }
             
      
      .margine_buton{
@@ -63,27 +82,55 @@
             {%for item in dialogue%}
                 {%if item[2]%}
                     <h1 id="firstHeading" class="firstHeading" lang="ro">
-                        <span dir="auto">{{item[0]}}</span>
-                    </h1>
+                        <span dir="auto">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="margin_col">{{item[0]}}</div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div>
 
-                    <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
-                        <div id="holder">
-                            <img id="img" src="{{item[2]}} ">
-                        </div>
-                        <br />
-                        <p>
-                            {{item[1]}}
-                        </p>
-                    </div>
+                        </span>
+                    </h1>
+`
+                    <!--<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">-->
+                        <!--<div id="holder">-->
+                            <!--<img id="img" src="{{item[2]}} ">-->
+                        <!--</div>-->
+                        <!--<br />-->
+                        <!--<p>-->
+                            <!--{{item[1]}}-->
+                        <!--</p>-->
+                    <!--</div>-->
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                  <div class="margin_col1"><p>{{item[1]}}</p></div>
+              </div>
+              <div class="col-sm-6">
+                  <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
+              </div>
+            </div>
+        </div>
                 {%else%}
                     <h1 id="firstHeading1" class="firstHeading" lang="ro">
-                        <span dir="auto">{{item[0]}}</span>
+                        <span dir="auto">
+                             <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="margin_col">{{item[0]}}</div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div>
+                        </span>
                     </h1>
 
                     <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
-                        <p>
-                            {{item[1]}}
-                        </p>
+                             <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="margin_col"> <p> {{item[1]}} </p></div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div>
                             <br />
                     </div>
                 {%endif%}
