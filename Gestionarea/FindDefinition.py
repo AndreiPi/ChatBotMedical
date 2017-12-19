@@ -15,12 +15,6 @@ def create_XML(input):
     return response
 
 
-
-
-
-
-
-
 def ChooseProp(propoz,search):
     bestS=9999
     bestP=9999
