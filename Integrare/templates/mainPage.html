@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Chat Bot</title>
+    <meta name="generator" content="MediaWiki 1.24.3" />
+
+    <link rel="stylesheet" href="/static/mainStyle.css" />
+    <link rel="stylesheet" href="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*"
+    />
+    <meta name="ResourceLoaderDynamicStyles" content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+    <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+    <style>
+            li {
+                list-style: none;
+    
+            }
+    
+            .but {
+                margin-top: 10px;
+            }
+    
+            a{
+                text-decoration: none;
+            }
+            a:active{
+                text-decoration: none;
+            }
+            a:visited{
+                text-decoration: none;
+            }
+            a:link {
+                 text-decoration: none;
+            }
+            
+     
+     .margine_buton{
+         margin-top: 10px;
+     }
+
+     li {
+	 	margin:10px;
+	 }
+ 	li:first-child {
+ 		margin:0;
+ 	}
+        </style>
+
+</head>
+
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Pagina_principală skin-vector action-view vector-animateLayout">
+    <div id="mw-page-base" class="noprint"></div>
+
+    <div id="content" class="mw-body" role="main">
+            {%for item in dialogue%}
+                {%if item[2]%}
+                    <h1 id="firstHeading" class="firstHeading" lang="ro">
+                        <span dir="auto">{{item[0]}}</span>
+                    </h1>
+
+                    <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
+                        <div id="holder">
+                            <img id="img" src="{{item[2]}} ">
+                        </div>
+                        <br />
+                        <p>
+                            {{item[1]}}
+                        </p>
+                    </div>
+                {%else%}
+                    <h1 id="firstHeading1" class="firstHeading" lang="ro">
+                        <span dir="auto">{{item[0]}}</span>
+                    </h1>
+
+                    <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
+                        <p>
+                            {{item[1]}}
+                        </p>
+                            <br />
+                    </div>
+                {%endif%}
+
+            {%endfor%}
+            </br>
+            </br>
+
+
+
+            <!-- Chat Bot -->
+            <form name="chat-form" action="/discutie" method="post">
+                <div class="form-group col-xs-4">
+                    <label for="usr">Ai o intrebare?</label>
+                    <input type="text" class="form-control" id="usr" name="querry">
+                </div>
+            </form>
+
+            <div id="conversation">
+                <!-- Aici va fi conversatia -->
+            </div>
+
+            </br>
+
+        </div>
+    </div>
+
+    <div id="mw-navigation">
+        <h2>Meniu de navigare</h2>
+
+        <div id="mw-head">
+            <!-- <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+                    <ul>
+                    <li id="pt-login"><a href="#" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+                   </ul>
+                </div> -->
+            <div id="left-navigation">
+                <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+                    <ul>
+                        <li id="ca-nstab-main" class="selected">
+                            <span>
+                                <a href="#" title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="right-navigation">
+
+                <!-- <div id="p-search" role="search">
+                        <h3>
+                            <label for="searchInput">Căutare</label>
+                        </h3>
+
+                        <form action="#" id="searchform">
+                            <div id="simpleSearch">
+                                <input type="search" name="search" placeholder="Căutare" title="Căutare "  id="searchInput" />
+                                <input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />
+                            </div>
+                        </form>
+                    </div> -->
+            </div>
+        </div>
+
+        <div id="mw-panel">
+            <div id="p-logo" role="banner">
+                <a style="background-image: url(../static/logo.PNG); background-size: cover" href="#" title="Pagina principală"></a>
+            </div>
+
+
+            <!-- <div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+                    <h3 id='p-navigation-label'>Navigare</h3>
+
+                    <div class="body">
+                        <ul>
+                            <li id="n-mainpage-description"><a href="#" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+
+                        </ul>
+                    </div>
+                </div> -->
+            <div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+                <h3 id='p-Baze_de_date-label'>Capitole</h3>
+
+                
+
+                 <div id="0">
+                        
+                    </div>
+                   
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+
+        //var data = '{"name": "mkyong","age": 30,"address": {"streetAddress": "88 8nd Street","city": "New York"},"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
+        //var data = '{"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
+        //var capitole='{"capitole": [{"nume":"capitol1","id":"1","href":"#"},{"nume":"capitol2","id":"2","href":"#"},{"nume":"capitol3","id":"3","href":"#"}],"subcapitole1": [{"nume":"subcapitol1","id":"12","href":"#",parinte="1"},{"nume":"subcapitol2","id":"12","href":"#",parinte="2"},{"nume":"subcapitol3","id":"13","href":"#",parinte="3"}]}';
+        //var capitole = '{"capitole": [{"nume": "capitol1","id": "1","parinte":"0"},{"nume": "capitol2","id": "2","parinte":"0"}],"subcapitole1": [{"nume": "sub1","id": "1","parinte":"1"},{"nume": "sub2","id": "2","parinte":"2"}]}';
+        var capitole = '{"capitole": [{"nume": "capitol1","id": "1","parinte":"0","link":"#"},{"nume": "capitol2","id": "2","parinte":"0","link":"#"},{"nume": "sub1","id": "3","parinte":"1","link":"#"},{"nume": "sub2","id": "4","parinte":"2","link":"#"},{"nume": "subb","id": "5","parinte":"4","link":"#"},{"nume": "subbb","id": "6","parinte":"5","link":"#"},{"nume": "sub3","id": "7","parinte":"2","link":"#"}]}';
+        var json1 = JSON.parse(capitole);
+
+        var ia_id_div = document.getElementById("0");
+
+        for (var i = 0; i < capitole.length; i++) {
+
+            var ul = document.createElement("ul");
+            	ul.setAttribute("id", json1.capitole[i].id);
+            
+            var buton = document.createElement("button");
+            buton.setAttribute("class", "btn btn-default btn-xs margine_buton");
+            buton.setAttribute("data-toggle","collapse" );
+            buton.setAttribute("data-target","#div".concat(json1.capitole[i].id) );
+            
+            var li = document.createElement("li");
+
+            var a = document.createElement("a");
+            a.setAttribute("href", json1.capitole[i].link);
+            a.setAttribute("id", "1".concat(json1.capitole[i].id));
+
+            a.textContent = json1.capitole[i].nume;
+             var father=json1.capitole[i].parinte;
+             var father2=document.getElementById(father);
+
+             var divfather="div".concat(json1.capitole[i].parinte);
+             var divfather2=document.getElementById(divfather);
+
+             var div1 = document.createElement("div");
+            div1.setAttribute("id", "div".concat(json1.capitole[i].id));
+            div1.setAttribute("class", "collapse margin_div");
+
+            if (father=="0") {
+            	
+            	var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                var divv=ia_id_div.appendChild(ul).appendChild(div1);
+            }            	
+            else {
+            	
+            	var capp = divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                var divv2=divfather2.appendChild(ul).appendChild(div1);
+            }
+
+        }
+        // for(var i=0;i<=subcapitole1.length;i++){
+        //       var ul=document.createElement("ul");
+        //      //ul1.setAttribute("id", json2.subcapitole1[i].id);
+
+        //      var buton=document.createElement("button");
+        //      buton.setAttribute("class","btn btn-default btn-xs")
+
+        //      var li=document.createElement("li");
+        //      //li.setAttribute("id",json1.subcapitole1[i].id.concat(i) );
+
+        //       var a=document.createElement("a");
+        //      a.setAttribute("href", "#");
+        //      a.setAttribute("id", json1.subcapitole1[i].id);
+        //      a.textContent=json1.subcapitole1[i].nume;
+
+        //     //cap1=json1.subcapitole1[i].parinte;
+        //      var cap=ia_id_div1.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+        //  }
+        //var json2 = JSON.parse(capitole);
+
+        // for (var i = 0; i <= capitole.length; i++) {
+        //     // document.getElementById("demo").textContent +=json1.capitole[i].nume;
+        //     var ul1 = document.createElement("ul");
+        //     //ul.setAttribute("id", json1.capitole[i].id);
+
+        //     var buton1 = document.createElement("button");
+        //     //buton1.setAttribute("class","btn btn-default btn-xs")
+
+        //     var li1 = document.createElement("li");
+        //     //li.setAttribute("id",json1.capitole[i].id.concat(i) );
+
+        //     var a1 = document.createElement("a");
+        //     //a.setAttribute("href", "#");
+        //     //a.setAttribute("id", json1.capitole[i].id);
+        //     a1.textContent = json1.capitole[i].nume;
+
+        //     var cap = ia_id_div1.appendChild(ul1).appendChild(buton1).appendChild(li1).appendChild(a1);
+        // }
+
+
+                //document.getElementById("demo").textContent=i;
+
+                        // var xmlhttp = new XMLHttpRequest();
+                        //     xmlhttp.onreadystatechange = function() {
+                        //         if (this.readyState == 4 && this.status == 200) {
+                        //             var myObj = JSON.parse(this.responseText);
+                        //             document.getElementById("demo").innerHTML = myObj.name;
+                        //         }
+                        //     };
+                        //     xmlhttp.open("GET", "json.txt", true);
+                        //     xmlhttp.send();
+                            // var ok=1;
+                            // while (ok==1)
+                            // {
+                            //     cap_1= {
+                            //     titlu:"titlu1",
+                            //     id:"1",
+                            //     href:"#",
+                            //     parinte:"0"
+                            //     }
+
+                            // cap_2= {
+                            //        titlu:"Ford1",
+                            //         href:"BMW"
+                            //     }
+                            // }
+
+                            // document.getElementById("demo").innerHTML = obj.obj1.name + ", " + obj.obj1.age;
+
+
+                //             var nr_capitole=10;
+                //             //nume capitole
+
+                //             for (i=1;i<=nr_capitole;i++)
+                //             {
+                //                 var ia_id_div=document.getElementById("capitole");
+                //                 var ul=document.createElement("ul");
+                //                 ul.setAttribute("id", "capitol_".concat(i));
+
+                //                 var buton=document.createElement("button");
+                //                 buton.setAttribute("class","btn btn-default btn-xs")
+
+                //                 var li=document.createElement("li");
+                //                 li.setAttribute("id", "capitol".concat(i));
+                 //                 var a=document.createElement("a");
+                //                 a.setAttribute("href", "#");
+                //                 a.textContent="capitol".concat(i);
+
+                //                 var cap=ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                //             }
+                //             var myObj, x;
+                //             myObj = {
+                //                 "cap 1": {
+                //                     "titlu":"Ford",
+                //                     "href":"BMW",
+                //                 },
+                //                 "cap 2": {
+                //                     "titlu":"Ford1",
+                //                     "href":"BMW",
+                //                 }
+
+                //             };
+
+                //             cap_1={
+                //                 titlu="titlu1",
+                //                 id="1",
+                //                 href="#",
+                //                 parinte="0"
+                //             }
+
+                //             cap_2={
+                //                 titlu="titlu2",
+                //                 id="1",
+                //                 href="#",
+                //                 parinte="0"
+                //             }
+                //            // x = myObj.cars[0];
+                //            //x = myObj["name"];
+                //            //x=myObj.cars2[0];
+                //          //  for (x in myObj) {
+                //    // document.getElementById("demo").innerHTML += myObj[x][x]
+                // //x=myObj.cars1.car1;
+                //             //document.getElementById("demo").innerHTML = x;
+
+
+                //             for (i = 0; i < myObj.length; i++) {
+                //              x += myObj[i][titlu] + "<br>";
+                //             }
+                //             document.getElementById("demo").innerHTML = x;
+                // $(document).ready(function(){
+                // $('button').click(function() {
+                //     $(this).removeClass('btn btn-default');
+                //     $(this).addClass('btn btn-success');
+                // });
+
+                // });
+    </script>
+</body>
+
+</html>
