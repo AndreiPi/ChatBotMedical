@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
     <style>
@@ -36,6 +37,7 @@
             }
             a:visited{
                 text-decoration: none;
+                color: white !important;
             }
             a:link {
                  text-decoration: none;
@@ -71,6 +73,8 @@
  	li:first-child {
  		margin:0;
  	}
+
+
         </style>
 
 </head>
@@ -243,8 +247,16 @@
             var ul = document.createElement("ul");
             	ul.setAttribute("id", json1.capitole[i].id);
             
+            var father=json1.capitole[i].parinte;
             var buton = document.createElement("button");
-            buton.setAttribute("class", "btn btn-default btn-xs margine_buton");
+            
+            if (father=="0") {
+            buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton");
+            }
+            else
+            {
+            buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton");
+            }
             buton.setAttribute("data-toggle","collapse" );
             buton.setAttribute("data-target","#div".concat(json1.capitole[i].id) );
             
@@ -255,7 +267,7 @@
             a.setAttribute("id", "1".concat(json1.capitole[i].id));
 
             a.textContent = json1.capitole[i].nume;
-             var father=json1.capitole[i].parinte;
+             //var father=json1.capitole[i].parinte;
              var father2=document.getElementById(father);
 
              var divfather="div".concat(json1.capitole[i].parinte);
@@ -264,6 +276,10 @@
              var div1 = document.createElement("div");
             div1.setAttribute("id", "div".concat(json1.capitole[i].id));
             div1.setAttribute("class", "collapse margin_div");
+
+            //culori:
+            
+            //sf culori
 
             if (father=="0") {
             	
