@@ -99,7 +99,7 @@
                      </br>
                   </p>
                      <div id="holder">
-                         <img id="img" src="/static/chatbot.jpg">
+                         <img class="img-responsive" id="image" src="/static/chatbot.jpg">
                       </div>
             {%for item in dialogue%}
                 {%if item[2]%}
@@ -114,20 +114,11 @@
 
                         </span>
                     </h1>
-`
-                    <!--<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">-->
-                        <!--<div id="holder">-->
-                            <!--<img id="img" src="{{item[2]}} ">-->
-                        <!--</div>-->
-                        <!--<br />-->
-                        <!--<p>-->
-                            <!--{{item[1]}}-->
-                        <!--</p>-->
-                    <!--</div>-->
-        <div class="container">
+
+        <div dir="ltr" class=" mw-content-ltr">
             <div class="row">
               <div class="col-sm-6">
-                  <div class="margin_col1"><p>{{item[1]}}</p></div>
+                  <div class="margin_col"><p>{{item[1]}}</p></div>
               </div>
               <div class="col-sm-6">
                   <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
@@ -167,7 +158,7 @@
             <form name="chat-form" action="/discutie" method="post">
                 <div class="form-group col-xs-4">
                     <label for="usr">Ai o intrebare?</label>
-                    <input type="text" class="form-control" id="usr" name="querry">
+                    <input onkeypress="runScript(event)" type="text" class="form-control" id="usr" name="querry">
                 </div>
             </form>
 
@@ -187,7 +178,7 @@
             <!-- <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
                     <ul>
                     <li id="pt-login"><a href="#" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
-                   </ul>
+                   </ul>j
                 </div> -->
             <div id="left-navigation">
                 <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
@@ -251,6 +242,15 @@
 
     <script>
 
+
+        function runScript(e) {
+
+        if (e.keyCode == 13 ) {
+            console.log("Da");
+          document.getElementById("conversation").focus;
+    }
+}
+
         //var data = '{"name": "mkyong","age": 30,"address": {"streetAddress": "88 8nd Street","city": "New York"},"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
         //var data = '{"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
         //var capitole='{"capitole": [{"nume":"capitol1","id":"1","href":"#"},{"nume":"capitol2","id":"2","href":"#"},{"nume":"capitol3","id":"3","href":"#"}],"subcapitole1": [{"nume":"subcapitol1","id":"12","href":"#",parinte="1"},{"nume":"subcapitol2","id":"12","href":"#",parinte="2"},{"nume":"subcapitol3","id":"13","href":"#",parinte="3"}]}';
@@ -311,6 +311,7 @@
             }
 
         }
+
         // for(var i=0;i<=subcapitole1.length;i++){
         //       var ul=document.createElement("ul");
         //      //ul1.setAttribute("id", json2.subcapitole1[i].id);

@@ -3,7 +3,7 @@ from flask import request
 import requests
 import  validators
 app = Flask(__name__)
-lista = [("inima","este un organ al corpului","../static/john"),("inima","este un organ special")]
+lista = [("Inima", "Inima sau cordul este organul reprezentativ al aparatului cardiovascular, ea fiind situată în cutia toracică. Are un rol vital în circulația sângelui și implicit în menținerea vieții.","../static/inima.jpg"),("inima","Inima este localizată la nivelul toracelui,în mediastinul mijlociu, o treime din aceasta fiind localizată la dreapta față de linia mediană și două treimi fiind localizate la stânga liniei mediene.")]
 
 
 
