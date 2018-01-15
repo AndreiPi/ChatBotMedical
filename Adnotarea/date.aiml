@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>IN CE AN SUNTEM</pattern>
+<template><date format="%Y"/>.</template>
+</category>
+<category><pattern>IN CE AN SUNTEM *</pattern>
+<template><date format="%Y"/>.</template>
+</category>
+<category><pattern>CE AN ESTE</pattern>
+<template><date format="%Y"/>.</template>
+</category>
+<category><pattern>CE AN ESTE *</pattern>
+<template><date format="%Y"/>.</template>
+</category>
+<category><pattern>IN CE LUNA SUNTEM *</pattern>
+<template><date format="%B"/>.</template>
+</category>
+<category><pattern>CE LUNA ESTE *</pattern>
+<template><date format="%B"/>.</template>
+</category>
+<category><pattern>CE ORA ESTE *</pattern>
+<template><date format="%I %p"/>.</template>
+</category>
+<category><pattern>CAT E CEASUL *</pattern>
+<template><date format="%I %p"/>.</template>
+</category>
+<category><pattern>CAT ESTE CEASUL *</pattern>
+<template><date format="%I %p"/>.</template>
+</category>
+<category><pattern>CE ESTE AZI *</pattern>
+<template><date format="%x"/>.</template>
+</category>
+<category><pattern>CE-I AZI *</pattern>
+<template><date format="%x"/>.</template>
+</category>
+<category><pattern>CE ZI E AZI *</pattern>
+<template><date format="%A"/>.</template>
+</category>
+<category><pattern>IN CE ZI SUNTEM *</pattern>
+<template><date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE DUMINICA</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE DUMINICA *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E DUMINICA</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E DUMINICA *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>AZI ESTE LUNI</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE LUNI *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E LUNI</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E LUNI *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>AZI ESTE MARTI</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE MARTI *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E MARTI</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E MARTI *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>AZI ESTE MIERCURI</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE MIERCURI *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E MIERCURI</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E MIERCURI *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>AZI ESTE JOI</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE JOI *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E JOI</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E JOI *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>AZI ESTE VINERI</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE VINERI *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E VINERI</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E VINERI *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>AZI ESTE SAMBATA</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI ESTE SAMBATA *</pattern>
+<template>Azi este <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E SAMBATA</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+<category><pattern>AZI E SAMBATA *</pattern>
+<template>Azi e <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE DUMINICA</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE DUMINICA *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E DUMINICA</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E DUMINICA *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE LUNI</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE LUNI *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E LUNI</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E LUNI *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE MARTI</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE MARTI *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E MARTI</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E MARTI *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE MIERCURI</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE MIERCURI *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E MIERCURI</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E MIERCURI *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE JOI</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE JOI *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E JOI</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E JOI *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE VINERI</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE VINERI *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E VINERI</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E VINERI *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+
+<category><pattern>ESTE SAMBATA</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>ESTE SAMBATA *</pattern>
+<template>Este <date format="%A"/>.</template>
+</category>
+<category><pattern>E SAMBATA</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+<category><pattern>E SAMBATA *</pattern>
+<template>E <date format="%A"/>.</template>
+</category>
+</aiml>
