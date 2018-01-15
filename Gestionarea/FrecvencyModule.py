@@ -172,7 +172,7 @@ def increasefrequency(propositionPrinted):
 def getMedicineTermFromQuestion(humanQuestion):
     global medicalTerms
     words = humanQuestion.split()
-    if len(humanQuestion.split()) is 1 and words[0].lower() in medicalTerms:
+    if len(words) is 1 and words[0].lower() in medicalTerms:
         return words[0].lower()
     elif "ce este " in humanQuestion.lower() and len(humanQuestion.split()) is 3 and words[2].lower() in medicalTerms:
         return words[2].lower()
@@ -279,11 +279,11 @@ def printBotFinalResponse(humanQuestion):
     #print(medicineTerm)
     indexesOfMedTermsInText = allindices(content, medicineTerm)
     #print(indexesOfMedTermsInText)
-    finalProposition = getANotUsedAnswer(indexesOfMedTermsInText,medicineTerm)
-    increasefrequency(finalProposition)
-    addToUsedAnswers(finalProposition)
-    print(finalProposition.strip())
+    finalProposition = "none"
+    if len(indexesOfMedTermsInText) > 0:
+        finalProposition = getANotUsedAnswer(indexesOfMedTermsInText,medicineTerm)
+        increasefrequency(finalProposition)
+        addToUsedAnswers(finalProposition)
 
-
-
+    return finalProposition.strip()
 
