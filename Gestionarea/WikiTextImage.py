@@ -6,8 +6,19 @@ import os
 import urllib
 
 def extractText(page):
-    content = wikipedia.page(page).content
-    return content
+    wikipedia.set_lang("ro")
+    try:
+        content = wikipedia.page(page).content
+        return content
+    except wikipedia.exceptions.DisambiguationError:
+        lista = [0]
+        content = wikipedia.search(page)
+        message = ""
+        message += "Prea multe optiuni, reincercati cu unul dintre urmatoarele:\n"
+        for i in content:
+            message += i + "\n"
+        lista.extend(message)
+        return lista
 
 def extractImages(page):
     wikia = wikipedia.page(page).url
@@ -27,6 +38,17 @@ def extractImages(page):
 def extractContent(theme):
     directory = os.path.dirname(os.path.realpath(__file__))
     textContent = extractText(theme)
+    if ( textContent[0] == 0 ):
+        directory = os.path.join(directory, theme)
+        if (not os.path.exists(directory)):
+            os.makedirs(theme)
+        os.chdir(directory)
+        fisierText = theme + ".txt"
+        finalMessage = ""
+        for i in range(1,len(textContent)):
+            finalMessage+=textContent[i]
+        open(fisierText, "wt", encoding="utf8").write(finalMessage)
+        return
     images = extractImages(theme)
     directory = os.path.join(directory,theme)
     if ( not os.path.exists(directory) ):
@@ -38,5 +60,3 @@ def extractContent(theme):
         fisier = split("/",i)
         x ="https:"+i
         urllib.request.urlretrieve(x,fisier[-1])
-
-extractContent("Albert Einstein")
