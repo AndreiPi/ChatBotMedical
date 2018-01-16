@@ -12,7 +12,7 @@ lista = [("inima", "este un organ al corpului", "../static/john"), ("inima", "es
 
 @app.route("/")
 def index():
-    return render_template("mainPage.html", dialogue=list())
+    return render_template("finalPage.html", dialogue=list())
 
 
 @app.route("/<dialogue>", methods=["POST", "GET"])
@@ -70,7 +70,8 @@ def discutie(dialogue=None):
         lista = [(query, query + query, None)]
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
     # cale_imagine o sa fie ca calea spre imagine daca exista, None caz contrar
-    return render_template("mainPage.html", dialogue=lista)
+    #return render_template("mainPage.html", dialogue=lista)
+        return render_template("secondPage.html", dialogue=lista)
 
 
 if __name__ == "__main__":
