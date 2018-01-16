@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
 <category>
 <pattern>
     14 x 8 - 11 x 2
@@ -8,7 +11,7 @@
 </category>
 <category>
 <pattern>
-   Cat inseamna ½ din 538?
+MAMACAT INSEAMNA ½ DIN 538?
 </pattern>
 <template>
   269
@@ -16,7 +19,7 @@
 </category>
 <category>
 <pattern>
-   Calculati 22,8 impartit la 3
+   CALCULATI 22,8 IMPARTIT LA 3
 </pattern>
 <template>
   7,6
@@ -24,7 +27,7 @@
 </category>
 <category>
 <pattern>
-   Care este moneda oficiala a Bulgariei?
+   CARE ESTE MONEDA OFICIALA A BULGARIEI?
 </pattern>
 <template>
   Leva
@@ -32,7 +35,7 @@
 </category>
 <category>
 <pattern>
-   Care este cea mai inalta cascada din lume?
+CARE ESTE CEA MAI INALTA CASCADA DIN LUME?
 </pattern>
 <template>
   Cascada Salto Angel, din sud-estul Venezuelei.
@@ -40,7 +43,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Republicii Sri Lanka?
+   CARE ESTE CAPITALA REPUBLICII SRI LANKA?
 </pattern>
 <template>
   Sri Jayewardanapura Kotte (Kotte) este capitala administrativă, în vreme ce Colombo este capitala executivă.
@@ -48,7 +51,7 @@
 </category>
 <category>
 <pattern>
-   Cum se numeste punctul cel mai adanc al Oceanului Pacific?
+   CUM SE NUMESTE PUNCTUL CEL MAI ADANC AL OCEANULUI PACIFIC?
 </pattern>
 <template>
   Groapa Marianelor.
@@ -56,7 +59,7 @@
 </category>
 <category>
 <pattern>
-  Ce tara din America de Sud are cea mai mare suprafata?
+  CE TARA DIN AMERICA DE SUD ARE CEA MAI MARE SUPRAFATA?
 </pattern>
 <template>
   Brazilia.
@@ -64,7 +67,7 @@
 </category>
 <category>
 <pattern>
-   Care este moneda oficiala a Kenyei?
+   CARE ESTE MONEDA OFICIALA A KENYEI?
 </pattern>
 <template>
   Şilingul kenyan.
@@ -72,7 +75,7 @@
 </category>
 <category>
 <pattern>
-   Ce a inventat Trevor Baylis în anul 1991?
+   CE A INVENTAT TREVOR BAYLIS ÎN ANUL 1991?
 </pattern>
 <template>
   Radioul cu manivelă.
@@ -80,7 +83,7 @@
 </category>
 <category>
 <pattern>
-   Care este tara cu cea mai densa populatie din lume?
+   CARE ESTE TARA CU CEA MAI DENSA POPULATIE DIN LUME?
 </pattern>
 <template>
    Monaco - 18.068 de persoane pe kilometrul pătrat.
@@ -88,7 +91,7 @@
 </category>
 <category>
 <pattern>
-  Unde este localizat muschiul flexor radial al carpului?
+  UNDE ESTE LOCALIZAT MUSCHIUL FLEXOR RADIAL AL CARPULUI?
 </pattern>
 <template>
   În primul plan al muşchilor anteriori ai antebraţului, pe faţa anterioară a lui, lateral faţă de rotundul pronator.
@@ -96,7 +99,7 @@
 </category>
 <category>
 <pattern>
-   Care este denumirea stiintifica a fluierului piciorului?
+   CARE ESTE DENUMIREA STIINTIFICA A FLUIERULUI PICIORULUI?
 </pattern>
 <template>
   Tibia
@@ -104,7 +107,7 @@
 </category>
 <category>
 <pattern>
-   Ce parte a creierului coordoneaza contractiile musculare si echilibrul?
+   CE PARTE A CREIERULUI COORDONEAZA CONTRACTIILE MUSCULARE SI ECHILIBRUL?
 </pattern>
 <template>
   Cerebelul
@@ -112,7 +115,7 @@
 </category>
 <category>
 <pattern>
-  Care este cea mai mare pasare de pe Pamant?
+  CARE ESTE CEA MAI MARE PASARE DE PE PAMANT?
 </pattern>
 <template>
   Struţul nord-african
@@ -120,7 +123,7 @@
 </category>
 <category>
 <pattern>
-   Cum reusesc fluturii ss bea nectarul florilor?
+   CUM REUSESC FLUTURII SS BEA NECTARUL FLORILOR?
 </pattern>
 <template>
   Cu ajutorul trompei.
@@ -128,7 +131,7 @@
 </category>
 <category>
 <pattern>
-   Cate cocoase are un dromader?
+   CATE COCOASE ARE UN DROMADER?
 </pattern>
 <template>
   O singură cocoaşă.
@@ -136,7 +139,7 @@
 </category>
 <category>
 <pattern>
-    Din ce ordin fac parte liliecii?
+    DIN CE ORDIN FAC PARTE LILIECII?
 </pattern>
 <template>
   Ordinul Chiroptera.
@@ -144,7 +147,7 @@
 </category>
 <category>
 <pattern>
-   Ce a inventat Cornelius Drebbel în anul 1620?
+   CE A INVENTAT CORNELIUS DREBBEL ÎN ANUL 1620?
 </pattern>
 <template>
   Primul submarin.
@@ -152,7 +155,7 @@
 </category>
 <category>
 <pattern>
-  Cine a inventat rotativa electrica pentru tipar?
+  CINE A INVENTAT ROTATIVA ELECTRICA PENTRU TIPAR?
 </pattern>
 <template>
   Richard M. Hoe.
@@ -160,7 +163,7 @@
 </category>
 <category>
 <pattern>
-   Al cui caine este Scooby Doo?
+   AL CUI CAINE ESTE SCOOBY DOO?
 </pattern>
 <template>
   Shaggy
@@ -168,7 +171,7 @@
 </category>
 <category>
 <pattern>
-   Ale cui erau caprele de la care Nica a luat raie?
+   ALE CUI ERAU CAPRELE DE LA CARE NICA A LUAT RAIE?
 </pattern>
 <template>
   Irinucai
@@ -176,7 +179,7 @@
 </category>
 <category>
 <pattern>
-   Amnezia este pierderea
+   AMNEZIA ESTE PIERDEREA?
 </pattern>
 <template>
   memoriei
@@ -184,7 +187,7 @@
 </category>
 <category>
 <pattern>
-   Aproximativ in ce procent se gaseste Oxigenul in aer?
+   APROXIMATIV IN CE PROCENT SE GASESTE OXIGENUL IN AER?
 </pattern>
 <template>
   21 procente;
@@ -192,7 +195,7 @@
 </category>
 <category>
 <pattern>
-   Cand a avut loc revolutia in urma careia a fost inlaturat Nicolae Ceausescu?
+   CAND A AVUT LOC REVOLUTIA IN URMA CAREIA A FOST INLATURAT NICOLAE CEAUSESCU?
 </pattern>
 <template>
    Decembrie 1989
@@ -200,7 +203,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost capitala Imperiului Bizantin?
+   CARE A FOST CAPITALA IMPERIULUI BIZANTIN?
 </pattern>
 <template>
   Constantinopol
@@ -208,7 +211,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost a treia proba pe care Aleodor imparat a trebui sa o treaca pentru fata lui Verde Imparat?
+   CARE A FOST A TREIA PROBA PE CARE ALEODOR IMPARAT A TREBUI SA O TREACA PENTRU FATA LUI VERDE IMPARAT?
 </pattern>
 <template>
   sa se ascunda de ea
@@ -216,7 +219,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost numele initial al lui Muhammad Ali inainte sa treaca la islamism?
+   CARE A FOST NUMELE INITIAL AL LUI MUHAMMAD ALI INAINTE SA TREACA LA ISLAMISM?
 </pattern>
 <template>
   Cassius Clay;
@@ -224,7 +227,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost prima persoana care a pasit pe luna?
+   CARE A FOST PRIMA PERSOANA CARE A PASIT PE LUNA?
 </pattern>
 <template>
   Neil Armstrong
@@ -232,7 +235,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost prima persoana care a pasit pe marte?
+   CARE A FOST PRIMA PERSOANA CARE A PASIT PE MARTE?
 </pattern>
 <template>
   niciuna
@@ -240,7 +243,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost prima persoana ce a facut inconjurul lumii?
+   CARE A FOST PRIMA PERSOANA CE A FACUT INCONJURUL LUMII?
 </pattern>
 <template>
   Ferdinand Magellan
@@ -248,7 +251,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost prima proba pe care Aleodor imparat a trebui sa o treaca pentru fata lui Verdes Imparat?
+   CARE A FOST PRIMA PROBA PE CARE ALEODOR IMPARAT A TREBUI SA O TREACA PENTRU FATA LUI VERDES IMPARAT?
 </pattern>
 <template>
   sa se ascunda de ea
@@ -256,7 +259,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost primul aparat care putea inregistra si reproduce sunetele?
+   CARE A FOST PRIMUL APARAT CARE PUTEA INREGISTRA SI REPRODUCE SUNETELE?
 </pattern>
 <template>
   fonograful
@@ -264,7 +267,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost primul model de masina Dacia?
+   CARE A FOST PRIMUL MODEL DE MASINA DACIA?
 </pattern>
 <template>
   Dacia 1100
@@ -272,7 +275,7 @@
 </category>
 <category>
 <pattern>
-   Care a fost profesorul de limba romana a lui Mihai Eminescu?
+   CARE A FOST PROFESORUL DE LIMBA ROMANA A LUI MIHAI EMINESCU?
 </pattern>
 <template>
   Aron Pumnu
@@ -280,7 +283,7 @@
 </category>
 <category>
 <pattern>
-   Care din personajele romanului Ion s-a spazurat?
+   CARE DIN PERSONAJELE ROMANULUI ION S-A SPAZURAT?
 </pattern>
 <template>
   Ana
@@ -288,7 +291,7 @@
 </category>
 <category>
 <pattern>
-   Care e tara de provenienta a vikingilor?
+   CARE E TARA DE PROVENIENTA A VIKINGILOR?
 </pattern>
 <template>
   Danemarca
@@ -296,7 +299,7 @@
 </category>
 <category>
 <pattern>
-   Care este a cincea litera din alfabetul latin?
+   CARE ESTE A CINCEA LITERA DIN ALFABETUL LATIN?
 </pattern>
 <template>
   e
@@ -304,7 +307,7 @@
 </category>
 <category>
 <pattern>
-   Care este a zecea litera din alfabetul latin?
+   CARE ESTE A ZECEA LITERA DIN ALFABETUL LATIN?
 </pattern>
 <template>
   j
@@ -312,7 +315,7 @@
 </category>
 <category>
 <pattern>
-   Care este actorul principal din filmul “Singur acasa”?
+   CARE ESTE ACTORUL PRINCIPAL DIN FILMUL SINGUR ACASA?
 </pattern>
 <template>
    Macaulay Culkin
@@ -320,7 +323,7 @@
 </category>
 <category>
 <pattern>
-   Care este animalul care isi poate vedea toate cele 4 picioare fara sa isi miste capul?
+   CARE ESTE ANIMALUL CARE ISI POATE VEDEA TOATE CELE 4 PICIOARE FARA SA ISI MISTE CAPUL?
 </pattern>
 <template>
   Magarul
@@ -328,7 +331,7 @@
 </category>
 <category>
 <pattern>
-  Care este bautura marinarilor?
+  CARE ESTE BAUTURA MARINARILOR?
 </pattern>
 <template>
   rom
@@ -336,7 +339,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Belgiei?
+   CARE ESTE CAPITALA BELGIEI?
 </pattern>
 <template>
   Bruxelles
@@ -344,7 +347,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Bulgariei?
+   CARE ESTE CAPITALA BULGARIEI?
 </pattern>
 <template>
   Sofia
@@ -352,7 +355,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Croatiei?
+   CARE ESTE CAPITALA CROATIEI?
 </pattern>
 <template>
   Zagreb
@@ -360,7 +363,7 @@
 </category>
 <category>
 <pattern>
-  Care este capitala Danemarcei?
+  CARE ESTE CAPITALA DANEMARCEI?
 </pattern>
 <template>
   Copenhaga
@@ -368,7 +371,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Egiptului?
+   CARE ESTE CAPITALA EGIPTULUI?
 </pattern>
 <template>
   Cairo
@@ -376,7 +379,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Elvetiei?
+   CARE ESTE CAPITALA ELVETIEI?
 </pattern>
 <template>
   Berna
@@ -384,7 +387,7 @@
 </category>
 <category>
 <pattern>
-   Care este capitala Angliei?
+   CARE ESTE CAPITALA ANGLIEI?
 </pattern>
 <template>
   Londra
@@ -392,7 +395,7 @@
 </category>
 <category>
 <pattern>
-   Care este cea mai apropiata stea de Sistemul Solar?
+   CARE ESTE CEA MAI APROPIATA STEA DE SISTEMUL SOLAR?
 </pattern>
 <template>
   Proxima Centauri
@@ -400,7 +403,7 @@
 </category>
 <category>
 <pattern>
-   Ce corp ceresc se afla In centrul Sistemului solar?
+   CE CORP CERESC SE AFLA IN CENTRUL SISTEMULUI SOLAR?
 </pattern>
 <template>
   Soarele
@@ -408,7 +411,7 @@
 </category>
 <category>
 <pattern>
-   Care este numarul de sateliti ai planetei Venus?
+   CARE ESTE NUMARUL DE SATELITI AI PLANETEI VENUS?
 </pattern>
 <template>
   0
@@ -416,7 +419,7 @@
 </category>
 <category>
 <pattern>
-  Prin ce faza trece o stea de marime mare Inainte de a deveni o gaura neagra?
+  PRIN CE FAZA TRECE O STEA DE MARIME MARE INAINTE DE A DEVENI O GAURA NEAGRA?
 </pattern>
 <template>
   supernova
@@ -424,7 +427,7 @@
 </category>
 <category>
 <pattern>
-   Pasiphae a fost sotia lui Minos si mama, cu un taur alb, pentru Minotaur, este satelit al planetei:
+   PASIPHAE A FOST SOTIA LUI MINOS SI MAMA, CU UN TAUR ALB, PENTRU MINOTAUR, ESTE SATELIT AL PLANETEI:
 </pattern>
 <template>
   Jupiter
@@ -432,7 +435,7 @@
 </category>
 <category>
 <pattern>
-   Din ce este compusa In cea mai mare parte atmosfera planetei Venus?
+   DIN CE ESTE COMPUSA IN CEA MAI MARE PARTE ATMOSFERA PLANETEI VENUS?
 </pattern>
 <template>
   gaz carbonic
@@ -440,7 +443,7 @@
 </category>
 <category>
 <pattern>
-Care sunt cele mai stralucitoare 2 stele din constelatia Gemeni?
+CARE SUNT CELE MAI STRALUCITOARE 2 STELE DIN CONSTELATIA GEMENI?
 </pattern>
 <template>
   Pollux si Castor
@@ -448,7 +451,7 @@ Care sunt cele mai stralucitoare 2 stele din constelatia Gemeni?
 </category>
 <category>
 <pattern>
-   Pe ce planeta se afla cel mai mare vulcan din sistemul solar?
+   PE CE PLANETA SE AFLA CEL MAI MARE VULCAN DIN SISTEMUL SOLAR?
 </pattern>
 <template>
   Marte
@@ -456,7 +459,7 @@ Care sunt cele mai stralucitoare 2 stele din constelatia Gemeni?
 </category>
 <category>
 <pattern>
-   Ultima eclipsa totala de soare cand Romania a avut maximul de pe glob a avut loc in data de:
+   ULTIMA ECLIPSA TOTALA DE SOARE CAND ROMANIA A AVUT MAXIMUL DE PE GLOB A AVUT LOC IN DATA DE:
 </pattern>
 <template>
   29 martie 2006
@@ -464,7 +467,7 @@ Care sunt cele mai stralucitoare 2 stele din constelatia Gemeni?
 </category>
 <category>
 <pattern>
-  In ce categorii se Impart planetele?
+  IN CE CATEGORII SE IMPART PLANETELE?
 </pattern>
 <template>
   planete telurice si planete gazoase
@@ -472,7 +475,7 @@ Care sunt cele mai stralucitoare 2 stele din constelatia Gemeni?
 </category>
 <category>
 <pattern>
-Care este atmosfera pe Uranus?
+CARE ESTE ATMOSFERA PE URANUS?
 </pattern>
 <template>
   83%hidrogen, 15% heliu si 2% metan
@@ -480,7 +483,7 @@ Care este atmosfera pe Uranus?
 </category>
 <category>
 <pattern>
-  Care este durata exacta a unui an terestru?
+  CARE ESTE DURATA EXACTA A UNUI AN TERESTRU?
 </pattern>
 <template>
   365,2425 zile
@@ -488,7 +491,7 @@ Care este atmosfera pe Uranus?
 </category>
 <category>
 <pattern>
-   A cata planeta de la Soare este Mercur?
+   A CATA PLANETA DE LA SOARE ESTE MERCUR?
 </pattern>
 <template>
   1
@@ -496,7 +499,7 @@ Care este atmosfera pe Uranus?
 </category>
 <category>
 <pattern>
-  Acum cati ani s-a format universul?
+  ACUM CATI ANI S-A FORMAT UNIVERSUL?
 </pattern>
 <template>
   10 – 15 miliarde
@@ -504,7 +507,7 @@ Care este atmosfera pe Uranus?
 </category>
 <category>
 <pattern>
-  Care sunt cele mai folosite tastaturi?
+  CARE SUNT CELE MAI FOLOSITE TASTATURI?
 </pattern>
 <template>
   Qwerty
@@ -512,7 +515,7 @@ Care este atmosfera pe Uranus?
 </category>
 <category>
 <pattern>
-  Ce este Modemul?
+  CE ESTE MODEMUL?
 </pattern>
 <template>
   Modulator / Demodulator
@@ -520,7 +523,7 @@ Care este atmosfera pe Uranus?
 </category>
 <category>
 <pattern>
-Cum se numeste telecomanda care se foloseste la toate?
+CUM SE NUMESTE TELECOMANDA CARE SE FOLOSESTE LA TOATE?
 </pattern>
 <template>
   universala
@@ -528,7 +531,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-   Ce este un periferic?
+   CE ESTE UN PERIFERIC?
 </pattern>
 <template>
    este o piesa de hardware ce se adauga unui sistem de calcul
@@ -536,7 +539,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-  Ce reprezinta IBM?
+  CE REPREZINTA IBM?
 </pattern>
 <template>
    International Business Machines
@@ -544,7 +547,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-  Ce fel de dispozitiv este hard discul?
+  CE FEL DE DISPOZITIV ESTE HARD DISCUL?
 </pattern>
 <template>
    non-volatil
@@ -552,7 +555,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-   Ce este un LPT?
+   CE ESTE UN LPT?
 </pattern>
 <template>
    port paralel
@@ -560,7 +563,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-  Ce firma a scos pe piata In luna ianuarie 2008 cel mai subtire laptop din lume?
+  CE FIRMA A SCOS PE PIATA IN LUNA IANUARIE 2008 CEL MAI SUBTIRE LAPTOP DIN LUME?
 </pattern>
 <template>
   Apple
@@ -568,7 +571,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-   Ce a descoperit medicul Jan Jansky?
+   CE A DESCOPERIT MEDICUL JAN JANSKY?
 </pattern>
 <template>
   grupele sanguine
@@ -576,7 +579,7 @@ Cum se numeste telecomanda care se foloseste la toate?
 </category>
 <category>
 <pattern>
-Care este simbolul ceriului, element chimic din grupa lantanidelor?
+CARE ESTE SIMBOLUL CERIULUI, ELEMENT CHIMIC DIN GRUPA LANTANIDELOR?
 </pattern>
 <template>
   ce
@@ -584,7 +587,7 @@ Care este simbolul ceriului, element chimic din grupa lantanidelor?
 </category>
 <category>
 <pattern>
-   Unde se gaseste neutronul intr-un atom?
+   UNDE SE GASESTE NEUTRONUL INTR-UN ATOM?
 </pattern>
 <template>
   In nucleu
@@ -592,7 +595,7 @@ Care este simbolul ceriului, element chimic din grupa lantanidelor?
 </category>
 <category>
 <pattern>
-   Cati atomi de oxigen are in componenta sa molecula de sare de bucatarie?
+   CATI ATOMI DE OXIGEN ARE IN COMPONENTA SA MOLECULA DE SARE DE BUCATARIE?
 </pattern>
 <template>
   0
@@ -600,7 +603,7 @@ Care este simbolul ceriului, element chimic din grupa lantanidelor?
 </category>
 <category>
 <pattern>
-Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
+CATI ATOMI DE OXIGEN ARE IN COMPONENTA SA MOLECULA DE ACID CLORHIDRIC?
 </pattern>
 <template>
   0
@@ -608,7 +611,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-   Ce este acidul ascorbic?
+   CE ESTE ACIDUL ASCORBIC?
 </pattern>
 <template>
   vitamina C
@@ -616,7 +619,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-  Care este denumirea chimica a sarii de bucatarie?
+  CARE ESTE DENUMIREA CHIMICA A SARII DE BUCATARIE?
 </pattern>
 <template>
   clorura de sodiu
@@ -624,7 +627,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-  Ce arata numarul grupei In care se afla un element?
+  CE ARATA NUMARUL GRUPEI IN CARE SE AFLA UN ELEMENT?
 </pattern>
 <template>
    numarul de electroni de pe ultimul strat
@@ -632,7 +635,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-   Cati atomi de hidrogen are In componenta sa molecula de apa?
+   CATI ATOMI DE HIDROGEN ARE IN COMPONENTA SA MOLECULA DE APA?
 </pattern>
 <template>
   2
@@ -640,7 +643,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-   Cati atomi de clor are In componenta sa molecula de sare de bucatarie?
+   CATI ATOMI DE CLOR ARE IN COMPONENTA SA MOLECULA DE SARE DE BUCATARIE?
 </pattern>
 <template>
   1
@@ -648,7 +651,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-   In ce perioada se afla In tabelul lui Mendeleev hidrogenul?
+   IN CE PERIOADA SE AFLA IN TABELUL LUI MENDELEEV HIDROGENUL?
 </pattern>
 <template>
   1
@@ -656,7 +659,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-   Cine a descoperit natura microbiana a fermentatiei acetice?
+   CINE A DESCOPERIT NATURA MICROBIANA A FERMENTATIEI ACETICE?
 </pattern>
 <template>
   Louis Pasteur
@@ -664,7 +667,7 @@ Cati atomi de oxigen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-Cati atomi de hidrogen are In componenta sa molecula de acid clorhidric?
+CATI ATOMI DE HIDROGEN ARE IN COMPONENTA SA MOLECULA DE ACID CLORHIDRIC?
 </pattern>
 <template>
   1
@@ -672,7 +675,7 @@ Cati atomi de hidrogen are In componenta sa molecula de acid clorhidric?
 </category>
 <category>
 <pattern>
-Din ce este alcatuit diamantul?
+DIN CE ESTE ALCATUIT DIAMANTUL?
 </pattern>
 <template>
    Carbon pur
@@ -680,7 +683,7 @@ Din ce este alcatuit diamantul?
 </category>
 <category>
 <pattern>
-Care dintre urmatoarele elemente face parte din grupa metalelor platinice?
+CARE DINTRE URMATOARELE ELEMENTE FACE PARTE DIN GRUPA METALELOR PLATINICE?
 </pattern>
 <template>
   Osmiu (Os)
@@ -688,7 +691,7 @@ Care dintre urmatoarele elemente face parte din grupa metalelor platinice?
 </category>
 <category>
 <pattern>
-   Care este cea mai simpla alchena?
+   CARE ESTE CEA MAI SIMPLA ALCHENA?
 </pattern>
 <template>
   etena
@@ -696,7 +699,7 @@ Care dintre urmatoarele elemente face parte din grupa metalelor platinice?
 </category>
 <category>
 <pattern>
-  Intr-un mol de substanta se gasesc un numar de particule (molecule, atomi) egal cu:
+  INTR-UN MOL DE SUBSTANTA SE GASESC UN NUMAR DE PARTICULE (MOLECULE, ATOMI) EGAL CU:
 </pattern>
 <template>
   Numarul lui Avogadro
@@ -704,7 +707,7 @@ Care dintre urmatoarele elemente face parte din grupa metalelor platinice?
 </category>
 <category>
 <pattern>
-Cum se numeste particula incarcata pozitiv din atom?
+CUM SE NUMESTE PARTICULA INCARCATA POZITIV DIN ATOM?
 </pattern>
 <template>
   Proton
@@ -712,7 +715,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Hidrogenul sulfurat este un gaz inflamabil?
+   HIDROGENUL SULFURAT ESTE UN GAZ INFLAMABIL?
 </pattern>
 <template>
   Da
@@ -720,7 +723,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-  Care este singura litera care nu apare In tabelul periodic?
+ CARE ESTE SINGURA LITERA CARE NU APARE IN TABELUL PERIODIC?
 </pattern>
 <template>
   j
@@ -728,7 +731,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Care este simbolul chimic pentru zirconiu?
+   CARE ESTE SIMBOLUL CHIMIC PENTRU ZIRCONIU?
 </pattern>
 <template>
   Zr
@@ -736,7 +739,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Cati atomi de carbon are in componenta sa molecula de bioxid de carbon?
+   CATI ATOMI DE CARBON ARE IN COMPONENTA SA MOLECULA DE BIOXID DE CARBON?
 </pattern>
 <template>
   1
@@ -744,7 +747,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Care este simbolul chimic al mercurului?
+   CARE ESTE SIMBOLUL CHIMIC AL MERCURULUI?
 </pattern>
 <template>
   Hg
@@ -752,7 +755,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Care este singurul metal lichid, in conditii normale de temperatura si de presiune?
+   CARE ESTE SINGURUL METAL LICHID, IN CONDITII NORMALE DE TEMPERATURA SI DE PRESIUNE?
 </pattern>
 <template>
   Hg
@@ -760,7 +763,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Ce tip de animale sunt Marele Alb și Cap de Ciocan?
+   CE TIP DE ANIMALE SUNT MARELE ALB ȘI CAP DE CIOCAN?
 </pattern>
 <template>
   Rechini
@@ -768,7 +771,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-  Cate picioare are un paianjen?
+  CATE PICIOARE ARE UN PAIANJEN?
 </pattern>
 <template>
   8
@@ -776,7 +779,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Care este numele piratului din Peter Pan?
+   CARE ESTE NUMELE PIRATULUI DIN PETER PAN?
 </pattern>
 <template>
   Căpitanul Hook
@@ -784,7 +787,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Cate cercuri alcatuiesc simbolul Jocurilor Olimpice?
+   CATE CERCURI ALCATUIESC SIMBOLUL JOCURILOR OLIMPICE?
 </pattern>
 <template>
   5
@@ -792,7 +795,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Pe ce continent se afla Egiptul?
+   PE CE CONTINENT SE AFLA EGIPTUL?
 </pattern>
 <template>
   Africa
@@ -800,7 +803,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-   Ce este un brontozaur?
+   CE ESTE UN BRONTOZAUR?
 </pattern>
 <template>
   Un dinozaur
@@ -808,7 +811,7 @@ Cum se numeste particula incarcata pozitiv din atom?
 </category>
 <category>
 <pattern>
-In ce vehicul circula Scooby Doo si prietenii sai?
+IN CE VEHICUL CIRCULA SCOOBY DOO SI PRIETENII SAI?
 </pattern>
 <template>
   Masina misterioasa
@@ -816,7 +819,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Care este numele prietenului măgăruș al lui Winnie the Pooh?
+   CARE ESTE NUMELE PRIETENULUI MĂGĂRUȘ AL LUI WINNIE THE POOH?
 </pattern>
 <template>
   Eeyore
@@ -824,7 +827,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Cate grame sunt într-un kilogram?
+   CATE GRAME SUNT ÎNTR-UN KILOGRAM?
 </pattern>
 <template>
   1000
@@ -832,7 +835,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Care este numele orasului in care locui familia Flintstones?
+   CARE ESTE NUMELE ORASULUI IN CARE LOCUI FAMILIA FLINTSTONES?
 </pattern>
 <template>
   Bedrock
@@ -840,7 +843,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Cum se numeste partea colorata a ochiului uman?
+   CUM SE NUMESTE PARTEA COLORATA A OCHIULUI UMAN?
 </pattern>
 <template>
   Iris
@@ -848,7 +851,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Care tara este considerata patria cangurilor?
+   CARE TARA ESTE CONSIDERATA PATRIA CANGURILOR?
 </pattern>
 <template>
   Australia
@@ -856,7 +859,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Ce vas celebru s-a scufundat in ocean în 1912?
+   CE VAS CELEBRU S-A SCUFUNDAT IN OCEAN ÎN 1912?
 </pattern>
 <template>
   Titanic
@@ -864,7 +867,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Care este numele sotiei lui Shrek?
+   CARE ESTE NUMELE SOTIEI LUI SHREK?
 </pattern>
 <template>
   Prințesa Fiona
@@ -872,7 +875,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-   Cati plamani are un om?
+   CATI PLAMANI ARE UN OM?
 </pattern>
 <template>
   2
@@ -880,7 +883,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-  Cum se numeste un grup format din lei?
+  CUM SE NUMESTE UN GRUP FORMAT DIN LEI?
 </pattern>
 <template>
   Haita
@@ -888,7 +891,7 @@ In ce vehicul circula Scooby Doo si prietenii sai?
 </category>
 <category>
 <pattern>
-Ce culoare are smaraldul?
+CE CULOARE ARE SMARALDUL?
 </pattern>
 <template>
   Verde
@@ -896,7 +899,7 @@ Ce culoare are smaraldul?
 </category>
 <category>
 <pattern>
-  Care este cel mai inalt animal din lume?
+  CARE ESTE CEL MAI INALT ANIMAL DIN LUME?
 </pattern>
 <template>
   Girafa
@@ -904,7 +907,7 @@ Ce culoare are smaraldul?
 </category>
 <category>
 <pattern>
-   Ce copac face ghinde?
+   CE COPAC FACE GHINDE?
 </pattern>
 <template>
   Stejarul
@@ -912,7 +915,7 @@ Ce culoare are smaraldul?
 </category>
 <category>
 <pattern>
-   De unde provine energia solară?
+   DE UNDE PROVINE ENERGIA SOLARĂ?
 </pattern>
 <template>
   De la soare
@@ -920,7 +923,7 @@ Ce culoare are smaraldul?
 </category>
 <category>
 <pattern>
-  Manastirea din Romania construită de către Neagoe Basarab pe locul unei vechi mitropolii din 1359?
+  MANASTIREA DIN ROMANIA CONSTRUITĂ DE CĂTRE NEAGOE BASARAB PE LOCUL UNEI VECHI MITROPOLII DIN 1359?
 </pattern>
 <template>
    Mănăstirea Curtea de Argeş
@@ -928,7 +931,7 @@ Ce culoare are smaraldul?
 </category>
 <category>
 <pattern>
-   Cel mai vechi aşezământ monahal din Ţara Românească, situat la 36 km de oraşul Târgu-Jiu?
+   CEL MAI VECHI AŞEZĂMÂNT MONAHAL DIN ŢARA ROMÂNEASCĂ, SITUAT LA 36 KM DE ORAŞUL TÂRGU-JIU?
 </pattern>
 <template>
    Mănăstirea Tismana
@@ -936,8 +939,8 @@ Ce culoare are smaraldul?
 </category>
 <category>
 <pattern>
-  Mănăstire ortodoxă din România situată în comuna Şiria, Judeţul Arad, aşezată pe un deal la altitudinea de 427 m
-ridicată în imediata apropriere a izvorului care poarta denumirea?
+  MĂNĂSTIRE ORTODOXĂ DIN ROMÂNIA SITUATĂ ÎN COMUNA ŞIRIA, JUDEŢUL ARAD, AŞEZATĂ PE UN DEAL LA ALTITUDINEA DE 427 M
+RIDICATĂ ÎN IMEDIATA APROPRIERE A IZVORULUI CARE POARTA DENUMIREA?
 </pattern>
 <template>
   Mănăstirea Feredeu
@@ -945,8 +948,8 @@ ridicată în imediata apropriere a izvorului care poarta denumirea?
 </category>
 <category>
 <pattern>
-  Lăcaş de cult ortodox considerat unul din cele mai importante centre culturale, religioase şi artistice înfiinţate în
-Moldova, aflat la 33 km de oraşul Rădăuţi?
+  LĂCAŞ DE CULT ORTODOX CONSIDERAT UNUL DIN CELE MAI IMPORTANTE CENTRE CULTURALE, RELIGIOASE ŞI ARTISTICE ÎNFIINŢATE ÎN
+MOLDOVA, AFLAT LA 33 KM DE ORAŞUL RĂDĂUŢI?
 </pattern>
 <template>
    Mănăstirea Putna
@@ -954,7 +957,7 @@ Moldova, aflat la 33 km de oraşul Rădăuţi?
 </category>
 <category>
 <pattern>
-   Ctitorie a lui Mircea cel Bătrân, situată lângă râul Olt a cărei pictură interioară a fost realizată între anii 1390 - 1391?
+   CTITORIE A LUI MIRCEA CEL BĂTRÂN, SITUATĂ LÂNGĂ RÂUL OLT A CĂREI PICTURĂ INTERIOARĂ A FOST REALIZATĂ ÎNTRE ANII 1390 - 1391?
 </pattern>
 <template>
   Mănăstirea Cozia
@@ -962,8 +965,8 @@ Moldova, aflat la 33 km de oraşul Rădăuţi?
 </category>
 <category>
 <pattern>
-  Veche aşezare călugărească, situată în comuna Vatra Moldoviţei la o distanţă de circa 15 km de comuna Vama,
-înscrisă pe lista patrimoniului cultural mondial UNESCO?
+  VECHE AŞEZARE CĂLUGĂREASCĂ, SITUATĂ ÎN COMUNA VATRA MOLDOVIŢEI LA O DISTANŢĂ DE CIRCA 15 KM DE COMUNA VAMA,
+ÎNSCRISĂ PE LISTA PATRIMONIULUI CULTURAL MONDIAL UNESCO?
 </pattern>
 <template>
    Mănăstirea Moldoviţa
@@ -971,8 +974,8 @@ Moldova, aflat la 33 km de oraşul Rădăuţi?
 </category>
 <category>
 <pattern>
-  Mănăstire din România, situată la 18 km de Rădăuţi, judeţul Suceava, atestată la 1582, în timpul domniei lui Petru
-Şchiopul?
+  MĂNĂSTIRE DIN ROMÂNIA, SITUATĂ LA 18 KM DE RĂDĂUŢI, JUDEŢUL SUCEAVA, ATESTATĂ LA 1582, ÎN TIMPUL DOMNIEI LUI PETRU
+ŞCHIOPUL?
 </pattern>
 <template>
    Mănăstirea Suceviţa
@@ -980,7 +983,7 @@ Moldova, aflat la 33 km de oraşul Rădăuţi?
 </category>
 <category>
 <pattern>
-   Artist faimos care putea picta atât cu mana stângă, cât şi cu cea dreapta?
+   ARTIST FAIMOS CARE PUTEA PICTA ATÂT CU MANA STÂNGĂ, CÂT ŞI CU CEA DREAPTA?
 </pattern>
 <template>
   Stefan Lucian
@@ -988,8 +991,8 @@ Moldova, aflat la 33 km de oraşul Rădăuţi?
 </category>
 <category>
 <pattern>
-  Templu situat în prezent pe malul Nilului, construit în cinstea zeului Amun în perioada Imperiului nou egiptean din
-antichitate?
+  TEMPLU SITUAT ÎN PREZENT PE MALUL NILULUI, CONSTRUIT ÎN CINSTEA ZEULUI AMUN ÎN PERIOADA IMPERIULUI NOU EGIPTEAN DIN
+ANTICHITATE?
 </pattern>
 <template>
   Templul din Luxor
@@ -997,8 +1000,8 @@ antichitate?
 </category>
 <category>
 <pattern>
-  Castel situat în Franţa, în apropierea satului Chenonceaux din departamentul Indre-et-Loire, fiind unul dintre cele
-mai celebre şi admirate castele de pe Valea Loarei?
+  CASTEL SITUAT ÎN FRANŢA, ÎN APROPIEREA SATULUI CHENONCEAUX DIN DEPARTAMENTUL INDRE-ET-LOIRE, FIIND UNUL DINTRE CELE
+MAI CELEBRE ŞI ADMIRATE CASTELE DE PE VALEA LOAREI?
 </pattern>
 <template>
    Castelul Chenonceaux
@@ -1006,8 +1009,8 @@ mai celebre şi admirate castele de pe Valea Loarei?
 </category>
 <category>
 <pattern>
-  Castel construit pe locul unei mori fortificate de pe râul Cher care datează din secolul XI, fiind supranumit castelul
-femeilor?
+  CASTEL CONSTRUIT PE LOCUL UNEI MORI FORTIFICATE DE PE RÂUL CHER CARE DATEAZĂ DIN SECOLUL XI, FIIND SUPRANUMIT CASTELUL
+FEMEILOR?
 </pattern>
 <template>
    Castelul Chenonceaux
@@ -1015,8 +1018,8 @@ femeilor?
 </category>
 <category>
 <pattern>
-  Sit arheologic situat în Munţii Hinducuş din Afganistan, celebru pentru cele două statui colosale ale lui Buddha,
-săpate în stâncă şi distruse de talibani?
+  SIT ARHEOLOGIC SITUAT ÎN MUNŢII HINDUCUŞ DIN AFGANISTAN, CELEBRU PENTRU CELE DOUĂ STATUI COLOSALE ALE LUI BUDDHA,
+SĂPATE ÎN STÂNCĂ ŞI DISTRUSE DE TALIBANI?
 </pattern>
 <template>
   Ansamblul de la Bamian
@@ -1024,8 +1027,8 @@ săpate în stâncă şi distruse de talibani?
 </category>
 <category>
 <pattern>
-  Castel din Austria care a fost clădit ca şi o cetate prin ordinul Episcopiei din Bamberg, care în secolul XVI devine
-prin învăţătura lui Martin Luther un centru al Reformaţiei religioase?
+  CASTEL DIN AUSTRIA CARE A FOST CLĂDIT CA ŞI O CETATE PRIN ORDINUL EPISCOPIEI DIN BAMBERG, CARE ÎN SECOLUL XVI DEVINE
+PRIN ÎNVĂŢĂTURA LUI MARTIN LUTHER UN CENTRU AL REFORMAŢIEI RELIGIOASE?
 </pattern>
 <template>
   Castelul Waldenstein
@@ -1033,8 +1036,8 @@ prin învăţătura lui Martin Luther un centru al Reformaţiei religioase?
 </category>
 <category>
 <pattern>
-  Mănăstire situată într-un castel clădit în stilul renaşterii pe o stâncă deasupra râului Drau, Austria, care azi se află în
-proprietatea Misiunii Sângelui Nepreţuit, transformată în pensiune?
+  MĂNĂSTIRE SITUATĂ ÎNTR-UN CASTEL CLĂDIT ÎN STILUL RENAŞTERII PE O STÂNCĂ DEASUPRA RÂULUI DRAU, AUSTRIA, CARE AZI SE AFLĂ ÎN
+PROPRIETATEA MISIUNII SÂNGELUI NEPREŢUIT, TRANSFORMATĂ ÎN PENSIUNE?
 </pattern>
 <template>
    Wernberg
@@ -1042,8 +1045,8 @@ proprietatea Misiunii Sângelui Nepreţuit, transformată în pensiune?
 </category>
 <category>
 <pattern>
-  Castel ce reprezintă un edificiu cultural istoric situat la sud-est de Innsbruck, construit în stilul renaşterii în timpul
-domniei arhiducelui Ferdinand II von Tirol şi în care se găseşte un tablou de-al lui Vlad Ţepeş?
+   CASTEL CE REPREZINTĂ UN EDIFICIU CULTURAL ISTORIC SITUAT LA SUD-EST DE INNSBRUCK, CONSTRUIT ÎN STILUL RENAŞTERII ÎN TIMPUL
+DOMNIEI ARHIDUCELUI FERDINAND II VON TIROL ŞI ÎN CARE SE GĂSEŞTE UN TABLOU DE-AL LUI VLAD ŢEPEŞ?
 </pattern>
 <template>
 Castelul Ambras
@@ -1051,7 +1054,7 @@ Castelul Ambras
 </category>
 <category>
 <pattern>
-   Monument în Rio de Janeiro, amplasat la sud de oraş, pe muntele Corcovado în pădurea Tijuca?
+   MONUMENT ÎN RIO DE JANEIRO, AMPLASAT LA SUD DE ORAŞ, PE MUNTELE CORCOVADO ÎN PĂDUREA TIJUCA?
 </pattern>
 <template>
   Cristo Redentor (Cristos Mântuitorul)
@@ -1059,8 +1062,8 @@ Castelul Ambras
 </category>
 <category>
 <pattern>
-  Palat situat în centrul Pekingului Beijing, unde a trăit şi a domnit până la revoluţia din 1911 împăratul Chinei din
-dinastia Ming şi Qing?
+  PALAT SITUAT ÎN CENTRUL PEKINGULUI BEIJING, UNDE A TRĂIT ŞI A DOMNIT PÂNĂ LA REVOLUŢIA DIN 1911 ÎMPĂRATUL CHINEI DIN
+DINASTIA MING ŞI QING?
 </pattern>
 <template>
    Palatul Imperial Chinezesc
@@ -1068,8 +1071,8 @@ dinastia Ming şi Qing?
 </category>
 <category>
 <pattern>
-  Complex de clădiri taoiste situate în sudul Beijingului, şi vizitate de către împăraţii dinastiilor Ming şi Qing pentru
-ceremonii anuale de rugăciune către Cer pentru o recoltă bună?
+  COMPLEX DE CLĂDIRI TAOISTE SITUATE ÎN SUDUL BEIJINGULUI, ŞI VIZITATE DE CĂTRE ÎMPĂRAŢII DINASTIILOR MING ŞI QING PENTRU
+CEREMONII ANUALE DE RUGĂCIUNE CĂTRE CER PENTRU O RECOLTĂ BUNĂ?
 </pattern>
 <template>
   Altarul cerului
@@ -1077,8 +1080,8 @@ ceremonii anuale de rugăciune către Cer pentru o recoltă bună?
 </category>
 <category>
 <pattern>
-  Monument din Italia care datorită proastei calităţi a solului, fundaţia acestuia a început să se scufunde imediat după
-începerea construcţiei provocând înclinarea turnului spre sud?
+  MONUMENT DIN ITALIA CARE DATORITĂ PROASTEI CALITĂŢI A SOLULUI, FUNDAŢIA ACESTUIA A ÎNCEPUT SĂ SE SCUFUNDE IMEDIAT DUPĂ
+ÎNCEPEREA CONSTRUCŢIEI PROVOCÂND ÎNCLINAREA TURNULUI SPRE SUD?
 </pattern>
 <template>
    Turnul din Pisa
@@ -1086,8 +1089,8 @@ ceremonii anuale de rugăciune către Cer pentru o recoltă bună?
 </category>
 <category>
 <pattern>
-  Numele mai multor statui uriaşe din diferite oraşe ale fostei Uniunii Sovietice care comemorează victoria sovietică
-împotriva naziştilor în Marele Război pentru Apărarea Patriei?
+  NUMELE MAI MULTOR STATUI URIAŞE DIN DIFERITE ORAŞE ALE FOSTEI UNIUNII SOVIETICE CARE COMEMOREAZĂ VICTORIA SOVIETICĂ
+ÎMPOTRIVA NAZIŞTILOR ÎN MARELE RĂZBOI PENTRU APĂRAREA PATRIEI?
 </pattern>
 <template>
 Patria Mamă
@@ -1095,8 +1098,8 @@ Patria Mamă
 </category>
 <category>
 <pattern>
-  Monument în portul „Liberty Island” care a fost plasat cu scopul de a transmite călătorilor sosiţi salutul de bun venit
-pe pământ American?
+  MONUMENT ÎN PORTUL „LIBERTY ISLAND” CARE A FOST PLASAT CU SCOPUL DE A TRANSMITE CĂLĂTORILOR SOSIŢI SALUTUL DE BUN VENIT
+PE PĂMÂNT AMERICAN?
 </pattern>
 <template>
   Statuia Libertăţii
@@ -1104,8 +1107,8 @@ pe pământ American?
 </category>
 <category>
 <pattern>
-  Monument memorial ridicat în oraşul Washington cu scopul de a comemora cele peste 100 milioane de victime ale
-comunismului?
+  MONUMENT MEMORIAL RIDICAT ÎN ORAŞUL WASHINGTON CU SCOPUL DE A COMEMORA CELE PESTE 100 MILIOANE DE VICTIME ALE
+COMUNISMULUI?
 </pattern>
 <template>
 Monumentul Victimelor Comunismului
@@ -1113,7 +1116,7 @@ Monumentul Victimelor Comunismului
 </category>
 <category>
 <pattern>
- Clădire cu 102 etaje situată în oraşul New York din Statele Unite ale Americii, construită între anii 1929 - 1931?
+ CLĂDIRE CU 102 ETAJE SITUATĂ ÎN ORAŞUL NEW YORK DIN STATELE UNITE ALE AMERICII, CONSTRUITĂ ÎNTRE ANII 1929 - 1931?
 </pattern>
 <template>
   Empire State Building
@@ -1121,7 +1124,7 @@ Monumentul Victimelor Comunismului
 </category>
 <category>
 <pattern>
-   Cine a pictat tavanul Capelei Sixtine?
+   CINE A PICTAT TAVANUL CAPELEI SIXTINE?
 </pattern>
 <template>
    Michelangelo Buonarroti
@@ -1129,8 +1132,8 @@ Monumentul Victimelor Comunismului
 </category>
 <category>
 <pattern>
-  Construcţie, care până la terminarea primului turn al complexului World Trade Centre, a fost considerată cea mai
-înaltă clădire din lume între anii 1931 şi 1972?
+  CONSTRUCŢIE, CARE PÂNĂ LA TERMINAREA PRIMULUI TURN AL COMPLEXULUI WORLD TRADE CENTRE, A FOST CONSIDERATĂ CEA MAI
+ÎNALTĂ CLĂDIRE DIN LUME ÎNTRE ANII 1931 ŞI 1972?
 </pattern>
 <template>
   Empire State Building
@@ -1138,8 +1141,8 @@ Monumentul Victimelor Comunismului
 </category>
 <category>
 <pattern>
-  Complex de clădiri terminat în 1973 la capătul sudic al cartierului Manhattan, New York, care a fost distrus în
-atacurile teroriste de la 11 septembrie 2001?
+  COMPLEX DE CLĂDIRI TERMINAT ÎN 1973 LA CAPĂTUL SUDIC AL CARTIERULUI MANHATTAN, NEW YORK, CARE A FOST DISTRUS ÎN
+ATACURILE TERORISTE DE LA 11 SEPTEMBRIE 2001?
 </pattern>
 <template>
   World Trade Center
@@ -1147,8 +1150,8 @@ atacurile teroriste de la 11 septembrie 2001?
 </category>
 <category>
 <pattern>
-  Palat în Londra, numit de către regale George al III-lea după o casă pe care cumpărat-o în 1761 şi pe care a
-transformat-o într-un vast palat?
+  PALAT ÎN LONDRA, NUMIT DE CĂTRE REGALE GEORGE AL III-LEA DUPĂ O CASĂ PE CARE CUMPĂRAT-O ÎN 1761 ŞI PE CARE A
+TRANSFORMAT-O ÎNTR-UN VAST PALAT?
 </pattern>
 <template>
    Palatul Buckingham
@@ -1156,8 +1159,8 @@ transformat-o într-un vast palat?
 </category>
 <category>
 <pattern>
-  Palat cunoscut şi sub numele de Casa Parlamentului, ce reprezintă locul unde se află cele două camere ale
-Parlamentului Regatului Unit al Marii Britanii şi Irlandei de Nord?
+  PALAT CUNOSCUT ŞI SUB NUMELE DE CASA PARLAMENTULUI, CE REPREZINTĂ LOCUL UNDE SE AFLĂ CELE DOUĂ CAMERE ALE
+PARLAMENTULUI REGATULUI UNIT AL MARII BRITANII ŞI IRLANDEI DE NORD?
 </pattern>
 <template>
    Palatul Westminster
@@ -1165,8 +1168,8 @@ Parlamentului Regatului Unit al Marii Britanii şi Irlandei de Nord?
 </category>
 <category>
 <pattern>
-  Teatru londonez unde multe din piesele lui William Shakespeare au fost jucate prima dată, reconstruit în 1990, la
-patru secole după deschiderea originalului?
+  TEATRU LONDONEZ UNDE MULTE DIN PIESELE LUI WILLIAM SHAKESPEARE AU FOST JUCATE PRIMA DATĂ, RECONSTRUIT ÎN 1990, LA
+PATRU SECOLE DUPĂ DESCHIDEREA ORIGINALULUI?
 </pattern>
 <template>
 Teatrul Globe
@@ -1174,8 +1177,8 @@ Teatrul Globe
 </category>
 <category>
 <pattern>
-  Cea mai veche construcţie din Londra, aflată pe malul nordic al Tamisei, a cărei construcţie a fost începută de
-Wilhelm Cuceritorul în jurul anului 1076 şi terminată de William al II-lea?
+  CEA MAI VECHE CONSTRUCŢIE DIN LONDRA, AFLATĂ PE MALUL NORDIC AL TAMISEI, A CĂREI CONSTRUCŢIE A FOST ÎNCEPUTĂ DE
+WILHELM CUCERITORUL ÎN JURUL ANULUI 1076 ŞI TERMINATĂ DE WILLIAM AL II-LEA?
 </pattern>
 <template>
 Turnul Londrei
@@ -1183,7 +1186,7 @@ Turnul Londrei
 </category>
 <category>
 <pattern>
-  Biserică din Londra a cărei construcţii a fost începută în secolul XI?
+    BISERICĂ DIN LONDRA A CĂREI CONSTRUCŢII A FOST ÎNCEPUTĂ ÎN SECOLUL XI?
 </pattern>
 <template>
 Catedrala Westminster
@@ -1191,7 +1194,7 @@ Catedrala Westminster
 </category>
 <category>
 <pattern>
-  Clădire de birouri din Bruxelles care găzduieşte Comisia Europeană?
+  CLĂDIRE DE BIROURI DIN BRUXELLES CARE GĂZDUIEŞTE COMISIA EUROPEANĂ?
 </pattern>
 <template>
 Berlaymont din Bruxelles
@@ -1199,8 +1202,8 @@ Berlaymont din Bruxelles
 </category>
 <category>
 <pattern>
-  Clădire situată în centrul Berlinului în cartierul Berlin-Tiergarten în care a avut loc prima adunare parlamentară în
-timpul Imperiului german, ulterior fiind sediul parlamentului Republicii Weimar?
+  CLĂDIRE SITUATĂ ÎN CENTRUL BERLINULUI ÎN CARTIERUL BERLIN-TIERGARTEN ÎN CARE A AVUT LOC PRIMA ADUNARE PARLAMENTARĂ ÎN
+TIMPUL IMPERIULUI GERMAN, ULTERIOR FIIND SEDIUL PARLAMENTULUI REPUBLICII WEIMAR?
 </pattern>
 <template>
 Reichstagul
@@ -1208,8 +1211,8 @@ Reichstagul
 </category>
 <category>
 <pattern>
-  Castel din Scoţia, veche fortăreaţă ridicată pe rocă vulcanică, care a servit drept bază militară în războiul contra
-Angliei?
+  CASTEL DIN SCOŢIA, VECHE FORTĂREAŢĂ RIDICATĂ PE ROCĂ VULCANICĂ, CARE A SERVIT DREPT BAZĂ MILITARĂ ÎN RĂZBOIUL CONTRA
+ANGLIEI?
 </pattern>
 <template>
 Castelul Edinburgh
@@ -1217,8 +1220,8 @@ Castelul Edinburgh
 </category>
 <category>
 <pattern>
-  Citadelă rusească din Moscova, care serveşte ca reşedinţă oficială şi ca principal loc de muncă al Preşedintelui
-Federaţiei Ruse?
+  CITADELĂ RUSEASCĂ DIN MOSCOVA, CARE SERVEŞTE CA REŞEDINŢĂ OFICIALĂ ŞI CA PRINCIPAL LOC DE MUNCĂ AL PREŞEDINTELUI
+FEDERAŢIEI RUSE?
 </pattern>
 <template>
 Kremlinul
@@ -1226,8 +1229,8 @@ Kremlinul
 </category>
 <category>
 <pattern>
-  Piaţă în Moscova, care reprezintă locul din care pornesc, marile străzi ale Moscovei şi drumuri ale Rusiei, fiind
-considerată centrul Moscovei şi al Rusiei?
+  PIAŢĂ ÎN MOSCOVA, CARE REPREZINTĂ LOCUL DIN CARE PORNESC, MARILE STRĂZI ALE MOSCOVEI ŞI DRUMURI ALE RUSIEI, FIIND
+CONSIDERATĂ CENTRUL MOSCOVEI ŞI AL RUSIEI?
 </pattern>
 <template>
  Piaţa Roşie
@@ -1235,7 +1238,7 @@ considerată centrul Moscovei şi al Rusiei?
 </category>
 <category>
 <pattern>
-  Clădire aflată în Washington D.C., care reprezintă sediul administraţiei prezidenţiale a Statelor Unite?
+  CLĂDIRE AFLATĂ ÎN WASHINGTON D.C., CARE REPREZINTĂ SEDIUL ADMINISTRAŢIEI PREZIDENŢIALE A STATELOR UNITE?
 </pattern>
 <template>
 Casa Albă
@@ -1243,8 +1246,8 @@ Casa Albă
 </category>
 <category>
 <pattern>
-  Mănăstire din Spania, construită de Felipe II şi proiectată de arhitectul şef Juan Bautista de Toledo, care cuprinde în
-interior Palatul Burbonilor?
+  MĂNĂSTIRE DIN SPANIA, CONSTRUITĂ DE FELIPE II ŞI PROIECTATĂ DE ARHITECTUL ŞEF JUAN BAUTISTA DE TOLEDO, CARE CUPRINDE ÎN
+INTERIOR PALATUL BURBONILOR?
 </pattern>
 <template>
  El Escorial
@@ -1252,8 +1255,8 @@ interior Palatul Burbonilor?
 </category>
 <category>
 <pattern>
-  Monument situat în Paris, în Place de l'Étoile, la extremitatea vestică a bulevardului Champs-Élysées, aflat la
-intersecţia mai multor bulevarde, cum ar fi Grande Armée, Wagram şi Champs-Élysées?
+  MONUMENT SITUAT ÎN PARIS, ÎN PLACE DE L'ÉTOILE, LA EXTREMITATEA VESTICĂ A BULEVARDULUI CHAMPS-ÉLYSÉES, AFLAT LA
+INTERSECŢIA MAI MULTOR BULEVARDE, CUM AR FI GRANDE ARMÉE, WAGRAM ŞI CHAMPS-ÉLYSÉES?
 </pattern>
 <template>
 Arcul de Triumf
@@ -1261,8 +1264,8 @@ Arcul de Triumf
 </category>
 <category>
 <pattern>
-  Bulevard important din capitala franceză Paris, cu cinematografele, cafenelele şi magazinele sale de lux, fiind una
-dintre cele mai faimoase străzi din lume?
+  BULEVARD IMPORTANT DIN CAPITALA FRANCEZĂ PARIS, CU CINEMATOGRAFELE, CAFENELELE ŞI MAGAZINELE SALE DE LUX, FIIND UNA
+DINTRE CELE MAI FAIMOASE STRĂZI DIN LUME?
 </pattern>
 <template>
 Champs-Élysées
@@ -1270,8 +1273,8 @@ Champs-Élysées
 </category>
 <category>
 <pattern>
-  Cel mai mare muzeu parizian după suprafaţă şi printre cele mai cunoscute muzee din lume a cărui intrare se face
-printr-un mini Arc de Triumf?
+  CEL MAI MARE MUZEU PARIZIAN DUPĂ SUPRAFAŢĂ ŞI PRINTRE CELE MAI CUNOSCUTE MUZEE DIN LUME A CĂRUI INTRARE SE FACE
+PRINTR-UN MINI ARC DE TRIUMF?
 </pattern>
 <template>
 Louvre
@@ -1279,8 +1282,8 @@ Louvre
 </category>
 <category>
 <pattern>
- Biserică situată în Piaţa St. Pierre, pe colina Montmartre din Paris, construită în 1876, sub îndrumarea arhitectului
-Paul Abadie, în stil romano-bizantin?
+ BISERICĂ SITUATĂ ÎN PIAŢA ST. PIERRE, PE COLINA MONTMARTRE DIN PARIS, CONSTRUITĂ ÎN 1876, SUB ÎNDRUMAREA ARHITECTULUI
+PAUL ABADIE, ÎN STIL ROMANO-BIZANTIN?
 </pattern>
 <template>
 Sacré-Coeur
@@ -1288,8 +1291,8 @@ Sacré-Coeur
 </category>
 <category>
 <pattern>
-  Palat regal construit în apropierea Parisului, care a fost reşedinţa regilor Franţei Ludovic al XIV-lea, Ludovic al XVlea
-şi Ludovic al XVI-lea?
+  PALAT REGAL CONSTRUIT ÎN APROPIEREA PARISULUI, CARE A FOST REŞEDINŢA REGILOR FRANŢEI LUDOVIC AL XIV-LEA, LUDOVIC AL XVLEA
+ŞI LUDOVIC AL XVI-LEA?
 </pattern>
 <template>
 Palatul Versailles
@@ -1297,7 +1300,7 @@ Palatul Versailles
 </category>
 <category>
 <pattern>
-  Ce pictor olandez a pictat 64 de autoportrete?
+    CE PICTOR OLANDEZ A PICTAT 64 DE AUTOPORTRETE?
 </pattern>
 <template>
 Rembrandt
@@ -1305,8 +1308,8 @@ Rembrandt
 </category>
 <category>
 <pattern>
-  Castel din Scoţia, printre atracţiile căruia se numără Piatra Destinului, deasupra căreia monarhii scoţieni au fost
-încoronaţi timp de secole?
+  CASTEL DIN SCOŢIA, PRINTRE ATRACŢIILE CĂRUIA SE NUMĂRĂ PIATRA DESTINULUI, DEASUPRA CĂREIA MONARHII SCOŢIENI AU FOST
+ÎNCORONAŢI TIMP DE SECOLE?
 </pattern>
 <template>
 Castelul Edinburgh
@@ -1314,8 +1317,8 @@ Castelul Edinburgh
 </category>
 <category>
 <pattern>
- Palat care în 1837 a devenit primul muzeu de istorie al Franţei, unde în Camera Oglinzilor, a fost semnat un tratat de
-o importanţă istorică?
+ PALAT CARE ÎN 1837 A DEVENIT PRIMUL MUZEU DE ISTORIE AL FRANŢEI, UNDE ÎN CAMERA OGLINZILOR, A FOST SEMNAT UN TRATAT DE
+O IMPORTANŢĂ ISTORICĂ?
 </pattern>
 <template>
 Palatul Versailles
@@ -1323,8 +1326,8 @@ Palatul Versailles
 </category>
 <category>
 <pattern>
-  Mănăstire din România, situată în satul cu acelaşi nume, la 36 km de Suceava şi la numai 4 km de centrul oraşului
-Gura Humorului?
+  MĂNĂSTIRE DIN ROMÂNIA, SITUATĂ ÎN SATUL CU ACELAŞI NUME, LA 36 KM DE SUCEAVA ŞI LA NUMAI 4 KM DE CENTRUL ORAŞULUI
+GURA HUMORULUI?
 </pattern>
 <template>
  Mănăstirea Voroneţ
@@ -1332,7 +1335,7 @@ Gura Humorului?
 </category>
 <category>
 <pattern>
-  Clădire din Bucureşti, 86 m înălţime şi 92 m sub pământ, care are 12 nivele la suprafaţă şi alte 8 subterane?
+  CLĂDIRE DIN BUCUREŞTI, 86 M ÎNĂLŢIME ŞI 92 M SUB PĂMÂNT, CARE ARE 12 NIVELE LA SUPRAFAŢĂ ŞI ALTE 8 SUBTERANE?
 </pattern>
 <template>
 Palatul Parlamentului
@@ -1340,8 +1343,8 @@ Palatul Parlamentului
 </category>
 <category>
 <pattern>
-  Palat situat în centrul Beijingului, supranumit şi „oraşul interzis” accesul poporului sau al oamenilor de rând fiind
-interzis în incinta acestuia?
+  PALAT SITUAT ÎN CENTRUL BEIJINGULUI, SUPRANUMIT ŞI „ORAŞUL INTERZIS” ACCESUL POPORULUI SAU AL OAMENILOR DE RÂND FIIND
+INTERZIS ÎN INCINTA ACESTUIA?
 </pattern>
 <template>
 Palatul Imperial Chinezesc
@@ -1349,7 +1352,7 @@ Palatul Imperial Chinezesc
 </category>
 <category>
 <pattern>
-  Monument istoric şi arhitectonic situat în Pasul Bran-Rucăr, la 30 de kilometri de Braşov?
+  MONUMENT ISTORIC ŞI ARHITECTONIC SITUAT ÎN PASUL BRAN-RUCĂR, LA 30 DE KILOMETRI DE BRAŞOV?
 </pattern>
 <template>
 Castelul Bran
@@ -1357,8 +1360,8 @@ Castelul Bran
 </category>
 <category>
 <pattern>
-  Castel din Sinaia, România, construit între 1873 şi 1883, fiind considerat unul dintre cele mai frumoase din România
-şi din Europa?
+  CASTEL DIN SINAIA, ROMÂNIA, CONSTRUIT ÎNTRE 1873 ŞI 1883, FIIND CONSIDERAT UNUL DINTRE CELE MAI FRUMOASE DIN ROMÂNIA
+ŞI DIN EUROPA?
 </pattern>
 <template>
 Castelul Peleş
@@ -1366,8 +1369,8 @@ Castelul Peleş
 </category>
 <category>
 <pattern>
-  Arhitect care s-a impus printre personalităţile de frunte ale şcolii de arhitectură românească, dominând activitatea
-arhitecturală din prima jumătate a secolului al 20-lea care în 1945 a fost ales membru titular al Academiei Române?
+  ARHITECT CARE S-A IMPUS PRINTRE PERSONALITĂŢILE DE FRUNTE ALE ŞCOLII DE ARHITECTURĂ ROMÂNEASCĂ, DOMINÂND ACTIVITATEA
+ARHITECTURALĂ DIN PRIMA JUMĂTATE A SECOLULUI AL 20-LEA CARE ÎN 1945 A FOST ALES MEMBRU TITULAR AL ACADEMIEI ROMÂNE?
 </pattern>
 <template>
 Petre Antonescu
@@ -1375,8 +1378,8 @@ Petre Antonescu
 </category>
 <category>
 <pattern>
-  Important artist din perioada de vârf a Renaşterii italiene, care a trăit între anii 1475 şi 1564 şi care s-a remarcat, în
-pictură, desen, sculptură şi arhitectură, dar şi ca poet?
+  IMPORTANT ARTIST DIN PERIOADA DE VÂRF A RENAŞTERII ITALIENE, CARE A TRĂIT ÎNTRE ANII 1475 ŞI 1564 ŞI CARE S-A REMARCAT, ÎN
+PICTURĂ, DESEN, SCULPTURĂ ŞI ARHITECTURĂ, DAR ŞI CA POET?
 </pattern>
 <template>
 Michelangelo Buonarroti
@@ -1384,7 +1387,7 @@ Michelangelo Buonarroti
 </category>
 <category>
 <pattern>
-  Numele Capelei palatului papal din Vatican considerată una dintre cele mai faimoase comori artistice ale Europei?
+  NUMELE CAPELEI PALATULUI PAPAL DIN VATICAN CONSIDERATĂ UNA DINTRE CELE MAI FAIMOASE COMORI ARTISTICE ALE EUROPEI?
 </pattern>
 <template>
  Capela Sixtină
@@ -1392,7 +1395,7 @@ Michelangelo Buonarroti
 </category>
 <category>
 <pattern>
-  Unul dintre cele mai vechi şi mai mari muzee din lume, care deţine pictura „Gioconda “ de Leonado Da Vinci?
+  UNUL DINTRE CELE MAI VECHI ŞI MAI MARI MUZEE DIN LUME, CARE DEŢINE PICTURA „GIOCONDA “ DE LEONADO DA VINCI?
 </pattern>
 <template>
 Louvre
@@ -1400,7 +1403,7 @@ Louvre
 </category>
 <category>
 <pattern>
-  Faimos sculptor şi pictor italian renascentist care a trăit între anii 1386 –1466?
+  FAIMOS SCULPTOR ŞI PICTOR ITALIAN RENASCENTIST CARE A TRĂIT ÎNTRE ANII 1386 –1466?
 </pattern>
 <template>
 Donatello
@@ -1408,8 +1411,8 @@ Donatello
 </category>
 <category>
 <pattern>
-  Pictor italian, care a trăit între anii 1445- 1510, care s-a evidenţiat prin faptul că figurile pictate de el prezintă
-profunde sentimente umane, personajele sale cu chipuri uşor melancolice au, în general, o expresie visătoare?
+  PICTOR ITALIAN, CARE A TRĂIT ÎNTRE ANII 1445- 1510, CARE S-A EVIDENŢIAT PRIN FAPTUL CĂ FIGURILE PICTATE DE EL PREZINTĂ
+PROFUNDE SENTIMENTE UMANE, PERSONAJELE SALE CU CHIPURI UŞOR MELANCOLICE AU, ÎN GENERAL, O EXPRESIE VISĂTOARE?
 </pattern>
 <template>
  Sandro Botticelli
@@ -1417,8 +1420,8 @@ profunde sentimente umane, personajele sale cu chipuri uşor melancolice au, în
 </category>
 <category>
 <pattern>
-  Pictor francez neoimpresionist, care a trăit între anii 1859-1891, în a cărui stil şi concepţie s-au făcut simţite
-influenţele unei noi revoluţii plastice?
+  PICTOR FRANCEZ NEOIMPRESIONIST, CARE A TRĂIT ÎNTRE ANII 1859-1891, ÎN A CĂRUI STIL ŞI CONCEPŢIE S-AU FĂCUT SIMŢITE
+INFLUENŢELE UNEI NOI REVOLUŢII PLASTICE?
 </pattern>
 <template>
 Georges Seurat
@@ -1426,8 +1429,8 @@ Georges Seurat
 </category>
 <category>
 <pattern>
-  Pictor italian numit după oraşul său natal, care a trăit între anii 1571- 1610, fiind considerat precursor al stilului
-baroc?
+  PICTOR ITALIAN NUMIT DUPĂ ORAŞUL SĂU NATAL, CARE A TRĂIT ÎNTRE ANII 1571- 1610, FIIND CONSIDERAT PRECURSOR AL STILULUI
+BAROC?
 </pattern>
 <template>
  Giuseppe Bacci
@@ -1435,8 +1438,8 @@ baroc?
 </category>
 <category>
 <pattern>
-  Cel mai renumit pictor flamand, ce a trăit între anii 1577-1640 şi care în 40 de ani a pictat peste 1400 tablouri şi a
-realizat sute de desene?
+  CEL MAI RENUMIT PICTOR FLAMAND, CE A TRĂIT ÎNTRE ANII 1577-1640 ŞI CARE ÎN 40 DE ANI A PICTAT PESTE 1400 TABLOURI ŞI A
+REALIZAT SUTE DE DESENE?
 </pattern>
 <template>
 Peter Paul Rubens
@@ -1444,8 +1447,8 @@ Peter Paul Rubens
 </category>
 <category>
 <pattern>
-  Pictor şi arhitect de seamă al Renaşterii italiene, care a trăit între anii 1483- 1520, considerat unul din cei mai mari
-artişti ai tuturor timpurilor?
+  PICTOR ŞI ARHITECT DE SEAMĂ AL RENAŞTERII ITALIENE, CARE A TRĂIT ÎNTRE ANII 1483- 1520, CONSIDERAT UNUL DIN CEI MAI MARI
+ARTIŞTI AI TUTUROR TIMPURILOR?
 </pattern>
 <template>
 Rafael
@@ -1453,8 +1456,8 @@ Rafael
 </category>
 <category>
 <pattern>
-  Unul din cei mai cunoscuţi pictori spanioli din sec. XVII-lea, reprezentant al stilului baroc, care s-a remarcat în
-special ca portretist la curtea regelui Filip al IV-lea al Spaniei?
+  UNUL DIN CEI MAI CUNOSCUŢI PICTORI SPANIOLI DIN SEC. XVII-LEA, REPREZENTANT AL STILULUI BAROC, CARE S-A REMARCAT ÎN
+SPECIAL CA PORTRETIST LA CURTEA REGELUI FILIP AL IV-LEA AL SPANIEI?
 </pattern>
 <template>
 Diego Velázquez
@@ -1462,8 +1465,8 @@ Diego Velázquez
 </category>
 <category>
 <pattern>
-  Pictor francez, precursor al impresionismului, care a trăit între anii 1832- 1883, fiind ultimul pictor clasic şi totodată
-primul pictor modern?
+  PICTOR FRANCEZ, PRECURSOR AL IMPRESIONISMULUI, CARE A TRĂIT ÎNTRE ANII 1832- 1883, FIIND ULTIMUL PICTOR CLASIC ŞI TOTODATĂ
+PRIMUL PICTOR MODERN?
 </pattern>
 <template>
 Claude Monet
@@ -1471,8 +1474,8 @@ Claude Monet
 </category>
 <category>
 <pattern>
-  Catedrală celebră din Franţa, prima capodoperă a stilului gotic a cărei nume face referire la Sfânta Fecioară, fiind
-construită pe parcursul a 87 de ani, finalizarea ei realizându-se în anul 1250?
+  CATEDRALĂ CELEBRĂ DIN FRANŢA, PRIMA CAPODOPERĂ A STILULUI GOTIC A CĂREI NUME FACE REFERIRE LA SFÂNTA FECIOARĂ, FIIND
+CONSTRUITĂ PE PARCURSUL A 87 DE ANI, FINALIZAREA EI REALIZÂNDU-SE ÎN ANUL 1250?
 </pattern>
 <template>
  Notre-Dame
@@ -1480,8 +1483,8 @@ construită pe parcursul a 87 de ani, finalizarea ei realizându-se în anul 125
 </category>
 <category>
 <pattern>
-  Pictor francez, care a trăit între anii 1839-1906, considerat în prezent cel mai mare înnoitor al picturii la sfârşitul
-secolului al XIX-lea, pictura lui reprezintă puntea de trecere de la impresionism spre cubism?
+  PICTOR FRANCEZ, CARE A TRĂIT ÎNTRE ANII 1839-1906, CONSIDERAT ÎN PREZENT CEL MAI MARE ÎNNOITOR AL PICTURII LA SFÂRŞITUL
+SECOLULUI AL XIX-LEA, PICTURA LUI REPREZINTĂ PUNTEA DE TRECERE DE LA IMPRESIONISM SPRE CUBISM?
 </pattern>
 <template>
 Paul Cézanne
@@ -1489,8 +1492,8 @@ Paul Cézanne
 </category>
 <category>
 <pattern>
-  Mănăstire din România, ce constituie una dintre cele mai valoroase ctitorii ale lui Ştefan cel Mare, fiind ridicată în
-  anul 1488, în numai patru luni şi jumătate, ceea ce constituie un record pentru acea vreme?
+  MĂNĂSTIRE DIN ROMÂNIA, CE CONSTITUIE UNA DINTRE CELE MAI VALOROASE CTITORII ALE LUI ŞTEFAN CEL MARE, FIIND RIDICATĂ ÎN
+  ANUL 1488, ÎN NUMAI PATRU LUNI ŞI JUMĂTATE, CEEA CE CONSTITUIE UN RECORD PENTRU ACEA VREME?
 </pattern>
 <template>
 Mănăstirea Voroneţ
@@ -1498,8 +1501,8 @@ Mănăstirea Voroneţ
 </category>
 <category>
 <pattern>
-  Pictor francez, care a trăit între anii 1848- 1903 a prevăzut viitorul, pregătind calea picturii moderne, influenţând pe
-fauvişti şi pe artiştii din gruparea Nabis?
+  PICTOR FRANCEZ, CARE A TRĂIT ÎNTRE ANII 1848- 1903 A PREVĂZUT VIITORUL, PREGĂTIND CALEA PICTURII MODERNE, INFLUENŢÂND PE
+FAUVIŞTI ŞI PE ARTIŞTII DIN GRUPAREA NABIS?
 </pattern>
 <template>
 Paul Gauguin
@@ -1507,8 +1510,8 @@ Paul Gauguin
 </category>
 <category>
 <pattern>
-  Pictor francez, iniţiator al orfismului, care a trăit între anii 1885- 1941, manifestând o orientare artistică derivată din
-cubism?
+  PICTOR FRANCEZ, INIŢIATOR AL ORFISMULUI, CARE A TRĂIT ÎNTRE ANII 1885- 1941, MANIFESTÂND O ORIENTARE ARTISTICĂ DERIVATĂ DIN
+CUBISM?
 </pattern>
 <template>
 Robert Delaunay
@@ -1516,7 +1519,7 @@ Robert Delaunay
 </category>
 <category>
 <pattern>
-  Castel din Sinaia, devenit mai târziu reşedinţa viitorului rege Ferdinand I al României şi al Reginei Maria?
+  CASTEL DIN SINAIA, DEVENIT MAI TÂRZIU REŞEDINŢA VIITORULUI REGE FERDINAND I AL ROMÂNIEI ŞI AL REGINEI MARIA?
 </pattern>
 <template>
  Castelul Peleş
@@ -1524,8 +1527,8 @@ Robert Delaunay
 </category>
 <category>
 <pattern>
-  Palat aflat în apropierea altei clădiri guvernamentale numită Whitehall, construit între 1837 şi 1860 în stil neo-gotic,
-după incendiul devastator din 1834 care a distrus aproape total vechiul parlament britanic?
+  PALAT AFLAT ÎN APROPIEREA ALTEI CLĂDIRI GUVERNAMENTALE NUMITĂ WHITEHALL, CONSTRUIT ÎNTRE 1837 ŞI 1860 ÎN STIL NEO-GOTIC,
+DUPĂ INCENDIUL DEVASTATOR DIN 1834 CARE A DISTRUS APROAPE TOTAL VECHIUL PARLAMENT BRITANIC?
 </pattern>
 <template>
 Palatul Westminste
@@ -1533,8 +1536,8 @@ Palatul Westminste
 </category>
 <category>
 <pattern>
-  Monument din Brazilia construit cu ocazia aniversării de 100 de ani de la declararea independenţei Braziliei şi
-finalizat cu sprijinul financiar al Franţei şi Vaticanului?
+  MONUMENT DIN BRAZILIA CONSTRUIT CU OCAZIA ANIVERSĂRII DE 100 DE ANI DE LA DECLARAREA INDEPENDENŢEI BRAZILIEI ŞI
+FINALIZAT CU SPRIJINUL FINANCIAR AL FRANŢEI ŞI VATICANULUI?
 </pattern>
 <template>
 Cristos Mântuitorul
@@ -1542,8 +1545,8 @@ Cristos Mântuitorul
 </category>
 <category>
 <pattern>
-  Tablou pictat de Thomas Gainsborough în jurul anului 1785, având dimensiunile de 236 x 179 cm şi care se găseşte
-la National Gallery, în Londra?
+  TABLOU PICTAT DE THOMAS GAINSBOROUGH ÎN JURUL ANULUI 1785, AVÂND DIMENSIUNILE DE 236 X 179 CM ŞI CARE SE GĂSEŞTE
+LA NATIONAL GALLERY, ÎN LONDRA?
 </pattern>
 <template>
 Plimbarea de dimineaţă
@@ -1551,8 +1554,8 @@ Plimbarea de dimineaţă
 </category>
 <category>
 <pattern>
-  Pictură din anul 1822, cu dimensiunea de 2 x 2,5 m, aparţinând lui Eugène Delacroix, care la acea dată avea doar 24
-de ani?
+  PICTURĂ DIN ANUL 1822, CU DIMENSIUNEA DE 2 X 2,5 M, APARŢINÂND LUI EUGÈNE DELACROIX, CARE LA ACEA DATĂ AVEA DOAR 24
+DE ANI?
 </pattern>
 <template>
 Dante şi Vergiliu în Infern
@@ -1560,8 +1563,8 @@ Dante şi Vergiliu în Infern
 </category>
 <category>
 <pattern>
-  Pânză pictată de Jacques-Louis David în perioada 1805-1807, care are dimensiunile 624 x 979 cm şi se găseşte la
-Louvre, Paris?
+  PÂNZĂ PICTATĂ DE JACQUES-LOUIS DAVID ÎN PERIOADA 1805-1807, CARE ARE DIMENSIUNILE 624 X 979 CM ŞI SE GĂSEŞTE LA
+LOUVRE, PARIS?
 </pattern>
 <template>
 Încoronarea lui Napoleon
@@ -1569,8 +1572,8 @@ Louvre, Paris?
 </category>
 <category>
 <pattern>
- Pictură celebră a lui Leonardo da Vinci, realizată în anii 1503-1506, reprezentând o femeie cu expresie gânditoare şi
-un surâs abia schiţat?
+ PICTURĂ CELEBRĂ A LUI LEONARDO DA VINCI, REALIZATĂ ÎN ANII 1503-1506, REPREZENTÂND O FEMEIE CU EXPRESIE GÂNDITOARE ŞI
+UN SURÂS ABIA SCHIŢAT?
 </pattern>
 <template>
 Mona Lisa
@@ -1578,8 +1581,8 @@ Mona Lisa
 </category>
 <category>
 <pattern>
-  Pictură de Jan Vermeer van Delft, terminată aproximativ prin anul 1668, în prezent fiind găzduită de Musée du
-Louvre, în Paris?
+  PICTURĂ DE JAN VERMEER VAN DELFT, TERMINATĂ APROXIMATIV PRIN ANUL 1668, ÎN PREZENT FIIND GĂZDUITĂ DE MUSÉE DU
+LOUVRE, ÎN PARIS?
 </pattern>
 <template>
 Astronomul
@@ -1587,8 +1590,8 @@ Astronomul
 </category>
 <category>
 <pattern>
-  Pictură realizată de Pablo Picasso, dedicată unui oraş basc, bombardat de aviaţia germană în timpul războiului civil
-din Spania în anul 1937?
+  PICTURĂ REALIZATĂ DE PABLO PICASSO, DEDICATĂ UNUI ORAŞ BASC, BOMBARDAT DE AVIAŢIA GERMANĂ ÎN TIMPUL RĂZBOIULUI CIVIL
+DIN SPANIA ÎN ANUL 1937?
 </pattern>
 <template>
 Guernica
@@ -1596,8 +1599,8 @@ Guernica
 </category>
 <category>
 <pattern>
-  Unul dintre cei mai celebri pictori francezi, care a trăit între anii 1841-1919, creator, împreună cu Claude Monet,
-Alfred Sisley şi Paul Cézanne, al curentului impresionist?
+  UNUL DINTRE CEI MAI CELEBRI PICTORI FRANCEZI, CARE A TRĂIT ÎNTRE ANII 1841-1919, CREATOR, ÎMPREUNĂ CU CLAUDE MONET,
+ALFRED SISLEY ŞI PAUL CÉZANNE, AL CURENTULUI IMPRESIONIST?
 </pattern>
 <template>
 Pierre-Auguste Renoir
@@ -1605,8 +1608,8 @@ Pierre-Auguste Renoir
 </category>
 <category>
 <pattern>
-  Bulevard ce porneşte din Place de la Concorde spre fostul Place de l'Étoile locaţia
-Arcului de Triumf, formând o parte din linia aşa-numitei Axe historique?
+  BULEVARD CE PORNEŞTE DIN PLACE DE LA CONCORDE SPRE FOSTUL PLACE DE L'ÉTOILE LOCAŢIA
+ARCULUI DE TRIUMF, FORMÂND O PARTE DIN LINIA AŞA-NUMITEI AXE HISTORIQUE?
 </pattern>
 <template>
 Champs-Élysées
@@ -1614,7 +1617,7 @@ Champs-Élysées
 </category>
 <category>
 <pattern>
-  Pictor român, denumit poetul plastic al florilor, care a trăit între anii 1868- 1916?
+  PICTOR ROMÂN, DENUMIT POETUL PLASTIC AL FLORILOR, CARE A TRĂIT ÎNTRE ANII 1868- 1916?
 </pattern>
 <template>
 Ştefan Luchian
@@ -1622,7 +1625,7 @@ Champs-Élysées
 </category>
 <category>
 <pattern>
-  Clădire construită în anul 1928 realizată în stilul Art Deco, fiind denumită cel mai mare obiect de artă al Detroitului?
+  CLĂDIRE CONSTRUITĂ ÎN ANUL 1928 REALIZATĂ ÎN STILUL ART DECO, FIIND DENUMITĂ CEL MAI MARE OBIECT DE ARTĂ AL DETROITULUI?
 </pattern>
 <template>
 Fisher Building
@@ -1630,8 +1633,8 @@ Fisher Building
 </category>
 <category>
 <pattern>
-  Catedrala Arhiepiscopiei Romano-Catolice din Viena, un simbol al oraşului, şi loc al multor evenimente importante
-din istoria Austriei?
+  CATEDRALA ARHIEPISCOPIEI ROMANO-CATOLICE DIN VIENA, UN SIMBOL AL ORAŞULUI, ŞI LOC AL MULTOR EVENIMENTE IMPORTANTE
+DIN ISTORIA AUSTRIEI?
 </pattern>
 <template>
 Domul Sfântul Ştefan
@@ -1639,8 +1642,8 @@ Domul Sfântul Ştefan
 </category>
 <category>
 <pattern>
-  Arhitect catalan, inspirat de Eugène Viollet-le-Duc, faimos atât pentru stilul său unic, cât şi pentru proiectele sale
-puternic individualizate, care a trăit între anii 1852- 1926?
+  ARHITECT CATALAN, INSPIRAT DE EUGÈNE VIOLLET-LE-DUC, FAIMOS ATÂT PENTRU STILUL SĂU UNIC, CÂT ŞI PENTRU PROIECTELE SALE
+PUTERNIC INDIVIDUALIZATE, CARE A TRĂIT ÎNTRE ANII 1852- 1926?
 </pattern>
 <template>
 Antonio Placid Gaudí i Cornet
@@ -1648,8 +1651,8 @@ Antonio Placid Gaudí i Cornet
 </category>
 <category>
 <pattern>
-  Biserică uriaşă din capitala Cataloniei, Barcelona, la care se lucrează din anul 1882, terminarea acesteia fiind
-estimată în anul 2026?
+  BISERICĂ URIAŞĂ DIN CAPITALA CATALONIEI, BARCELONA, LA CARE SE LUCREAZĂ DIN ANUL 1882, TERMINAREA ACESTEIA FIIND
+ESTIMATĂ ÎN ANUL 2026?
 </pattern>
 <template>
 Sagrada Família
@@ -1657,8 +1660,8 @@ Sagrada Família
 </category>
 <category>
 <pattern>
-  Sculptor român care a trăit între anii 1876-1957, cu contribuţii covârşitoare la înnoirea limbajului şi viziunii plastice
-în sculptura contemporană?
+  SCULPTOR ROMÂN CARE A TRĂIT ÎNTRE ANII 1876-1957, CU CONTRIBUŢII COVÂRŞITOARE LA ÎNNOIREA LIMBAJULUI ŞI VIZIUNII PLASTICE
+ÎN SCULPTURA CONTEMPORANĂ?
 </pattern>
 <template>
 Constantin Brâncuşi
@@ -1666,7 +1669,7 @@ Constantin Brâncuşi
 </category>
 <category>
 <pattern>
-Cel mai cunoscut sculptor român, care a decedat la Paris şi a fost ales postum membru al Academiei Române?
+CEL MAI CUNOSCUT SCULPTOR ROMÂN, CARE A DECEDAT LA PARIS ŞI A FOST ALES POSTUM MEMBRU AL ACADEMIEI ROMÂNE?
 </pattern>
 <template>
 Constantin Brâncuşi
@@ -1674,8 +1677,8 @@ Constantin Brâncuşi
 </category>
 <category>
 <pattern>
-  Pictor olandez din secolul al XVII-lea, considerat unul din cei mai mari pictori din istoria artei, ce a fost autorul a
-600 picturi, 300 gravuri şi peste 2000 desene?
+  PICTOR OLANDEZ DIN SECOLUL AL XVII-LEA, CONSIDERAT UNUL DIN CEI MAI MARI PICTORI DIN ISTORIA ARTEI, CE A FOST AUTORUL A
+600 PICTURI, 300 GRAVURI ŞI PESTE 2000 DESENE?
 </pattern>
 <template>
 Rembrandt Harmenszoon van Rijn
@@ -1683,8 +1686,8 @@ Rembrandt Harmenszoon van Rijn
 </category>
 <category>
 <pattern>
-  Cea mai importantă operă a lui a fost Statuia lui Zeus din Olimpia, din aur şi fildeş, care avea o înălţime de 12 m şi
-era considerată una dintre cele şapte minuni ale lumii antice?
+  CEA MAI IMPORTANTĂ OPERĂ A LUI A FOST STATUIA LUI ZEUS DIN OLIMPIA, DIN AUR ŞI FILDEŞ, CARE AVEA O ÎNĂLŢIME DE 12 M ŞI
+ERA CONSIDERATĂ UNA DINTRE CELE ŞAPTE MINUNI ALE LUMII ANTICE?
 </pattern>
 <template>
 Phidias
@@ -1692,8 +1695,8 @@ Phidias
 </category>
 <category>
 <pattern>
-  Curent folosit de Vasari între anii 1452-1550, ce a avut un cuvânt greu de spus în arhitectură, în pictură şi sculptură,
-care caută simplitatea?
+  CURENT FOLOSIT DE VASARI ÎNTRE ANII 1452-1550, CE A AVUT UN CUVÂNT GREU DE SPUS ÎN ARHITECTURĂ, ÎN PICTURĂ ŞI SCULPTURĂ,
+CARE CAUTĂ SIMPLITATEA?
 </pattern>
 <template>
 Renaşterea
@@ -1701,8 +1704,8 @@ Renaşterea
 </category>
 <category>
 <pattern>
-  Sculptură celebră a lui Constantin Brâncuşi, în care timpul este reprezentat prin dispunerea circulară a celor 12
-scaune-clepsidre, care îl măsoară?
+  SCULPTURĂ CELEBRĂ A LUI CONSTANTIN BRÂNCUŞI, ÎN CARE TIMPUL ESTE REPREZENTAT PRIN DISPUNEREA CIRCULARĂ A CELOR 12
+SCAUNE-CLEPSIDRE, CARE ÎL MĂSOARĂ?
 </pattern>
 <template>
 Masa tăcerii
@@ -1710,8 +1713,8 @@ Masa tăcerii
 </category>
 <category>
 <pattern>
-  Sculptor grec despre care Plutarh relata că a fost însărcinat de Pericle să conducă lucrările de construcţie a Acropolei
-Ateniene, îndrumând realizarea şi decorarea Partenonului?
+  SCULPTOR GREC DESPRE CARE PLUTARH RELATA CĂ A FOST ÎNSĂRCINAT DE PERICLE SĂ CONDUCĂ LUCRĂRILE DE CONSTRUCŢIE A ACROPOLEI
+ATENIENE, ÎNDRUMÂND REALIZAREA ŞI DECORAREA PARTENONULUI?
 </pattern>
 <template>
 Phidias
@@ -1719,7 +1722,7 @@ Phidias
 </category>
 <category>
 <pattern>
-  Sculptor român printre ale cărui capodopere se numără şi Poarta Sărutului?
+  SCULPTOR ROMÂN PRINTRE ALE CĂRUI CAPODOPERE SE NUMĂRĂ ŞI POARTA SĂRUTULUI?
 </pattern>
 <template>
 Constantin Brâncuşi
@@ -1727,8 +1730,8 @@ Constantin Brâncuşi
 </category>
 <category>
 <pattern>
-  Pictură în ulei pe pânză de 65 cm x 54 cm, realizată în 1889 de pictorul Vincent Van Gogh, fiind expusă în Muzeul
-d’Orsay din Paris?
+  PICTURĂ ÎN ULEI PE PÂNZĂ DE 65 CM X 54 CM, REALIZATĂ ÎN 1889 DE PICTORUL VINCENT VAN GOGH, FIIND EXPUSĂ ÎN MUZEUL
+D’ORSAY DIN PARIS?
 </pattern>
 <template>
 Autoportret
@@ -1736,8 +1739,8 @@ Autoportret
 </category>
 <category>
 <pattern>
-  Ştiinţa care se ocupă cu studiul tuturor organismelor vii, cât şi al entităţilor (virusuri, viroizi) şi a fenomenelor legate
-de acestea?
+  ŞTIINŢA CARE SE OCUPĂ CU STUDIUL TUTUROR ORGANISMELOR VII, CÂT ŞI AL ENTITĂŢILOR ŞI A FENOMENELOR LEGATE
+DE ACESTEA?
 </pattern>
 <template>
 Biologia
@@ -1745,7 +1748,7 @@ Biologia
 </category>
 <category>
 <pattern>
-  Ştiinţa care studiază structura şi funcţiile celulelor?
+  ŞTIINŢA CARE STUDIAZĂ STRUCTURA ŞI FUNCŢIILE CELULELOR?
 </pattern>
 <template>
 Citologia
@@ -1753,8 +1756,8 @@ Citologia
 </category>
 <category>
 <pattern>
-  Ştiinţa care se ocupă cu identificarea şi clasificarea indivizilor biologici pe criterii morfo-anatomice, eco-fiziologice,
-biochimice, genetice?
+  ŞTIINŢA CARE SE OCUPĂ CU IDENTIFICAREA ŞI CLASIFICAREA INDIVIZILOR BIOLOGICI PE CRITERII MORFO-ANATOMICE, ECO-FIZIOLOGICE,
+BIOCHIMICE, GENETICE?
 </pattern>
 <template>
 Taxonomia
@@ -1762,8 +1765,8 @@ Taxonomia
 </category>
 <category>
 <pattern>
-  Ştiinţa biologică care studiază, pe baza disecţiei, structura macroscopică, topografia organelor şi sistemelor, precum
-şi legăturile şi relaţiile dintre acestea în cadrul organismului uman ca un tot unitar?
+  ŞTIINŢA BIOLOGICĂ CARE STUDIAZĂ, PE BAZA DISECŢIEI, STRUCTURA MACROSCOPICĂ, TOPOGRAFIA ORGANELOR ŞI SISTEMELOR, PRECUM
+ŞI LEGĂTURILE ŞI RELAŢIILE DINTRE ACESTEA ÎN CADRUL ORGANISMULUI UMAN CA UN TOT UNITAR?
 </pattern>
 <template>
 Anatomia
@@ -1771,7 +1774,7 @@ Anatomia
 </category>
 <category>
 <pattern>
-  Disciplina care se ocupă cu studiul microscopic al ţesuturilor şi organelor?
+  DISCIPLINA CARE SE OCUPĂ CU STUDIUL MICROSCOPIC AL ŢESUTURILOR ŞI ORGANELOR?
 </pattern>
 <template>
 Histologia
@@ -1779,7 +1782,7 @@ Histologia
 </category>
 <category>
 <pattern>
-  Disciplina care se ocupă cu studiul principalelor etape de dezvoltare a embrionului şi fătului?
+  DISCIPLINA CARE SE OCUPĂ CU STUDIUL PRINCIPALELOR ETAPE DE DEZVOLTARE A EMBRIONULUI ŞI FĂTULUI?
 </pattern>
 <template>
 Embriologia
@@ -1787,8 +1790,8 @@ Embriologia
 </category>
 <category>
 <pattern>
-  Ştiinţa care studiază originea, evoluţia şi variabilitatea biologică a omului în corelaţie cu condiţionarea sa naturală şi
-social-culturală?
+  ŞTIINŢA CARE STUDIAZĂ ORIGINEA, EVOLUŢIA ŞI VARIABILITATEA BIOLOGICĂ A OMULUI ÎN CORELAŢIE CU CONDIŢIONAREA SA NATURALĂ ŞI
+SOCIAL-CULTURALĂ?
 </pattern>
 <template>
 Antropologia
@@ -1796,7 +1799,7 @@ Antropologia
 </category>
 <category>
 <pattern>
-  Ştiinţa care studiază ereditatea şi variabilitatea organismelor?
+  ŞTIINŢA CARE STUDIAZĂ EREDITATEA ŞI VARIABILITATEA ORGANISMELOR?
 </pattern>
 <template>
 Genetica
@@ -1804,7 +1807,7 @@ Genetica
 </category>
 <category>
 <pattern>
-  Ştiinţa care se ocupă de studiul comportamentului animal?
+  ŞTIINŢA CARE SE OCUPĂ DE STUDIUL COMPORTAMENTULUI ANIMAL?
 </pattern>
 <template>
 Etologia
@@ -1812,7 +1815,7 @@ Etologia
 </category>
 <category>
 <pattern>
-  Studiază relaţiile reciproce dintre organisme şi mediul lor de viaţă, biotic şi abiotic?
+  STUDIAZĂ RELAŢIILE RECIPROCE DINTRE ORGANISME ŞI MEDIUL LOR DE VIAŢĂ, BIOTIC ŞI ABIOTIC?
 </pattern>
 <template>
 Ecologia
@@ -1820,8 +1823,8 @@ Ecologia
 </category>
 <category>
 <pattern>
-  Sistem deschis care face schimburi de materie, energie şi informaţie cu mediul înconjurător, care în cadrul speciei
-reprezintă individul?
+  SISTEM DESCHIS CARE FACE SCHIMBURI DE MATERIE, ENERGIE ŞI INFORMAŢIE CU MEDIUL ÎNCONJURĂTOR, CARE ÎN CADRUL SPECIEI
+REPREZINTĂ INDIVIDUL?
 </pattern>
 <template>
 Organismul
@@ -1829,8 +1832,8 @@ Organismul
 </category>
 <category>
 <pattern>
-  Regn care include organismele microscopice, procariote: bacteriile şi cianobacteriile, caracteristic pentru ele fiind
-organizarea simplă şi primitivă a corpului?
+  REGN CARE INCLUDE ORGANISMELE MICROSCOPICE, PROCARIOTE: BACTERIILE ŞI CIANOBACTERIILE, CARACTERISTIC PENTRU ELE FIIND
+ORGANIZAREA SIMPLĂ ŞI PRIMITIVĂ A CORPULUI?
 </pattern>
 <template>
 Monera
@@ -1838,8 +1841,8 @@ Monera
 </category>
 <category>
 <pattern>
-  Regn care include organisme ce nu pot fi văzute cu ochiul liber, fiind incluse în grupa microorganismelor şi nu au
-nucleu individualizat?
+  REGN CARE INCLUDE ORGANISME CE NU POT FI VĂZUTE CU OCHIUL LIBER, FIIND INCLUSE ÎN GRUPA MICROORGANISMELOR ŞI NU AU
+NUCLEU INDIVIDUALIZAT?
 </pattern>
 <template>
 Monera
@@ -1847,7 +1850,7 @@ Monera
 </category>
 <category>
 <pattern>
-  Sistem din organism afectat de către S.I.D.A.?
+    SISTEM DIN ORGANISM AFECTAT DE CĂTRE S.I.D.A.?
 </pattern>
 <template>
 Sistemul imunitar
@@ -1855,7 +1858,7 @@ Sistemul imunitar
 </category>
 <category>
 <pattern>
-  Organ din corp, afectat de tuberculoză?
+  ORGAN DIN CORP, AFECTAT DE TUBERCULOZĂ?
 </pattern>
 <template>
 Plămânii
@@ -1863,7 +1866,7 @@ Plămânii
 </category>
 <category>
 <pattern>
-  Parte a corpului afectată de peritonită?
+  PARTE A CORPULUI AFECTATĂ DE PERITONITĂ?
 </pattern>
 <template>
 Abdomen
@@ -1871,7 +1874,7 @@ Abdomen
 </category>
 <category>
 <pattern>
-  Organ al corpului care este afectat de encefalită?
+  ORGAN AL CORPULUI CARE ESTE AFECTAT DE ENCEFALITĂ?
 </pattern>
 <template>
 Creier
@@ -1879,7 +1882,7 @@ Creier
 </category>
 <category>
 <pattern>
-  Pierdere temporară sau totală a memoriei?
+  PIERDERE TEMPORARĂ SAU TOTALĂ A MEMORIEI?
 </pattern>
 <template>
 Amnezie
@@ -1887,7 +1890,7 @@ Amnezie
 </category>
 <category>
 <pattern>
-  Urmă lăsată de degete, caracteristică fiecărui individ?
+  URMĂ LĂSATĂ DE DEGETE, CARACTERISTICĂ FIECĂRUI INDIVID?
 </pattern>
 <template>
 Amprentă
@@ -1895,7 +1898,7 @@ Amprentă
 </category>
 <category>
 <pattern>
-  Tulburare mentală reprezentată prin închiderea în sine?
+  TULBURARE MENTALĂ REPREZENTATĂ PRIN ÎNCHIDEREA ÎN SINE?
 </pattern>
 <template>
 Autism
@@ -1903,7 +1906,7 @@ Autism
 </category>
 <category>
 <pattern>
-  Singura pasăre ce poate înota, dar nu poate zbura?
+  SINGURA PASĂRE CE POATE ÎNOTA, DAR NU POATE ZBURA?
 </pattern>
 <template>
 Pinguinul
@@ -1911,7 +1914,7 @@ Pinguinul
 </category>
 <category>
 <pattern>
-  Realizatorul legăturii dintre muşchi şi oase?
+  REALIZATORUL LEGĂTURII DINTRE MUŞCHI ŞI OASE?
 </pattern>
 <template>
 Tendoanele
@@ -1919,7 +1922,7 @@ Tendoanele
 </category>
 <category>
 <pattern>
-  Organ al omului ce este afectat de presbitism?
+  ORGAN AL OMULUI CE ESTE AFECTAT DE PRESBITISM?
 </pattern>
 <template>
 Ochi
@@ -1927,7 +1930,7 @@ Ochi
 </category>
 <category>
 <pattern>
-  Denumirea ruperii unui os al corpului?
+  DENUMIREA RUPERII UNUI OS AL CORPULUI?
 </pattern>
 <template>
 Fractură
@@ -1935,7 +1938,7 @@ Fractură
 </category>
 <category>
 <pattern>
-  Organisme care nu au nucleu individualizat, însă prezintă un nucleoid şi care nu au mitocondrii, dar prezintă ribozomi?
+  ORGANISME CARE NU AU NUCLEU INDIVIDUALIZAT, ÎNSĂ PREZINTĂ UN NUCLEOID ŞI CARE NU AU MITOCONDRII, DAR PREZINTĂ RIBOZOMI?
 </pattern>
 <template>
 Procariote
@@ -1943,8 +1946,8 @@ Procariote
 </category>
 <category>
 <pattern>
-  Macromolecula de ADN, care conţine mai multe gene şi secvenţe de nucleotide, cu rol în păstrarea informaţiei
-ereditare a celulei?
+  MACROMOLECULA DE ADN, CARE CONŢINE MAI MULTE GENE ŞI SECVENŢE DE NUCLEOTIDE, CU ROL ÎN PĂSTRAREA INFORMAŢIEI
+EREDITARE A CELULEI?
 </pattern>
 <template>
 Cromozomul
@@ -1952,7 +1955,7 @@ Cromozomul
 </category>
 <category>
 <pattern>
-  Au un rol important în reacţiile enzimatice, prin faptul că alcătuiesc grupările active ale unor enzime?
+  AU UN ROL IMPORTANT ÎN REACŢIILE ENZIMATICE, PRIN FAPTUL CĂ ALCĂTUIESC GRUPĂRILE ACTIVE ALE UNOR ENZIME?
 </pattern>
 <template>
 Vitaminele
@@ -1960,8 +1963,8 @@ Vitaminele
 </category>
 <category>
 <pattern>
-  Cele mai simple organisme eucariote, unicelulare, cuprinse în Regnul Protista, denumirea lor însemnând primul
-animal?
+  CELE MAI SIMPLE ORGANISME EUCARIOTE, UNICELULARE, CUPRINSE ÎN REGNUL PROTISTA, DENUMIREA LOR ÎNSEMNÂND PRIMUL
+ANIMAL?
 </pattern>
 <template>
 Protozoare
@@ -1969,8 +1972,8 @@ Protozoare
 </category>
 <category>
 <pattern>
-  Mediul intracelular, situat între membrana celulară şi nucleu, al unei celule, constituind masa fundamentală a
-acesteia?
+  MEDIUL INTRACELULAR, SITUAT ÎNTRE MEMBRANA CELULARĂ ŞI NUCLEU, AL UNEI CELULE, CONSTITUIND MASA FUNDAMENTALĂ A
+ACESTEIA?
 </pattern>
 <template>
 Citoplasma
@@ -1978,8 +1981,8 @@ Citoplasma
 </category>
 <category>
 <pattern>
-  Structură celulară, ce delimitează şi compartimentează conţinutul celular, care constituie o barieră selectivă pentru
-pasajul moleculelor şi ionilor?
+  STRUCTURĂ CELULARĂ, CE DELIMITEAZĂ ŞI COMPARTIMENTEAZĂ CONŢINUTUL CELULAR, CARE CONSTITUIE O BARIERĂ SELECTIVĂ PENTRU
+PASAJUL MOLECULELOR ŞI IONILOR?
 </pattern>
 <template>
  Membrană celulară
@@ -1987,7 +1990,7 @@ pasajul moleculelor şi ionilor?
 </category>
 <category>
 <pattern>
-  Proprietatea organismului de a menţine, în limite foarte apropiate, constantele mediului intern?
+  PROPRIETATEA ORGANISMULUI DE A MENŢINE, ÎN LIMITE FOARTE APROPIATE, CONSTANTELE MEDIULUI INTERN?
 </pattern>
 <template>
 Homeostazia
@@ -1995,8 +1998,8 @@ Homeostazia
 </category>
 <category>
 <pattern>
-  Structură diferenţiată în cadrul organismului, alcătuit dintr-un grup de ţesuturi care îndeplinesc unele funcţii
-determinate în cadrul organismului dat?
+  STRUCTURĂ DIFERENŢIATĂ ÎN CADRUL ORGANISMULUI, ALCĂTUIT DINTR-UN GRUP DE ŢESUTURI CARE ÎNDEPLINESC UNELE FUNCŢII
+DETERMINATE ÎN CADRUL ORGANISMULUI DAT?
 </pattern>
 <template>
 Organul
@@ -2004,8 +2007,8 @@ Organul
 </category>
 <category>
 <pattern>
-  Grupare de celule strâns unite între ele care au aceeaşi formă şi structură şi îndeplinesc aceeaşi funcţie, întâlnite la
-animale?
+  GRUPARE DE CELULE STRÂNS UNITE ÎNTRE ELE CARE AU ACEEAŞI FORMĂ ŞI STRUCTURĂ ŞI ÎNDEPLINESC ACEEAŞI FUNCŢIE, ÎNTÂLNITE LA
+ANIMALE?
 </pattern>
 <template>
 Ţesutul animal
@@ -2013,8 +2016,8 @@ animale?
 </category>
 <category>
 <pattern>
-  Structură ce înconjoară membrana plasmatică a unor celule având rolul principal de a păstra forma
-celulelor şi de a le conferi rezistenţă mecanică?
+  STRUCTURĂ CE ÎNCONJOARĂ MEMBRANA PLASMATICĂ A UNOR CELULE AVÂND ROLUL PRINCIPAL DE A PĂSTRA FORMA
+CELULELOR ŞI DE A LE CONFERI REZISTENŢĂ MECANICĂ?
 </pattern>
 <template>
 Peretele celular
@@ -2022,8 +2025,8 @@ Peretele celular
 </category>
 <category>
 <pattern>
-  Pigment albastru, ce poate fi găsit în alge albastre, ataşat la membranele fotosintetice, ce îndeplineşte funcţia de
-molecule de depozitare a nitrogenului?
+  PIGMENT ALBASTRU, CE POATE FI GĂSIT ÎN ALGE ALBASTRE, ATAŞAT LA MEMBRANELE FOTOSINTETICE, CE ÎNDEPLINEŞTE FUNCŢIA DE
+MOLECULE DE DEPOZITARE A NITROGENULUI?
 </pattern>
 <template>
 Ficocianina
@@ -2031,7 +2034,7 @@ Ficocianina
 </category>
 <category>
 <pattern>
-  Categoria sistematică fundamentală, inferioară genului şi superioară subspeciei?
+  CATEGORIA SISTEMATICĂ FUNDAMENTALĂ, INFERIOARĂ GENULUI ŞI SUPERIOARĂ SUBSPECIEI?
 </pattern>
 <template>
 Specia
@@ -2039,7 +2042,7 @@ Specia
 </category>
 <category>
 <pattern>
-  Organisme microscopice, de obicei unicelulare, ce fac parte din regnul Monera, Protista, şi, unii din regnul Fungi?
+  ORGANISME MICROSCOPICE, DE OBICEI UNICELULARE, CE FAC PARTE DIN REGNUL MONERA, PROTISTA, ŞI, UNII DIN REGNUL FUNGI?
 </pattern>
 <template>
 Microorganisme
@@ -2047,7 +2050,7 @@ Microorganisme
 </category>
 <category>
 <pattern>
-  Vierme parazit lat ce trăieşte pe seama altor organisme şi adesea le provoacă diferite boli?
+  VIERME PARAZIT LAT CE TRĂIEŞTE PE SEAMA ALTOR ORGANISME ŞI ADESEA LE PROVOACĂ DIFERITE BOLI?
 </pattern>
 <template>
 Tenia
@@ -2055,7 +2058,7 @@ Tenia
 </category>
 <category>
 <pattern>
-  Viermi cu corpul cilindric, alungit, nesegmentat, acoperit cu o cuticulă şi ascuţit la ambele capete?
+  VIERMI CU CORPUL CILINDRIC, ALUNGIT, NESEGMENTAT, ACOPERIT CU O CUTICULĂ ŞI ASCUŢIT LA AMBELE CAPETE?
 </pattern>
 <template>
 Viermi cilindrici
@@ -2063,7 +2066,7 @@ Viermi cilindrici
 </category>
 <category>
 <pattern>
-  Regn destul de mare, având peste 100 000 de specii, care se mai numesc şi ciuperci?
+  REGN DESTUL DE MARE, AVÂND PESTE 100 000 DE SPECII, CARE SE MAI NUMESC ŞI CIUPERCI?
 </pattern>
 <template>
 Fungi
@@ -2071,8 +2074,8 @@ Fungi
 </category>
 <category>
 <pattern>
-  Organisme cu celule cu structură complexă, în care materialul genetic este localizat în nucleul sau nucleele celulelor,
-precum ciupercile, protistele, plantele şi animalele?
+  ORGANISME CU CELULE CU STRUCTURĂ COMPLEXĂ, ÎN CARE MATERIALUL GENETIC ESTE LOCALIZAT ÎN NUCLEUL SAU NUCLEELE CELULELOR,
+PRECUM CIUPERCILE, PROTISTELE, PLANTELE ŞI ANIMALELE?
 </pattern>
 <template>
 Eucariote
@@ -2080,8 +2083,8 @@ Eucariote
 </category>
 <category>
 <pattern>
-  Substanţele organice grase, insolubile în apă, dar solubile în solvenţi organici (cloroform, eter, benzen, etc.) cu
-ajutorul cărora se pot extrage din ţesuturi?
+  SUBSTANŢELE ORGANICE GRASE, INSOLUBILE ÎN APĂ, DAR SOLUBILE ÎN SOLVENŢI ORGANICI (CLOROFORM, ETER, BENZEN, ETC.) CU
+AJUTORUL CĂRORA SE POT EXTRAGE DIN ŢESUTURI?
 </pattern>
 <template>
 Lipide
@@ -2089,7 +2092,7 @@ Lipide
 </category>
 <category>
 <pattern>
-  Organite celulare cu membrană dublă, întâlnite la plantele verzi, la alge, fiind sediul fotosintezei?
+  ORGANITE CELULARE CU MEMBRANĂ DUBLĂ, ÎNTÂLNITE LA PLANTELE VERZI, LA ALGE, FIIND SEDIUL FOTOSINTEZEI?
 </pattern>
 <template>
 Cloroplaste
@@ -2097,8 +2100,8 @@ Cloroplaste
 </category>
 <category>
 <pattern>
-  Pigment respirator al tuturor vertebratelor, fiind prezent în eritrocite, unde are rol în transportul
-oxigenului şi al CO2?
+  PIGMENT RESPIRATOR AL TUTUROR VERTEBRATELOR, FIIND PREZENT ÎN ERITROCITE, UNDE ARE ROL ÎN TRANSPORTUL
+OXIGENULUI ŞI AL CO2?
 </pattern>
 <template>
 Hemoglobina
@@ -2106,7 +2109,7 @@ Hemoglobina
 </category>
 <category>
 <pattern>
-  Organ pereche la animalele vertebrate, fiind parte esenţială a sistemului excretor?
+  ORGAN PERECHE LA ANIMALELE VERTEBRATE, FIIND PARTE ESENŢIALĂ A SISTEMULUI EXCRETOR?
 </pattern>
 <template>
 Rinichi
@@ -2114,7 +2117,7 @@ Rinichi
 </category>
 <category>
 <pattern>
-  Unul din sistemele esenţiale ale organismului care produce, stochează şi elimină deşeurile organismului prin urină?
+  UNUL DIN SISTEMELE ESENŢIALE ALE ORGANISMULUI CARE PRODUCE, STOCHEAZĂ ŞI ELIMINĂ DEŞEURILE ORGANISMULUI PRIN URINĂ?
 </pattern>
 <template>
 Sistem excretor
@@ -2122,7 +2125,7 @@ Sistem excretor
 </category>
 <category>
 <pattern>
-  Dinte ascuţit şi lung, aflat între dinţii incisivi şi premolari, foarte dezvoltat la animalele carnivore?
+  DINTE ASCUŢIT ŞI LUNG, AFLAT ÎNTRE DINŢII INCISIVI ŞI PREMOLARI, FOARTE DEZVOLTAT LA ANIMALELE CARNIVORE?
 </pattern>
 <template>
 Canin
@@ -2130,7 +2133,7 @@ Canin
 </category>
 <category>
 <pattern>
-  Cel mai mare reprezentant al felinelor?
+  CEL MAI MARE REPREZENTANT AL FELINELOR?
 </pattern>
 <template>
 Tigrul
@@ -2138,7 +2141,7 @@ Tigrul
 </category>
 <category>
 <pattern>
-  Anul în care au fost aduşi viermii de mătase în Europa, de un călugăr grec, din China?
+  ANUL ÎN CARE AU FOST ADUŞI VIERMII DE MĂTASE ÎN EUROPA, DE UN CĂLUGĂR GREC, DIN CHINA?
 </pattern>
 <template>
 555
@@ -2146,7 +2149,7 @@ Tigrul
 </category>
 <category>
 <pattern>
-  Pasăre a cărui cântec, se aude până la 3 km care trăieşte în Amazonia?
+  PASĂRE A CĂRUI CÂNTEC, SE AUDE PÂNĂ LA 3 KM CARE TRĂIEŞTE ÎN AMAZONIA?
 </pattern>
 <template>
 Pasărea clopot
@@ -2154,7 +2157,7 @@ Pasărea clopot
 </category>
 <category>
 <pattern>
-  Trunchiul cărui conifer este întotdeauna înclinat spre sud, după acest semn putând fi determinate punctele cardinale?
+  TRUNCHIUL CĂRUI CONIFER ESTE ÎNTOTDEAUNA ÎNCLINAT SPRE SUD, DUPĂ ACEST SEMN PUTÂND FI DETERMINATE PUNCTELE CARDINALE?
 </pattern>
 <template>
 Pinul
@@ -2162,7 +2165,7 @@ Pinul
 </category>
 <category>
 <pattern>
-  Arbore care poate trăi până la 5000 de ani?
+  ARBORE CARE POATE TRĂI PÂNĂ LA 5000 DE ANI?
 </pattern>
 <template>
 Baobab
@@ -2170,7 +2173,7 @@ Baobab
 </category>
 <category>
 <pattern>
-  Unica insectă care a fost domesticită de către om?
+  UNICA INSECTĂ CARE A FOST DOMESTICITĂ DE CĂTRE OM?
 </pattern>
 <template>
 Albina
@@ -2178,7 +2181,7 @@ Albina
 </category>
 <category>
 <pattern>
-  Proces prin care alimentele ingerate sunt transformate în compuşi mai simpli, care pot fi uşor absorbiţi şi asimilaţi?
+  PROCES PRIN CARE ALIMENTELE INGERATE SUNT TRANSFORMATE ÎN COMPUŞI MAI SIMPLI, CARE POT FI UŞOR ABSORBIŢI ŞI ASIMILAŢI?
 </pattern>
 <template>
 Digestie
@@ -2186,8 +2189,8 @@ Digestie
 </category>
 <category>
 <pattern>
-  Organ musculos căptuşit cu o mucoasă care se continuă în cavitatea bucală şi nazală, fiind o încrucişare a căilor
-digestive?
+  ORGAN MUSCULOS CĂPTUŞIT CU O MUCOASĂ CARE SE CONTINUĂ ÎN CAVITATEA BUCALĂ ŞI NAZALĂ, FIIND O ÎNCRUCIŞARE A CĂILOR
+DIGESTIVE?
 </pattern>
 <template>
 Faringe
@@ -2195,7 +2198,7 @@ Faringe
 </category>
 <category>
 <pattern>
-  Parte a tractusului digestiv cu funcţia de transport a hranei, fiind un tub, ce leagă faringele de stomac?
+  PARTE A TRACTUSULUI DIGESTIV CU FUNCŢIA DE TRANSPORT A HRANEI, FIIND UN TUB, CE LEAGĂ FARINGELE DE STOMAC?
 </pattern>
 <template>
 Esofag
@@ -2203,7 +2206,7 @@ Esofag
 </category>
 <category>
 <pattern>
- Organul de înmulţire al gimnospermelor şi angiospermelor?
+ ORGANUL DE ÎNMULŢIRE AL GIMNOSPERMELOR ŞI ANGIOSPERMELOR?
 </pattern>
 <template>
 Floare
@@ -2211,7 +2214,7 @@ Floare
 </category>
 <category>
 <pattern>
-  Ovarul copt aparţinând unei plante cu flori, care ajută la răspândirea seminţelor?
+  OVARUL COPT APARŢINÂND UNEI PLANTE CU FLORI, CARE AJUTĂ LA RĂSPÂNDIREA SEMINŢELOR?
 </pattern>
 <template>
 Fruct
@@ -2219,7 +2222,7 @@ Fruct
 </category>
 <category>
 <pattern>
-  Celule diferenţiate din punct de vedere sexual, dar nu întotdeauna sunt diferenţiate şi morfologic?
+  CELULE DIFERENŢIATE DIN PUNCT DE VEDERE SEXUAL, DAR NU ÎNTOTDEAUNA SUNT DIFERENŢIATE ŞI MORFOLOGIC?
 </pattern>
 <template>
 Gameţi
@@ -2227,7 +2230,7 @@ Gameţi
 </category>
 <category>
 <pattern>
-  Cea mai mare articulaţie a organismului nostru?
+  CEA MAI MARE ARTICULAŢIE A ORGANISMULUI NOSTRU?
 </pattern>
 <template>
 Articulaţia genunchiului
@@ -2235,7 +2238,7 @@ Articulaţia genunchiului
 </category>
 <category>
 <pattern>
-  Categoria sistematică fundamentală, inferioară genului şi superioară subspeciei?
+  CATEGORIA SISTEMATICĂ FUNDAMENTALĂ, INFERIOARĂ GENULUI ŞI SUPERIOARĂ SUBSPECIEI?
 </pattern>
 <template>
 Specia
@@ -2243,7 +2246,7 @@ Specia
 </category>
 <category>
 <pattern>
-  Organisme care îşi sintetizează substanţele organice necesare, doar prin procesul de fotosinteză sau chemosinteză?
+  ORGANISME CARE ÎŞI SINTETIZEAZĂ SUBSTANŢELE ORGANICE NECESARE, DOAR PRIN PROCESUL DE FOTOSINTEZĂ SAU CHEMOSINTEZĂ?
 </pattern>
 <template>
 Autotrofe
@@ -2251,8 +2254,8 @@ Autotrofe
 </category>
 <category>
 <pattern>
-  Organisme care îşi asigură hrana folosind diferite substanţe în descompunere (saprofite) sau parazitând alte
-organisme vii?
+  ORGANISME CARE ÎŞI ASIGURĂ HRANA FOLOSIND DIFERITE SUBSTANŢE ÎN DESCOMPUNERE SAU PARAZITÂND ALTE
+ORGANISME VII?
 </pattern>
 <template>
 Heterotrofe
@@ -2260,7 +2263,7 @@ Heterotrofe
 </category>
 <category>
 <pattern>
-  Totalitatea transformărilor biochimice şi energetice care au loc în ţesuturile organismului viu?
+  TOTALITATEA TRANSFORMĂRILOR BIOCHIMICE ŞI ENERGETICE CARE AU LOC ÎN ŢESUTURILE ORGANISMULUI VIU?
 </pattern>
 <template>
 Metabolism
@@ -2268,7 +2271,7 @@ Metabolism
 </category>
 <category>
 <pattern>
-  Organ la vertebrate, specializat pentru funcţia de respiraţie?
+  ORGAN LA VERTEBRATE, SPECIALIZAT PENTRU FUNCŢIA DE RESPIRAŢIE?
 </pattern>
 <template>
 Plămân
@@ -2276,7 +2279,7 @@ Plămân
 </category>
 <category>
 <pattern>
-  Procesul fiziologic fundamental prin care se realizează schimbul de gaze?
+  PROCESUL FIZIOLOGIC FUNDAMENTAL PRIN CARE SE REALIZEAZĂ SCHIMBUL DE GAZE?
 </pattern>
 <template>
 Respiraţie
@@ -2284,7 +2287,7 @@ Respiraţie
 </category>
 <category>
 <pattern>
-  Animal care poate rezista 45 de zile fără să bea apă?
+  ANIMAL CARE POATE REZISTA 45 DE ZILE FĂRĂ SĂ BEA APĂ?
 </pattern>
 <template>
 Cămila
@@ -2292,7 +2295,7 @@ Cămila
 </category>
 <category>
 <pattern>
-  Resturi sau urme de plante sau animale moarte care au fost conservate în diverse roci?
+  RESTURI SAU URME DE PLANTE SAU ANIMALE MOARTE CARE AU FOST CONSERVATE ÎN DIVERSE ROCI?
 </pattern>
 <template>
 Fosile
@@ -2300,7 +2303,7 @@ Fosile
 </category>
 <category>
 <pattern>
-  Ce pui de mamifer rămâne cel mai mult în pântecele mamei sale?
+  CE PUI DE MAMIFER RĂMÂNE CEL MAI MULT ÎN PÂNTECELE MAMEI SALE?
 </pattern>
 <template>
 Puiul de elefant
@@ -2308,7 +2311,7 @@ Puiul de elefant
 </category>
 <category>
 <pattern>
-  Singurul mamifer otrăvitor?
+   SINGURUL MAMIFER OTRĂVITOR?
 </pattern>
 <template>
 Ornitorinc
@@ -2316,7 +2319,7 @@ Ornitorinc
 </category>
 <category>
 <pattern>
-  Cea mai veche legumă folosită de om?
+    CEA MAI VECHE LEGUMĂ FOLOSITĂ DE OM?
 </pattern>
 <template>
 Varza
@@ -2324,7 +2327,7 @@ Varza
 </category>
 <category>
 <pattern>
-  Ramură medicinii interne care se ocupă cu sângele, organele care îl produc şi bolile acestuia?
+  RAMURĂ MEDICINII INTERNE CARE SE OCUPĂ CU SÂNGELE, ORGANELE CARE ÎL PRODUC ŞI BOLILE ACESTUIA?
 </pattern>
 <template>
 Hematologia
@@ -2332,7 +2335,7 @@ Hematologia
 </category>
 <category>
 <pattern>
-  Tumefiere anormală a unui ţesut din organism, putând fi malignă sau benignă?
+  TUMEFIERE ANORMALĂ A UNUI ŢESUT DIN ORGANISM, PUTÂND FI MALIGNĂ SAU BENIGNĂ?
 </pattern>
 <template>
 Tumoare
@@ -2340,7 +2343,7 @@ Tumoare
 </category>
 <category>
 <pattern>
-  Ansamblul de investigaţii clinice şi paraclinice care au ca obiectiv definirea stării patologice a unui pacient?
+  ANSAMBLUL DE INVESTIGAŢII CLINICE ŞI PARACLINICE CARE AU CA OBIECTIV DEFINIREA STĂRII PATOLOGICE A UNUI PACIENT?
 </pattern>
 <template>
 Diagnostic
@@ -2348,7 +2351,7 @@ Diagnostic
 </category>
 <category>
 <pattern>
-  Boală de natură infecţioasă cunoscută sub denumirea de hepatită serică?
+  BOALĂ DE NATURĂ INFECŢIOASĂ CUNOSCUTĂ SUB DENUMIREA DE HEPATITĂ SERICĂ?
 </pattern>
 <template>
 Hepatita B
@@ -2356,7 +2359,7 @@ Hepatita B
 </category>
 <category>
 <pattern>
-  Structură osoasă compusă din opt oase, care conţine şi protejează encefalul?
+  STRUCTURĂ OSOASĂ COMPUSĂ DIN OPT OASE, CARE CONŢINE ŞI PROTEJEAZĂ ENCEFALUL?ISTORIA DEZVOLTĂRII UNUI INDIVID DE LA NAŞTERE PÂNĂ LA MOARTE?
 </pattern>
 <template>
 Neurocraniul
@@ -2364,7 +2367,7 @@ Neurocraniul
 </category>
 <category>
 <pattern>
-  Istoria dezvoltării unui individ de la naştere până la moarte?
+  ISTORIA DEZVOLTĂRII UNUI INDIVID DE LA NAŞTERE PÂNĂ LA MOARTE?
 </pattern>
 <template>
 Ontogeneza
@@ -2372,7 +2375,7 @@ Ontogeneza
 </category>
 <category>
 <pattern>
-  Organ al sistemului nervos central protejat de cutia craniană şi învelit de meninge?
+  ORGAN AL SISTEMULUI NERVOS CENTRAL PROTEJAT DE CUTIA CRANIANĂ ŞI ÎNVELIT DE MENINGE?
 </pattern>
 <template>
 Encefalul
@@ -2380,7 +2383,7 @@ Encefalul
 </category>
 <category>
 <pattern>
-  Sistem nervos, numit şi sistem nervos autonom, care reglează activitatea organelor interne la vertebrate?
+  SISTEM NERVOS, NUMIT ŞI SISTEM NERVOS AUTONOM, CARE REGLEAZĂ ACTIVITATEA ORGANELOR INTERNE LA VERTEBRATE?
 </pattern>
 <template>
 Sistem nervos vegetativ
@@ -2388,7 +2391,7 @@ Sistem nervos vegetativ
 </category>
 <category>
 <pattern>
-  Animal vertebrat, craniat, ce trăieşte în mediu acvatic şi respiră oxigen dizolvat în apă?
+  ANIMAL VERTEBRAT, CRANIAT, CE TRĂIEŞTE ÎN MEDIU ACVATIC ŞI RESPIRĂ OXIGEN DIZOLVAT ÎN APĂ?
 </pattern>
 <template>
 Peşte
@@ -2396,7 +2399,7 @@ Peşte
 </category>
 <category>
 <pattern>
-  Reptilă apodă, carnivoră şi uneori veninoasă?
+  REPTILĂ APODĂ, CARNIVORĂ ŞI UNEORI VENINOASĂ?
 </pattern>
 <template>
 Şarpe
@@ -2404,7 +2407,7 @@ Peşte
 </category>
 <category>
 <pattern>
-  Parte a corpului care are rolul de suport sau sprijin a unui organism?
+  PARTE A CORPULUI CARE ARE ROLUL DE SUPORT SAU SPRIJIN A UNUI ORGANISM?
 </pattern>
 <template>
 Schelet
@@ -2412,7 +2415,7 @@ Schelet
 </category>
 <category>
 <pattern>
-  Familia din care face parte câinele?
+  FAMILIA DIN CARE FACE PARTE CÂINELE?
 </pattern>
 <template>
 Canide
@@ -2420,7 +2423,7 @@ Canide
 </category>
 <category>
 <pattern>
-  Sistemul nervos alcătuit din encefal şi măduva spinării?
+  SISTEMUL NERVOS ALCĂTUIT DIN ENCEFAL ŞI MĂDUVA SPINĂRII?
 </pattern>
 <template>
 Sistemul nervos central
@@ -2428,7 +2431,7 @@ Sistemul nervos central
 </category>
 <category>
 <pattern>
-  Substanţă dispusă în măduva spinării la interior, sub forma literei H?
+  SUBSTANŢĂ DISPUSĂ ÎN MĂDUVA SPINĂRII LA INTERIOR, SUB FORMA LITEREI H?
 </pattern>
 <template>
 Substanţa cenuşie
@@ -2436,7 +2439,7 @@ Substanţa cenuşie
 </category>
 <category>
 <pattern>
-  Fenomenul de diminuare a puterii de acomodare a ochiului datorat îmbătrânirii?
+  FENOMENUL DE DIMINUARE A PUTERII DE ACOMODARE A OCHIULUI DATORAT ÎMBĂTRÂNIRII?
 </pattern>
 <template>
 Presbitismul
@@ -2460,7 +2463,7 @@ Lanţul trofic
 </category>
 <category>
 <pattern>
-  Pierderea de sânge ca urmare a lezării unui vas de sânge şi care poate fi internă sau externă?
+  PIERDEREA DE SÂNGE CA URMARE A LEZĂRII UNUI VAS DE SÂNGE ŞI CARE POATE FI INTERNĂ SAU EXTERNĂ?
 </pattern>
 <template>
 Hemoragie
@@ -2468,7 +2471,7 @@ Hemoragie
 </category>
 <category>
 <pattern>
-  Posibilitatea de a recepţiona şi a interpreta undele sonore?
+  POSIBILITATEA DE A RECEPŢIONA ŞI A INTERPRETA UNDELE SONORE?
 </pattern>
 <template>
 Auz
@@ -2476,7 +2479,7 @@ Auz
 </category>
 <category>
 <pattern>
-  Margine a unei păduri unde se interferează pădurea cu terenul neâmpădurit?
+  MARGINE A UNEI PĂDURI UNDE SE INTERFEREAZĂ PĂDUREA CU TERENUL NEÂMPĂDURIT?
 </pattern>
 <template>
 Lizieră
@@ -2484,7 +2487,7 @@ Lizieră
 </category>
 <category>
 <pattern>
-  Boală ce se manifestă prin lipsa poftei de mâncare?
+  BOALĂ CE SE MANIFESTĂ PRIN LIPSA POFTEI DE MÂNCARE?
 </pattern>
 <template>
 Anorexie
@@ -2492,7 +2495,7 @@ Anorexie
 </category>
 <category>
 <pattern>
-  Cel mai mare mamifer de pe Terra?
+  CEL MAI MARE MAMIFER DE PE TERRA?
 </pattern>
 <template>
   Balena albastră
@@ -2500,7 +2503,7 @@ Anorexie
 </category>
 <category>
 <pattern>
-  Numele celui ce a descoperit bacilul tuberculozei?
+  NUMELE CELUI CE A DESCOPERIT BACILUL TUBERCULOZEI?
 </pattern>
 <template>
 Koch
@@ -2508,7 +2511,7 @@ Koch
 </category>
 <category>
 <pattern>
-  Numărul de falange de la o mână?
+  NUMĂRUL DE FALANGE DE LA O MÂNĂ?
 </pattern>
 <template>
 14
@@ -2516,7 +2519,7 @@ Koch
 </category>
 <category>
 <pattern>
-  Cel mai lung os al scheletului uman?
+  CEL MAI LUNG OS AL SCHELETULUI UMAN?
 </pattern>
 <template>
 Femur
@@ -2524,7 +2527,7 @@ Femur
 </category>
 <category>
 <pattern>
-  Os al cutiei craniene în care se găseşte săpată urechea internă?
+  OS AL CUTIEI CRANIENE ÎN CARE SE GĂSEŞTE SĂPATĂ URECHEA INTERNĂ?
 </pattern>
 <template>
 Os temporal
@@ -2532,7 +2535,7 @@ Os temporal
 </category>
 <category>
 <pattern>
-  Osul antebraţului care se găseşte în continuarea degetului mare?
+  OSUL ANTEBRAŢULUI CARE SE GĂSEŞTE ÎN CONTINUAREA DEGETULUI MARE?
 </pattern>
 <template>
 Radius
@@ -2540,7 +2543,7 @@ Radius
 </category>
 <category>
 <pattern>
-  Căpăcel cartilaginos care acoperă orificiul laringelui în timpul deglutiţiei?
+  CĂPĂCEL CARTILAGINOS CARE ACOPERĂ ORIFICIUL LARINGELUI ÎN TIMPUL DEGLUTIŢIEI?
 </pattern>
 <template>
 Epiglota
@@ -2548,7 +2551,7 @@ Epiglota
 </category>
 <category>
 <pattern>
-  Muşchiul care separă cavitatea toracică de cavitatea abdominală?
+  MUŞCHIUL CARE SEPARĂ CAVITATEA TORACICĂ DE CAVITATEA ABDOMINALĂ?
 </pattern>
 <template>
 Diafragm
@@ -2556,7 +2559,7 @@ Diafragm
 </category>
 <category>
 <pattern>
-  Segmentul periferic receptor al analizatorului vizual?
+  SEGMENTUL PERIFERIC RECEPTOR AL ANALIZATORULUI VIZUAL?
 </pattern>
 <template>
 Retina
@@ -2564,7 +2567,7 @@ Retina
 </category>
 <category>
 <pattern>
-  Hormonul maternităţii?
+  HORMONUL MATERNITĂŢII?
 </pattern>
 <template>
 Progesteronul
@@ -2572,7 +2575,7 @@ Progesteronul
 </category>
 <category>
 <pattern>
-  Totalitatea genelor unui individ?
+  TOTALITATEA GENELOR UNUI INDIVID?
 </pattern>
 <template>
 Genotip
@@ -2580,7 +2583,7 @@ Genotip
 </category>
 <category>
 <pattern>
-  Pasăre care are cioc imens, strident colorat?
+  PASĂRE CARE ARE CIOC IMENS, STRIDENT COLORAT?
 </pattern>
 <template>
 Tucan
@@ -2588,7 +2591,7 @@ Tucan
 </category>
 <category>
 <pattern>
-  Totalitatea genelor unei populaţii?
+  TOTALITATEA GENELOR UNEI POPULAŢII?
 </pattern>
 <template>
 Genofond
@@ -2596,7 +2599,7 @@ Genofond
 </category>
 <category>
 <pattern>
-  Numărul de premii Oscar pe care le-a câştigat filmul Titanic?
+ NUMĂRUL DE PREMII OSCAR PE CARE LE-A CÂŞTIGAT FILMUL TITANIC?
 </pattern>
 <template>
 11
@@ -2604,7 +2607,7 @@ Genofond
 </category>
 <category>
 <pattern>
-  Părinţii cinematografului?
+  PĂRINŢII CINEMATOGRAFULUI?
 </pattern>
 <template>
 Fraţii Lumiere
@@ -2612,7 +2615,7 @@ Fraţii Lumiere
 </category>
 <category>
 <pattern>
-  Film în care apar elefanţi roz la paradă?
+  FILM ÎN CARE APAR ELEFANŢI ROZ LA PARADĂ?
 </pattern>
 <template>
 Dumbo
@@ -2620,7 +2623,7 @@ Dumbo
 </category>
 <category>
 <pattern>
-  Denumirea castelului creat de Merlyn?
+  DENUMIREA CASTELULUI CREAT DE MERLYN?
 </pattern>
 <template>
 Camelot
@@ -2628,7 +2631,7 @@ Camelot
 </category>
 <category>
 <pattern>
-  Ţara în care a fost montat filmul Shogun?
+  ŢARA ÎN CARE A FOST MONTAT FILMUL SHOGUN?
 </pattern>
 <template>
 Japonia
@@ -2636,7 +2639,7 @@ Japonia
 </category>
 <category>
 <pattern>
-  Cel mai renumit premiu în cinematografie?
+  CEL MAI RENUMIT PREMIU ÎN CINEMATOGRAFIE?
 </pattern>
 <template>
 Oscar
@@ -2644,7 +2647,7 @@ Oscar
 </category>
 <category>
 <pattern>
-  Ce creatură legendară întâlneşte Sam în filmul The Beast Within?
+  CE CREATURĂ LEGENDARĂ ÎNTÂLNEŞTE SAM ÎN FILMUL THE BEAST WITHIN?
 </pattern>
 <template>
 Bigfoot
@@ -2652,7 +2655,7 @@ Bigfoot
 </category>
 <category>
 <pattern>
-  Film din anul 1960 regizat de către Federico Fellini?
+  FILM DIN ANUL 1960 REGIZAT DE CĂTRE FEDERICO FELLINI?
 </pattern>
 <template>
 Viaţa dulce
@@ -2660,7 +2663,7 @@ Viaţa dulce
 </category>
 <category>
 <pattern>
-  Film istoric regizat de Sergiu Nicolaescu în anul 1971?
+  FILM ISTORIC REGIZAT DE SERGIU NICOLAESCU ÎN ANUL 1971?
 </pattern>
 <template>
 Mihai Viteazul
@@ -2668,7 +2671,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Agentul 007?
+  AGENTUL 007?
 </pattern>
 <template>
  James Bond
@@ -2676,7 +2679,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Care este unitate de măsură pentru energie în Sistemul Internaţional?
+  CARE ESTE UNITATE DE MĂSURĂ PENTRU ENERGIE ÎN SISTEMUL INTERNAŢIONAL?
 </pattern>
 <template>
  Joule
@@ -2684,7 +2687,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Care este fizicianul care a enunţat legea atracţiei universale?
+  CARE ESTE FIZICIANUL CARE A ENUNŢAT LEGEA ATRACŢIEI UNIVERSALE?
 </pattern>
 <template>
  Isaac Newton
@@ -2692,7 +2695,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Cine este inventatorul telefonului?
+  CINE ESTE INVENTATORUL TELEFONULUI?
 </pattern>
 <template>
  Graham Bell
@@ -2700,7 +2703,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Inventatorul becului electric, a telegrafului, a fonografului?
+  INVENTATORUL BECULUI ELECTRIC, A TELEGRAFULUI, A FONOGRAFULUI?
 </pattern>
 <template>
  Thomas Edison
@@ -2708,7 +2711,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Care este valoarea constantei viteza luminii în vid sau aer?
+  CARE ESTE VALOAREA CONSTANTEI VITEZA LUMINII ÎN VID SAU AER?
 </pattern>
 <template>
  299.792 km/s
@@ -2716,7 +2719,7 @@ Mihai Viteazul
 </category>
 <category>
 <pattern>
-  Scala cu care se măsoară magnitudinea cutremurelor?
+  SCALA CU CARE SE MĂSOARĂ MAGNITUDINEA CUTREMURELOR?
 </pattern>
 <template>
 Scara Richter
@@ -2724,7 +2727,7 @@ Scara Richter
 </category>
 <category>
 <pattern>
-A treia planetă de la soare din sistemul nostru solar?
+A TREIA PLANETĂ DE LA SOARE DIN SISTEMUL NOSTRU SOLAR?
 </pattern>
 <template>
 Terra
@@ -2732,7 +2735,7 @@ Terra
 </category>
 <category>
 <pattern>
-  Oraşul Florilor din România?
+  ORAŞUL FLORILOR DIN ROMÂNIA?
 </pattern>
 <template>
  Timişoara
@@ -2740,7 +2743,7 @@ Terra
 </category>
 <category>
 <pattern>
-  Capitala Cehiei?
+  CAPITALA CEHIEI?
 </pattern>
 <template>
  Praga
@@ -2748,7 +2751,7 @@ Terra
 </category>
 <category>
 <pattern>
-  Planetă cea mai mare din sistemul nostru solar?
+  PLANETĂ CEA MAI MARE DIN SISTEMUL NOSTRU SOLAR?
 </pattern>
 <template>
  Jupiter
@@ -2756,7 +2759,7 @@ Terra
 </category>
 <category>
 <pattern>
- Capitala Ecuadorului?
+ CAPITALA ECUADORULUI?
 </pattern>
 <template>
  Quito
@@ -2764,7 +2767,7 @@ Terra
 </category>
 <category>
 <pattern>
- Câţi sateliţi are Jupiter?
+ CÂŢI SATELIŢI ARE JUPITER?
 </pattern>
 <template>
  18
@@ -2772,7 +2775,7 @@ Terra
 </category>
 <category>
 <pattern>
-Capitala Canadei?
+CAPITALA CANADEI?
 </pattern>
 <template>
  Ottawa
@@ -2780,9 +2783,10 @@ Capitala Canadei?
 </category>
 <category>
 <pattern>
-Unde se află Normandia?
+UNDE SE AFLĂ NORMANDIA?
 </pattern>
 <template>
  Franţa
 </template>
 </category>
+</aiml>
