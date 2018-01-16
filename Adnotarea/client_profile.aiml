@@ -14,43 +14,43 @@
 </condition>
 </template>
 </category>
-<category><pattern>Oras Natal</pattern><template><get name="birthplace"/>.</template></category>
+<category><pattern>OARAS NATAL</pattern><template><get name="birthplace"/>.</template></category>
 <category><pattern>Iubitul</pattern><template><get name="boyfriend"/>.</template></category>
-<category><pattern>Fiica</pattern><template><get name="daughter"/>.</template></category>
-<category><pattern>Destinatia</pattern><template><get name="destination"/>.</template></category>
-<category><pattern>Cu ce ma ocup</pattern><template><get name="does"/>.</template></category>
-<category><pattern>Emailul</pattern><template><get name="email"/>.</template></category>
-<category><pattern>Tatal</pattern><template><get name="father"/>.</template></category>
-<category><pattern>Culoarea Preferata</pattern><template><get name="favoritecolor"/>.</template></category>
-<category><pattern>Filmul Preferat</pattern><template><get name="favoritemovie"/>.</template></category>
-<category><pattern>Prietenul</pattern><template><get name="friend"/>.</template></category>
-<category><pattern>Numele Complet</pattern><template><set name="fullname"><get name="firstname"/> <get name="middlename"/> <get name="lastname"/></set></template></category>
+<category><pattern>FIICA</pattern><template><get name="daughter"/>.</template></category>
+<category><pattern>DESTINATIA</pattern><template><get name="destination"/>.</template></category>
+<category><pattern>CU CE MA OCUP</pattern><template><get name="does"/>.</template></category>
+<category><pattern>EMAILUL</pattern><template><get name="email"/>.</template></category>
+<category><pattern>TATAL</pattern><template><get name="father"/>.</template></category>
+<category><pattern>CULOAREA PREFERATA</pattern><template><get name="favoritecolor"/>.</template></category>
+<category><pattern>FILMUL PREFERAT</pattern><template><get name="favoritemovie"/>.</template></category>
+<category><pattern>PRIETENUL</pattern><template><get name="friend"/>.</template></category>
+<category><pattern>NUMELE COMPLET</pattern><template><set name="fullname"><get name="firstname"/> <get name="middlename"/> <get name="lastname"/></set></template></category>
 <category><pattern>SEX</pattern>
 <template><condition name="gender">  <li value="OM">As vrea sa aflu ce esti(fata/baiat).</li>  <li value="unknown">Nu mi-ai spus ce esti(fata/baiat).</li>  <li value="*">Ai spus ca esti <get name="gender"/>?</li>  <li>Nu stiu. Esti fata sau baiat.</li></condition></template>
 </category>
-<category><pattern>Iubita</pattern><template><get name="girlfriend"/>.</template></category>
+<category><pattern>IUBITA</pattern><template><get name="girlfriend"/>.</template></category>
 
-<category><pattern>Actor Preferat</pattern><template><get name="he"/>.</template></category>
-<category><pattern>Auzul</pattern><template><get name="heard"/>.</template></category>
-<category><pattern>Loc de Munca</pattern><template><get name="it"/>.</template></category>
-<category><pattern>Ocupatie</pattern><template><get name="job"/>.</template></category>
-<category><pattern>Nume de Familie</pattern><template><get name="lastname"/>.</template></category>
-<category><pattern>Imi place</pattern><template><get name="like"/>.</template></category>
-<category><pattern>Arat ca</pattern><template><get name="looklike"/>.</template></category>
-<category><pattern>Memoria</pattern><template><get name="memory"/>.</template></category>
-<category><pattern>MY meta</pattern><template><get name="meta"/>.</template></category>  <!-- meta?!? -->
-<category><pattern>Nume mijlociu</pattern><template><get name="middlename"/>.</template></category>
-<category><pattern>Mama</pattern><template><get name="mother"/>.</template></category>
-<category><pattern>Porecla</pattern><template><get name="nickname"/>.</template></category>
-<category><pattern>Parola</pattern><template><get name="password"/>.</template></category>
-<category><pattern>Personalitate</pattern><template><get name="personality"/>.</template></category>
+<category><pattern>ACTOR PREFERAT</pattern><template><get name="he"/>.</template></category>
+<category><pattern>AUZUL</pattern><template><get name="heard"/>.</template></category>
+<category><pattern>LOC DE MUNCA</pattern><template><get name="it"/>.</template></category>
+<category><pattern>OCUPATIE</pattern><template><get name="job"/>.</template></category>
+<category><pattern>NUME DE FAMILIE</pattern><template><get name="lastname"/>.</template></category>
+<category><pattern>IMI PLACE</pattern><template><get name="like"/>.</template></category>
+<category><pattern>ARAT CA</pattern><template><get name="looklike"/>.</template></category>
+<category><pattern>MEMORIA</pattern><template><get name="memory"/>.</template></category>
+<category><pattern>MY META</pattern><template><get name="meta"/>.</template></category>  <!-- meta?!? -->
+<category><pattern>NUME MIJLOCIU</pattern><template><get name="middlename"/>.</template></category>
+<category><pattern>MAMA</pattern><template><get name="mother"/>.</template></category>
+<category><pattern>PORECLA</pattern><template><get name="nickname"/>.</template></category>
+<category><pattern>PAROLA</pattern><template><get name="password"/>.</template></category>
+<category><pattern>PERSONALITATE</pattern><template><get name="personality"/>.</template></category>
 <category><pattern>Telefon</pattern><template><get name="phone"/>.</template></category>
 
-<category><pattern>Suflet Pereche</pattern><template><get name="spouse"/>.</template></category>
-<category><pattern>Status</pattern><template><get name="status"/>.</template></category>
-<category><pattern>Loc</pattern><template><get name="there"/>.</template></category>
-<category><pattern>Trupa Favorita</pattern><template><get name="they"/>.</template></category>
-<category><pattern>Numar de Telefon</pattern><template><get name="phonenumber"/>.</template></category>
+<category><pattern>SUFLET PERECHE</pattern><template><get name="spouse"/>.</template></category>
+<category><pattern>STATUS</pattern><template><get name="status"/>.</template></category>
+<category><pattern>LOC</pattern><template><get name="there"/>.</template></category>
+<category><pattern>TRUPA FAVORITA</pattern><template><get name="they"/>.</template></category>
+<category><pattern>NUMAR DE TELEFON</pattern><template><get name="phonenumber"/>.</template></category>
 
 <category><pattern>ORAS NATAL</pattern>
 <template>
@@ -157,7 +157,7 @@
 </template>
 </category>
 
-<category><pattern>Fiul</pattern>
+<category><pattern>FIUL</pattern>
 <template>
 <think><set name="branch"><get name="son"/></set></think>
 <condition name="branch">
@@ -208,7 +208,7 @@
 <li>Ai spus ca o chema <get name="mother"/>.</li>
 </condition></template>
 </category>
-<category><pattern>Numele meu</pattern>
+<category><pattern>NUMELE MEU</pattern>
 <template>
 <condition name="name">  
 <li value="OM">As vrea sa iti aflu numele.</li>  
@@ -338,7 +338,7 @@ numar de telefon  <get name="phonenumber"/>.<br/>
 
 <!-- SET CLIENT PREDICATES: -->
 
-<category><pattern>Eu sunt *</pattern>
+<category><pattern>EU SUNT *</pattern>
 <template><random>   
 <li>Cine esti?</li> 
 <li>Vrei sa spui ca te cheama</li>  
@@ -510,7 +510,7 @@ Iubita ta este <get name="girlfriend"/>.</template>
 
 
 
-<category><pattern>Am *</pattern> <!-- ani -->
+<category><pattern>AM *</pattern> <!-- ani -->
 <template>
 <think><set name="age"><star/></set></think>
 <random>
@@ -546,7 +546,7 @@ Iubita ta este <get name="girlfriend"/>.</template>
 </category>
 
 
-<category><pattern>Spune-mi *</pattern>
+<category><pattern>SPUNE-MI *</pattern>
 <template><think><set name="personality">average</set></think> <random>  <li>Hey</li>
   <li>Buna,</li>
   <li>Salut</li>
