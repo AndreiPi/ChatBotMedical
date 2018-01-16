@@ -31,17 +31,41 @@ def discutie(dialogue=None):
         print(path_dir)
         print(os.path.isdir(path_dir))
         img_name = ""
+        find_text = False
+        txt_name = ""
+        images=[]
+        nr_images=0
         for fille in os.listdir(path_dir):
             if fille.endswith(".png") or fille.endswith(".jpg"):
                 if not find_An_Img:
                     img_name = fille
                     find_An_Img = True
                     print(fille, "\n")
+                else:
+                    images.append("../static/" +theme+"/"+fille)
+                    nr_images=nr_images+1
+            if fille.endswith(".txt"):
+                if not find_text:
+                    txt_name = fille
+                    find_text = True
+                    print(fille, "\n")
         if find_An_Img:
             path_img = "../static/" +theme+"/"+img_name
         else:
             path_img = None
-        lista = [(query, query + query, path_img)]
+
+        path_txt=path_dir + "\\" + txt_name
+        print(path_txt)
+        with open(path_txt, 'r',encoding='utf-8') as f:
+            read_data = f.readline()
+            read_line = f.readline()
+            nrlines=1
+            lines=[]
+            for a_line in f:
+                lines.append((a_line))
+                nrlines+=1
+            print(lines)
+            lista = [(query,read_data, path_img,lines,images,range(1,nr_images))]
     else:
         lista = [(query, query + query, None)]
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
