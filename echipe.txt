@@ -1,0 +1,31 @@
+https://github.com/AndreiPi/ChatBotMedical
+
+    #Adnotarea textelor:
+Andrici Larisa
+Boistean Sergiu
+Corfu Alexandru
+Cimpoesu Razvan
+Dascalu Bianca
+Dorneanu Adrian
+Dobos Iulia
+Iovu Gabriel
+Giurgila Andreea 
+
+    #Gestinarea dialogului:
+Boistean Sergiu
+Dragoman Andreas
+Pintilie Andrei
+
+
+    # Interfata:
+Ursachi Anca
+Balan Andreea
+Vicol Robert
+Minuti Vladut
+Manolache Irinel
+
+
+    # Administrare:
+Pintilie Andrei
+Irinel Manolache
+

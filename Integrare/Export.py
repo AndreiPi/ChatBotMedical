@@ -6,9 +6,10 @@ import os
 def read_from_file(path):
     try:
         text = ''
-        doc = docx.Document(path)
-        for line in doc.paragraphs:
-            text += line.text
+        #doc = docx.Document(path)
+        doc=open(path,"r", encoding='utf8')
+        for line in doc:
+            text += line
         return text
     except IOError:
         print("Couldn't open the file!")
@@ -32,11 +33,11 @@ client.set_options(port='FdgParserRoWSPort')
 
 #Folosirea documentelor transformate in format .docx
 dir_path = os.path.dirname(os.path.realpath(__file__))
-file1 = os.path.join(dir_path, 'DocumenteInput\curs0 facultativ introducere diagnostic tehnici urgente_corr.docx')
-file2 = os.path.join(dir_path, 'DocumenteInput\\1.hic procese expansive hidrocefalie 2012_corr.docx')
-file3 = os.path.join(dir_path, 'DocumenteInput\\2 curscoma tcc 2012_corr.docx')
-file4 = os.path.join(dir_path, 'DocumenteInput\\3.VASCULAR 2012_corr.docx')
-file5 = os.path.join(dir_path, 'DocumenteInput\\4 vertebromedular 2012_corr.docx')
+file1 = os.path.join(dir_path, 'DocumenteInput\\t0.txt')
+file2 = os.path.join(dir_path, 'DocumenteInput\\t1.txt')
+file3 = os.path.join(dir_path, 'DocumenteInput\\t2.txt')
+file4 = os.path.join(dir_path, 'DocumenteInput\\t3.txt')
+file5 = os.path.join(dir_path, 'DocumenteInput\\t4.txt')
 
 
 #Primul fisier

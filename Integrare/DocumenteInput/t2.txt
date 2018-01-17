@@ -1,0 +1,212 @@
+﻿SINDROMUL COMATOS.
+
+
+
+
+Definiţie.
+Date de anatomofiziopatologie.
+
+Criteriul principal pentru a afirma că un pacient se află în stare de comă îl constituie abolirea stării de conştienţă cu absenţa reacţiei de trezire şi  orientare. Această definiţie diferenţiază coma de stările de alterare a stării de conştienţă (somnolenţă, confuzie, obnubilare, stupoare, torpoare s.a.). 
+Stării de comă îi corespunde afectarea sistemului reticulat la nivel de trunchi cerebral, în timp ce afectarea diencefalică a acestui sistem ar fi răspunzătoare de stările de somnolenţă. Eventualitatea în care emisferele cerebrale se află într-o suferinţă globală profundă cu stare de comă în absenţa suferinţei sistemului reticulat activator ascendent de trunchi cerebral, este în general neobişnuită pentru neurochirurgie. 
+Sistemul reticulat activator ascendent de la nivelul trunchiului cerebral poate fi evaluat numai prin semnele clinice directe (abolirea reacţiei de trezire, a celei de orientare, abolirea stării de conştienţă) sau prin semnele de vecinătate (suferinţa structurilor nervoase vecine, în speţă a nucleilor nervilor cranieni şi a centrilor vegetativi). Până la ora actuală nu există o modalitate paraclinică de investigare a sistemului reticulat care să ne permită evaluarea gradului şi tipului de suferinţă (reversibilă, ireversibilă, globală, sectorială). Intricarea acestui sistem printre alte structuri nervoase sub forma unei reţele difuze de conexiuni neuronale îl face inaccesibil imagisticii actuale sau înregistrării cu electrozi profunzi în practica medicală.
+Abolirea reacţiei de trezire şi  orientare corespunde scoaterii din funcţie a sistemului reticulat mezodiencefalic. Siderarea funcţională sau leziunea (reversibilă, parţial reversibilă, ireversibilă) a sistemului reticulat poate însă să îmbrace şi forme mai severe când se extinde la regiunea pontină şi  bulbară. Acestei extensii îi corespunde gradul de profunzime al comei. 
+
+
+
+
+
+
+
+
+
+
+
+Clasificare.
+
+După clasificarea Arseni există patru grade de comă: (al cincilea grad fiind moartea creierului, deci decesul). Nivelul leziunii formaţiei reticulate pentru fiecare grad de comă este următorul:		
+
+Există numeroase alte clasificări ale comei. O clasificare relativ răspândită în practică pentru facilitatea criteriilor o constituie clasificarea Mollaret şi Goulun :
+-	grad I (precomă, subcomă, comă superficială, comă vigilă): reacţie de trezire prezentă, fără modificări ale funcţiilor vegetative
+-	grad II (coma propriu zisă): reacţie de trezire abolită, reactivitate redusă, timpul I al deglutiţiei abolit, sunt schiţate unele tulburări vegetative)
+-	gradul III (coma profundă, coma carus) : pacient areactiv, tulburări vegetative importante, timpul II al deglutiţiei abolit. Apar fenomene de trunchi cerebral (rigiditate decerebrată) sau hipotonie generalizată, abolirea reflexului fotomotor, midriază, divergenţa globilor oculari.
+-	gradul IV (coma depăşită): pierderea unei funcţii vitale, cel mai adesea pacient dependent de protezarea respiratorie, activitate encefalului abolită
+
+Scara Glasgow pentru come (Glasgow Coma Scale) este astăzi cel mai larg răspândită.
+Punctajul maxim 15 şi  minim 3, poate fi apreciat relativ simplu de către orice persoană cu instruire minimă. Scara poate fi evaluată de voluntarii implicaţi în echipele de salvare, şoferi, asistenţi medicali, medici, bioingineri. Practic evaluatorul face trei lucruri: 
+•	Observă bolnavul – dacă deschide ochii spontan.
+•	Vorbeşte bolnavului – dacă deschide ochii la stimulul sonor pentru cei care stau cu ochii închişi, dacă execută o comandă motorie, tipul de răspuns verbal pe care îl dă. 
+•	Aplică un stimul dureros pacientului (numai în cazul în care pacientul nu a putut fi trezit prin stimul verbal) şi urmăreşte tipul de reacţie motorie, verbală, oculară. 
+Răspunsurile obţinute sunt evaluate (notate) în felul următor: 
+•	Răspunsul motor (maxim 6)
+-	6 – execută comenzi verbale
+-	5 – localizează stimulul dureros
+-	4 – retrage membrul prin flexie normală de partea stimulului dureros
+-	3 – răspuns în flexie anormală (rigiditate de decorticare) la stimuli dureroşi
+-	2 – extensie patologică (rigiditate decerebrată) la stimuli dureroşi
+-	1 – nici un răspuns 
+•	Răspunsul verbal (maxim 5)
+-	5 – coerent orientat
+-	4 – confuz
+-	3 – incoerent
+-	2 – sunete disparate
+-	1 – nici un sunet
+•	Răspunsul ocular (maxim 4):
+-	4 – deschide ochii spontan
+-	3 – deschide ochii la stimuli verbali
+-	2 – deschide ochii la stimuli dureroşi
+-	1 – nu deschide ochii
+
+Scara nu are un fundament fiziopatologic ci doar o stricteţe şi simplitate a evaluării care îi conferă un criteriu de obiectivitate făcând posibilă încadrarea pacientului într-un grad relativ exact de gravitate indiferent de locul şi  persoana care l-a evaluat. În acest fel studiile multicentrice, raportarea la distantă a stării unor pacienţi aflaţi în condiţii de izolare, compararea între rezultatele diverselor echipe, urmărirea evoluţiei se face cu uşurinţă pe baza unui limbaj comun exact. În fond există dificultăţi ale acestei scări legate de pacienţii afazici, tetraplegici, cu ptoza palpebrală etc. 
+Răspunsul motor în flexie patologică este dirijat de centrii subcorticali (rigiditate decorticată) şi constituie un pattern motor ancestral, reflex, tradus clinic printr-o reacţie stereotipă de flexie a membrului superior şi  extensie a membrului inferior. Acest răspuns se notează cu 3. Răspunsul patologic în extensie este sub controlul unor centrii din trunchiul cerebral inferior (rigiditate decerebrată). Patternul motor al acestor centri constă intr-o extensie cu pronaţie a membrului superior cu extensia membrului inferior. Acest răspuns se notează cu 2.
+Vorbirea confuză se notează cu 4. În vorbirea incoerentă (se notează cu 3) pacientul poate articula cuvinte dar acestea nu se articulează intr-o propoziţie. Răspunsul verbal al pacientului se notează cu 2 când acesta scoate sunete dar sunete nu se articulează în cuvinte. 
+
+
+Etiopatogenie
+Diagnostic diferenţial.
+
+Scoaterea din funcţie a sistemului reticulat activator ascendent al trunchiului cerebral se poate datora unei game foarte variate de factori generali, cerebrali sau locali. Abolirea stării de conştienţă ca manifestare tranzitorie de scurtă durată nu se desemnează cu termenul de comă: criză epileptică generalizată, lipotimia, sincopa, ictusul cu revenire rapidă. Dintre factorii generali care pot induce starea de comă amintim: prăbuşirea tensiunii arteriale (lipotimie, colaps, şoc), hipoxia cerebrală (coma hipoxică), hipercarbia, uremia (coma uremică), hipoglicemia (coma hipoglicemică), produşi toxici endogeni (coma diabetică cetoacidozică), intoxicaţii (coma toxică) etc. Practic orice stare finală datorată insuficienţei unui anumit sistem sau organ se însoţeşte de o perioadă comatoasă mai lungă sau mai scurtă. Cauzele intracraniene care pot determina suferinţa secundară a sistemului reticulat de trunchi cerebral cu apariţia comei sunt reprezentate în principal de hipertensiunea intracraniană în stadiul avansat (angajări cerebrale cu compresiunea trunchiului cerebral, hipoperfuzie la nivelul trunchiului cerebral), meningoencefalite, crize comiţiale (coma postcritică sau coma intercritică în starea de rău epileptic), accidente vasculare cerebrale (ictusul constituie instalarea bruscă a unei pierderi de conştienţă cu o durată mai lungă sau mai scurtă, reversibilă sau ireversibilă, însoţită de instalarea unui deficit neurologic). Factorii locali ai comei (suferinţa directă a sistemului reticulat) sunt mai rar incriminaţi (de exemplu tumori de trunchi cerebral, accidente vasculare de trunchi cerebral). 
+Starea de comă trebuie diferenţiată atât de alterările stării de conştienţă (somnolenţă, stupoare, torpoare), cât şi  de stimularea conştientă sau inconştientă (“coma isterică”).
+Deoarece există termeni precişi pentru stările grave cu pierdere a conştienţei facem următoarele precizări: 
+•	Moartea creierului: este o stare în care nu se obţine nici un fel de reactivitate cerebrală (clinică sau electrică). În funcţie de legislaţie pacientul se declară decedat după repetarea EEG-lui la un anumit interval de timp de la primul traseu izoelectric. 
+•	Moartea clinică: pacientul cu stop cardiorespirator dar la care măsurile de resuscitare şi  protezare cardiorespiratorie au şansa să asigure din nou oxigenarea unui creier presupus a fi încă nealterat ireversibil. Uneori resuscitarea este încununată de succes în funcţie de patologie şi  de durata perioadei de ischemie cerebrală.
+•	Coma: abolirea stării de conştienţă, a reacţiilor de trezire şi  de orientare însoţită, de obicei, de tulburări vegetative, perturbări ale automatismelor şi  ale reflexelor în domeniul nervilor cranieni. Revenirea din comă, atunci când se produce poate fi urmată de vindecare sau de sechele. Revenirea se poate face printr-o etapă de stare vegetativă tranzitorie, dar în unele cazuri starea vegetativă postcomatoasă se poate permanentiza ca sechelă.
+•	Starea vegetativă: pacientul îşi recapătă reacţia de trezire, uneori chiar o reacţie de orientare, îşi recapătă reflexele vegetative, automatismele primare, şi reflexele din teritoriul nervilor cranieni. În ciuda acestei ameliorări neurologice şi  a reactivităţii vegetative starea de conştienţă rămâne abolită. Pacientul poate rămâne timp  îndelungat în starea vegetativă permanentă, cu o alimentaţie şi o îngrijire adecvată, (până la limita supravieţuirii biologice, dacă nu apar complicaţii). Starea vegetativă înveterată nu reprezintă un stadiu de tranziţie către o ameliorare suplimentară, ci o stare definitivă, sechelară. În limita cunoştinţelor şi  posibilităţilor terapeutice actuale,  revenirea dintr-o  stare vegetativă îndelungată (persistentă) rămâne o afirmaţie speculativă. 
+
+
+Probleme de diagnostic şi  tratament 
+Monitorizarea şi  menţinerea funcţiilor vitale şi a constantelor biologice.
+
+Tratamentul stării comatoase implică două categorii de factori: 
+1.	înlăturarea factorului etiologic
+2.	menţinerea funcţiilor vitale până când reacţia naturală de apărare a organismului faţă de factorul etiologic şi  consecinţele acestuia poate induce fenomenele de apărare şi  restituţie.
+În prima categorie de factori (procese expansive intracraniene, edem cerebral, coma toxică etc.) tratamentul este specific (ablaţia procesului expansiv intracranian, terapia antiedematoasă cerebrală, înlăturarea toxicului şi administrarea antidotului dacă există).
+În cea de-a doua categorie de factori se găsesc măsurile de terapie intensivă de menţinere a funcţiilor vitale, a constantelor biochimice şi funcţionale ale organismului la parametrii normali până când se instituie măsurile terapeutice etiologice sau până când se declanşează reacţia naturală de apărare (producerea de anticorpi în infecţii, vindecarea contuziilor cerebrale, a accidentelor ischemice etc.). Revenirea din starea de comă se poate face lent, progresiv până la restabilirea stării normale de conştienţă, sau revenirea poate fi parţială (stări vegetative, deficite neuropsihice). Revenirea din starea de comă nu este o regulă în condiţiile actualelor posibilităţi terapeutice, multe stări comatoase continuă să se agraveze pînă la decesul pacientului. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TRAUMATISMELE CRANIO-CEREBRALE.
+
+
+
+Termenul de traumatism cranio-cerebral atrage atenţia asupra importanţei primordiale a suferinţei creierului în orice traumatism care a afectat cutia craniană. 
+Suferinţa creierului poate fi uşoară: comoţia cerebrală – simpla alterare funcţională tranzitorie şi rapid remisivă la nivelul sistemului reticulat, tradusă clinic printr-o scurtă pierdere de conştientă. La revenire pacientul nu are acuze subiective sau deficite neurologice şi  investigaţiile paraclinice sunt normale. Alteori suferinţa cerebrală are substrat lezional: hematoamele intracraniene posttraumatice, contuzia cerebrală, dilacerarea cerebrală, leziunea axonală difuză, suferinţa cerebrală secundară, infecţiile meningo-cerebrale posttraumatice. 
+
+
+
+Etiopatogenie 
+Clasificare.
+
+Cauzele cele mai frecvente ale traumatismului cranio-cerebral sunt reprezentate de accidente rutiere, agresiuni, căderi, loviri cu obiecte contondente, accidente de muncă, de joacă sau sportive. 
+In plăgile craniocerebrale agentul vulnerant determină fracturarea osului şi  lezarea creierului (dilacerarea cerebrală) direct sau prin eschile osoase penetrante. Totuşi acest mecanism fiziopatologic este cel mai rar incriminat în leziunile cerebrale traumatice imediate. Alte 3 mecanisme sunt cel mai frecvent incriminate în leziunile cerebrale traumatice primare: 1.forţele de întindere şi  forfecare între straturile de ţesut cerebral (leziunea axonală difuză), 2.contralovitura (contuzia su dilacerarea cerebrală de partea opusă impactului mecanic traumatic), 3.leziunea directă subiacentă impactului dar fără fractură cu înfundare sau penetraţie a agentului vulnerant (contuzie sau dilacerare cerebrală directă prin transmiterea vibraţiilor cutiei craniene de la locul impactului).
+Pentru a inţelege aceste mecanisme ale leziunilor primare indirecte ( cele mai frecvente de altfel) facem următoarele precizări. Creierul pluteşte în cutia craniană în lichidul cefalorahidian care îl înconjoară. Conexiunile creierului cu restul organismului se limitează la continuitatea trunchi cerebral-măduva spinării, pătrunderea arterelor în creier după un traiect prin spaţiul subarahnoidian unde sunt scăldate în LCR, nervii cranieni care de asemenea realizează punţi nervoase ce traversează spaţiul subarahnoidian între intrarea sau ieşirea din creier şi intrarea sau ieşirea în orificiile de la baza craniului. Trabeculele arahnoidiene microscopice între piamater şi arahnoida propriu-zisă nu constituie un element real de fixare a creierului faţă de complexul cranio-dural de înveliş. Venele cerebrale mai mari sau mai mici părăsesc suprafaţa corticală îndreptându-se preponderent spre sinusul sagital superior după un traiect la nivelul compartimentului lichidian. Înglobat în această pernă hidraulică, creierul are puţine elemente de ancorare,  astfel încât imprimarea unei acceleraţii sau deceleraţii bruşte asupra cutiei craniene determină apariţia de mişcări inerţiale şi forţe de forfecare  între craniu şi creier pe de o parte şi  între diversele straturi cerebrale pe de altă parte. În acest fel mecanismul traumatismului poate fi direct (efecte la locul de contact şi  subiacent acestuia) şi  indirect (contralovitura produsă datorită impactului creierului pe proeminenţele osoase şi durale din interiorul cutiei craniene în timpul mişcărilor inerţiale de sens opus conţinut-conţinător, afectarea structurilor cerebrale, în special axonale, în timpul mişcărilor de forfecare dintre straturile cerebrale superficiale şi  profunde şi  în timpul mişcărilor de elongare). 
+Numeroase clasificări au fost propuse pentru traumatismele cranio-cerebrale: deschise–închise, directe-indirecte etc. Clasificarea cea mai larg răspândită: traumatism cranio-cerebral minim, minor, moderat, mediu, grav, sever ţine cont de scara Glasgow. 
+O altă scară de evaluare a traumatismelor cranio-cerebrale (scara Marshal) face clasificarea în funcţie de imaginea computertomografică. Pentru leziunile difuze această scală are patru grade:
+
+GRADUL	ASPECTUL CT
+1	Fără leziuni intracraniene decelabile CT
+2	Cisterne prezente, deplasare de linie mediană 0-5 mm şi/sau leziuni hiperdense sau de densitate mixtă mai mici de 25 cm3
+3	Cisterne comprimate sau absente cu deplasarea axului median mai mică de 5 mm fără leziuni hiperdense sau de densitate mixtă mai mari de 25 cm3
+4	Deplasarea axului median peste 5 mm fără leziuni hiperdense sau de densitate mixtă mai mari de 25 cm3
+
+Aceste clasificări indică şi  importanţa majoră, în actualul stadiu de dezvoltare a neurotraumatologiei, a evaluării computertomografice şi  a evaluării stării de conştienţă. 
+
+
+
+
+Tipurile de leziuni în cadrul 
+traumatismelor craniocerebrale.
+
+Contuzia cerebrală. 
+Transmiterea şocului mecanic asupra creierului fie la nivelul impactului (contuzie directă), fie pe proeminenţele osoase sau pe septurile durale endocraniene (contuzie prin contralovitură) determină leziunea contuzivă cu declanşarea unei reacţii neuroinflamtorii edematogene (contuzie edematogenă) sau, în alte cazuri şi  cu extravazare sanguină extravasculară difuză în focarul contuziv (contuzie hemoragică). Leziunile pot fi mai mult sau mai puţin extinse (locale, lobare, emisferice, unice sau multiple). Aceste leziuni evoluează de obicei spontan remisiv sau se pot agrava prin extinderea leziunii cerebrale secundare în focarul contuziv şi în zonele adiacente în principal datorită reacţiei neuroinflamatorii a ţesutului cerebral. Cazurile grave au o evoluţie fatală în 60% din cazuri în ciuda măsurilor moderne de terapie intensivă şi  monitorizare în neurotraumatologie. Vindecarea se poate face cu restituţio ad integrum sau cu sechele (hemipareze, afazii, deficit neuropsihic etc.). O altă complicaţie posibilă o constituie epilepsia posttraumatică. Tratamentul vizează în primul rând menţinerea funcţiilor vitale şi  a celorlalţi parametri funcţionali şi biochimici în limite normale, evitarea leziunii cerebrale secundare, a complicaţiilor. 
+Dilacerarea cerebrală.
+O leziune mai gravă, în care continuitatea corticală este întreruptă, adesea însoţită de rupturi vasculare şi  detritus cerebral necrotic în centrul focarului lezional, o constituie dilacerarea cerebrală. Leziunea se poate complica cu hematom subdural sau intracerebral în patul dilacerării, care impune evacuarea neurochirurgicală. Rareori leziunea impune evacuarea doar pentru efectul edematogen perilezional care îi conferă proprietăţile fiziopatologice ale unui proces expansiv intracranian. Dacă nu apar complicaţii evoluţia spontană spre cicatrizare poate fi lipsită de consecinţe clinice sau poate fi urmată de sechele ori epilepsie posttraumatică. 
+Leziunea axonală difuză (diffuse axonal injury).
+Constă în lezarea axonilor lungi (fibre piramidale, fibre comisurale etc.) prin elongare sau forfecare în cursul deplasărilor inerţiale ale creierului în interiorul cutiei craniene sau a alunecării inerţiale cu viteze diferite a straturilor cerebrale externe şi interne(forfecare).
+Leziunea poate fi lipsită de corespondent imagistic, poate fi însoţită de hemoragii la nivelul tracturilor amintite şi  în vecinătatea acestora sau poate fi asociată cu contuzii şi dilacerări. Din punct de vedere clinic starea de comă este întotdeauna prezentă prin lezarea fibrelor reticulate asociate căilor axonale lungi. Secţiunea axonală completă este ireversibilă şi  de aceea vindecarea, când aceasta are loc, este însoţită adesea de sechele. 
+
+
+Hematoamele intracraniene posttraumatice.
+    În afară de leziuni ale parenchimului cerebral propriu-zis, traumatismul poate determina şi  lezarea vaselor de sânge intracraniene cu ruptură, hemoragie şi  constituirea hematoamelor intracraniene posttraumatice. Aceste hematoame vor determina un nou tip de suferinţă cerebrală prin efect de masă şi  hipertensiune intracraniană. 
+În funcţie de localizare aceste hematoame pot fi extradurale, subdurale şi intracerebrale. Sursa sângerării pentru hematoamele extradurale este reprezentată de ruptura arterei meningee medii subiacentă unei fracturi, ruptura unui sinus venos dural, focarul de fractură. Pentru hematoamele subdurale sursa sângerării o constituie de obicei un focar de dilacerare cerebrală sau ruptura venelor emisare corticodurale. Pentru hematoamele intracerebrale sângerarea provine din ruptura vasculară la nivelul dilacerării cerebrale sau prin confluarea ori resângerarea unor zone de contuzie hemoragică. În funcţie de evoluţie pot fi acute (primele 48 de ore de la traumatism), subacute (intervalul ziua 3-a – ziua 21 de la traumatism) sau cronice (peste 21 de zile de la traumatism). Simptomatologia asociază de obicei un sindrom neurologic focal (hemipareză) cu alterarea stării de conştientă până la coma de diverse grade. Sindromul de angajare este un semn de gravitate majoră. Evoluţii atipice sunt frecvente şi  ridică numeroase dificultăţii diagnostice în afara investigaţiei computertomografice. 
+Când hematoamele au efect de masă (majoritatea cazurilor) sunt leziuni cu pericol vital major şi  iminent, motiv pentru care necesită intervenţie neurochirurgicală de urgenţă (evacuarea şi  hemostaza). Şansa recuperării după evacuarea unui astfel de hematom depinde de coexistenţa şi  gravitatea leziunilor cerebrale asociate (contuzii, dilacerări, leziuni axonale difuze) cât şi de durata între agravarea clinică şi  momentul intervenţiei (constituirea leziunii cerebrale secundare).
+Traumatismele cranio-cerebrale deschise.
+După straturile anatomice distruse de agentul vulnerant traumatismul cranio-cerebral care comunică cu exteriorul (traumatism deschis) poate fi reprezentat de:
+•	escoriaţie
+•	plagă a scalpului
+•	fractură craniană deschisă
+•	plagă cranio-durală
+•	plagă cranio-cerebrală
+O formă particulară a traumatismului cranio-cerebral deschis o constituie fistulele lichidiene de la baza craniului: rinolicvoree (scurgerea de LCR la nivelul foselor nazale), otolicvoree (scurgerea de LCR la nivelul conductului auditiv extern). Leziunea cuprinde dilacerarea mucoasei cavităţii aerice (sinus, mastoidă), fractura bazei craniului, breşa durei mater.
+Aceste traumatisme pun problema riscului infecţios. Infecţiile posttraumatice grave (meningoencefalita, abces cerebral) se tratează energic antibioterapic şi  la nevoie prin evacuarea colecţiei purulente.
+Fracturile craniene.
+Se disting fracturi fără deplasare şi  fracturi cu înfundare. 
+Fracturile fără deplasare prin ele însele nu pun probleme deosebite, craniul având doar rol protector şi  nu rol în mişcare, ca oasele scheletului membrelor sau coloanei vertebrale. Aceste fracturi sunt mărturia unei anumite violenţe a impactului şi atrag atenţia la o evaluare şi urmărire mai atentă a cazului chiar în lipsa altor fenomene asociate. 
+Fracturile cu deplasare, prin compresiunea prelungită a cortexului subiacent pot determina focare epileptogene, motiv pentru care se operează (redresare sau eschilectomie urmată de cranioplastie). Rareori, înfundări masive micşorează volumul cutiei craniene ca mecanism particular al hipertensiunii intracraniene. Uneori aparenţa unei fracturi cu înfundare simple ascunde o dilacerare durală sau corticodurală subiacentă. Tratamentul fracturilor cu înfundare mai ales la nivel fronto-orbitar trebuie să respecte criterii estetice. Leziunile asociate: fractură deschisă, leziuni endocraniene, necesită tratament adecvat.
+
+Suferinţa cerebrală secundară.
+Într-un traumatism cranio-cerebral leziunea constituită în momentul impactului nu reprezintă momentul de maximă gravitate lezională şi  simptomatologică.  Faţă de leziunea primară pot apare leziuni secundare fie în completarea focarului lezional primar (edem, hemoragii, ischemie perilezională), fie intracranian difuz sau la distanţă de focarul lezional primar (hipertensiunea intracraniană, angajări cerebrale), fie prin suferinţa sistemică generală (perturbări respiratorii, circulatorii) cu consecinţe secundare cerebrale (hipoxie, anoxie, hipoperfuzie). 
+Pentru prevenirea leziunii cerebrale secundare trebuie combătuţi toţi aceşti factori (locali, intracranieni, sistemici). Posibilităţile actuale de prevenire a leziunii cerebrale secundare sunt relativ limitate, totuşi o serie de măsuri au determinat scăderea mortalităţii în traumatismele craniocerebrale grave cu circa 20%. Aceste măsuri constau în:
+•	Scurtarea vidului terapeutic (transport medicalizat urgent: elicopter sau autosanitare dotate pentru asistare ventilatorie şi susţinerea presiunii arteriale)
+•	Monitorizarea parametrilor fiziologici principali: tensiunea arterială, oxigenarea sângelui arterial, presiunea intracraniană, eventual bioxidul de carbon, oxigenul venos jugular, Dopplerul transcranian, microdializa tisulară cerebrală pentru lactat, piruvat, histamina etc. 
+•	Normalizarea parametrilor găsiţi modificaţi în timpul monitorizării prin diverse masuri terapeutice: intubaţie traheală şi ventilaţie asistată, perfuzie adaptată euvolemiei, medicaţie de menţinere a tensiunii arteriale, combaterea edemului cerebral (hiperventilaţie, perfuzie cu manitol, furosemid, poziţionare a corpului cu capul la 30 de grade deasupra nivelului patului, evacuare de LCR prin puncţie ventriculară, craniectomie decompresivă).
+•	Nursing adecvat pentru prevenirea complicaţiilor: infecţii bronhopulmonare şi urinare, escare, tromboflebite.
+•	Alimentaţie şi  hidratare corespunzătoare
+
+
+Protocoale de îngrijire a traumatismului craniocerebral.
+
+Atitudinea faţă de pacientul cu traumatism craniocerebral diferă în funcţie de gravitatea traumatismului, factorii de risc individuali, posibilităţile de explorare şi terapie ale secţiei neurochirurgicale şi ale secţiei de neuroterapie intensivă.
+Traumatismele minore necesită sau nu spitalizare în funcţie de: 
+-	posibilitatea explorării imagistice
+-	accesibilitatea pacientului la revenirea în serviciu în caz de agravare
+-	posibilitatea de supraveghere în familie
+-	factori de risc: vârste extreme, tare organice, tulburări ale hemostazei, alcoolism.
+-	durata pierderii de conştienţă
+-	severitatea simptoamelor subiective
+-	gravitatea accidentului
+-	gravitatea leziunilor craniene
+-	evoluţia clinică în intervalul dintre traumatism şi  prezentarea la spital (durată, evoluţie remisivă, evoluţie progresivă, interval liber cu agravare secundară)
+
+Pentru traumatismele medii şi grave problema  diagnosticului diferenţial între o agravare prin apariţia unui hematom intracranian sau prin leziunea cerebrală secundară a constituit mult timp o problemă dificilă de diagnostic. Evaluarea stării de comă, a deficitului neurologic, a agravării secundare au constituit criterii diagnostice principale. În prezent computertomografia rezolvă rapid această problemă. 
+Deşi transportul de urgenţă medicalizat, investigarea imagistică modernă, monitorizarea şi  terapia intensivă neurochirurgicală au ameliorat prognosticul traumatismelor craniocerebrale, această patologie rămâne încă sub semnul unei importante rate de sechelaritate şi mortalitate. Elucidarea substanţelor bioactive implicate în reacţia neuroinflamatorie, regularizarea microcirculaţiei cerebrale, descoperirea de noi principii farmacoterapeutice, terapia moleculară şi  genetică, perspectiva transplanturilor celulare în creşterea şi reorganizarea neuronală sunt câteva direcţii ale progresului în neurotraumatologie.
+
+
+
+Protocoale medicale în  traumatismele cranio-cerebrale grave.
+Circuitul pacientului implică: 
+-	reperarea accidentului şi  decarcerarea cât mai rapidă 
+-	transportul de urgenţă medicalizat (posibilitatea instituirii măsurilor de resuscitare şi terapie intensivă din momentul decarcerării şi pe tot parcursul transportului): monitorizarea funcţiilor vitale, hemostaza, eliberarea căilor aeriene, ventilaţia asistată, amplasarea linilor de perfuzie şi menţinerea presiunii arteriale.
+-	Diagnostic imagistic imediat la sosirea în spital 
+-	Evacuare urgentă a hematoamelor intracraniene cu efect de masă 
+-	Neuroterapie intensivă (cu monitorizarea oxigenului arterial, a presiunii arteriale, presiunii intracraniene şi măsuri adecvate la nevoie: ventilaţie asistată, oxigenoterapie, diuretice tip Manitol, Furosemid, nursing adecvat, evacuarea de LCR ventricular, craniectomii decompresive). La pacientul necurarizat şi nesedat monitorizarea neurologică este de asemeni importantă. Repetarea CT se face ori de câte ori este nevoie (creşteri ale presiunii intracraniene, deteriorarea neurologică). 
+
+În plus unele servicii deţin mijloace suplimentare de monitorizare: bioxidul de carbon jugular, oxigenul tisular, perfuzia cerebrală, debitul sanguin cerebral, temperatura centrală tisulară, pH, oxigen, glucoză, glutamat, piruvat, histamină tisulară, cât şi  metode terapeutice noi, în curs de evaluare. 
+Respectarea acestui ghid terapeutic şi  a standardelor adiacente (menţinerea tensiunii arteriale medii peste 70 mmHg, a O2 arterial la 100%, a presiunii intracraniene sub 20 mmHg) se face prin măsuri terapeutice specifice, aplicate într-o anumită succesiune. În condiţii suboptimale sau în cazul lipsei de experienţă a echipei aceste măsuri fie că nu se pot aplica, fie pot avea un potenţial iatrogen crescut.
+Pentru ca un astfel de circuit să funcţioneze este necesară următoarea dotare: 
+•	Sistem ambulanţier medicalizat dotat adecvat
+•	Acces permanent la investigaţie CT
+•	Acces permanent la monitorizare: pulsoximetrie, presiune arterială, presiune intracraniană pentru un număr suficient de pacienţi simultan.
+•	Acces permanent la sursa de oxigen, un număr suficient de ventilatoare pulmonare
+•	Disponibilitatea în orice moment a sălii de operaţie şi a echipei neurochirurgicale
+•	Manitol, Furosemid, soluţii perfuzabile disponibile 
+•	Echipe antrenate pentru decarcerarea, resuscitarea, transportul, investigarea, operaţia,  neuroterapia intensivă, nursingul şi recuperarea acestei categorii de pacienţi.
+

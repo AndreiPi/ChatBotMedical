@@ -1,0 +1,217 @@
+﻿ACCIDENTELE VASCULARE CEREBRALE.
+NEUROCHIRURGIA VASCULARĂ.
+
+Anatomofiziopatologia circulaţiei cerebrale.
+
+Fluxul sanguin cerebral este asigurat prin cele două artere carotide interne şi de cele două artere vertebrale care se unesc în trunchiul vertebrobazilar. Ramificaţiile intracraniene ale acestor artere sunt de tip terminal ceea ce conferă o gravitate crescută ocluziilor vasculare cerebrale. În plus celula nervoasă are o sensibilitate deosebită la hipoxie (moarte celulară în 3-5 minute de la oprirea circulaţiei). Hipoperfuzia este de asemeni urmată de consecinţe. 
+Perfuzia cerebrală normală este de aproximativ 75 ml sânge/100 de grame de ţesut nervos/minut in substanţa cenuşie şi 50 ml sânge/100 de grame de ţesut nervos/minut în substanţa albă. Adaptarea microcirculaţiei la starea funcţională face ca aceste valori să varieze în funcţie de activitatea preponderentă a unor arii corticale. Scăderea perfuziei sub 30 ml sânge/100 de grame de ţesut nervos/minut determină suferinţa cerebrală simptomatică, deficitul clinic devenind complet pentru zona cerebrală hipoirigată la o perfuzie mai mică de 20 ml sânge/100 de grame de ţesut nervos/minut. Neuronii intră în starea de parabioză (îşi pierd temporar funcţia până la revenirea fluxului sanguin). Dacă fluxul sanguin scade sub valori de 10 ml sânge/100 de grame de ţesut nervos/minut alterările neuronale devin ireversibile (moartea celulară). Aceste valori sunt orientative (diferă de la studiu la studiu) şi dependente de durată (supravieţuirea neuronilor în condiţii de hipoirigaţie este dependentă de durata perioadei de hipoirigaţie). De exemplu, restabilirea fluxului sanghin în primele 3 ore de la apariţia unei hipoirigaţii cu valori de 15 ml sânge /100 grame ţesut nervos dă şanse neuronilor să iasă din starea de parabioză şi să-şi reia o activitate normală în timp ce după 5 ore de hipoirigaţie la aceeaşi valoare poate apare moartea neuronală.
+ Moartea neuronului este un fenomen grav, neuronii adulţi sunt lipsiţi de posibilitatea de a se multiplica şi astfel orice recuperare se bazează pe funcţiile neuronilor rămaşi în viaţă. Un centru nervos primar odată distrus deficitul corespunzător este definitiv. 
+Ocluzia vasculară a unui ram arterial cerebral determină abolirea fluxului sanguin în centrul teritoriului pe care îl irigă (infarct cerebral -  necroză tisulară). Datorită prezenţei unui sistem de anastomoze subpiale, în teritoriul înconjurător (zona de penumbră) se poate menţine o irigaţie suficientă pentru a menţine neuronii în stare de parabioză. Reluarea fluxului sanguin (naturală sau terapeutică) în acest teritoriu face ca neuronii să-şi reia funcţia. 
+Posibilităţile de suplinire circulatorie cerebrală în cazul unor ocluzii vasculare sunt următoarele:
+-	poligonul lui Willis: artera carotidă, cerebrală anterioară, comunicantă anterioară, comunicantă posterioară, cerebrală posterioară, bifurcaţia trunchiului vertebro-bazilar. 
+-	anastomozele exo- endocraniene, în special în teritoriul arterei oftalmice
+-	anastomozele subpiale
+Există particularităţi ale vaselor cerebrale în raport cu predispoziţia la ruptură (hemoragie):
+-	circulaţia cerebrală are un sistem de vase profunde (vasele perforante) ce asigură irigarea zonelor centro-cerebrale şi un sistem de vase corticale ce asigură irigarea scoarţei cerebrale şi a substanţei albe lobare. Vasele perforante sunt artere de calibru mic ce se desprind în unghi drept din vasele mari de la baza creierului. În special în condiţii de hipertensiune vasele perforante sunt predispuse la modificări de hialinoza care le conferă o fragilitate sporită constituind sursa cea mai frecventă a hematoamelor intracerebrale primare. 
+-	Ruptura peretelui anevrismului intracranian este o altă cauză a hemoragiilor intracraniene (hemoragia subarahnoidiană este în 80% din cazuri de etiologie anevrismală). Arterele mari de la baza creierului au un traiect mai mult sau mai puţin lung prin spaţiul subarahnoidian unde sunt scăldate de LCR. Bifurcaţiile şi schimbările de direcţie la nivelul acestor traiecte sunt locurile de predilecţie pentru formarea anevrismelor intracraniene saculare (dilataţii sacciforme ataşate printr-un colet la vasul purtător). Nu demult se considera că la apariţia unui anevrism ar contribui un defect congenital al tunicii medii a peretelui vascular. Dovezi mai noi demonstrează că aceste defecte apar în timpul vieţii, sunt de natură degenerativă şi implica atât tunica medie cât şi endoteliul vascular. Defectele de perete vascular amintite reflectă un dezechilibru între capacitatea de regenerare a peretelui vascular şi uzura acestuia datorată fluxului sanghin şi a curenţilor turbionari care se formează la nivelul bifurcaţiilor, originii colateralelor arteriale şi la nivelul curburilor vasculare, adică în locurile de elecţie de formare a anevrismele intracraniene.  
+Oprirea spontană a hemoragiei intracraniene este posibilă prin intervenţia factorilor de hemostază: formarea trombusului la nivelul rupturii, vasospasmul. Hemoragiile mari pot determina decesul imediat al pacientului (moarte subită), în timp ce hemoragiile mai mici pot fi oligosimptomatice şi se pot rezorbi spontan. Pentru toţi pacientii rămaşi în viaţă după momentul hemoragiei sunt necesare măsuri diagnostice şi terapeutice. Diagnosticarea originii hemoragiei este de maximă importanţă deoarece prin tratarea cauzei se previne repetarea hemoragiei (scoterea din circulaţie a anevrismelor şi a malformaţiilor arteriovenoase, ablaţia tumorilor hemoragice, tratamentul hipertensiunii arteriale, corectarea factorilor hemostazei etc.) În lupta cu efectele hemoragiei evacuarea hematoamelor compresive, menţinerea funcţiilor circulatorii, respiratorii şi metabolice la parametri fiziologici, drenajul hidrocefaliei când apare, profilaxia şi tratamentul vasospasmului cerebral, al edemului cerebral, al crizelor epileptice, al sindromului de secreţie inadecvată de hormon antidiuretic şi în general al tuturor complicaţiilor cerebrale sau sistemice constituie obiectivele primordiale.
+
+
+Clasificarea accidentelor vasculare cerebrale.
+
+•	Accidente vasculare cerebrale hemoragice: 
+-	hemoragia subarahnoidiană
+-	hematomul intracerebral 
+-	hemoragia intraventriculară
+•	Accidente vasculare cerebrale ischemice: 
+-	embolia cerebrală 
+-	tromboza arterială cerebrală
+-	tromboflebita cerebrală
+
+
+Hemoragia subarahnoidiană. 
+
+Etiologia hemoragiilor subarahnoidiene.
+Analizând următoarea schemă se poate înţelege dificultatea prezentării raportului dintre hemoragia subarahnoidiană şi cea mai frecventă, dar nu singura, cauză a acesteia: anevrismul intracranian:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Din schema alăturată se vede că după cum nu toate hemoragiile subarahnoidiene sunt de cauză anevrismală, tot astfel nu toate anevrismele se manifestă clinic prin hemoragie subarahnoidiană. Cu toate acestea, majoritatea hemoragiilor subarahnoidiene sunt de cauză anevrismală şi majoritatea anevrismelor intracraniene devin simptomatice prin hemoragie subarahnoidiană. Din punct de vedere practic orice hemoragie subarahnoidiană trebuie investigată şi tratată de la bun început drept ruptură anevrismală cu excepţia cazurilor în care contextul clinic orientează spre alt diagnostic.
+În afară de ruptura anevrismală, hemoragia subaranoidiană poate fi determinată de următoarele cauze:
+-	malformaţii arteriovenoase cerebrale,
+-	traumatisme craniocerebrale: în aceste cazuri hemoragia subarahnoidiană este secundară (sângele pătrunde în spaţiul subarahnoidian de la nivelul unei leziuni cerebrale acute – contuzie sau dilacerare, constituind un element în tabloul complex al acestei leziuni). Clinic şi fiziopatologic sunt diferenţe mari faţă de hemoragia subarahnoidiană prin ruptura vasculară pe traiectul subarahnoidian al unei artere cu deversarea directă a sângelui în spaţiul subarahnoidian aşa cum se întâmplă în ruptura anevrismală,
+-	suferinţe hemoragipare (coagulopatii, tratament anticoagulant, vasculopatii),
+-	tumori hemoragice. 
+
+Simptomatologie.
+Hemoragia subarahnoidiană prin ruptură anevrismală se manifestă clinic prin: 
+-	debut brusc cu durere violentă sub formă de junghi la nivel cranian uneori cu oarecare localizare corespunzătoare sediului rupturii
+-	cefalee
+-	greţuri, vărsături
+-	semne meningiale (redoare de ceafă)
+-	fotofobie
+-	uneori: deficit neurologic, alterarea sau pierderea  stării de conştienţă cu durată variabilă, în cazurile grave persistentă, crize epileptice
+Pătrunderea sângelui sub presiune în spaţiul subarahnoidian cu fenomenele iritative asupra structurilor învecinate, sporirea presiunii intracraniene (de obicei tranzitorie), fenomenele subsecvente (edem cerebral, vasospasm cerebral, ischemie cerebrală) sunt mecanismele care explică această simptomatologie.
+Hemoragia poate fi mai mult sau mai puţin gravă din punct de vedere clinic în funcţie de rapiditatea hemostazei naturale şi de cantitatea de sânge extravazată. Redăm două dintre scările cele mai des folosite pentru evaluarea gravitaţii hemoragiei subarahnoidiene: 
+Scara Hunt şi Hess are următoarele grade: 
+•	1 – asimptomatic sau cefalee minimă şi discretă redoare de ceafă
+•	2 – cefalee moderată sau severă, redoare de ceafă fără deficit neurologic (cu excepţia parezei de nervi cranieni)
+•	3 – obnubilare, somnolenţă, confuzie sau deficit neurologic focar minor
+•	4 – stupoare, hemipareză moderată sau severă, sunt posibile tulburările vegetative şi rigiditatea decerebrată precoce
+•	5 – comă profundă, rigiditate decerebrată, pacient muribund
+Scara WFNS (a societăţii mondiale de neurochirurgie) foloseşte drept criterii gradul tulburării de conştienţă apreciat în scara Glasgow şi deficitul motor:
+
+Gradul WFNS	Scorul GCS	Deficit motor
+I	15	Absent
+II	14-13	Absent
+III	14-13	Prezent
+IV	12-7	Prezent sau absent
+V	6-3	Prezent sau absent
+
+
+Anevrismele intracraniene saculare erau considerate până în urmă cu circa 10 ani leziuni congenitale sub raportul defectului sectorial al tunicii medii a peretelui vasului care ulterior ar favoriza în cursul vieţii formarea şi ruptura pungii anevrismale. La ora actuală tot mai multe argumente sprijină conceptul de etiopatogenie degenerativă. Rareori au origine infecţioasă demonstrată (de exemplu în endocardite, bactriemii, septicemii) sau posttraumatică.
+Anevrismele intracraniene saculare, în ordinea frecvenţei, sunt cel mai adesea localizate la nivelul: arterei comunicante anterioare (30%), arterei cerebrale medii (25%), anevrisme carotidiene supraclinoidiene (25%), cel mai frecvent din acest grup fiind anevrismul de comunicantă posterioară, alte localizări pe vasele distale (5-10%), anevrismele din teritoriul vertebro-bazilar (10-15%).
+Studiile necroptice arată o incidenţă a anevrismului sacular între 2 şi 5% în populaţie. Există o diferenţă pe grupe de vârstă (2%  pentru grupa de vârstă 40-49 ani şi 4% pentru grupa 70-79 ani). La copii sunt excepţionale Incidenţa rupturii anevrismale în populaţia generală este de circa 1/10 000 pe an, ceea ce arată că doar 1 din 3 anevrisme va rupe în cursul vieţii.. Faptul că unele anevrisme rămân nerupte, asimptomatice pe tot parcursul vieţii, a dat naştere unei vaste literaturi cu privire la tratamentul anevrismului asimptomatic, descoperit incidental, cu ocazia investigaţiilor pentru o altă afecţiune. Datele mai noi sugerează că anevrismul se formează şi se stabilizează sau se rupe într-un timp scurt, probabil de cateva zile. Acest model face imposibilă la ora actuală depistarea şi tratarea anevrismului înainte de ruptură, cu exceptia unor situaţii particulare: anevrisme asociate unui anevrism rupt în cazurile cu anevrisme multiple sau anevrisme familiale. Pentru anevrismul care s-a stabilizat la dimensiuni de sub 7 mm (anevrismul mic descoperit incidental) practic nu există risc de ruptură pe studii statistice relativ mari dacă persoana respectivă nu are alţi factori de risc pentru ruptură: un alt anevrism rupt sau anevrisme familiale rupte. Dacă dimensiunea anevrismului descoperit incidental este mai mare de 7 mm riscul de creştere în dimensiuni (destabilizare) şi ruptură este cu atât mai mare cu cât dimensiunea este mai mare şi de asemeni este mai mare pentru anevrismele din circulaţia posterioară (vertebrobazilară) faţă de cele din circulaţia anterioară (carotidiană).  Aceste considerente sunt deosebit de importante în decizia de a trata un anevrism incidental căci riscul de deces sau de complicaţie majoră al interventiei (chirurgicală sau endovasculară) rămâne la ora actuală de 2-5%. În funcţie de dimensiunea si poziţia anevrismului depistat incidental şi de speranţa de viaţă a pacientului se evaluează raportul risc/beneficiu pentru stabilirea indicaţiei terapeutice în aceste cazuri. Indicaţia de excludere din circulatie a anevrismului o au acei pacienţi care prin vârstă, dimensiunea şi forma anevrismului, au un risc de HSA mai mare decât riscul asociat clipării sau embolizării anevrismale.
+Anevrismul care a rupt poate avea următoarele consecinţe: 
+•	moarte subită – 20% din cazuri,
+•	stare gravă – 20%, scor Hunt şi Hess IV şi V, care nu permite intervenţia chirurgicală, pacientul fiind dependent de măsurile de terapie intensivă, 
+•	stare mediocră – 30%, scor Hunt şi Hess III, permite intervenţia de clipare chirurgicală numai în cazuri de dotare anestezică şi operatorie optimă a serviciului respectiv,
+•	stare clinică relativ bună (scor Hunt şi Hess II: 30%) care permite intervenţia chirurgicală imediată pentru cliparea anevrismului
+Odată rupt, deşi în momentul examinării de obicei hemostaza naturală este deja prezentă, anevrismul are cu totul alt prognostic decât anevrismul care nu a rupt niciodată. Tromboza la nivelul rupturii nu constituie decât o hemostază provizorie şi doar 30% din anevrismele netratate vor evolua către cicatrizare la nivelul rupturii, comportându-se la 1-2 ani după ruptură în mod similar anevrismelor asimptomatice (risc de ruptură de 1-2% pe an).
+Pentru restul de 70% dintre anevrismele rupte repetarea rupturii apare şi are loc cu atât mai frecvent cu cât ne aflăm în perioada de timp mai apropiată faţă de ruptura iniţială. Repetarea rupturii este adeseori fatală. 
+Diagnosticul se pune în majoritatea cazurilor prin explorarea angiografică a pacienţilor cu hemoragie subarahnoidiană. Metoda angiografiei prin cateterism (injectare a produsului de contrast endovascular după cateterizarea vaselor cerebrale prin abord de obicei femural după tehnica Seldinger) rămâne şi la ora actuală cea mai fidelă dar are un risc procedural de 1/1000. Metodele neinvazive (angiografia RMN si angiografia CT) s-au perfecţionat treptat ajungând la imagini apropiate ca acurateţe. Totuşi metodele de angiografie neinvazivă nu sunt suficiente în toate cazurile pentru depistarea şi caracterizarea anevrismui astfel că uneori sunt completate de angiografia prin cateterism.  
+In  prezent modalităţile de excludere din circulaţie a anevrismelor rupte sunt cliparea microchirurgicală sau embolizarea cu spirale prin cateterism vascular (tehnica endovasculară). Ambele procedee au un risc vital şi de complicaţii severe de aproximativ 3-5% când se practică la pacienţi în stare bună (grad I şi II Hunt şi Hess).
+Edemul cerebral, vasospasmul, tulburările neurovegetative cresc riscul operator la pacienţii în stare mai gravă (III, IV şi V) şi justifică temporizarea cazurilor sub protecţia unui repaus absolut şi a controlului tensiunii arteriale până când evoluţia spontană şi  măsurile de terapie intensivă vor contribui la ameliorarea pacientului. 
+Complicaţiile care apar în evoluţia postintervenţie a unui anevrism rupt, clipat sau embolizat, sunt datorate pe de o parte evoluţiei hemoragiei subarahnoidiene, ca suferinţă a creierului predispozantă pentru edem, vasospasm, ischemie, tulburări vegetative şi pe de altă parte datorită complicaţiilor postoperatorii sau postembolizare posibile (tromboze vasculare, hematoame intracraniene, infecţii, leziuni cerebrale prin tracţiune etc: în circa 20% din cazuri ruptura anevrismală se însoţeşte de hematoame intracraniene (intracerebrale, subarahnoidiene la nivel cisternal, rareori subdurale, care necesită operaţia de urgenţă pentru evacuarea procesului expansiv şi cliparea anevrismului dacă este posibil).
+Necesitatea excluderii din circulaţie a anevrismelor a dat naştere la apariţia şi dezvoltarea unui arsenal relativ complex de implanturi fie pe linia clipurilor autostatice anevrismale, fie pe linia spiralelor cu aplicabilitate endovasculară (GDC) descrise la capitolul de protezare.
+
+Malformaţiile arteriovenoase cerebrale:
+
+Malformaţiile arteriovenoase cerebrale constau în anomalii de formare şi dezvoltare a vaselor cerebrale arteriale, venoase, dar cel mai adesea capilare, adică anomalii ale joncţiunii între patul arterial şi cel venos. Arterele se pot continua cu vene fără interpoziţia reţelei capilare, fie prin intermediul unui ghem de vase cu diametru variabil ce poarta numele de nidus (malformaţiile arteriovenoase propriu-zise), fie prin vărsarea directă (fără interpoziţia nidusului) a unei artere într-o venă (fistula arterio-venoasă nu este strict congenitală existând şi cazuri posttraumatice).
+În mod clasic malformaţiile arteriovenoase cuprind:
+-	malformaţii arteriovenoase propriu-zise
+-	cavernoame
+-	malformaţii venoase
+-	telangiectazii
+
+În prezent există tendinţa de a se adăuga la această clasificare fistulele arteriovenoase iar malformaţiile venoase (depistate foarte frecvent la ora actuală datorită explorării prin RMN) să fie denumite anomalii de dezvoltare venoasă incidentale, fără semnificaţie patologică. De asemeni, telangiectaziile cerebrale (dilataţii capilare între care se interpune tesut cerebral normal au rareori semnificaţie patologică şi indicaţie terapeutică (doar rareori constituie un focar epileptogen).
+Importante sunt cavernoamele (malformaţiile cavernomatoase) care se prezintă ca formaţiuni vasculare muriforme de mărime variabilă, înconjurate de parenchim cerebral, formate din canale vasculare dilatate cu perete simplu, format numai din strat endotelial. Cavernomul se interpune în circulaţie între vase de sânge de calibru foarte mic astfel  încât de obicei este o malformaţie angiografic criptică (nu se vizualizează pe angiografia endovasculară). Se vizualizează bine prin RMN cerebral. Se poate manifesta clinic prin ruptură (hematom intracerebral) sau crize comiţiale şi în aceste cazuri are adesea indicatie de rezecţie chirurgicală. Cavernoamele descoperite incidental (cu ocazia unui RMN pentru o altă afecţiune) se operează sau nu în funcţie de riscul operator estimat pentru fiecare localizare (superficială - profundă, arie elocventă sau nu, trunchi cerebral etc), riscul de ruptură, vârsta pacientului etc.
+
+Malformaţiile arteriovenoase propriu-zise prezintă cinci grade de gravitate din punctul de vedere al posibilităţii de rezecţie chirurgicale (scara Spetzler, 1986). Aceste grade rezultă din însumarea punctajului acordat pentru trei criterii de evaluare: dimensiunea malformaţiei, poziţia într-o arie elocventă, drenajul venos.
+
+Dimensiunea malformaţiei	Puncte
+-	Mică (sub 3 cm diametru)	1
+-	Medie (3-6 cm diametru)	2
+-	Mare (peste 6 cm diametru)	3
+Localizarea în zonă elocventă	
+-	Zonă neelocventă	0
+-	Zonă elocventă	1
+Drenajul venos	
+-	Superficial 	0
+-	Profund 	1
+
+
+
+Manifestarea clinică a malformaţiilor arteriovenoase îmbracă unul din următoarele sindroame: hemoragic (hemoragia subarahnoidiană, hematom intracerebral), epileptic, pseudotumoral.
+Posibilităţile terapeutice constau în următoarele alternative folosite individual sau în asociere: ablaţie microchirurgicală (coagularea sau cliparea pediculilor arteriali cu disecţia în jurul nidusului urmată de coagularea pediculilor venoşi şi rezecţia malformaţiei), radiochirurgie, embolizare.
+
+
+Protocoale medicale 
+în hemoragia subarahnoidiană.
+Hemoragia subarahnoidiană (suferinţă care în 80% din cazuri se datorează rupturii unui anevrism intracranian) se poate prezenta sub diverse forme clinice în raport de gravitate (moarte subită, comă, deficit neurologic, sindrom confuzional, sindrom meningeal complet sau simplă cefalee brusc instalată). Asocierea cu un hematom intracranian diversifică şi mai mult situaţiile clinice concrete. 
+60% dintre pacienţi se prezintă la spital cu o hemoragie subarahnoidiană de gravitate medie sau moderată (scor II şi III). Circuitul acestor pacienţi urmează următoarele etape:
+-	CT de urgenţă pentru documentarea hemoragiei subarahnoidiene diagnosticate clinic, orientare asupra sediului rupturii (localizarea anevrismului);
+-	Angiografie CT pentru evidenţierea anevrismului. În circa 20% din cazuri imaginea poate fi neconcludentă sau pot fi necesare detalii de mai mare fineţe pentru caracterizarea anevrismului (sau anevrismelor multiple în unele cazuri). 
+-	Ori de câte ori este posibilă depistarea anevrismului rupt trebuie urmată de excluderea  lui din circulaţie pentru a preveni o nouă ruptură. In prezent există două tehnici principale pentru excluderea anevrismului: cliparea microchirurgicală şi embolizarea prin cateterism venos (tehnica endovasculară). Există o oarecare competiţie în practică între tehnica microchirurgicală şi cea endovasculară. In anumite tipuri de anevrisme există o indicaţie clară pentru a folosi una sau alta dintre tehnici. În multe cazuri  însă, oricare dintre cele 2 tehnici poate fi folosită cu rezultate şi riscuri apropiate. Uneori aceste tehnici sunt complementare sau alternative, ca tehnică de rezervă, în cazul eşecului excluderii anevrismului prin prima tehnică aleasă.
+-	Intervenţie chirurgicală de clipare a anevrismului pentru pacienţii neembolizaţi (poziţie distală a anevrismului faţă de accesibilitatea cateterismului, colet larg cu risc de migrare a spiralei din sacul anevrismal, anevrism gigant, anevrism parţial trombozat, anevrism apreciat ca fragil – cu risc de ruptură la embolizare, vase colaterale provenite din sacul anevrismal pentru care trebuie păstrată permeabilitatea, eşecul embolizării). Varianta intervenţiei microchirurgicale precoce (primele 24 – 72 de ore) se aplică pacienţilor în stare acceptabilă, cu risc scăzut anestezic şi operator, general şi cerebral. Această atitudine împiedică repetarea rupturii anevrismale şi permite inducerea hipertensiunii controlate pentru contracararea efectelor vasospasmului cerebral. Rolul evacuării cheagurilor din spaţiul subarahnoidian ar putea fi de asemenea benefic.
+-	Pacienţii în stare proastă, cu risc anestezic şi operator crescut, pot fi agravaţi de o intervenţie precoce atât sub raportul leziunii cerebrale secundare, cât şi sub raportul tulburărilor vegetative şi a complicaţiilor sistemice. Cu tot riscul repetării rupturii unui anevrism ce nu a fot exclus din circulaţie, aceşti pacienţi se temporizează sub tratament conservator până la stabilizarea vegetativă şi echilibrarea unor deficite sistemice. Momentul operaţiei amânate poate fi imediat ce starea pacientului permite sau după trecerea celor 14-21 de zile cu risc crescut de vasospasm cerebral.
+-	Pacienţii cu explorarea angiografică normală şi la care nu s-a evidenţiat altă cauză de hemoragie subarahnoidiană (sindrom hemoragipar, meningită hemoragică, tumoră etc.) trebuie investigaţi suplimentar prin RMN (evidenţierea malformaţiilor vasculare angiografic “mute” – cavernoame) şi reevaluaţi angiografic după 1-3 luni (anevrismul poate fi mascat la prima investigaţie angiografică datorită vasospasmului sau unui trombus provizoriu care se repermeabilizează ulterior).
+-	Dacă la hemoragia subarahnoidiană se asociază un hematom intracerebral cu efect de masă manifest clinic, evacuarea hematomului este prioritară iar anevrismul se clipează de obicei  în acelaşi timp operator.
+-	Asocierea hidrocefaliei impune adesea un drenaj ventricular extern
+-	Trapia intensivă, cand se impune, tratamentul  conservator şi îngrijirea adecvată pentru scăderea riscului de repetare a rupturii şi profilaxia vasospasmului se instituie de la început şi se adaptează  fiecărei  etape.
+
+Pentru punerea in practică a acestui protocol este necesară următoarea dotare: 
+-	CT în regim de urgenţă, 
+-	Angiografie cerebrală de preferat performantă: serioangiografie cu substracţie digitală prin cateterism Seldinger,
+-	Posibilitatea de aplicare a terapiei endovasculare: echipă antrenată în intervenţiile endovasculare, catetere şi spirale disponibile,
+-	Echipă neurochirurgicală antrenată în intervenţii de microchirurgie vasculară dotată cu microscop operator neurochirurgical, instrumente de microchirurgie, clipuri autostatice anevrismale,
+-	Neuroanestezie şi neuroterapie intensivă adecvate.
+
+Perspectiva perfecţionării angiografiei neinvazive (CT sau RMN) până la a deveni competitivă cu angiografia prin cateterism arterial ar putea aduce schimbări în protocolul prezentat.
+
+Formele grave de hemoragie subarahnoidiană (grad IV şi V) se încadrează în managementul accidentului vascular cerebral grav. Problemele generale de îngrijire a unei come neurologice sunt în linii mari similare cu protocolul de îngrijire al traumatismelor cranio-cerebrale grave. De altfel în absenţa anamnezei diferenţierea între un traumatism cranio-cerebral grav şi un accident vascular cerebral grav cu traumatism cranio-cerebral minor prin cădere secundară este dificilă până la efectuarea investigaţiilor. 
+Aceleaşi măsuri de menţinere a funcţiilor vitale, prevenirea leziunii cerebrale secundare şi a complicaţiilor sistemice, trebuie aplicate. În caz de ameliorare, când starea pacientului o permite,  se practică angiografia şi intervenţia de excludere a anevrismului pe cale endovasculară sau microchirurgicală.
+
+
+
+
+Hematomul intracerebral primar.
+
+În afara hematoamelor intracerebrale traumatice deja amintite la capitolul de neurotraumatologie există hematoame intracerebrale spontane care aparţin capitolului de accidente cerebrale hemoragice. Din punct de vedere etiologic hematoamele intracerebrale spontane pot fi secundare rupturii unei formaţiuni vasculare: anevrism, malformaţie arterio-venoasă propriu-zisă, cavernom sau pot fi secundare rupturii vaselor tumorale de neoformaţie (tumori hemoragice – d.ex. metastazele de melanom, glioblastomul).
+În cazul în care hematomul intracerebral nu este nici traumatic, nici secundar unei formaţiuni hemoragice  denumirea clasică era de hematom primar. În prezent se foloseşte mai mult termenul de hematom intracerebral spontan nonmacrolezional. Această categorie include:
+-	hematoamele hipertensive, în care sursa hemoragiei este reprezentată de ruptura arteriolelor cu modificări de hialinoză. Hipertensiunea arterială de durată induce degenerarea hialinotică a peretelui arteriolelor şi un puseu hipertensiv, ruptura. Aceste artere hialinotice se găsesc mai frecvent în teritoriul vascular centrocerebral irigat de vase perforante care sunt vase de calibru mic ce se  desprind în unghi drept din vasele mari.
+-	hematoame amiloidotice: localizate mai frecvent subcortical, multilocular, la persoane în vârsta cu alterarea pereţilor vasculari prin amiloidoză.
+-	hematoamele prin tulburări ale hemostazei, frecvente la pacienţi cu tratamment anticoagulant. 
+Hematomul intracerebral primar se manifestă printr-un debut brusc cu instalarea unui deficit neurologic (de obicei hemiplegie) şi alterarea stării de conştienţă, sindrom HIC. 
+Diagnosticul este în principal computertomografic iar atitudinea variază între:
+-	tratament conservator şi supravegherea evoluţiei spre rezorbţie (hematoame de dimensiuni mici sau moderate cu evoluţie clinică spontan remisivă),
+-	evacuare chirurgicală sau prin puncţie stereotaxică (hematoame compresive – diametrul peste 25 mm, în poziţie accesibilă – lobare, la pacienţi cu agravare clinică progresivă),
+-	terapie intensivă la pacienţi cu hematoame talamice (distrucţia talamică declanşează tulburări neurovegetative şi alterări ale stării de conştienţă de obicei severe, agravate de manevrele intervenţioniste în aceasta zonă).
+Hematoamele putaminale reprezintă o localizare în care evacuarea chirurgicală este posibilă în unele cazuri, mai ales atunci când hematomul are o extensie lobară, dar rezultatele sunt mai proaste decât în hematoamele lobare pure.
+
+Protocoale medicale în hematoamele intracerebrale primare
+Măsurile iniţiale de susţinere a funcţiilor vitale de către echipa de urgenţă care preia şi transportă pacientul sunt comune. Întrucât majoritatea acestor hematoame sunt hipertensive, controlul medicamentos al hipertensiunii intracraniene se impune de la început. O scădere prea agresivă a tensiunii arteriale poate determina însă scăderea presiunii de perfuzie cerebrală. Odată ajuns la spital, pacientul este supus următorului protocol de management medical:
+-	Evaluarea formei de gravitate clinică: agravare progresivă, stare gravă de la început, ictus urmat de ameliorare parţială, evoluţie ondulatorie etc.
+-	CT în urgenţă: dă indicaţii importante pentru conduita terapeutică, legate de poziţia hematomului. Localizarea  lobară (substanţa albă a lobilor cerebrali) sau cerebeloasă constituie un criteriu pentru indicaţia chirurgicală a hematoamelor cu efect de masă în timp ce localizarea centrocerebrală (regiunea capsulei interne şi a nucleilor bazali: corp striat şi talamus) sau la nivelul trunchiului cerebral are trareori indicaţie chirurgicală. Dimensiunile colecţiei hematice, efectul compresiv asupra creierului şi starea clinică sunt alţi factori importanţi în luarea deciziei terapeutice.
+
+O serie de criterii clinice şi imagistice sunt evaluate pentru a stabili indicaţia operatorie care se află sub semnul următoarei contradicţii: starea clinică gravă poate fi datorată fie leziunii cerebrale primare în focarul hemoragic, fie efectului de proces expansiv al hematomului (hipertensiune intracraniană). Dacă primul mecanism este valabil, operaţia de evacuare a hematomului este agravantă, căci adaugă leziunii primare o leziune chirurgicală, cea a accesului şi a potenţialului resângerării în focarul hemoragic. Dacă al doilea mecanism este valabil, abstinenţa de la operaţie se poate solda cu decesul pacientului prin fenomene de hipertensiune intracraniană (angajare cerebrală, scăderea fluxului sanguin cerebral). Cum ambele mecanisme sunt intricate în majoritate cazurilor, experienţa echipei şi abilitatea raţionamentului neurochirurgical reprezintă factorul final de decizie. 
+-	Intervenţie chirurgicală de evacuare a hematomului (clasică transcerebrală, microchirurgicală transsulcală, endoscopică, puncţională simplă sau stereotactică cu sau fără introducere de fibrinolitice) se poate practica imediat după internare (efect de masă cert, hematom sau o componentă importantă a hematomului în poziţie lobară), după o perioadă de urmărire pentru cazurile de gravitate medie cu evoluţie ondulatorie sau evoluţie în platou prelungită (cronicizarea hematomului în vederea consolidării hemostazei spontane şi a stabilizării dezechilibrelor vegetative), imediat ce apare deteriorarea clinică pentru cazurile cu agravare secundară,. 
+-	Neuroterapia intensivă, în asociere cu evacuarea chirurgicală, sau ca unică modalitate terapeutică pentru cazurile cu hematoame talamice, tulburări vegetative prin leziunea primară cu potenţial major agravant al intervenţiei chirurgicale în focarul hemoragic profund, hematoame fără efect de masă (dimensiuni mici, bine tolerate clinic, imagistic, fără deplasări ale structurilor cerebrale mediane sau fără dispariţia spaţiilor lichidiene intracraniene). 
+-	Întrucât în evoluţia hematomului intracerebral, decompensarea hipertensiunii intracraniene prin epuizarea spaţiilor de rezervă endocraniene şi a mecanismelor compensatorii se poate produce în orice moment, uneori brusc (resângerare, edem cerebral, hidrocefalie) hematoamele chiar dacă nu sunt operate, trebuie urmărite pentru perioada acută în mediu neurochirurgical, acolo unde o intervenţie operatorie de urgenţă este oricând practicabilă. 
+-	După ieşirea din faza acută recuperarea neuromotorie şi continuarea tratamentului hipertensiunii intracraniene şi a patologiei asociate constituie o etapă obligatorie în circuitul acestor pacienţi.
+
+Pentru asigurarea standardelor de îngrijire a accidentului vascular cerebral hemoragic de tip hematom intracerebral, managementul sanitar trebuie să asigure următoarele disponibilităţi:
+-	transport medicalizat de urgenţă,
+-	neuroterapie intensivă, neuroanestezie,
+-	explorare CT în regim de urgenţă,
+-	disponibilităţi operatorii în orice moment, preferabil tehnici miniminvazive disponibile: microchirurgie, endoscopie, puncţie stereotaxică cu injectare de fibrinolitice şi aspiraţie, aspiraţie ultrasonică.
+-	accesibilitate la recuperarea neuromotorie şi dispensarizarea tensiunii arteriale
+-	accesibilitate la metode diagnostice suplimentare pentru cazuri selectate (angiografie, RMN)
+
+
+
+Posibilităţi neurochirurgicale în profilaxia şi 
+terapia accidentului vascular ischemic.
+
+Terapia conservatoare anticoagulantă şi fibrinolitică a ameliorat prognosticul accidentelor vasculare ischemice care, în mare parte, sunt de competenţa neurologiei (accidente vasculare cerebrale de cauză cardiacă, majoritatea trombozelor vasculare intracraniene).
+Posibilitatea chirurgicală de a revasculariza un teritoriu ale cărui vase s-au ocluzionat a deschis drumul unui variat număr de procedee: trombendarterectomii, anastomoze vasculare exo-endocraniene, encefalomiosinangioze ş.a. a căror indicaţie s-a restrâns în ultimul timp pe considerentul că revascularizarea poate apare spontan şi, oricum, intervenţiile amintite nu oferă o irigare suficient de rapidă în teritoriul ischemiat pentru a preveni constituirea leziunilor necrotice. În plus, există riscul transformării infarctului într-o zonă hemoragică (infarct hemoragic) cu evoluţie mai proastă. In prezent tehnicile de tromboliza pe cale endovenoasa sau prin cateterism arterial cu injectari  de agenti fibrinolitici la nivelul trombusului sau tehnicile endovasculare de extragere mecanica a trombusului cu diverse dispozitive s-au dezvoltat forte mult. Tromboliza sau extragerea trombusului se pot practica numai in primele 3 ore de la debut. Se stie ca rezistenta celulei nervoase la anoxie este 3-5 minute. In centrul unui infarct insa se considera ca zona de necroza este inconjurata de o zona de penumbra in care irigatia tesutului nervos este scazuta dar nu abolita. In aceasta zona neuronii supravietuiesc in stare de parabioza o durata de timp mai scurta sau mai lunga in functie de valoarea fluxului sanghin restant (ocluzii incomplete, flux colateral prin anastomozele subpiale).
+În infarctele constituite cu efect pseudotumoral sau cu potenţial edematogen crescut una din metodele terapeutice pentru a evita hipertensiunea intracraniană o constituie craniectomia decompresivă. Rezultatele sunt deocamdată controversate.
+La pacienţi cu hipoperfuzie cerebrală selectaţi (insuficienţă circulatorie cerebrală hemodinamică) se pot trata stenozele de pe vasele de aport prin endarterectomie sau stentting sau se pot face anastomoze vasculare pentru suplinirea hipoperfuziei dintr-un anumit teritoriu vascular. Cea mai cunoscută este anastomoza dintre artera carotidă externă şi artera cerebrală medie (prin grefă vasculară sau prin anastomoza temporosilviană).
+
+Endarterectomia carotidiană .
+Domeniul în care neurochirurgia îşi păstrează indicaţii frecvente la ora actuală este cel al dezobstrucţiei stenozelor vaselor mari la nivelul gâtului, cea mai frecventă fiind stenoza de carotidă. 
+La nivelul bifurcaţiei carotidei condiţiile hemodinamice turbionare favorizează formarea plăcilor de ateroscleroză. Îngustarea lumenului carotidian şi ulceraţia plăcii sunt factori favorizanţi suplimentari ai formării de trombuşi care se detaşează cu uşurinţă determinând embolii cerebrale. Circa 30% din accidentele vasculare cerebrale ischemice îşi au ca origine embolii porniţi de la nivelul bifurcaţiei arterei carotide stenozate.
+Screeningul populaţiei cu risc (pacienţi cu ateroscleroză la diverse nivele: coronariană, a membrelor inferioare) poate decela afecţiunea în faza asimptomatică. Metodele de diagnostic clinic (suflul carotidian), Echo-Doppler (evidenţierea stenozei) şi angiografic (vizualizarea exactă a gradului de stenoză: raportul dintre diametrul minim al carotidei interne la nivelul stenozei şi diametrul maxim al bulbului carotidian), a întinderii ei în înălţime şi a existenţei ulceraţiilor.
+Simptomatologia stenozei carotidiene se datorează emboliilor cerebrale sau trombozei de carotidă pe care le poate genera şi care stau la baza accidentelor cerebrale ischemice de etiologie carotidiană. 
+Clasificarea clinică a accidentelor vasculare ischemice este următoarea:
+•	accident tranzitor (instalarea bruscă a unui deficit neurologic focal care se remite total în primele 24 de ore de la instalare);
+•	accident ischemic constituit, care la rândul lui poate fi stabil, remisiv sau în evoluţie şi care, de obicei, este urmat de sechele (hemipareze, hemiplegii, afazii etc.) sau chiar deces
+In majoritatea cazurilor primele manifestări clinice ale stenozei de carotidă sunt reprezentate de accidentele ischemice tranzitorii sau constituite. Diagnosticul stenozei se face prin aceleaşi metode paraclinice ca şi pentru stenoza asimptomatică.
+Tratamentul conservator se adresează regimului igieno-dietetic, corectării hipertensiunii arteriale şi dislipidemiei, dacă există, tratamentul accidentului ischemic constituit şi în toate cazurile administrarea de antiagregante plachetare. Aceste măsuri nu oferă o protecţie completă faţă de repetarea accidentului ischemic sau faţă de apariţia unui accident ischemic grav. Înlăturarea stenozei de la nivelul carotidei se poate face chirurgical prin ablaţia plăcii de aterom sau pe cale de intervenţie endovasculară prin plasarea unui stent în lumenul carotidian. Operaţia (endarterectomia) constă în clamparea temporară a celor trei vase adiacente bifurcaţiei carotide (carotida comună, carotida externă şi carotida internă), incizia carotidei, decolarea plăcii de aterom de pe peretele vascular şi sutura etanşă a peretelui urmată de declampare. Pentru a preveni ischemia cerebrală în timpul clampării se poate utiliza un şunt din material plastic care să asigure continuarea fluxului sanguin între carotida comună şi carotida internă. Stentul este un cilindru din plasă metalică care se dilată cu un balonaş după ce a fost poziţionat la nivelul stenozei carotidiene sau după ce a fost detaşat din cateterul conductor pentru stenturile cu memorie elastică. Ambele manevre (chirurgicală şi endovasculară) sunt metode invazive cu un risc vital şi de accident vascular cerebral grav de 1-3%. Acest risc relativ crescut pentru o intervenţie profilactică se datorează faptului că pacienţii cu stenoză de carotidă sunt de obicei vârstnici, cu ateroscleroză coronariană sau cerebrală asociată. 
+Studii comparative între riscul natural de evoluţie a bolii şi riscul intervenţiei au dus la stabilirea grupe de pacienţi cu indicaţie operatorie: stenozele mai mari de 70%, dar unii factori pot fi luaţi în considerare la stabilirea indicaţiei: pacienţi tineri, plăci de ateroscleroză ulcerate, pacienţi cu accidente ischemice repetitive în antecedente.
+
+
+
