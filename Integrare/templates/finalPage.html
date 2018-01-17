@@ -297,10 +297,14 @@ word-wrap: break-word;
 						ul.setAttribute("id", resultArray[i].id);
 						
 						var father=resultArray[i].parinte;
+						var prop = resultArray[i].prop;
 						var buton = document.createElement("button");
 						
 						if (father=="0") {
 						buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+						buton.setAttribute("onclick", "showDetails(" +'"' + prop +'"'+ ")");
+
+
 						}
 						else
 						{
@@ -348,12 +352,15 @@ word-wrap: break-word;
 			}
 			}
 			console.log(ids_butoane_dejaPePag );
-			
-
-
 
 
 });
+
+        	function showDetails(prop) {
+             location.href = 'secondPage.html';
+             console.log("da");
+
+            }
     </script>
 </body>
 
