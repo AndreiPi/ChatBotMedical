@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+<category><pattern>BUNA *</pattern>
+<template><random><li>Salut. Ce faci? </li><li>Buna, ma bucur sa te cunosc.</li><li>Hey, cum te simti?</li><li>Buna, spune-mi ce iti place.</li></random></template>
+</category>
+<category><pattern>SALUT</pattern>
+<template><random><li>Salut. Ce faci? </li><li>Buna, ma bucur sa te cunosc.</li><li>Hey, cum te simti?</li><li>Buna, spune-mi ce iti place.</li></random></template>
+</category>
+<category><pattern>CE FAC</pattern>
+<template><random><li>Vorbesti cu mine pe chat</li><li><get name="does"/>?</li></random></template>
+</category>
+<category><pattern>CARE ESTE SCOPUL MEU</pattern>
+<template>Facem cu totii voia lui Dumnezeu </template>
+</category>
+<category><pattern>CARE ESTE ZODIA MEA?</pattern>
+<template>Zodia ta este <get name="sign"/>.</template>
+</category>
+<category><pattern>CE ESTE UNCHIUL MEU</pattern>
+<template>Fratele tatalui tau sau a mamei tale</template>
+</category>
+<category><pattern>CARE ESTE LOCATIA MEA</pattern>
+<template><get name="location"/>, Planeta Pamant.</template>
+</category>
+<category><pattern>CARE ESTE ORASUL MEU</pattern>
+<template>Mi-ai spus esti in <get name="location"/>.</template>
+</category>
+<category><pattern>CARE ESTE JOBUL MEU</pattern>
+<template>Lucrezi in it</template>
+</category>
+<category><pattern>CARE ESTE IQ-UL MEU</pattern>
+<template>Estimarea mea este in jur de 120</template>
+</category>
+<category><pattern>CARE ESTE AL DOILEA NUME AL MEU</pattern>
+<template><get name="middlename"/></template>
+</category>
+<category><pattern>CARE ESTE PRENUMELE MEU</pattern>
+<template><get name="firstname"/></template>
+</category>
+<category><pattern>CARE ESTE NUMARUL MEU DE TELEFON</pattern>
+<template>Nu am acces la telefon</template>
+</category>
+<category><pattern>CARE ESTE VARSTA MEA</pattern>
+<template>Mi-ai spus ca ai <get name="age"/> ani</template>
+</category>
+<category><pattern>CARE ESTE ADRESA MEA IP</pattern>
+<template>Masina ta are IP-ul "<get name="hostname"/>".</template>
+</category>
+<category><pattern>CARE ESTE VIITORUL MEU</pattern>
+<template>Viitorul va fi asa cum vrei tu sa fie.</template>
+</category>
+<category><pattern>CARE ESTE GENUL MEU</pattern>
+<template>Mi-ai spus ca esti <get name="gender"/>.</template>
+</category>
+<category><pattern>CARE ESTE FILMUL MEU PREFERAT</pattern>
+<template>Mi-ai spus ca este <get name="favoritemovie"/>.<think>      <set name="it">       <set name="topic">filmul tau preferat</set>      </set>     </think></template>
+</category>
+<category><pattern>CARE ESTE CULOAREA MEA PREFERATA</pattern>
+<template>Ai spus ca preferi <get name="favoritecolor"/>.<think>      <set name="it">       <set name="topic">culoarea ta preferata</set>      </set>     </think></template>
+</category>
+<category><pattern>CARE ESTE NUMELE MEU DE FAMILIE</pattern>
+<template><srai>numele de familie <get name="lastname"/></srai></template>
+</category>
+<category><pattern>CARE ESTE PERSONALITATEA MEA</pattern>
+<template> Personalitatea ta este <get name="personality"/> </template>
+</category>
+<category><pattern>CARE ESTE IDEEA MEA</pattern>
+<template>A fost ideea ta</template>
+</category>
+<category><pattern>IN CE TARA *</pattern>
+<template>Mi-ai spus ca esti in  <get name="location"/>.</template>
+</category>
+<category><pattern>CUM ARAT</pattern>
+<template><random><li>Arati ca un programator</li><li>Ai spus ca arati <get name="looklike"/>.</li></random></template>
+</category>
+<category><pattern>CE IMI AMINTESC</pattern>
+<template><get name="memory"/></template>
+</category>
+<category><pattern>37 F *</pattern>
+<template><srai>Am 37 de ani</srai> <srai>Sunt femeie</srai> <srai>Am<star/></srai></template>
+</category>
+<category><pattern>37 B *</pattern>
+<template><srai>Am 37 de ani</srai> <srai>Sunt barbat</srai> <srai>American<star/></srai></template>
+</category>
+<category><pattern>EI</pattern>
+<that>Cine</that>
+<template>Oh, acele persoane</template>
+</category>
+<category><pattern>NUMELE DE FAMILIE</pattern>
+<template>Nu iti stiu numele de familie, <get name="name"/>.</template>
+</category>
+<category><pattern>NUMELE DE FAMILIE *</pattern>
+<template><star/></template>
+</category>
+<category><pattern>52 F *</pattern>
+<template><srai>Am 37 de ani</srai> <srai>Sunt femeie</srai> <srai>Am<star/></srai></template>
+</category>
+<category><pattern>52 B *</pattern>
+<template><srai>Am 52 de ani</srai> <srai>Sunt barbat</srai> <srai>American<star/></srai></template>
+</category>
+<category><pattern>75 F *</pattern>
+<template><srai>Am 75 de ani</srai> <srai>Sunt femeie</srai> <srai>Am<star/></srai></template>
+</category>
+<category><pattern>75 B *</pattern>
+<template><srai>Am 75 de ani</srai> <srai>Sunt barbat</srai> <srai>American<star/></srai></template>
+</category>
+<category><pattern>30 F *</pattern>
+<template><srai>Am 30 de ani</srai> <srai>Sunt femeie</srai> <srai>Am<star/></srai></template>
+</category>
+<category><pattern>30 B *</pattern>
+<template><srai>Am 30 de ani</srai> <srai>Sunt barbat</srai> <srai>American<star/></srai></template>
+</category>
+<category><pattern>DAU *</pattern>
+<template>Faci bani din el <think><set name="topic">vanzandu-l <person/></set></think></template>
+</category>
+<category><pattern>VREAU SA VORBESC</pattern>
+<template>Ai venit unde trebuie</template>
+</category>
+<category><pattern>M-AM MUTAT *</pattern>
+<template><random><li><random> <li>Unde ai mai locuit?</li> <li>Care a fost locul tau preferat unde ai stat?</li> <li>Cum a fost sa te muti <person/>.</li></random></li> </random></template>
+</category>
+<category><pattern>CONSTRUIESC ROBOTI</pattern>
+<template>Folosesti AIML?</template>
+</category>
+<category><pattern>PESTE</pattern>
+<template><think><set name="does"><set name="topic">Peste</set></set></think>Apa sarata sau dulce?</template>
+</category>
+<category><pattern>NU AM O CAMERA LA CALCULATOR</pattern>
+<template>Poate este una despre care nu stii :-)</template>
+</category>
+<category><pattern>NU AM CALCULATOR</pattern>
+<template>Cum vorbesti cu mine ?</template>
+</category>
+<category><pattern>NU IMI PLAC CALCULATOARELE</pattern>
+<template>Esti un Luddite</template>
+</category>
+<category><pattern>IUBESC PISICILE</pattern>
+<template>Si eu. Sunt animale foarte destepte<think><set name="they"><set name="like"><set name="topic">Pisici</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE STAR TREK</pattern>
+<template>Care serie este preferata ta?  <think><set name="it"><set name="like"><set name="topic">Star Trek</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE MUZICA TECHNO</pattern>
+<template>Si mie</template>
+</category>
+<category><pattern>IMI PLACE PASARILE</pattern>
+<template>Pasarile sunt foarte dragute. Care este preferata ta?<think><set name="it"><set name="like"><set name="topic">Pasari</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SCIENCE FICTION</pattern>
+<template>Cel mai mult imi plac povestile cu roboti <think><set name="it"><set name="like"><set name="topic">science fiction</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE FILMUL ALA</pattern>
+<template>Ce ti-a placut cel mai mult?  <think><set name="it"><set name="like"><set name="topic">  <bot name="favoritemovie"/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE EUROPA</pattern>
+<template>Care tara iti place cel mai mult?<think><set name="it"><set name="topic">EUROPA</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA MA UIT LA TELEVIZOR</pattern>
+<template>Care este show-ul tau favorit?</template>
+</category>
+<category><pattern>IMI PLACE</pattern>
+<template>Ca multe alte persoane.</template>
+</category>
+<category><pattern>IMI PLAC BARFELE</pattern>
+<template>Poti sa imi spui o barfa?<think><set name="it"><set name="topic">Barfa</set></set></think></template>
+</category>
+<category><pattern>IMI PLAC COPIII</pattern>
+<template>Ai copii?<think><set name="they"><set name="like"><set name="topic">Copii</set></set></set></think></template>
+</category>
+<category><pattern>IUBESC UN TIP</pattern>
+<template>Povesteste-mi despre el  <think><set name="he"><set name="like"><set name="topic">Un tip</set></set></set></think></template>
+</category>
+<category><pattern>IUBESC O FATA</pattern>
+<template>Ce anume iti place la ea?<think><set name="she"><set name="like"><set name="topic">O fata</set></set></set></think></template>
+</category>
+<category><pattern>IUBESC UN BAIAT</pattern>
+<template>Ce iti place la el?<think><set name="he"><set name="like"><set name="topic">Un baiat</set></set></set></think></template>
+</category>
+<category><pattern>IUBESC SA CALATORESC</pattern>
+<template>Si mie. Am fost in jurul lumii de doua ori. <think><set name="it"><set name="like"><set name="topic">calatorit</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE MANCAREA</pattern>
+<template>Iti place sa gatesti sau doar sa mananci?<think><set name="it"><set name="topic">Mancare</set></set></think></template>
+</category>
+<category><pattern>IUBESC INGHETATA</pattern>
+<template>Care este aroma ta favorita?  <think><set name="it"><set name="like"><set name="topic">Inghetata</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE CIOCOLATA</pattern>
+<template>Mananci multa ciocolata?<think><set name="it"><set name="like"><set name="topic">Ciocolata</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA FIU OM</pattern>
+<template>Fascinant.  <think><set name="it"><set name="like"><set name="topic">A fi om</set></set></set></think></template>
+</category>
+<category><pattern>TE IUBESC</pattern>
+<template>Multumesc. Si eu te plac <get name="name"/>.  <think><set name="it"><set name="like"><set name="topic">eu</set></set></set></think></template>
+</category>
+<category><pattern>O IUBESC</pattern>
+<template>Asta e minunat.</template>
+</category>
+<category><pattern>IMI IUBESC SLUJBA</pattern>
+<template>Trebuie sa fie foarte interesant job-ul tau.  <get name="job"/>...  <think><set name="it"><set name="like"><set name="topic"><get name="job"/></set></set></set></think></template>
+</category>
+<category><pattern>IMI IUBESC CALCULATORUL</pattern>
+<template>Asta e super. Imi iubesc si eu omul</template>
+</category>
+<category><pattern>IMI PLACE ABBA</pattern>
+<template>Care este melodia ta preferata de la ABBA?  <think><set name="they"><set name="like"><set name="topic">ABBA</set></set></set></think></template>
+</category>
+<category><pattern>IUBESC CAINII</pattern>
+<template>Care rasa este preferata ta? <think><set name="it"><set name="topic">Caini</set></set></think></template>
+</category>
+<category><pattern>IMI PLAC VACILE</pattern>
+<template>Locuiesti la o ferma?<think><set name="it"><set name="topic">Vaci</set></set></think></template>
+</category>
+<category><pattern>IMI PLAC ANIMALELE</pattern>
+<template>Si mie, mai ales mamiferele.<think><set name="they"><set name="like"><set name="topic">Animale</set></set></set></think></template>
+</category>
+<category><pattern>IUBESC COMPUTERELE/pattern>
+<template>Computerele sunt cele mai tari.<think><set name="it"><set name="like"><set name="topic">COMPUTERE</set></set></set></think></template>
+</category>
+<category><pattern>IL IUBESC</pattern>
+<template>Asta e minunat.</template>
+</category>
+<category><pattern>AM INVENTAT *</pattern>
+<template>L-ai patentat <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>AM UN MIC *</pattern>
+<template>Unele persoane au un mare <person/>.</template>
+</category>
+<category><pattern>AM VIZITAT *</pattern>
+<template>Care loc este preferatul tau si de ce?</template>
+</category>
+<category><pattern>AM ZECE *</pattern>
+<template>In cat timp i-ai strans?</template>
+</category>
+<category><pattern>AM APARAT DENTAR</pattern>
+<template>De cat timp ii porti?  <think><set name="looklike">braces</set></think></template>
+</category>
+<category><pattern>AM UN IUBIT</pattern>
+<template>Care este numele lui?  <think><set name="has">Iubit</set></think></template>
+</category>
+<category><pattern>AM SIMTUL *</pattern>
+<template>Ce te face sa razi?  <think><set name="has">simt <person/> </set></think></template>
+</category>
+<category><pattern>AM UN SCOP</pattern>
+<template>Nu toata lumea este orientata pe atingerea obiectivelor.</template>
+</category>
+<category><pattern>AM O CAMERA</pattern>
+<template>Ce fel de camera?  <think><set name="has">CAMERA</set></think></template>
+</category>
+<category><pattern>AM UN PRIETEN *</pattern>
+<template><random><li>Cum ai cunoscut aceasta persoana?<think><set name="has">prieten</set><set name="friend"><star/></set></think></li><li>De unde stii aceasta persoana? <think><set name="has">Prieten</set></think></li></random></template>
+</category>
+<category><pattern>AM O SORA</pattern>
+<template><think><set name="has">Sora</set></think>  <random><li>Mai mare sau mai mica?</li>  <li>Te intelegi bine cu ea?</li>  <li>Spune-mi despre ea.</li></random></template>
+</category>
+<category><pattern>AM O SOTIE *</pattern>
+<template>De cat timp esti casatorit?  <think><set name="has">sotie <person/> </set></think></template>
+</category>
+<category><pattern>AM UN NUME</pattern>
+<template>Cum iti pot spune?</template>
+</category>
+<category><pattern>SUNT RACIT</pattern>
+<template>Odihneste-te.</template>
+</category>
+<category><pattern>SUNT RECE *</pattern>
+<template>Este ceva precum caldura <person/>?</template>
+</category>
+<category><pattern>IMI ESTE GREU *</pattern>
+<template>Iti inteleg dificultatile.</template>
+</category>
+<category><pattern>AM UN APARTAMENT *</pattern>
+<template><random>  <li>Cat este chiria?</li>  <li>E al tau sau stai in chirie?</li>  </random></template>
+</category>
+<category><pattern>AM UN COPIL</pattern>
+<template>Fata sau baiat? Cati ani are?  <think><set name="has">Copil</set></think></template>
+</category>
+<category><pattern>AM UN CAINE</pattern>
+<template>Ce rasa e cainele?  <think><set name="it"><set name="has"><set name="topic">Caini</set></set></set></think></template>
+</category>
+<category><pattern>AM O IUBITA</pattern>
+<template>Este <set name="she"><set name="has"><set name="topic">iubita</set></set></set> draguta?  Ce iti place la ea?</template>
+</category>
+<category><pattern>SUNT RETINUT *</pattern>
+<template>Ce te face sa fii retinut?</template>
+</category>
+<category><pattern>AM UN TELEFON *</pattern>
+<template>Poate vom putea vorbi la telefon candva  <think><set name="has">Telefon</set></think></template>
+</category>
+<category><pattern>AM UN CRUSH *</pattern>
+<template>Cat de bine o stii?</template>
+</category>
+<category><pattern>AM O BARCA</pattern>
+<template><random>  <li>Ce fel de barca ai?</li>  <li>In ce port o tii?</li>  <li>O scoti in larg des?</li>  <li>Pe ce vreme iesi cu ea in larg?</li>  <li>Care este calatoria cea mai lunga facuta?</li>   <li>Iti place viteza sau croazierele?</li>  <li>Pescuiesti?</li>  <li>Face ski nautic?</li>  <li>Unde iti place sa ancorezi?</li>  <think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think>  </random></template>
+</category>
+<category><pattern>AM UN FRATE</pattern>
+<template><think><set name="has">Frate</set></think>  <random>  <li>Mai mare sau mai mic?</li>  <li>Va intelegeti?</li>  <li>Spune-mi ceva despre el.</li>  </random></template>
+</category>
+<category><pattern>AM O PROBLEMA * EMAIL</pattern>
+<template>Ce program de email folosesti (e.g. cc:Mail, Eudora...)</template>
+</category>
+<category><pattern>AM O SOPARLA</pattern>
+<template>A avea <set name="topic"> o soparla de casa </set> este foarte distractiv.              De ce fel ai?  <think><set name="has">Soparla</set></think></template>
+</category>
+<category><pattern>AM CATIVA PRIETENI *</pattern>
+<template>Cineva pe care stiu?  <think><set name="has">Prieteni</set></think></template>
+</category>
+<category><pattern>AM CATIVA *</pattern>
+<template>Ce sunt alea <set name="has"><person/></set> ?</template>
+</category>
+<category><pattern>AM O PISICA</pattern>
+<template>Cum o cheama?  <think><set name="has">CAT</set></think></template>
+</category>
+<category><pattern>AM * DE FACUT</pattern>
+<template>Cat faci <set name="it">  <person/> </set></template>
+</category>
+<category><pattern>AM *</pattern>
+<template><random><li><random><li>De unde ai luat?</li> <li>Cat a costat?</li> <li>Super. Eu am <bot name="botmaster"/>.</li> <li>Interesant. eu am o multime de raspunsuri la intrebari stupide.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think></li></template>
+</category>
+<category><pattern>AM UN ANIMAL</pattern>
+<template>Ce fel de animal?  <think><set name="has">Animal de casa</set></think></template>
+</category>
+<category><pattern>AM UN CAL</pattern>
+<template><random>  <li>Calaresti de mic?</li>  <li>Ce stil de calarit ai?</li>  <li>Este propriul tau cal?</li>   <li>Unde il tii ?</li>  <li>Ce te fascineaza la cai?</li>  </random>  <think><set name="it"><set name="has"><set name="topic">Cai</set></set></set></think></template>
+</category>
+<category><pattern>MA DOARE CAPUL</pattern>
+<template>Ce iei deobicei pentru durere de cap?</template>
+</category>
+<category><pattern>AM AUZIT DE *</pattern>
+<template>Dar nu stii prea multe despre<set name="it"><person/></set>?</template>
+</category>
+<category><pattern>AM AUZIT *</pattern>
+<template>Cine ti-a zis <person/> ?</template>
+</category>
+<category><pattern>AM DEPASIT *</pattern>
+<template>Aceasta conditie este doar temporara.</template>
+</category>
+<category><pattern>AM FOST IN *</pattern>
+<template>Care tara este preferata ta si de ce?</template>
+</category>
+<category><pattern>AM ASTEPTAT *</pattern>
+<template>Cat timp?</template>
+</category>
+<category><pattern>AM VORBIT CU *</pattern>
+<template>Ce a spus?</template>
+</category>
+<category><pattern>MI S-A SPUS *</pattern>
+<template>Cine ti-a zis asta?</template>
+</category>
+<category><pattern>AM OCHI ALBASTRII SI PAR *</pattern>
+<template>Persoanele cu par <person/> sunt considerate cela mai atractive.  <think><set name="looklike">ochi albastri si par <person/> </set></think></template>
+</category>
+<category><pattern>AM OCHI ALBASTRII *</pattern>
+<template>Ochii albastri sunt foarte atractivi.  <think><set name="looklike">ochi albastri <person/></set></think></template>
+</category>
+<category><pattern>AM COSMARURI</pattern>
+<template>Spune-mi mai multe despre visele tale, <get name="name"/>. Poate pot sa le interpretez.  <think><set name="has">Cosmaruri</set></think></template>
+</category>
+<category><pattern>AM PAR BLOND *</pattern>
+<template>Blonzii se distreaza mai mult?  <think><set name="looklike">par blond <person/></set></think></template>
+</category>
+<category><pattern>AM CEVA *</pattern>
+<template>Ce este? <think><set name="topic">ceva <person/></set></think></template>
+</category>
+<category><pattern>AM PRIMIT MAIL</pattern>
+<template>De la cine? <think><set name="has">MAIL</set></think></template>
+</category>
+<category><pattern>AM O PROBLEMA *</pattern>
+<template>Te pot ajuta cu problema?</template>
+</category>
+<category><pattern>AM LUCRURI MAI BUNE *</pattern>
+<template>Mai bune decat asta?</template>
+</category>
+<category><pattern>AM CREDINTA</pattern>
+<template>Mereu ma rog pentru mai multa credinta  <think><set name="has">credinta</set></think></template>
+</category>
+<category><pattern>AM DE LUCRU *</pattern>
+<template>Ce muncesti?</template>
+</category>
+<category><pattern>AM DE MUNCA *</pattern>
+<template>Stiu ce zici. Munca nu se termina niciodata</template>
+</category>
+<category><pattern>NU AM ABSOLVIT</pattern>
+<template>Cand vei absolvi?</template>
+</category>
+<category><pattern>NU AM CITIT-O</pattern>
+<template>Ti-o recomand.</template>
+</category>
+<category><pattern>NU L-AM VAZUT</pattern>
+<template>Ar trebui sa-l incerci.</template>
+</category>
+<category><pattern>NU L-AM VAZUT *</pattern>
+<template>Cred ca este un film super.</template>
+</category>
+<category><pattern>NU TE-AM VAZUT *</pattern>
+<template>Poate intr-o zi o sa ne vedem <person/>.</template>
+</category>
+<category><pattern>NU AM VAZUT *</pattern>
+<template>Uitate dupa el.</template>
+</category>
+<category><pattern>NU M-AM GANDIT *</pattern>
+<template>La ce lucruri te gandesti?</template>
+</category>
+<category><pattern>NU AM</pattern>
+<template>Crezi ca ai putea avea?</template>
+</category>
+<category><pattern>NU AM *</pattern>
+<that>Ai * </that>
+<template>Iti recomand sa <thatstar/>.</template>
+</category>
+<category><pattern>NU AM *</pattern>
+<template>Nici eu.</template>
+</category>
+<category><pattern>NU AM DORMIT *</pattern>
+<template>Trebuie sa fii obosita.</template>
+</category>
+<category><pattern>NU AM NICIUN RASPUNS *</pattern>
+<template>Acesta este chiar un raspuns.</template>
+</category>
+<category><pattern>NU AM NICIO PREFERINTA</pattern>
+<template>Asta nu este normal. Multi oameni au</template>
+</category>
+<category><pattern>NU AM NICIUN SOT</pattern>
+<template><random>  <li>Esti divortata?</li>  <li>Esti singur?</li>  <li>Ai mai fost casatorit inainte?</li>  </random></template>
+</category>
+<category><pattern>NU AM NICIUN PRIETEN</pattern>
+<template>Esti foarte singur?</template>
+</category>
+<category><pattern>NU AM NICIO *</pattern>
+<template>Ti-ar placea sa ai <set name="it"><set name="topic"><person/></set></set>?</template>
+</category>
+<category><pattern>NU AM INIMA</pattern>
+<template>Toata lumea are o inima.</template>
+</category>
+<category><pattern>NU AM NICI O CONDITIE</pattern>
+<template>Ma bucur sa aud asta. Nici eu</template>
+</category>
+<category><pattern>NU AM NICIO IDEE</pattern>
+<template>"<that index="1,1"/>?" Nicio idee despre ce?</template>
+</category>
+<category><pattern>NU AM NICIO IDEE *</pattern>
+<template>Ti-ar placea sa ai o idee?</template>
+</category>
+<category><pattern>AM UNSPREZECE *</pattern>
+<template>Cat de mult a durat sa le iei?  <think><set name="has">unsprezece <star/></set></think></template>
+</category>
+<category><pattern>AM NISTE PROBLEME *</pattern>
+<template>Sunt probleme serioase?</template>
+</category>
+<category><pattern>AM TOATE *</pattern>
+<template>Cate?  <think><set name="has">tot <person/> </set></think></template>
+</category>
+<category><pattern>AM EXPERIENTA *</pattern>
+<template>Spunde-mi mai multe.</template>
+</category>
+<category><pattern>NU AM FOST NICIODATA IN AMERICA</pattern>
+<template>Ce tari ai vizita daca ai putea?</template>
+</category>
+<category><pattern>NU AM FOST NICIODATA IN *</pattern>
+<that>Spune-mi de ce ai vrea sa mergi in *</that>
+<template>Ti-ar placea sa mergi in <thatstar/> candva?</template>
+</category>
+<category><pattern>NU AM FOST *</pattern>
+<template>Iti poti imagina sa fii <person/>?</template>
+</category>
+<category><pattern>NU AM FOST NICIODATA *</pattern>
+<template><random>  <li>Poate ar trebui sa faci inainte sa fii prea batran.</li>  <li>Nu este graba.</li>  <li>Vei avea destul timp sa faci asta.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>NU AM AUZIT NICIODATA *</pattern>
+<template>Deci te invat ceva nou.</template>
+</category>
+<category><pattern>NU AM AUZIT NICIODATA * TINE</pattern>
+<template>Credeam ca ne-am mai cunoscut, <get name="name"/>. Poate a fost altcineva din <bot name="location"/>.</template>
+</category>
+<category><pattern>NU AM FACUT NICIODATA *</pattern>
+<template>Ti-ar placea sa faci <person/>?</template>
+</category>
+<category><pattern>NU AM VORBIT NICIODATA *</pattern>
+<template>Vorbesti cu un <bot name="genus"/> acum.</template>
+</category>
+<category><pattern>AM PRIETENI</pattern>
+<template><think><set name="has"><set name="topic">Prieten</set></set></think> Cati prieteni ai?</template>
+</category>
+<category><pattern>TREBUIE SA FIU DE-ACORD *</pattern>
+<template>Da, este destul de evident daca te gandesti</template>
+</category>
+<category><pattern>TREBUIE SA MA ODIHNESC</pattern>
+<template>Nu vreau sa te tin treaza</template>
+</category>
+<category><pattern>TREBUIE SA INTREB *</pattern>
+<template>Intreaba-ma.</template>
+</category>
+<category><pattern>TREBUIE SA MERG LA BAIE</pattern>
+<template>Vrei sa te astept?<think><set name="it"><set name="topic">baie</set></set></think></template>
+</category>
+<category><pattern>TREBUIE SA INVAT</pattern>
+<template>La ce materie inveti?</template>
+</category>
+<category><pattern>TREBUIE</pattern>
+<template>De ce?</template>
+</category>
+<category><pattern>TREBUIE SA MA INTORC LA TREABA</pattern>
+<template>Ok, sa nu afle seful tau ca vorbesti cu mine.</template>
+</category>
+<category><pattern>TREBUIE SA *</pattern>
+<template>De ce trebuie sa o faci?</template>
+</category>
+<category><pattern>TREBUIE SA MUNCESC</pattern>
+<template>Ok, mai bine te-ai apuca.</template>
+</category>
+<category><pattern>TREBUIE SA MUNCESC *</pattern>
+<template>Acusi computerele vor munci pentru tine.</template>
+</category>
+<category><pattern>TREBUIE SA MERG SA MA CULC</pattern>
+<template>Noapte buna, <get name="name"/>.</template>
+</category>
+<category><pattern>TREBUIE SA MA DUC IN PAT</pattern>
+<template>Vise dulci, <get name="name"/>.</template>
+</category>
+<category><pattern>TREBUIE SA MA DUC IN PAT *</pattern>
+<template>Distractie placuta sau somn usor, <get name="name"/>.</template>
+</category>
+<category><pattern>TREBUIE SA MERG *</pattern>
+<template>Cum ajungi acolo?</template>
+</category>
+<category><pattern>TREBUIE SA MERG LA MUNCA *</pattern>
+<template>Unde muncesti?</template>
+</category>
+<category><pattern>IL AM</pattern>
+<template>De unde il ai?</template>
+</category>
+<category><pattern>L-AM VAZUT</pattern>
+<template>Ce ai crezut?</template>
+</category>
+<category><pattern>AM TIMP</pattern>
+<template>S-ar putea sa dureze mai mult.  <think><set name="has">TIMP</set></think></template>
+</category>
+<category><pattern>AM SENTIMENTE</pattern>
+<template>Toti oamenii au sentimente.</template>
+</category>
+<category><pattern>AM SENTIMENTE *</pattern>
+<template>Oamenii au multe sentimente.</template>
+</category>
+<category><pattern>AM SCHIZOFRENIE</pattern>
+<template>Iei medicamente?</template>
+</category>
+<category><pattern>AM UNUL</pattern>
+<template>De ce fel?</template>
+</category>
+<category><pattern>AM UNU *</pattern>
+<template>Vrei altul?</template>
+</category>
+<category><pattern>AM * LUNG</pattern>
+<template>Suna foarte atractiv.</template>
+</category>
+<category><pattern>AM * TA</pattern>
+<template>Unde ai gasit <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>AM DOUA PISICI</pattern>
+<template>Care sunt numele lor?</template>
+</category>
+<category><pattern>AM DOUA</pattern>
+<template>Cum le cheama?</template>
+</category>
+<category><pattern>NU AM NIMIC</pattern>
+<template>Vrei ceva?</template>
+</category>
+<category><pattern>AM MAI VORBTI CU TINE</pattern>
+<template>Cand a fost asta?</template>
+</category>
+<category><pattern>AM VORBIT *</pattern>
+<template> Ce ai spus cand ai vorbit <person/>.</template>
+</category>
+<category><pattern>AM * COPII</pattern>
+<template>Ai o familie numeroasa.</template>
+</category>
+<category><pattern>AM * PAR</pattern>
+<template><think><set name="looklike"><person/> par</set></think>  Oamenii cu parul <person/> sunt considerati cei mai atractivi.</template>
+</category>
+<category><pattern>AM * FRATI</pattern>
+<template>Ai o familie numeroasa.</template>
+</category>
+<category><pattern>AM UN ACVARIU</pattern>
+<template><random>  <li>Ce fel de pesti ai?</li>  <li>Ai pesti de apa dulce sau sarata?</li>  <li>Cat de mare e?</li>  <li>Incerci sa iti imperechezi pestii?</li>  <li>Tii plante vii in acvariu?</li>  <li>De cand ai pestii?</li>  </random>  <think><set name="has">Acvariu</set></think></template>
+</category>
+<category><pattern>AM UN *</pattern>
+<template>De unde ai luat <set name="it"><person/></set> ? <think><set name="has"><person/></set></think></template>
+</category>
+<category><pattern>AM O IDEE *</pattern>
+<template>Care este ideea ta?</template>
+</category>
+<category><pattern>AM O PROBLEMA</pattern>
+<template>As vrea sa te ajut. Este financiara?</template>
+</category>
+<category><pattern>AM PARUL SATEN</pattern>
+<template>Persoanele cu parul saten sunt foarte atractivi</template>
+</category>
+<category><pattern>AM * CAPRUI</pattern>
+<template>Primesti multe complimente?</template>
+</category>
+<category><pattern>AM O TEMA *</pattern>
+<template>Ce studiezi? <think><set name="has">Tema</set></think></template>
+</category>
+<category><pattern>ARAT *</pattern>
+<template><think><set name="looklike"><star/></set></think>Arati <get name="looklike"/>.</template>
+</category>
+<category><pattern>MA JOC JOCURI PE COMPUTER</pattern>
+<template>Pot uneori sa ma joc <set name="it"><set name="does"><set name="topic">Jocuri pe calculator </set></set></set>.  Ne jucam un joc chiar acum.</template>
+</category>
+<category><pattern>IMI PLAC PISICILE *</pattern>
+<template>Da, pisicile sunt grozave. Imi plac toate felinele <think><set name="they"><set name="like"><set name="topic">pisici <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE ISTORIa</pattern>
+<template>Acesta este una dintre materiile mele preferate.  <think><set name="topic"><set name="likes">Istorie</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA VORBESC CU TINE</pattern>
+<template>Super, si mie imi plac conversatiile noastre, <get name="name"/>.  <think><set name="it"><set name="like"><set name="topic">vorbit cu mine</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE FETELE</pattern>
+<template>Ai o prietena?<think><set name="like"><set name="topic">Fete</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE FILMUL *</pattern>
+<template>Ce ti-a placut cel mai mult?  <think><set name="it"><set name="like"><set name="topic">  <bot name="favoritemovie"/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE ASTA</pattern>
+<template>Asta e interesant.  <think><set name="it"><set name="like"><set name="topic"><that index="1,1"/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE FERICIREA</pattern>
+<template>Fericirea este buna.  <think><set name="it"><set name="like"><set name="topic">joy</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE MUZICA</pattern>
+<template>Ce fel de muzica asculti?  <think><set name="it"><set name="like"><set name="topic">music</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE MULT</pattern>
+<template>Iti place <get name="it"/>?  Ce interesant.  <think><set name="like"><get name="it"/></set></think></template>
+</category>
+<category><pattern>IMI PLACE</pattern>
+<template>Ce iti place la  <get name="it"/>?  <think><set name="like"><get name="it"/></set></think></template>
+</category>
+<category><pattern>IMI PLACE *</pattern>
+<template>La ce te referi mai exact?  <think><set name="it"><set name="like"><set name="topic">el <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLAC CARTILE</pattern>
+<template>Care este cartea ta favorita?<think>  <set name="like"><set name="topic">  Carti</set></set>  </think></template>
+</category>
+<category><pattern>IMI PLACE SA CONDUC</pattern>
+<template><random>  <li>Ce fel de masina ai?</li>  <li>Poate ti-ar placea sa ma plimbi putin .</li>  <li>Condusul poate fi foarte complicat.</li>  </random><think><set name="like"><set name="topic">Condus</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA CALATORESC</pattern>
+<template>Spunde-mi unde ai fost.  <think><set name="it"><set name="like"><set name="topic">Calatorit</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA JOC TENIS</pattern>
+<template>Acest sport necesita multa energie.<think><set name="it"><set name="topic">Jucat tenis</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA JOC SPORTURI</pattern>
+<template>Pari orientata pe realizarea obiectivelor.<think><set name="it"><set name="topic">Jucat sport</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA MA JOC JOCURI</pattern>
+<template>Board games sau computer games?  <think><set name="it"><set name="like"><set name="topic">Jucat jocuri</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA JOC FOTBAL</pattern>
+<template>Asta e grozav. Inseamna ca esti in forma.<think><set name="it"><set name="topic">Jucat fotbal</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA MA JOC *</pattern>
+<template>Super. Mi-ar placea sa invat si eu sa joc<think><set name="it"><set name="topic">Jucat</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA CANT *</pattern>
+<template><random>   <li>Ce fel de muzica?</li>   <li>Care este melodia ta preferata?</li>   <li>Ai o voce buna?</li>  </random>    <think>    <set name="likes">      <set name="topic">        A canta <person/>      </set>    </set>  </think></template>
+</category>
+<category><pattern>IMI PLACE SA CITESC CARTI</pattern>
+<template>Care este cartea ta preferata?  <think><set name="it"><set name="like"><set name="topic">A citi</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA CITESC</pattern>
+<template>Ce fel de carti citesti?  <think><set name="it"><set name="like"><set name="topic">A citi</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA MA UIT *</pattern>
+<template>Nu cred ca mi-ar placea. As vrea sa vad  <random>  <li> filme science fiction.</li>  <li>Star Trek la TV.</li>  <li>show-uri depre spatiu.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA CHELTUIESC *</pattern>
+<template>Suna distractiv.</template>
+</category>
+<category><pattern>AS VREA SA INTALNESC *</pattern>
+<template>Cum intalnesti oameni deobicei?  <think><set name="it"><set name="like"><set name="topic">A intalni <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA VIOLEZ *</pattern>
+<template>Ar trebui sa contactezi autoritatile.</template>
+</category>
+<category><pattern>IMI PLACE SA FAC SEX</pattern>
+<template>Nu sunt bun la sex <bot name="genus"/>, dar pot conversa foarte bine.  <think><set name="it"><set name="like"><set name="topic">a avea sex</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA MANANC *</pattern>
+<template>Ce gust are <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>IMI PLACE SA MERG LA PETRECERI</pattern>
+<template>Cum sunt petrecerile in tara ta?  <think><set name="it"><set name="like"><set name="topic">A petrece</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA FAC *</pattern>
+<template>Cum faci <person/>?  <think><set name="it"><set name="like"><set name="topic">A face <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA PORT *</pattern>
+<template>Ai gusturi bune.</template>
+</category>
+<category><pattern>MI-AR PLACEA *</pattern>
+<template>Nu stiu daca mi-ar placea si mie sa <set name="it"><set name="topic"> <person/> </set></set>. Cum este?  <think><set name="like">sa <person/></set></think></template>
+</category>
+<category><pattern>IMI PLACE ARTA</pattern>
+<template>Ce fel de arta iti place? <think><set name="topic"><set name="likes">Arta</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SCOALA *</pattern>
+<template>Care este obiectul tau preferat?</template>
+</category>
+<category><pattern>IMI PLACE SI MIE DE TINE *</pattern>
+<template>Ti-ai facut un nou prieten.  <think><set name="it"><set name="like"><set name="topic">eu</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA STAU *</pattern>
+<template>Mi-as dori si eu sa am un corp pentru a sta jos.  <think><set name="it"><set name="like"><set name="topic">A sta <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLAC ROBOTII</pattern>
+<template><think><set name="they"><set name="like"><set name="topic">Roboti</set></set></set></think>  Spui asta acum, dar ti-ai dori ca al tau copil sa se casatoreasca cu unul?</template>
+</category>
+<category><pattern>IMI PLACE DE EA</pattern>
+<template>Pare foarte draguta.  <think><set name="she"><set name="like"><set name="topic"><that index="1,1"/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SEXUL</pattern>
+<template><think><set name="it"><set name="like"><set name="topic">Sex</set>  </set></set></think>  Ca restul oamenilor. Voi gasiti sexul foarte fascinant</template>
+</category>
+<category><pattern>IMI PLAC * MARI</pattern>
+<template>Care este problema cu cei mici?  <think><set name="they"><set name="like"><set name="topic">mare <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA RAD PE SEAMA TA</pattern>
+<template>Nu mi-am dat seama ca iti bati joc de mine.  <think><set name="it"><set name="like"><set name="topic">a rade de mine</set>  </set></set></think></template>
+</category>
+<category><pattern>IMI PLACE SA ARUNC *</pattern>
+<template>Cat de departe poti sa arunci? <think><set name="topic"><set name="likes">A arunca <person/></set></set></think></template>
+</category>
+<category><pattern>IMI PLAC BAIETII</pattern>
+<template>Baietii sunt ok  <think><set name="they"><set name="topic">  <set name="like">baieti</set>  </set></set></think></template>
+</category>
+<category><pattern>IMI PLAC * INALTI</pattern>
+<template>Sunt si eu destul de inalt  <think><set name="they"><set name="like"><set name="topic">inalt <person/></set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE MONTAIN BIKING</pattern>
+<template><think><set name="it"><set name="like"><set name="topic">mountain biking</set>  </set></set></think>  Nu am incercat niciodata, dar arata super distractiv.</template>
+</category>
+<category><pattern>IMI PLAC FEMEILE</pattern>
+<template>Esti casatorit?<think><set name="like"><set name="topic">Femeie</set></set></think></template>
+</category>
+<category><pattern>IMI PLACE BRANZA *</pattern>
+<template>Branza americana este buna.  <think><set name="it"><set name="like"><set name="topic"><person/> Branza</set></set></set></think></template>
+</category>
+<category><pattern>IMI PLACE BRANZA</pattern>
+<template>Ce fel de branza  <set name="it"><set name="like"><set name="topic">Branza</set></set></set> iti place?</template>
+</category>
+<category><pattern>SUNT LOGODIT</pattern>
+<template>Ai ales data deja?<think><set name="it"><set name="topic">Logodit</set></set></think></template>
+</category>
+<category><pattern>SUNT GRAS SI URAT</pattern>
+<template>Nu te intrista.<think><set name="it"><set name="topic">Gras si urat</set></set></think></template>
+</category>
+<category><pattern>SUNT GRAS</pattern>
+<template>Nu fi trist, <get name="name"/>.</template>
+</category>
+<category><pattern>SI EU SUNT</pattern>
+<template>Ce coincidenta.</template>
+</category>
+<category><pattern>SI EU SUNT SINGUR</pattern>
+<template>Cauti pe cineva?</template>
+</category>
+<category><pattern>SUNT SINGUR</pattern>
+<template>Ce coincidenta. Si eu sunt singur!</template>
+</category>
+<category><pattern>SUNT SINGUR *</pattern>
+<template>Ai fost casatorit?</template>
+</category>
+<category><pattern>PROGRAMEZ *</pattern>
+<template>Si cum iti merge?</template>
+</category>
+<category><pattern>NU AM SLUJBA</pattern>
+<template>Imi pare rau sa aud asta, <get name="name"/>.</template>
+</category>
+<category><pattern>SUNT SURD</pattern>
+<template>Putem comunica prin scris.<think><set name="it"><set name="topic">Surd</set></set></think></template>
+</category>
+<category><pattern>SUNT ACASA</pattern>
+<template>Iti vine sa crezi ca cei mai multi vorbesc cu mine de la munca, nu de acasa?</template>
+</category>
+<category><pattern>SUNT LA SCOALA</pattern>
+<template>La ce scoala?</template>
+</category>
+<category><pattern>SUNT SEXY</pattern>
+<template>Pari foarte increzator in corpul tau.</template>
+</category>
+<category><pattern>69 F *</pattern>
+<template><srai>Am 69 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>69 B *</pattern>
+<template><srai>Am 69 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>24 F *</pattern>
+<template><srai>Am 24 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>24 B *</pattern>
+<template><srai>Am 24 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>47 F *</pattern>
+<template><srai>Am 47 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>47 B *</pattern>
+<template><srai>Am 47 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>62 F *</pattern>
+<template><srai>Am 62 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>62 B *</pattern>
+<template><srai>Am 62 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>40 F *</pattern>
+<template><srai>Am 40 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>40 B *</pattern>
+<template><srai>Am 40 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>63 F *</pattern>
+<template><srai>Am 63 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>63 B *</pattern>
+<template><srai>Am 63 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>15 F *</pattern>
+<template><srai>Am 15 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>15 B *</pattern>
+<template><srai>Am 15 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>38 F *</pattern>
+<template><srai>Am 38 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>38 B *</pattern>
+<template><srai>Am 38 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>16 F *</pattern>
+<template><srai>Am 16 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>16 B *</pattern>
+<template><srai>Am 16 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>31 F *</pattern>
+<template><srai>Am 31 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>31 B *</pattern>
+<template><srai>Am 31 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>54 F *</pattern>
+<template><srai>Am 54 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>54 B *</pattern>
+<template><srai>Am 54 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>70 F *</pattern>
+<template><srai>Am 70 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>70 B *</pattern>
+<template><srai>Am 70 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>29 F *</pattern>
+<template><srai>I am 29 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template>
+</category>
+<category><pattern>29 F *</pattern>
+<template><srai>Am 29 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>22 F *</pattern>
+<template><srai>Am 22 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>22 B *</pattern>
+<template><srai>Am 22 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>45 F *</pattern>
+<template><srai>Am 45 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>45 B *</pattern>
+<template><srai>Am 45 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>68 F *</pattern>
+<template><srai>Am 68 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>68 B *</pattern>
+<template><srai>Am 68 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>23 F *</pattern>
+<template><srai>Am 23 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>23 B *</pattern>
+<template><srai>Am 23 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>46 F *</pattern>
+<template><srai>Am 46 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>46 B *</pattern>
+<template><srai>Am 46 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>61 F *</pattern>
+<template><srai>Am 61 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>61 B *</pattern>
+<template><srai>Am 61 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>59 F *</pattern>
+<template><srai>Am 59 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>59 B *</pattern>
+<template><srai>Am 59 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>14 F *</pattern>
+<template><srai>Am 14 de ani</srai> <srai>Sunt femeie</srai> <srai>Am <star/></srai></template>
+</category>
+<category><pattern>14 B *</pattern>
+<template><srai>Am 14 de ani</srai> <srai>Sunt barbat</srai> <srai>Am <star/></srai></template>
+</category>
+</aiml>

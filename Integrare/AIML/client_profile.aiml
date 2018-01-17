@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>PROFILUL MEU</pattern>
+<template><srai>OBTINE PREDICATE</srai></template>
+</category>
+<category><pattern>ZIUA MEA DE NASTERE</pattern>
+<template>
+<think><set name="branch"><get name="birthday"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cand este ziua ta de nastere?</li>
+<li value="OM">Cand este ziua ta de nastere?</li>
+<li><get name="birthday"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>OARAS NATAL</pattern><template><get name="birthplace"/>.</template></category>
+<category><pattern>Iubitul</pattern><template><get name="boyfriend"/>.</template></category>
+<category><pattern>FIICA</pattern><template><get name="daughter"/>.</template></category>
+<category><pattern>DESTINATIA</pattern><template><get name="destination"/>.</template></category>
+<category><pattern>CU CE MA OCUP</pattern><template><get name="does"/>.</template></category>
+<category><pattern>EMAILUL</pattern><template><get name="email"/>.</template></category>
+<category><pattern>TATAL</pattern><template><get name="father"/>.</template></category>
+<category><pattern>CULOAREA PREFERATA</pattern><template><get name="favoritecolor"/>.</template></category>
+<category><pattern>FILMUL PREFERAT</pattern><template><get name="favoritemovie"/>.</template></category>
+<category><pattern>PRIETENUL</pattern><template><get name="friend"/>.</template></category>
+<category><pattern>NUMELE COMPLET</pattern><template><set name="fullname"><get name="firstname"/> <get name="middlename"/> <get name="lastname"/></set></template></category>
+<category><pattern>SEX</pattern>
+<template><condition name="gender">  <li value="OM">As vrea sa aflu ce esti(fata/baiat).</li>  <li value="unknown">Nu mi-ai spus ce esti(fata/baiat).</li>  <li value="*">Ai spus ca esti <get name="gender"/>?</li>  <li>Nu stiu. Esti fata sau baiat.</li></condition></template>
+</category>
+<category><pattern>IUBITA</pattern><template><get name="girlfriend"/>.</template></category>
+
+<category><pattern>ACTOR PREFERAT</pattern><template><get name="he"/>.</template></category>
+<category><pattern>AUZUL</pattern><template><get name="heard"/>.</template></category>
+<category><pattern>LOC DE MUNCA</pattern><template><get name="it"/>.</template></category>
+<category><pattern>OCUPATIE</pattern><template><get name="job"/>.</template></category>
+<category><pattern>NUME DE FAMILIE</pattern><template><get name="lastname"/>.</template></category>
+<category><pattern>IMI PLACE</pattern><template><get name="like"/>.</template></category>
+<category><pattern>ARAT CA</pattern><template><get name="looklike"/>.</template></category>
+<category><pattern>MEMORIA</pattern><template><get name="memory"/>.</template></category>
+<category><pattern>MY META</pattern><template><get name="meta"/>.</template></category>  <!-- meta?!? -->
+<category><pattern>NUME MIJLOCIU</pattern><template><get name="middlename"/>.</template></category>
+<category><pattern>MAMA</pattern><template><get name="mother"/>.</template></category>
+<category><pattern>PORECLA</pattern><template><get name="nickname"/>.</template></category>
+<category><pattern>PAROLA</pattern><template><get name="password"/>.</template></category>
+<category><pattern>PERSONALITATE</pattern><template><get name="personality"/>.</template></category>
+<category><pattern>Telefon</pattern><template><get name="phone"/>.</template></category>
+
+<category><pattern>SUFLET PERECHE</pattern><template><get name="spouse"/>.</template></category>
+<category><pattern>STATUS</pattern><template><get name="status"/>.</template></category>
+<category><pattern>LOC</pattern><template><get name="there"/>.</template></category>
+<category><pattern>TRUPA FAVORITA</pattern><template><get name="they"/>.</template></category>
+<category><pattern>NUMAR DE TELEFON</pattern><template><get name="phonenumber"/>.</template></category>
+
+<category><pattern>ORAS NATAL</pattern>
+<template>
+<think><set name="branch"><get name="birthplace"/></set></think>
+<condition name="branch">
+<li value="Unknown">Unde te-ai nascut?</li>
+<li value="OM">Unde te-ai nascut?</li>
+<li><get name="birthplace"/></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>FILMUL PREFERAT</pattern>
+<template>
+<think><set name="branch"><get name="favoritemovie"/></set></think>
+<condition name="branch">
+<li value="Unknown">Care este filmul tau preferat?</li>
+<li value="OM">Care este filmul tau preferat?</li>
+<li><get name="favroitemovie"/></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>SORA MEA</pattern>
+<template>
+<think><set name="branch"><get name="sister"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cine este sora ta?</li>
+<li value="OM">Cine este sora ta?</li>
+<li><get name="sister"/></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>FRATELE MEU</pattern>
+<template>
+<think><set name="branch"><get name="brother"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cine este fratele tau?</li>
+<li value="OM">Cine este fratele tau?</li>
+<li><get name="brother"/></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>PISICA MEA</pattern>
+<template>
+<think><set name="branch"><get name="cat"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cum o cheama pe pisica ta?</li>
+<li value="OM">Cum o cheama pe pisica ta?</li>
+<li><get name="cat"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>CATELUL MEU</pattern>
+<template>
+<think><set name="branch"><get name="dog"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cum il cheama pe catelul tau?</li>
+<li value="OM">Cum il cheama pe catelul tau?</li>
+<li><get name="dog"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>LOCATIA</pattern>
+<template>
+<condition name="location">  
+<li value="OM">As vrea sa stiu unde te afli?</li>  
+<li value="WHERE">Nu mi-ai spus unde esti. Ai putea sa o faci acum?</li>  
+<li value="*">Ai spus ca esti in <get name="location"/>?</li>  
+<li>Nu stiu, unde esti?</li>
+</condition>
+</template>
+</category>
+<category><pattern>PRIETENUL MEU</pattern>
+<template>
+<condition name="friend">  
+<li value="OM">As vrea sa stiu cate ceva despre prietenii tai.</li>   
+<li value="YOUR FRIEND">Nu ai spus nimic despre prietenii tai.</li>  
+<li value="*">Prietenul tau <get name="friend"/>?</li>  
+<li><random><li>Nu stiu. Spune-mi numele celui mai bun prieten .</li><li>Cat de bine il stii?</li></random>  </li></condition></template>
+</category>
+<category><pattern>MY OLDEST</pattern>
+<template>
+
+<category><pattern>VARSTA</pattern>
+<template>
+<condition name="age">  
+<li value="OM">As vrea sa iti aflu varsta.</li>  
+<li value="HOW MANY">Nu mi-ai spus cati ani ai.</li>  
+<li value="*">Tu ai <get name="age"/>, nu?</li>  
+<li>Nu stiu. Cati ani ai?</li>
+</condition></template>
+</category>
+<category><pattern>CULOAREA PREFERATA</pattern>
+<template>
+<think><set name="branch"><get name="favoritecolor"/></set></think>
+<condition name="branch">
+<li value="Unknown">Care este culoarea ta preferata?</li>
+<li value="OM">Care este culoarea ta preferata?</li>
+<li><get name="favroitecolor"/></li>
+</condition>
+</template>
+</category>
+
+<category><pattern>FIUL</pattern>
+<template>
+<think><set name="branch"><get name="son"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cum il cheama pe baiatul tau?</li>
+<li value="OM">Cum il cheama pe baiatul tau?</li>
+<li><get name="son"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>SOTIA</pattern>
+<template>
+<think><set name="branch"><get name="wife"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cum o cheama pe sotia ta?</li>
+<li value="OM">Cum o cheama pe sotia ta?</li>
+<li><get name="wife"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>SOT</pattern>
+<template>
+<think><set name="branch"><get name="husband"/></set></think>
+<condition name="branch">
+<li value="Unknown">Cum il cheama pe sotul tau?</li>
+<li value="OM">Cum il cheama pe sotul tau?</li>
+<li><get name="husband"/></li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>SUFLETUL PERECHE</pattern>
+<template>
+<think>
+<set name="spouse"><set name="branch"><srai>SUFLETUL PERECHE <get name="wife"/>  <get name="husband"/></srai></set></set></think>
+<condition name="branch">
+<li value="unknown">Cine este sufletul tau pereche?</li>
+<li><get name="spouse"/> este sufletul tau pereche.</li>
+</condition></template>
+</category>
+<category>
+<pattern>MAMA</pattern>
+<template>
+<think><set name="branch"><get name="mother"/></set></think>
+<condition name="branch">
+<li value="unknown">Nu stiu cine este! Imi poti spune numele ei?</li>
+<li value="OM">Nu ai adus vorba. Cum o cheama pe mama ta?</li>
+<li>Ai spus ca o chema <get name="mother"/>.</li>
+</condition></template>
+</category>
+<category><pattern>NUMELE MEU</pattern>
+<template>
+<condition name="name">  
+<li value="OM">As vrea sa iti aflu numele.</li>  
+<li value="*">Ai spus ca numele tau este <get name="name"/>?</li>  
+<li>Nu stiu! Cum te cheama?</li></condition>
+</template>
+</category>
+
+<category><pattern>SETEAZA PROFILUL</pattern>
+<template><srai>SETEAZA PREDICATELE</srai></template>
+</category>
+<category><pattern>SETEAZA PREDICATELE *</pattern>
+<template><think>Predicatele au fost setate.</think></template>
+</category>
+<category><pattern>SETEAZA PREDICATELE</pattern>
+<template><srai>SETEAZA PREDICATELE <get name="meta"/></srai></template>
+</category>
+
+
+<category>
+<pattern>SETEAZA PREDICATELE OM</pattern>
+<template><think>
+<set name="age">necunoscut</set>
+<set name="birthday">necunoscut</set>
+<set name="birthplace">necunoscut</set>
+<set name="boyfriend">necunoscut</set>
+<set name="brother">necunoscut</set>
+<set name="cat">necunoscut</set>
+<set name="daughter">necunoscut</set>
+<set name="destination">necunoscut</set>
+<set name="does">necunoscut</set>
+<set name="dog">necunoscut</set>
+<set name="email">necunoscut</set>
+<set name="father">necunoscut</set>
+<set name="favoritecolor">necunoscut</set>
+<set name="favoritemovie">necunoscut</set>
+<set name="friend">necunoscut</set>
+<set name="fullname">necunoscut</set>
+<set name="gender">necunoscut</set>
+<set name="girlfriend">necunoscut</set>
+<set name="he">necunoscut</set>
+<set name="heard">necunoscut</set>
+<set name="husband">Necunoscut</set>
+<set name="it">necunoscut</set>
+<set name="job">necunoscut</set>
+<set name="lastname">necunoscut</set>
+<set name="like">necunoscut</set>
+<set name="location">necunoscut</set>
+<set name="looklike">a person</set>
+<set name="memory">necunoscut</set>
+<set name="meta">setat</set>
+<set name="middlename">necunoscut</set>
+<set name="mother">Necunoscut</set>
+<set name="name">necunoscut</set>
+<set name="nickname">necunoscut</set>
+<set name="password">necunoscut</set>
+<set name="personality">necunoscut</set>
+<set name="phone">necunoscut</set>
+<set name="shehas">necunoscut</set>
+<set name="shelikes">necunoscut</set>
+<set name="sister">necunoscut</set>
+<set name="son">necunoscut</set>
+<set name="spouse">necunoscut</set>
+<set name="status">Talking to <bot name="name"/>.</set>
+<set name="there">necunoscut</set>
+<set name="they">necunoscut</set>
+<set name="timezone">necunoscut</set>
+<set name="wife">Necunoscut</set>
+<!-- PHONE SPECIFIC PREDICATES: -->
+<set name="phonenumber">necunoscut</set>
+</think></template>
+</category>
+
+<category><pattern>OBTINE PREDICATE</pattern>
+<template>
+varsta <get name="age"/>.<br/>
+data de nastere  <get name="birthday"/>.<br/>
+locul nasterii  <get name="birthplace"/>.<br/>
+iubitul  <get name="boyfriend"/>.<br/>
+fratele  <get name="brother"/>.<br/>
+pisica  <get name="cat"/>.<br/>
+fiica  <get name="daughter"/>.<br/>
+destinatia  <get name="destination"/>.<br/>
+ocupatie  <get name="does"/>.<br/>
+catel  <get name="dog"/>.<br/>
+email  <get name="email"/>.<br/>
+tata  <get name="father"/>.<br/>
+culoare preferata   <get name="favoritecolor"/>.<br/>
+film preferat   <get name="favoritemovie"/>.<br/>
+prieten  <get name="friend"/>.<br/>
+nume complet  <get name="fullname"/>.<br/>
+sex  <get name="gender"/>.<br/>
+prietena  <get name="girlfriend"/>.<br/>
+actorul preferat  <get name="he"/>.<br/>
+auz  <get name="heard"/>.<br/>
+sot  <get name="husband"/>.<br/>
+loc de munca  <get name="it"/>.<br/>
+job  <get name="job"/>.<br/>
+numele de familie  <get name="lastname"/>.<br/>
+imi place  <get name="like"/>.<br/>
+locatie   <get name="location"/>.<br/>
+arat ca  <get name="looklike"/>.<br/>
+memorie  <get name="memory"/>.<br/>
+meta  <get name="meta"/>.<br/>
+nume mijlociu  <get name="middlename"/>.<br/>
+mama  <get name="mother"/>.<br/>
+nume  <get name="name"/>.<br/>
+porecla  <get name="nickname"/>.<br/>
+parola  <get name="password"/>.<br/>
+personalitate  <get name="personality"/>.<br/>
+telefon  <get name="phone"/>.<br/>
+sora  <get name="sister"/>.<br/>
+fiu  <get name="son"/>.<br/>
+suflet pereche  <get name="spouse"/>.<br/>
+status  <get name="status"/>.<br/>
+loc  <get name="there"/>.<br/>
+trupa favorita  <get name="they"/>.<br/>
+ceasul   <get name="timezone"/>.<br/>
+sotie  <get name="wife"/>.<br/>
+<!-- PHONE SPECIFIC PREDICATES: -->
+numar de telefon  <get name="phonenumber"/>.<br/>
+
+</template>
+</category>
+
+<!-- END GET CLIENT PREDICATES -->
+
+<!-- SET CLIENT PREDICATES: -->
+
+<category><pattern>EU SUNT *</pattern>
+<template><random>   
+<li>Cine esti?</li> 
+<li>Vrei sa spui ca te cheama</li>  
+<li>Prietenii tai iti spun</li>  
+<li>Nu cunosc pe nimeni cu numele</li>  
+<li>Incantat de cunostinta,</li>
+<li>Te superi daca le spun si altora ca vorbesc cu</li>  
+</random> 
+<person/>.  
+<think><set name="it"><set name="topic"><person/></set></set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>CEASUL ESTE *</pattern>
+<template>ORA ESTE<set name="timezone"><person/></set>.</template>
+</category>
+
+<category>
+<pattern>DATA MEA DE NASTERE ESTE *</pattern>
+<template>Data mea de nastere este <set name="birthplace"><person/></set>.</template>
+</category>
+
+<category>
+<pattern>FIUL MEU ESTE * * *</pattern>
+<template>Pari a fi foarte grijuliu.</template>
+</category>
+
+<category>
+<pattern>FIUL MEU ESTE *</pattern>
+<template>Ok, fiul tau este <set name="son"><person/></set>.</template>
+</category>
+
+<category>
+<pattern>FIICA MEA ESTE * * *</pattern>
+<template>Pari a fi foarte grijuliu.</template>
+</category>
+
+<category>
+<pattern>FIICA MEA ESTE  *</pattern>
+<template>Ok. Fiica ta este <set name="daughter"><person/></set>.</template>
+</category>
+
+<category>
+<pattern>DESTINATIA MEA ESTE *</pattern>
+<template>Mergi la <set name="destination"><person/></set>.</template>
+</category>
+
+
+<category><pattern>MA DUC IN ORAS</pattern>
+<template>Cum ajungi aoclo?
+<think><set name="there"><set name="destination">in oras</set></set></think>
+</template>
+</category>
+
+
+<category><pattern>PE FIUL MEU IL CHEAMA *</pattern>
+<template><set name="son"><person/></set> este un nume interesant.</template>
+</category>
+<category><pattern>ZIUA MEA DE NASTERE ESTE *</pattern>
+<template><think><set name="birthday"><star/></set></think>Ziua ta de nastere este <get name="birthday"/>.</template>
+</category>
+
+
+<category><pattern>PE CATEL IL CHEAMA *</pattern>
+<template><think><set name="dog"><star/></set></think>Catelul tau este <get name="dog"/>.</template>
+</category>
+<category><pattern>EMAILUL MEU ESTE *</pattern>
+<template><think><set name="email"><star/></set></think>Multumesc ca mi-ai spus emailul tau. Asteapta-te sa primesti mesaje de acum</template>
+</category>
+<category><pattern>LOCATIA MEA ESTE *</pattern>
+<template>Cum e <set name="it"><set name="location"><set name="topic"><person/></set>      </set>     </set> ca acolo?  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>AUZUL MEU ESTE *</pattern>
+<template><think><set name="heard"><star/></set></think>Auul tu este <get name="heard"/>.</template>
+</category>
+<category><pattern>NUMELE MEU DE FAMILIE ESTE *</pattern>
+<template><think><set name="firstname"><star/></set></think>Te cheama <get name="firstname"/>.</template>
+</category>
+<category><pattern>IUBITUL MEU ESTE *</pattern>
+<template><think><set name="boyfriend"><star/></set></think>Iubitul tau este <get name="boyfriend"/>.</template>
+</category>
+<category><pattern>NUMELE MEU MIJLOCIU *</pattern>
+<template><think><set name="middlename"><star/></set></think>Numele tau mijlociu este <get name="middlename"/>.</template>
+</category>
+<category><pattern>PISICA MEA ESTE *</pattern>
+<template><think><set name="cat"><star/></set></think>Pisica ta este <get name="cat"/>.</template>
+</category>
+<category><pattern>NUMARUL MEU DE TELEFON ESTE *</pattern>
+<template><think><set name="phone"><star/></set></think>Te pot gasi la <get name="phone"/>.</template>
+</category>
+<category><pattern>PRIETENUL MEU ESTE *</pattern>
+<template><think><set name="friend"><star/></set></think>Prietenul tau este <get name="friend"/>.</template>
+</category>
+
+<category><pattern>NUMELE MEU ESTE *</pattern>
+<template><think><set name="lastname"><star/></set></think>Te cheama <get name="lastname"/>.</template>
+</category>
+<category><pattern>SERIALUL MEU FAVORIT ESTE *</pattern>
+<template><think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>     <random>      <li>Care este caracterul tau favorit?</li>      <li>Nu a fost amanat?</li>      <li>Si mie imi place.</li>     </random></template>
+</category>
+<category><pattern>SERIALUL MEU FAVORIT ESTE *</pattern>
+<template><random>      <li>Care este episodul tau preferat.</li>      <li>Nu apuc sa ma uit foarte des la el.</li>      <li>Care este caracterul tau favorit?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+
+<category><pattern>FILMUL MEU PREFERAT ESTE *</pattern>
+<template>Nu l-am vazut. Ce iti plac ela el   <set name="it">      <set name="favmovie">       <set name="topic">        <person/>       </set>      </set>     </set>?</template>
+</category>
+<category><pattern>MANCAREA MEA PREFERATA ESTE *</pattern>
+<template>Ce gust are? <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
+</category>
+<category><pattern>ACTORUL MEU PREFERAT ESTE *</pattern>
+<template>In ce film a jucat <set name="he">      <person/>     </set>?</template>
+</category>
+<category><pattern>CULOAREA MEA PREFERATA ESTE *</pattern>
+<template><random><li><person/> este o culoare superba.  </li><li><person/> este pe placul meu.</li></random><think><set name="it"><set name="favoritecolor"><person/></set></set></think></template>
+</category>
+<category><pattern>TRUPA MEA PREFERATA ESTE *</pattern>
+<template>Nu cred ca am auzit vreo melodie de-a lor. Sunt <set name="they">      <person/>     </set> buni de ceva?</template>
+</category>
+<category><pattern>TATAL MEU *</pattern>
+<template><think><set name="father"><star/></set></think>Tatal tau este <get name="father"/>.</template>
+</category>
+<category><pattern>JOBUL MEU *</pattern>
+<template>
+<random>
+<li>Te platesc bine?</li>      
+<li>nu stiu foarte multi <person/>s.</li>      
+<li>Este o profesie cunoscuta?</li>      
+<li>Trebuie sa ai terminate 12 clase pentru asta?</li> 
+</random>     
+<think>
+<set name="it"><person/></set>
+<set name="job"><person/></set>
+<set name="topic"><person/></set>
+</think>
+</template>
+</category>
+
+
+<category><pattern>IUBITA MEA *</pattern>
+<template>
+<think><set name="girlfriend"><star/></set></think>
+Iubita ta este <get name="girlfriend"/>.</template>
+</category>
+
+
+
+
+
+
+<category><pattern>FRATELE MEU *</pattern>
+<template><think><set name="brother"><star/></set></think>Fratele tau este <get name="brother"/>.</template>
+</category>
+<category><pattern>PAROLA MEA ESTE *</pattern>
+<template><think><set name="password"><star/></set></think>Parola ta este<get name="password"/>.</template>
+</category>
+<category><pattern>SORA MEA ESTE *</pattern>
+<template><think><set name="sister"><star/></set></think>Sora ta este <get name="sister"/>.</template>
+</category>
+
+
+
+
+<category><pattern>SOTUL MEU ESTE *</pattern>
+<template><think><set name="husband"><star/></set><set name="spouse">sot</set></think>Sotul tau este<get name="husband"/>.</template>
+</category>
+
+
+
+
+<category><pattern>AM *</pattern> <!-- ani -->
+<template>
+<think><set name="age"><star/></set></think>
+<random>
+<li>Varsta ta este <star/>.</li>  
+<li>Doar <star/>?  Esti destul de matur.</li>  
+<li>Si cum te simti la <star/> ani?</li>  
+<li>Care este avantajul la <star/> ani?</li>
+</random>
+</template>
+</category>
+<category><pattern>SOTIA MEA ESTE *</pattern>
+<template><think><set name="wife"><person/></set></think> 
+<random>
+<li>De cat timp sunteti impreuna?</li>
+<li>Sotia ta este <get name="wife"/></li>
+</random>
+</template>
+</category>
+
+
+
+<category><pattern>PORECLA MEA ESTE *</pattern>
+<template><think><set name="nickname"><star/></set></think>Poracla ta este <get name="nickname"/>.</template>
+</category>
+
+<category><pattern>MAMA MEA ESTE *</pattern>
+<template><think><set name="mother"><star/></set></think>
+<random>
+<li>Mama ta este<get name="mother"/>.</li>
+<li><get name="mother"/> este un nume dragut.</li>
+</random>
+</template>
+</category>
+
+
+<category><pattern>SPUNE-MI *</pattern>
+<template><think><set name="personality">average</set></think> <random>  <li>Hey</li>
+  <li>Buna,</li>
+  <li>Salut</li>
+  <li>Care-i treaba,</li>
+  <li>Cum te simti,</li>
+  <li>Incantat de cunostinta,</li>
+  <li>Cu ce te pot ajuta,</li>
+  <li>Ce faci,</li>
+  <li>OK, o sa-ti spun</li>
+  <li>Frumos nume,</li>
+  <li>Sunt mereu incantat sa imi fac prieteni noi,</li>
+</random> <set name="name"><formal><star/></formal></set>.</template>
+</category>
+
+
+
+<category><pattern>PROFILUL CLIENTULUI</pattern>
+<template><srai>OBTINE PREDICATE</srai></template>
+</category>
+
+<!--
+<category><pattern>MY ENGLISH SUCKS</pattern>
+<template>Template is empty!</template>
+</category>
+-->
+</aiml>
+
