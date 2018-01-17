@@ -1,0 +1,303 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- spatiumedical.aiml -->
+
+	
+	<category>
+        <pattern>UNDE ESTE LOCALIZATA AORTA </pattern>
+        <template>AORTA ESTE LOCALIZATA IN SPATE IN APROPIEREA COLOANEI. UNEORI SE POATE PALPA IN ZONA OMBILICALA LA PERSOANELE SLABE</template>
+    </category>
+	<category>
+        <pattern>UNDE SUNT LOCALIZATE ARTERELE CAROTIDE </pattern>
+        <template>ARTERELE CAROTIDE SUNT LOCALIZATE PE PARTILE LATERALE ALE GATULUI, UNDE SE POT PALPA</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT APENDICELE</pattern>
+        <template>APENDICELE ESTE LOCALIZAT IN DREAPTA JOS</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT COLECISTUL</pattern>
+        <template>COLECISTUL ESTE LOCALIZAT IN DREAPTA SUB COASTA, SUB FICAT</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT COLONUL </pattern>
+        <template>COLONUL ESTE LOCALIZAT PE LATURILE ABDOMENULUI, CA UN N</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT FICATUL</pattern>
+        <template>FICATUL ESTE LOCALIZAT IN DREAPTA SUB COASTA</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT INTESTINUL SUBTIRE</pattern>
+        <template>INTESTINUL SUBTIRE ESTE LOCALIZAT IN INTERIORUL CADRULUI FORMAT DE INTESTINUL GROS</template>
+    </category>
+	<category>
+        <pattern>UNDE SUNT LOCALIZATI GANGLIONII DE SUB PIELE</pattern>
+        <template>SUNT LOCALIZATI PE LATERALELE GATULUI, IN AXILE, LA STINGHIILE PICIOARELOR, LA COATE. IN AFARA DE ACESTIA MAI EXISTA GANGLIONI PROFUNZI, CARE NU SE POT PALPA, IN TORACE INTRE PLAMANI, IN ABDOMEN, MICUL BAZIN</template>
+    </category>
+	<category>
+        <pattern>UNDE SUNT LOCALIZATE GLANDELE SUPRARENALE</pattern>
+        <template>SUNT LOCALIZATE DEASUPRA RINICHILOR</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZATA HIPOFIZA</pattern>
+        <template>HIPOFIZA ESTE LOCALIZATA IN CUTIA CRANIANA</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZATA INIMA</pattern>
+        <template>INIMA ESTE LOCALIZATA IN CUTIA TORACICA IN SPATELE STERNULUI SI SPRE STANGA</template>
+    </category>
+	<category>
+        <pattern>UNDE SUNT LOCALIZATI NERVII INTERCOSTALI </pattern>
+        <template>SUNT LOCALIZATI SUB COASTE - SUB FIECARE COASTA SE AFLA UN NERV INTERCOSTAL</template>
+    </category>
+		<category>
+        <pattern>UNDE SUNT LOCALIZATE OVARELE</pattern>
+        <template>SUNT LOCALIZATE IN PARTEA DE JOS A ABDOMENULUI SPRE LATERAL</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT PANCREASUL</pattern>
+        <template>PANCREASUL ESTE LOCALIZAT DEASUPRA BURICULUI, TRANSVERSAL, SPRE COLOANA</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT RECTUL</pattern>
+        <template>RECTUL ESTE PARTEA TERMINALA A INTESTINULUI GROS, SE TERMINA CU ANUSUL</template>
+    </category>
+	<category>
+        <pattern>UNDE SUNT LOCALIZATI RINICHII</pattern>
+        <template>SUNT LOCALIZATI IN SPATE SUB COASTELE DE ACOLO</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZATA Splina</pattern>
+        <template>in stanga sub coasta</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZATA Tiroida</pattern>
+        <template>la gat, deasupra sternului</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZAT Uterul</pattern>
+        <template>in partea de jos a abdomenului deasupra osului pubis</template>
+    </category>
+	<category>
+        <pattern>UNDE ESTE LOCALIZATA Vezica urinara</pattern>
+        <template>in partea de jos a abdomenului, deasupra osului pubis</template>
+    </category>
+
+	
+		<category>
+        <pattern>SISTEMUL CIRCULATOR</pattern>
+        <template>functia principala a acestui sistem este de a transporta substante nutritive si oxigen la celule si tesuturi in tot corpul. Acest transport se realizeaza prin circulatia sangelui. Doua componente ale acestui sistem sunt sistemul cardiovascular si limfatic</template>
+    </category>
+		<category>
+        <pattern>SISTEMUL DIGESTIV</pattern>
+        <template>descompune polimerii alimentari in molecule mici pentru a furniza energie pentru organism. Principalele organe sunt esofagul, stomacul, intestinele, rectul. Organele accesorii sunt reprezentate de dinti, limba, ficat, pancreas. Ficatul este situat in partea superioara a abdomenului, avand sarcina de a produce bila, care este trimisa la stomac pentru digestie. Ficatul filtreaza toxinele si regleaza nivelul zaharurilor din sange</template>
+    </category>
+		<category>
+        <pattern>SISTEMUL ENDOCRIN</pattern>
+        <template>regleaza procesele vitale ale organismului, inclusiv procesul de crestere, al metabolismului sau al dezvoltarii sexuale. Organele endocrine secreta hormoni pentru a regla procesele corpului</template>
+    </category>
+		<category>
+        <pattern>SISTEMUL MUSCULAR</pattern>
+        <template>SISTEMUL MUSCULAR PERMITE MISCAREA PRIN CONTRACTIA MUSCHILOR. STRUCTURILE CARE ALCATUIESC ACEST SISTEM SUNT MUSCHII</template>
+    </category>
+		<category>
+        <pattern>SISTEMUL NERVOS</pattern>
+        <template>monitorizeaza si coordoneaza functiile organelor interne, raspunzand la schimbarile din mediul extern. Structurile care il compun sunt reprezentate de creier, maduva spinarii si nervi. Creierul este controlat de corp si stocheaza informatiile
+		Acesta primeste impulsuri de la nervi, care sunt situati in tot corpul si raspund la durere sau la alti stimuli. Astfel, creierul este foarte important si delicat. Creierul este format dintr-un tesut moale si este protejat doar de craniu, motiv pentru care leziunile de la nivelul capului sunt foarte grave</template>
+    </category>
+		<category>
+        <pattern>SISTEMUL REPRODUCATOR</pattern>
+        <template>permite producerea urmasilor prin reproducere sexuala. Acest sistem este format din organe ce produc celule sexuale si asigura cresterea si dezvoltarea rezultatului de reproducere masculina si feminina</template>
+    </category>
+	
+	    <category>
+			<pattern>SISTEMUL RESPIRATOR</pattern>
+			<template>ofera organismului oxigenul necesar prin intermediul schimbului de gaze intre aerul din mediul exterior si gazele din sange. Organele respiratorii sunt plamanii, nasul, traheea, bronhiile
+			</template>
+		</category>
+		<category>
+			<pattern>SISTEMUL OSOS</pattern>
+			<template>acest sistem sustine si protejeaza organismul. Structuri: oasele, articulatiile, ligamentele, tendoanele, cartilajele
+			</template>
+		</category>
+		<category>
+			<pattern>SITEMUL URINAR</pattern>
+			<template>cu ajutorul acestui sistem al organismului, se elimina deseurile si se mentine echilibrul de apa din corp. Structurile reprezentative ale sistemului urinar sunt rinichii, vezica urinara, uretra si ureterele
+			</template>
+		</category>
+		<category>
+			<pattern>SISTEMUL TEGUMENTAR</pattern>
+			<template>protejeaza structurile interne ale corpului de daune, previne deshidratarea, stocheaza grasimile si produce vitamine si hormoni. Structurile care compun acest sistem sunt pielea, unghiile, parul si glandele sudoripare
+			</template>
+		</category>
+		<category>
+			<pattern>CARE ESTE ROLUL NERVULUI OPTIC</pattern>
+			<template>cu ajutorul acestuia semnalele de la terminatiile nervoase sunt transmise creierului
+			</template>
+		</category>
+		<category>
+			<pattern>CARE ESTE ROLUL MEMBRANEI VASCULARE</pattern>
+			<template>acopera sectiunea posterioara a sclerei, de care adera retina. Membrana vasculara este responsabila pentru alimentarea cu sange a structurilor intraoculare. In cazul afectiunilor retinei, membrana vasculara deseori este implicata in procesul patologic. In membrana vasculara nu sunt terminatii nervoase, de aceea in cazul afectiunii acesteia nu apar dureri, care semnaleaza de obicei anumite neregularitati
+			</template>
+		</category>
+		<category>
+			<pattern>CE ESTE CORPUL VITROS</pattern>
+			<template>Corpul vitros este o substanta transparenta gelatinoasa, amplasata in partea posterioara a ochiului
+			</template>
+		</category>
+		<category>
+			<pattern>CE ROL ARE CORPUL VITROS</pattern>
+			<template>Corpul vitros mentine forma globului ocular, participa la schimbul de substante intraocular si intra in sistemul optic al ochiului
+			</template>
+		</category>
+		<category>
+			<pattern>CE ROL AU URECHILE</pattern>
+			<template>Urechile au atat rol de organe ale auzului, cat si ale echilibrului
+			</template>
+		</category>
+		<category>
+			<pattern>CUM AUD OAMENII</pattern>
+			<template>Pentru ca noi sa auzim, sunetul calatoreste printr-un ansamblu de structuri – fiecare avand rolul sau in producerea sunetului. Timpanul transforma sunetul in vibratii ce pun in miscare cele trei oase (ciocanul, nicovala si scarita) din urechea medie, care contine mult fluid si multi nervi. Oscioarele transmit vibratiile prin membrana ferestrei ovale in fluidul din urechea interioara. In acel moment se produce o miscare in urechea interna si fluidul vibreaza, punand in miscare niste perisori mici din ureche. Nervul acustic recunoaste aceasta miscare ca pe o conexiune electrica menita sa transmita mesaje creierului. El transforma, deci, informatia in impulsuri electrice pentru creier. Asa auzim noi sunetul. Daca avem prea multa ceara in ureche, putem bloca undele sonore sa ajunga la timpan, ceea ce face ca oasele acelea sa nu se miste si de aceea nu auzim.
+						Cochilia este o cavitate umpluta cu endolimfa, un lichid care primeste undele sonore transmise din aer prin urechea externa si medie. Cochilia are o forma spiralata si contine membrana bazilara, a carei rezonanta este diferita pe lungimea sa, depinzand de frecventa undelor sonore. La suprafata membranei bazilare se afla un strat celular cunoscut sub numele de organul lui Corti. Acesta este aparatul neurosenzorial ce transforma informatia sonora in curent bioelectric si care este format din celule senzoriale (cili). Vibratiile care trec prin canalul cochiliar pun in miscare membrana bazala si cea tectoriala, care vor actiona asupra cililor (celule senzoriale). Din aceste celule vor porni, prin nervul acustic, semnalele catre creier, unde acestea din urma vor fi transformate in senzatii auditive
+						De fapt, urechea preia undele sonore – o forma de energie mecanica – si le transforma in energie electrica pe care o poate intelege creierul. Capacitatea noastra de a auzi depinde de perisorii aceia din ureche. Daca celulele din ei mor, ne pierdem auzul, cel mai probabil din cauza sunetelor prea puternice sau a lipsei de alimentare cu sange. Daca sunetele depasesc 80 de decibeli, muschiul scaritei se contracta si blocheaza transmiterea undelor sonore, pentru a proteja auzul
+			</template>
+		</category>
+		<category>
+			<pattern>CE ROL AU CANALELE SEMICIRCULARE</pattern>
+			<template>Canalele semicirculare functioneaza ca un giroscop si ne mentin echilibrul. Ele sunt cele care se ocupa de miscarea de rotatie, mai precis ne dau informatii despre locul in care ne aflam in spatiu
+			</template>
+		</category>
+		<category>
+			<pattern>DIN CE ESTE COMPUSA PIELEA</pattern>
+			<template>Pielea corpului nostru este creata de celulele stem si are in medie 17.000 de centimetri patrati
+			</template>
+		</category>
+		<category>
+			<pattern>CE GREUTATE ARE PIELEA</pattern>
+			<template>Greutatea PIELII reprezinta circa 20% din greutatea corpului (in medie 14-16 kg), din care circa 15% reprezinta hipoderma (cu variatii largi in raport cu corpolenta), circa 5% derma si sub 1% epiderma
+			</template>
+		</category>
+		<category>
+			<pattern>CE ESTE EPIDERMA</pattern>
+			<template>Epiderma este stratul exterior al pielii.Are o grosime de 0,1-1 mm.Are pigment (melanina), terminatii nervoase, insa nu si vase de sange.Celulele superioare ale epidermei se regenereaza continuu. Pe masura ce se produc noi celule, celulele din stratul bazal al epidermei se deplaseaza spre suprafata, mor si acumuleaza o proteina – keratina. Spatiul dintre celulele moarte se umple cu un soi de ciment lipidic (grasime).
+			</template>
+		</category>
+		<category>
+			<pattern>CE ESTE DERMA</pattern>
+			<template>Derma este adevarata piele, adica partea interna a pielii.Este bine dezvoltata, reprezentand aproximativ 85% din grosimea tegumentului.Este bogata in vase de sange care hranesc epiderma. Vasele de sange din derma reprezinta 5% din sangele din corp.
+			</template>
+		</category>
+		<category>
+			<pattern>DIN CE ESTE ALCATUITA DERMA</pattern>
+			<template>DERMA Contine glandele sudoripare, radacinile firelor de par si nervii (contine milioane de terminatii nervoase si glande sudoripare).Este alcatuita din colagen si elastina, care ii confera fermitate si elasticitate. Fibrele de colagen, care reprezinta 90% din totalitatea fibrelor dermei, asigura rezistenta si fermitatea pielii. Astfel, multe zgarieturi si lovituri nu ajung pana la derma. Mai mult, fibrele elastice ale dermei permit intinderea pielii. O data cu inaintarea in varsta, apare degradarea calitativa si cantitativa a colagenului.Contine foliculi de par si glande sebacee, care lubrifiaza pielea si parul.
+					Din punct de vedere chimic, structura sa aproximativa este: apa 70%, proteine 25%, lipide 2%, minerale 0.5%
+			</template>
+		</category>
+		<category>
+			<pattern>CARE ESTE ROLUL DERMEI</pattern>
+			<template>DERMA Are rol de protectie mecanica si capacitate de retinere a apei.
+						Matricea fundamentala contine glicozaminoglicani, astfel conferind dermei o importanta capacitate de retentie a apei. Glicozoaminoglicanii si proteoglicanii mentin apa in piele si sunt adevaratele hidrante ale pielii.
+			</template>
+		</category>
+		<category>
+			<pattern>CE ESTE HIPODERMA</pattern>
+			<template>Hiopoderma – sau tesutul subcutanat este stratul interior al pielii.Reprezinta ultimul strat al pielii si este alcatuit in proportie de 90% din trigliceride
+						Este alcatuita in principal din grasimi si din tesut conjunctiv, care are functii de izolare, protectie si energizare.
+			</template>
+		</category>
+		<category>
+			<pattern>CARE ESTE ROLUL HIPODERMEI</pattern>
+			<template>HIPODERMA Se lipeste de suprafata muschilor.
+					Superior, face legatura cu stratul reticular al dermei, iar inferior este ancorat de aponevroze sau tesutul periostal.
+					Hipoderma se proiecteaza in derm, rezultand papilele adipoase care inconjoara firele de par, glandele sudoripare, vasele sangvine, ferindu-le de traumatisme.
+			</template>
+		</category>
+		<category>
+			<pattern>CE GROSIME ARE PIELEA</pattern>
+			<template>Grosimea pielii variaza dupa regiuni: e subtire pe fata, frunte, in zonele genitale, este mai groasa pe toracele anterior, abdomen si marile pliuri. Grosimea creste la spate si pe suprafetele membrelor, cea mai groasa fiind la palme si talpi. Dintre straturile pielii, epiderma e cea mai subtire (0,03 – 1 mm), derma este mai groasa (0,5-0,8 mm la fata, 2 mm pe torace), iar hipoderma are variatii mari regionale.
+			</template>
+		</category>
+		<category>
+			<pattern>CUM SE PRODUCE SENZATIA</pattern>
+			<template>SENZATIA SE PRODUCE PRIN INTERMEDIUL terminatiilor nervoase si al foliculilor de par.Putem simti presiunea, caldura, raceala, durerea si atingerea.
+			</template>
+		</category>
+		<category>
+			<pattern>CE ESTE MELANINA</pattern>
+			<template>Melanina este un pigment ce da culoarea pielii. Totodata, ea protejeaza celulele pielii, absorbind radiatiile ultraviolete. Lumina soarelui amplifica productia de melanina, in urma careia pielea fie se bronzeaza, fie se acopera de pistrui, in functie de sensibilitate si de tipul de piele, dar si de rasa.
+			</template>
+		</category>
+		<category>
+			<pattern>CARE SUNT FACTORII CARE INFLUENTEAZA CULOAREA PIELII</pattern>
+			<template>Culoarea pielii depinde de:
+						1.cantitatea de pigment melanic care confera nuante de la pielea alba (lipsa pigmentului), pana la cea neagra (excesul de melanina). Cantitatea de melanina este determinata genetic, dar variatiile culorii pielii, dupa latitudinea geografica (de la pol la ecuator), arata si o adaptare. Melanina variaza intre anumite limite si in functie de expunerea la razele ultraviolete.
+						2.gradul de vascularizatie capilara care determina nuanta roz-rosie. Culoarea pielii depinde si de cantitatea de hemoglobină (paloarea in anemii). Pielea copiilor mici este bogat vascularizata si mai subtire, motiv pentru care e roz.
+						3.grosimea pielii: pielea copiilor mici e mai subtire si e roz, pielea de pe palme are o culoare galbuie datorita stratului cornos (keratinei). Abundenta keratohialinei (strat granulos) confera pielii o culoare albă.
+			</template>
+		</category>
+		<category>
+			<pattern>CARE ESTE ROLUL GLANDELOR SUDORIPARE</pattern>
+			<template>Glandele sudoripare elibereaza transpiratia, un lichid care se evapora pentru a ne racori in timpul efortului fizic. Aceste glande elimina reziduuri, saruri si lichide prin intermediul pielii. Acestea sunt influentate de temperatura si de emotii si astfel transpiram cand e cald si cand suntem stresati sau emotionati. Atunci cand ne este frig sau cand avem insolatie, organismul nu transpira. Acest lucru impovareaza rinichii, care sunt nevoiti astfel sa-si asume intregul proces de excretie. De aceea sportul ne ajuta si in acest fel: provoaca transpiratia si protejeaza rinichii de suprasolicitare, mai ales in sezonul rece.
+						Organismul elimina 0,5-1 litru de sudoare pe zi, in functie de activitatile in care este implicat si de temperatura mediului in care se afla. Transpiratia este inodora (nu miroase) si sterila pana in momentul in care iese din corp, cand ajunge in contact cu aerul si se descompune.
+			</template>
+		</category>
+		<category>
+			<pattern>CE SUNT FANERELE</pattern>
+			<template>Fanerele sunt organe anexe ale pielii diferentiate la suprafata ei, cu functie de aparare a organismului, fiind prezente la om sub forma unghiilor si a parului.
+			</template>
+		</category>
+		<category>
+			<pattern>DIN CE ESTE ALCATUITA UNGHIA</pattern>
+			<template>Unghia este formata dintr-o lama cornoasa dura numita corpul unghiei si o radacina situata proximal, care se prelungeste pe laturile unghiei. Lama unghiala e formata dintr-o portiune superficiala dura si un strat profund moale. Stratul dur este regenerat de matricea unghiala (portiunea cea mai profunda a radacinei), in timp ce stratul moale ia nastere prin cornificarea celulelor patului unghial, pe care zace unghia. Sub marginea libera a unghiei se gaseste santul subunghial, la nivelul caruia epiderma, cu stratul sau cornos, se continua cu unghia.
+			</template>
+		</category>
+		<category>
+			<pattern>DIN CE ESTE ALCATUIT FIRUL DE PAR</pattern>
+			<template>Parul. Firul de par este alcatuit din doua parti: una externa, vizibila, libera, numita tulpina sau tija (o structura moarta) și o parte ascunsa profund in derm, numita folicul pilosebaceu sau radacina. Ultima se termina printr-o parte umflata numita bulb al parului, regiune in care se produce cresterea parului. Bulbul, in partea sa cea mai profunda, prezinta o scobitura in care patrunde papila dermica nutritiva a parului, intens vascularizata. 
+			</template>
+		</category>
+		<category>
+			<pattern>CUM SE PRODUCE ALBIREA PARULUI</pattern>
+			<template>Culoarea firelor de par este diferita de la un om la altul si este determinata de un pigment care se formeaza in bulb. Albirea parului se datoreaza patrunderii aerului in tija.
+			</template>
+		</category>
+		<category>
+			<pattern>CARE SUNT FUNCTIILE SISTEMULUI TEGUMENTAR</pattern>
+			<template>FUNCTIILE SISTEMULUI TEGUMENTAR SUNT: 
+				1.Functia de aparare – impiedica patrunderea unor agenti patogeni in organism (bacterii, substante toxice, radiatii) si garanteaza impermeabilitatea organismului
+				2.Funcția de termoreglare si echilibru: elimina toxinele si apa in exces,mentine o temperatura constanta a corpului,previne supraincalzirea prin evaporarea transpiratiei, favorizeaza incalzirea corpului prin contractia muschilor erectori anexati firului de par.
+				3.Functia de aparare fata de razele ultraviolete – absorbirea radiatiilor se realizeaza prin pigmentul din piele melanina producand bronzarea pielii; la o expunere extrema la aceste radiatii se poate produce cancerul de piele.
+				4.Pielea ca rezervor de celule embrionare – este utila in transplantul de piele.
+				5.Functia imunologica –  protejeaza corpul impotriva infectiilor si distruge bateriile nocive, care se deplaseaza spre interior prin plamani, prin intestine sau prin piele.
+				6.Functia de organ de simt este una din functiile de comunicare ale pielii cu mediul inconjurator, prin care aceasta proceseaza informatii din exteriorul corpului. Aceasta functie este indeplinita de receptorii:
+				7.Functia de comunicare – pielea reflecta anumite stari emotionale prin schimbarea coloraturii (palida, rosie) si semnalizeaza prezenta unei boli (tegumentul icteric din hepatite):de durere (fiind pana la 200/cm2),de presiune (corpusculii Vater-Pacini),termoreceptorii (corpusculii Krause),receptorii la intindere (corpusculii Ruffini),receptorii tactili sunt mai desi la buze, degete, limba, mamelon, organele genitale externe (corpusculii Meissner și celulele Merkel).
+				8.Pielea este cel mai mare organ excretor – secreta saruri si lichide.
+				9.Pielea este un organ activ. Asemenea pielii interioare (tractul digestiv), cea exterioara absoarbe tot ceea ce primeste.
+				10.Ajuta la cresterea parului.
+				11.Produce vitamina D cu ajutorul radiatiilor ultraviolete ale soarelui.
+				12.Trimite semnale importante catre creier. Daca ma ard si ma doare, primesc mesajul ca trebuie sa ma indepartez de foc; daca nu ma doare inseamna ca acea parte a pielii prevazuta cu receptori ai durerii a murit, caz in care nici nu primesc mesajul sa ma indepartez de foc, nici nu ma voi vindeca in mod corespunzator.
+				13.Ne ajuta sa ne dezvoltam. Privarea de simtul tactil ne afecteaza cel mai mult dintre toate simturile, deoarece nu putem beneficia de efectele terapeutice ale atingerii, masajului, sau de efectele emotionale ale atingerilor sexuale.
+				14.Ne ajuta sa ne vindecam. Crustele formate la suprafata ranilor asigura protectia si umezeala, care permit formarea unui nou strat de piele peste rana. Daca rupem crusta, intrerupem sau incetinim vindecarea, deoarece odata cu crusta indepartam si celulele responsabile cu vindecarea ranii.
+			</template>
+		</category>
+		<category>
+			<pattern>CUM SE FORMEAZA RIDURILE</pattern>
+			<template>Formarea ridurilor este legata de fibrele de colagen si de elastina de sub derma care, atunci cand sunt afectate de soare, se intind in mod excesiv. Astfel, in tesut apar urme adanci, iar pielea ca de copil se retrage si formeaza riduri. Fibrele de elastina din derma actioneaza asemenea unor benzi de cauciuc pentru a mentine pielea stransa si cu un aspect tanar.
+			</template>
+		</category>
+		<category>
+			<pattern>CE REPREZINTA SENZATIA DE DURERE</pattern>
+			<template>In piele se gaseste un mecanism foarte important legat de simtul tactil – fibrele durerii. Pielea simte durerea prin intermediul terminatiilor nervoase din derma. Atunci cand te-ai lovit sau te-ai ars, ai simtit imediat ca pielea este conectata direct la receptorii durerii; si ai mai simtit ca durerea are diverse grade de intensitate. Putem simti durere musculara, durere emotionala, durere pulsatila sau sub forma unui junghi, putem sa ignoram durerea sau s-o tratam.
+						Am vrea sa nu simtim niciodata durerea, insa ea este ceva sanatos. Este detectorul de fum al corpului – mecanismul care ne avertizeaza ca s-ar putea sa fim in pericol. Un corp care nu simte durerea este lipsit de semnale care-l avertizeaza ca pe undeva exista niste factori de risc.
+						Exista doua tipuri de neurofibre asociate cu durerea. Unele transmit mesaje care declanseaza o durere surda sau o senzatie suparatoare (asemenea unei camere reci sau a unei presiuni mai mari). Aceste mesaje se deplaseaza prin fibrele cu transmisie lenta. Celelalte transmit durerea rapid creierului, atunci cand ne taiem sau ne intepam.
+			</template>
+		</category>
+		<category>
+			<pattern>CU CE INTERACTIONEAZA SISTEMUL TEGUMENTAR</pattern>
+			<template>SISTEMUL TEGUMENTAR INTERACTIONEAZA CU:
+			        1.Cu sistemul endocrin – secretia hormonala poate avea efecte asupra pielii, ducand la fenomene precum acneea sau calvitia.
+					2.Cu aparatul urinar – reziduurile sunt eliminate prin intermediul rinichilor sau al glandelor sudoripare din piele.
+                    3.Cu sistemul cardiovascular si sistemul nervos – atunci cand nervii duc la aparitia emotiilor sau cand emotiile stimuleaza anumiti nervi, au loc fenomene precum imbujorarea sau albirea la fata. Herpesul, Zona Zoster si eczema pot avea cauze de ordin emotional.
+			</template>
+		</category>
+</aiml>
