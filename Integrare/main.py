@@ -5,6 +5,7 @@ import os
 import validators
 import FindDefinition
 import WikiTextImage
+import integrareAiml as ia
 
 app = Flask(__name__)
 lista = [("inima", "este un organ al corpului", "../static/john"), ("inima", "este un organ special")]
@@ -20,7 +21,7 @@ def discutie(dialogue=None):
     query = request.form["querry"]
     print(query)
     print("1 + ", query)  # aici se afla intrebarea pusa pe site
-    # sub,prop=FindDefinition.get_prop(query,0)
+    sub,prop=FindDefinition.get_prop(query,0)
     ok, theme = WikiTextImage.safe_extaractContent(query)
     # lista=[(sub,prop,None)]
     if ok:
@@ -67,9 +68,10 @@ def discutie(dialogue=None):
             print(lines)
             lista = [(query,read_data, path_img,lines,images,range(1,nr_images))]
     else:
-        lista = [(query, query + query, None)]
+        #lista = [(query, query + query, None)]
+        lista = [(sub, prop, None)]
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
-    # cale_imagine o sa fie ca calea spre imagine daca exista, None caz contrar
+    # cale_11imagine o sa fie ca calea spre imagine daca exista, None caz contrar
     #return render_template("mainPage.html", dialogue=lista)
     return render_template("secondPage.html", dialogue=lista)
 
