@@ -1,5 +1,5 @@
 import os
-from xml import etree
+import xml.etree.ElementTree as ET
 import _pickle as cPickle
 
 
@@ -68,7 +68,7 @@ def get_list_of_dictionaries(path):
     #dir_path = os.path.dirname(os.path.realpath(__file__))
     #file_output = os.path.join(dir_path, 'DocumenteOutput\\Fisier1.xml') # Andrei
 
-    tree = etree.parse(path)
+    tree = ET.parse(path)
 
     initial = tree.getroot()
     initial_node = Node(None, initial.tag, None, None)
