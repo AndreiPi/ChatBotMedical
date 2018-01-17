@@ -39,7 +39,6 @@
             }
             a:visited{
                 text-decoration: none;
-                color: white !important;
             }
             a:link {
                  text-decoration: none;
@@ -129,7 +128,7 @@ word-wrap: break-word;
                 {%else%}
                     <h1 id="firstHeading1" class="firstHeading" lang="ro">
                         <span dir="auto">
-                             <div class="row">
+                             <div>
                                 <div class="col-sm-6">
                                     <div class="margin_col">{{item[0]}}</div>
                                 </div>
@@ -139,14 +138,22 @@ word-wrap: break-word;
                     </h1>
 
                     <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
-                             <div class="row">
-                                <div class="col-sm-6">
+                             <div>
+                                <div>
                                     <div class="margin_col"> <p> {{item[1]}} </p></div>
                                 </div>
-                                <div class="col-sm-6"></div>
                             </div>
                             <br />
                     </div>
+                    <a href="#collapse" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse" style="display:none">
+                            <p>
+                                {%for line in item[3]%}
+                                    {{line}}
+                                </p><p>
+                                {%endfor%}
+                            </p>
+                        </div>
                 {%endif%}
 
             {%endfor%}
@@ -242,7 +249,20 @@ word-wrap: break-word;
     </div>
 
     <script>
+        $(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Show');
+            } else {
+                toggle_switch.html('Hide');
+            }
+        });
+    });
 
+});
 
         function runScript(e) {
 
