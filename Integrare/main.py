@@ -21,8 +21,9 @@ def discutie(dialogue=None):
     query = request.form["querry"]
     print(query)
     print("1 + ", query)  # aici se afla intrebarea pusa pe site
-    sub,prop=FindDefinition.get_prop(query,0)
-    ok, theme = WikiTextImage.extractContent(query)
+   # sub,prop=FindDefinition.get_prop(query,0)
+    ok = WikiTextImage.extractContent(query)
+    theme = query
     # lista=[(sub,prop,None)]
     if ok:
         find_An_Img = False
@@ -67,8 +68,8 @@ def discutie(dialogue=None):
             print(lines)
             lista = [(query,read_data, path_img,lines,images,range(1,nr_images))]
     else:
-        #lista = [(query, query + query, None)]
-        lista = [(sub, prop, None)]
+        lista = [(query, query + query, None)]
+        #lista = [(sub, prop, None)]
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
     # cale_11imagine o sa fie ca calea spre imagine daca exista, None caz contrar
     #return render_template("mainPage.html", dialogue=lista)
