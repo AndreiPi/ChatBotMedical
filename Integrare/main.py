@@ -5,6 +5,7 @@ import os
 import validators
 import FindDefinition
 import WikiTextImage
+import integrareAiml as ia
 
 app = Flask(__name__)
 lista = [("inima", "este un organ al corpului", "../static/john"), ("inima", "este un organ special")]
