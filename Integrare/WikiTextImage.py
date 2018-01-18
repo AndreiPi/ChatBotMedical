@@ -8,6 +8,9 @@ import urllib
 def extractText(page):
     wikipedia.set_lang("ro")
     try:
+        x = wikipedia.search(page)
+        if ( x == [] ):
+            return 0
         content = wikipedia.page(page).content
         return content
     except wikipedia.exceptions.DisambiguationError:
@@ -42,6 +45,8 @@ def extractContent(theme):
         os.makedirs("static")
     os.chdir(directory)
     textContent = extractText(theme)
+    if (textContent == 0):
+        return False
     if ( textContent[0] == 0 ):
         directory = os.path.join(directory, theme)
         if (not os.path.exists(directory)):
@@ -52,7 +57,7 @@ def extractContent(theme):
         for i in range(1,len(textContent)):
             finalMessage+=textContent[i]
         open(fisierText, "wt", encoding="utf8").write(finalMessage)
-        return
+        return True
     images = extractImages(theme)
     directory = os.path.join(directory,theme)
     if ( not os.path.exists(directory) ):
@@ -64,3 +69,4 @@ def extractContent(theme):
         fisier = split("/",i)
         x ="https:"+i
         urllib.request.urlretrieve(x,fisier[-1])
+    return True

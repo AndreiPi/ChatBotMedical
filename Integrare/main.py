@@ -22,7 +22,7 @@ def discutie(dialogue=None):
     print(query)
     print("1 + ", query)  # aici se afla intrebarea pusa pe site
     sub,prop=FindDefinition.get_prop(query,0)
-    ok, theme = WikiTextImage.safe_extaractContent(query)
+    ok, theme = WikiTextImage.extractContent(query)
     # lista=[(sub,prop,None)]
     if ok:
         find_An_Img = False
