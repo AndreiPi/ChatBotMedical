@@ -116,33 +116,32 @@
 </condition>
 </template>
 </category>
+
 <category><pattern>LOCATIA</pattern>
 <template>
-<condition name="location">  
-<li value="OM">As vrea sa stiu unde te afli?</li>  
-<li value="WHERE">Nu mi-ai spus unde esti. Ai putea sa o faci acum?</li>  
-<li value="*">Ai spus ca esti in <get name="location"/>?</li>  
+<condition name="location">
+<li value="OM">As vrea sa stiu unde te afli?</li>
+<li value="WHERE">Nu mi-ai spus unde esti. Ai putea sa o faci acum?</li>
+<li value="*">Ai spus ca esti in <get name="location"/>?</li>
 <li>Nu stiu, unde esti?</li>
 </condition>
 </template>
 </category>
 <category><pattern>PRIETENUL MEU</pattern>
 <template>
-<condition name="friend">  
-<li value="OM">As vrea sa stiu cate ceva despre prietenii tai.</li>   
-<li value="YOUR FRIEND">Nu ai spus nimic despre prietenii tai.</li>  
-<li value="*">Prietenul tau <get name="friend"/>?</li>  
+<condition name="friend">
+<li value="OM">As vrea sa stiu cate ceva despre prietenii tai.</li>
+<li value="YOUR FRIEND">Nu ai spus nimic despre prietenii tai.</li>
+<li value="*">Prietenul tau <get name="friend"/>?</li>
 <li><random><li>Nu stiu. Spune-mi numele celui mai bun prieten .</li><li>Cat de bine il stii?</li></random>  </li></condition></template>
 </category>
-<category><pattern>MY OLDEST</pattern>
-<template>
 
 <category><pattern>VARSTA</pattern>
 <template>
-<condition name="age">  
-<li value="OM">As vrea sa iti aflu varsta.</li>  
-<li value="HOW MANY">Nu mi-ai spus cati ani ai.</li>  
-<li value="*">Tu ai <get name="age"/>, nu?</li>  
+<condition name="age">
+<li value="OM">As vrea sa iti aflu varsta.</li>
+<li value="HOW MANY">Nu mi-ai spus cati ani ai.</li>
+<li value="*">Tu ai <get name="age"/>, nu?</li>
 <li>Nu stiu. Cati ani ai?</li>
 </condition></template>
 </category>
@@ -339,16 +338,15 @@ numar de telefon  <get name="phonenumber"/>.<br/>
 <!-- SET CLIENT PREDICATES: -->
 
 <category><pattern>EU SUNT *</pattern>
-<template><random>   
-<li>Cine esti?</li> 
-<li>Vrei sa spui ca te cheama</li>  
-<li>Prietenii tai iti spun</li>  
-<li>Nu cunosc pe nimeni cu numele</li>  
+<template><random>
+<li>Cine esti?</li>
+<li>Vrei sa spui ca te cheama</li>
+<li>Prietenii tai iti spun</li>
+<li>Nu cunosc pe nimeni cu numele</li>
 <li>Incantat de cunostinta,</li>
-<li>Te superi daca le spun si altora ca vorbesc cu</li>  
-</random> 
-<person/>.  
-<think><set name="it"><set name="topic"><person/></set></set></set></think>
+<li>Te superi daca le spun si altora ca vorbesc cu</li>
+</random>
+<think><set name="it"><set name="topic"></set></set></think>
 </template>
 </category>
 
@@ -465,11 +463,11 @@ numar de telefon  <get name="phonenumber"/>.<br/>
 <category><pattern>JOBUL MEU *</pattern>
 <template>
 <random>
-<li>Te platesc bine?</li>      
-<li>nu stiu foarte multi <person/>s.</li>      
-<li>Este o profesie cunoscuta?</li>      
-<li>Trebuie sa ai terminate 12 clase pentru asta?</li> 
-</random>     
+<li>Te platesc bine?</li>
+<li>nu stiu foarte multi <person/>s.</li>
+<li>Este o profesie cunoscuta?</li>
+<li>Trebuie sa ai terminate 12 clase pentru asta?</li>
+</random>
 <think>
 <set name="it"><person/></set>
 <set name="job"><person/></set>
@@ -514,15 +512,15 @@ Iubita ta este <get name="girlfriend"/>.</template>
 <template>
 <think><set name="age"><star/></set></think>
 <random>
-<li>Varsta ta este <star/>.</li>  
-<li>Doar <star/>?  Esti destul de matur.</li>  
-<li>Si cum te simti la <star/> ani?</li>  
+<li>Varsta ta este <star/>.</li>
+<li>Doar <star/>?  Esti destul de matur.</li>
+<li>Si cum te simti la <star/> ani?</li>
 <li>Care este avantajul la <star/> ani?</li>
 </random>
 </template>
 </category>
 <category><pattern>SOTIA MEA ESTE *</pattern>
-<template><think><set name="wife"><person/></set></think> 
+<template><think><set name="wife"><person/></set></think>
 <random>
 <li>De cat timp sunteti impreuna?</li>
 <li>Sotia ta este <get name="wife"/></li>
