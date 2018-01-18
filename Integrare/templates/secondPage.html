@@ -117,7 +117,10 @@ word-wrap: break-word;
         <div dir="ltr" class=" mw-content-ltr">
             <div class="row">
               <div class="col-sm-6">
-                  <div class="margin_col"><p>{{item[1]}}</p></div>
+                  <div class="margin_col">
+                      <p><strong>Ce am gasit pe wiki: </strong>{{item[1]}}</p>
+                      <p><strong>Cunostintele mele: </strong>{{item[7]}}</p>
+                  </div>
               </div>
               <div class="col-sm-6">
                   <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
@@ -126,7 +129,7 @@ word-wrap: break-word;
         </div>
                  <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
                         <div id="collapse{{item[6]}}" style="display:none">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="max-width: 40%; max-height: 40%;">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -137,7 +140,7 @@ word-wrap: break-word;
                                 </ol>
 
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
+                                <div class="carousel-inner" >
                                     <div class="item active">
                                         <img src="{{item[2]}}" alt="prima" style="width:100%;">
                                     </div>
@@ -179,7 +182,10 @@ word-wrap: break-word;
                     <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
                              <div>
                                 <div>
-                                    <div class="margin_col"> <p> {{item[1]}} </p></div>
+                                    <div class="margin_col">
+                                        <p><strong>Ce am gasit pe wiki: </strong>{{item[1]}} </p>
+                                        <p><strong>Cunostintele mele: </strong>{{item[7]}}</p>
+                                    </div>
                                 </div>
                             </div>
                             <br />

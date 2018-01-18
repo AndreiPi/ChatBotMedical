@@ -37,7 +37,7 @@ def discutie(dialogue=None):
     # lista=[(sub,prop,None)]
 
     #Cautat prin aiml
-    # = ia.respond(query)
+    aimlResponse = ia.respond(query)
     #print(aimlResponse)
 
     #Cautat prin wiki
@@ -90,7 +90,7 @@ def discutie(dialogue=None):
             #Astfel, aimlResponse va avea in secondPage item[2], read_data va avea item[3], etc.
             #lista va fi de forma: (user/bot, raspuns_aiml, raspuns_wiki, cale_imagine)
 
-            lista += [("[" + localtime + "] Bot", read_data, path_img,lines,images,range(1,nr_images), len(lista) + 1)]
+            lista += [("[" + localtime + "] Bot", read_data, path_img,lines,images,range(1,nr_images), len(lista) + 1, aimlResponse)]
     else:
         lista = [(query, query + query, None)]
         #lista = [(sub, prop, None)]
