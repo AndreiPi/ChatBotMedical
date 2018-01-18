@@ -37,7 +37,7 @@ def discutie(dialogue=None):
         images=[]
         nr_images=0
         for fille in os.listdir(path_dir):
-            if fille.endswith(".png") or fille.endswith(".jpg"):
+            if fille.endswith(".png") or fille.endswith(".jpg") or fille.endswith("jpeg"):
                 if not find_An_Img:
                     img_name = fille
                     find_An_Img = True
@@ -59,7 +59,6 @@ def discutie(dialogue=None):
         print(path_txt)
         with open(path_txt, 'r',encoding='utf-8') as f:
             read_data = f.readline()
-            read_line = f.readline()
             nrlines=1
             lines=[]
             for a_line in f:
@@ -73,7 +72,7 @@ def discutie(dialogue=None):
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
     # cale_11imagine o sa fie ca calea spre imagine daca exista, None caz contrar
     #return render_template("mainPage.html", dialogue=lista)
-    return render_template("secondPage.html", dialogue=lista)
+    return render_template("finalPage.html", dialogue=lista)
 
 
 if __name__ == "__main__":

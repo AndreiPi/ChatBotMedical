@@ -37,6 +37,10 @@ def extractImages(page):
 
 def extractContent(theme):
     directory = os.path.dirname(os.path.realpath(__file__))
+    directory = os.path.join(directory,"static")
+    if ( not os.path.exists(directory) ):
+        os.makedirs("static")
+    os.chdir(directory)
     textContent = extractText(theme)
     if ( textContent[0] == 0 ):
         directory = os.path.join(directory, theme)

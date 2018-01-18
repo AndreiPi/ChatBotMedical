@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <FDG_Output>
   <S id="1" offset="0">
-    <W Case="direct" Definiteness="yes" Gender="masculine" LEMMA="sindrom" MSD="Ncmsry" Number="singular" POS="NOUN" Type="common" deprel="ROOT" head="0" id="1.1" offset="0">sindromul</W>
-    <W Case="direct" Definiteness="no" Gender="masculine" LEMMA="comatos" MSD="Afpmsrn" Number="singular" POS="ADJECTIVE" deprel="a.adj." head="1" id="1.2" offset="10">comatos</W>
+    <W Case="direct" Definiteness="yes" EXTRA="NotInDict" Gender="feminine" LEMMA="Futema" MSD="Ncfsry" Number="singular" POS="NOUN" Type="common" deprel="ROOT" head="0" id="1.1" offset="0">Futema</W>
+    <W Case="oblique" Definiteness="no" Gender="feminine" LEMMA="doamnă" MSD="Ncfson" Number="singular" POS="NOUN" Type="common" deprel="ROOT" head="0" id="1.2" offset="7">doamne</W>
   </S>
 </FDG_Output>
