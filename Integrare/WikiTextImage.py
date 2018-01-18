@@ -22,6 +22,21 @@ def extractText(page):
             message += i + "\n"
         lista.extend(message)
         return lista
+    except wikipedia.exceptions.PageError:
+        lista = [0]
+        message = "Nu s-a gasit nimic despre tema cautata.\n"
+        lista.extend(message)
+        return lista
+    except wikipedia.exceptions.RedirectError:
+        lista = [0]
+        message = "Am fost redirectionati de pe wikipedia.\n"
+        lista.extend(message)
+        return lista
+    except wikipedia.exceptions.HTTPTimeoutError:
+        lista = [0]
+        message = "Verificati conecsiunea la internet.\n"
+        lista.extend(message)
+        return lista
 
 def extractImages(page):
     wikia = wikipedia.page(page).url
