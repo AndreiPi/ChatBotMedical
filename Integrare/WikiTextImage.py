@@ -31,12 +31,12 @@ def extractImages(page):
     rezultat = [img['src'] for img in imgTag]
     teme = split(" ",page)
     rezultatFinal = []
-    for i in teme:
-        for j in rezultat:
+    for j in rezultat:
+        for i in teme:
             if i in j:
                 rezultatFinal.append(j)
+                break
     return rezultatFinal
-
 
 def extractContent(theme):
     directory = os.path.dirname(os.path.realpath(__file__))
@@ -65,8 +65,13 @@ def extractContent(theme):
     os.chdir(directory)
     fisierText = theme + ".txt"
     open(fisierText,"wt", encoding="utf8").write(textContent)
+    j = 0
     for i in images:
-        fisier = split("/",i)
+        j = j + 1
         x ="https:"+i
-        urllib.request.urlretrieve(x,fisier[-1])
+        nume = "Poza"
+        nume += str(j)
+        nume += "."
+        nume += "png"
+        urllib.request.urlretrieve(x,nume)
     return True
