@@ -100,7 +100,6 @@ word-wrap: break-word;
          </h1>
              <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
 
-
             {%for item in dialogue%}
                 {%if item[2]%}
                     <h1 id="firstHeading" class="firstHeading" lang="ro">
@@ -125,8 +124,8 @@ word-wrap: break-word;
               </div>
             </div>
         </div>
-                 <a href="#collapse" class="nav-toggle" style="color=black">Read More...</a>
-                        <div id="collapse" style="display:none">
+                 <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse{{item[6]}}" style="display:none">
                             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
@@ -185,8 +184,8 @@ word-wrap: break-word;
                             </div>
                             <br />
                     </div>
-                    <a href="#collapse" class="nav-toggle" style="color=black">Read More...</a>
-                        <div id="collapse" style="display:none">
+                    <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse{{item[6]}}" style="display:none">
                             <p>
                                 {%for line in item[3]%}
                                     {{line}}

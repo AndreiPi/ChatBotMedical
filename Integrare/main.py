@@ -6,32 +6,51 @@ import validators
 import FindDefinition
 import WikiTextImage
 import integrareAiml as ia
+import datetime
 
 app = Flask(__name__)
-lista = [("inima", "este un organ al corpului", "../static/john"), ("inima", "este un organ special")]
+lista = []
 
+def getLatestInputs(lista):
+    latestInputs = []
+    for i in lista[-3:]:
+        latestInputs.append(i)
+    return latestInputs
 
 @app.route("/")
 def index():
-    return render_template("finalPage.html", dialogue=list())
+    return render_template("finalPage.html", dialogue=lista)
 
 
 @app.route("/<dialogue>", methods=["POST", "GET"])
 def discutie(dialogue=None):
+    global lista
     query = request.form["querry"]
     print(query)
-    print("1 + ", query)  # aici se afla intrebarea pusa pe site
-   # sub,prop=FindDefinition.get_prop(query,0)
+
+    #Adaugam data/timpul curent
+    now = datetime.datetime.now()
+    localtime = str(now.hour) + ":" + str(now.minute) + ":" + str(now.second) + " - " + str(now.day) + "/" + str(now.month) + "/" + str(now.year)
+
+    # sub,prop=FindDefinition.get_prop(query,0)
+
+    # lista=[(sub,prop,None)]
+
+    #Cautat prin aiml
+    # = ia.respond(query)
+    #print(aimlResponse)
+
+    #Cautat prin wiki
     ok = WikiTextImage.extractContent(query)
     theme = query
-    # lista=[(sub,prop,None)]
+
     if ok:
         find_An_Img = False
         dir_path = os.path.dirname(os.path.realpath(__file__))
         dir_path = os.path.join(dir_path,"static")
         path_dir = os.path.join(dir_path,theme)
-        print(path_dir)
-        print(os.path.isdir(path_dir))
+        #print(path_dir)
+        #print(os.path.isdir(path_dir))
         img_name = ""
         find_text = False
         txt_name = ""
@@ -42,7 +61,7 @@ def discutie(dialogue=None):
                 if not find_An_Img:
                     img_name = fille
                     find_An_Img = True
-                    print(fille, "\n")
+                    #print(fille, "\n")
                 else:
                     images.append("../static/" +theme+"/"+fille)
                     nr_images=nr_images+1
@@ -50,14 +69,14 @@ def discutie(dialogue=None):
                 if not find_text:
                     txt_name = fille
                     find_text = True
-                    print(fille, "\n")
+                    #print(fille, "\n")
         if find_An_Img:
             path_img = "../static/" +theme+"/"+img_name
         else:
             path_img = None
 
         path_txt=path_dir + "\\" + txt_name
-        print(path_txt)
+        #print(path_txt)
         with open(path_txt, 'r',encoding='utf-8') as f:
             read_data = f.readline()
             nrlines=1
@@ -65,15 +84,20 @@ def discutie(dialogue=None):
             for a_line in f:
                 lines.append((a_line))
                 nrlines+=1
-            print(lines)
-            lista = [(query,read_data, path_img,lines,images,range(1,nr_images))]
+            #print(lines)
+
+            #Aici adaugam toate raspunsurile din aiml, texte adnotate & wiki
+            #Astfel, aimlResponse va avea in secondPage item[2], read_data va avea item[3], etc.
+            #lista va fi de forma: (user/bot, raspuns_aiml, raspuns_wiki, cale_imagine)
+
+            lista += [("[" + localtime + "] Bot", read_data, path_img,lines,images,range(1,nr_images), len(lista) + 1)]
     else:
         lista = [(query, query + query, None)]
         #lista = [(sub, prop, None)]
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
     # cale_11imagine o sa fie ca calea spre imagine daca exista, None caz contrar
     #return render_template("mainPage.html", dialogue=lista)
-    return render_template("secondPage.html", dialogue=lista)
+    return render_template("secondPage.html", dialogue=getLatestInputs(lista))
 
 
 if __name__ == "__main__":
