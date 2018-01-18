@@ -71,19 +71,16 @@ kernel.bootstrap(learnFiles="AIML\client_profile.aiml")
 kernel.bootstrap(learnFiles="AIML\cultura-generala.aiml")
 kernel.bootstrap(learnFiles="AIML\date.aiml")
 kernel.bootstrap(learnFiles="AIML\defi.aiml")
+
 def respond(message):
 #while True:
-    print("Introduceti un mesaj: ")
-    answer = None
-    message = check_for_answer(message)
-    # message = input("User>")
+    #print("Introduceti un mesaj: ")
+    #answer = None
+    #message = check_for_answer(message)
+    #message = input("User>")
     searchMedicalTerm = FM.printBotFinalResponse(message)
-    if message == "gata":
-        exit()
-    elif searchMedicalTerm != "none":
-        print(searchMedicalTerm)
+    if searchMedicalTerm != "none":
         return searchMedicalTerm
     else:
         response=kernel.respond(message)
-        print(response)
         return response
