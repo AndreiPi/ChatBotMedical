@@ -1,0 +1,29 @@
+Ca sa rulati, trebuie sa deschideti un windows powershell in interiorul folder-ului si trebuie instalate urmatoarele pachete:
+Flask
+Jinja2
+MarkupSafe
+PyAIML
+Werkzeug
+aiml
+beautifulsoup4
+bs4
+certifi
+chardet
+click
+decorator
+idna
+itsdangerous
+lxml
+python-aiml
+python-docx
+requests
+setuptools
+suds-jurko
+urllib3
+validators
+virtualenv
+wikipedia
+
+
+P.S: Daca aveti PyCharm, puteti apasa: Ctrl+Alt+S -> selectati Project -> Project Interpreter (aici veti avea lista cu pachete).
+Pentru a instala pachete aveti un buton de "+" in partea dreapta -> si la search veti scrie numele pachetului dorit -> apoi "Install package" in partea de jos a ferestrei.
