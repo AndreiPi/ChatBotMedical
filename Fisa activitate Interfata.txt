@@ -1,0 +1,14 @@
+Membri: Ursachi Anca, Balan Andreea, Vicol Robert, Minuti Vladut
+
+Tasck-uri realizate:
+
+	Crearea unei prezantari PowerPoint in care se arata eficatitatea folosirii flask-ului in implementarea interfetei: Robert Vicol.
+	Crearea unui template pentru o pagina wiki cu urmatoarele specificatii: titlu, cuprins, recomandari, subcapitol (cu sau fara poza).
+Acest task presupune cautarea si implementarea de functionalitati interesante in interfata. Membrii care au colaborat la acest task: Anca Ioana, Balan Andreea.
+	Invatarea toolului Flask si implementarea interfetei. Membrii care au colaborat la acest task: Vladut Minuti, Vicol Robert, Irinel Manolache.
+	Realizarea logicii de functionare a serverului (BackEnd) Membrii care au colaborat la acest task: Vladut Minuti, Vicol Robert, Irinel Manolache.
+	Adaugarea resurselor gasite pe wikipedia in interfata: Minuti Vladut, Manolache Irinel, Iovu Gabriel, Dobos Iulia.
+	Crearea unui fisier json cu capitolele materiei:Andreea Giurgila.
+	Adaugarea capitolelor in interfata: Andreea Balan, Ursachi Anca.
+	Adaugarea actiunii de afisare a capitolului atunci cand se apasa click stanga pe el: Manolache Irinel.
+	

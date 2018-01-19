@@ -20,106 +20,106 @@
     <link rel="stylesheet" href="/static/mainStyle.css" />
 
     <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <style>
-            li {
-                list-style: none;
-    
-            }
-    
-            .but {
-                margin-top: 10px;
-            }
-    
-            a{
-                text-decoration: none;
-            }
-            a:active{
-                text-decoration: none;
-            }
-            a:visited{
-                text-decoration: none;
-                color: white !important;
-            }
-            a:link {
-                 text-decoration: none;
-            }
+        li {
+            list-style: none;
 
-            .size_img{
+        }
+
+        .but {
+            margin-top: 10px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        a:active{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+            color: white !important;
+        }
+        a:link {
+            text-decoration: none;
+        }
+
+        .size_img{
             width:190px !important;
             height: 180px !important;
-            }
+        }
 
-            .margin_col{
+        .margin_col{
             margin-left: 30px !important;
-            }
-            .margin_col:first-letter {
-                text-transform: uppercase;
-            }
+        }
+        .margin_col:first-letter {
+            text-transform: uppercase;
+        }
 
-            .margin_col1{
+        .margin_col1{
             margin-left: 17px !important;
-            }
-            .margin_col1:first-letter {
-                text-transform: uppercase;
-            }
-            
-
-     .margine_buton{
-         margin-top: 10px;
-     }
+        }
+        .margin_col1:first-letter {
+            text-transform: uppercase;
+        }
 
 
-
-     li {
-	 	margin:5px;
-	 }
- 	li:first-child {
- 		margin:0;
- 	}
-
-div.hid {
-    width: 150px;
-
-    overflow: hidden;
-}
+        .margine_buton{
+            margin-top: 10px;
+        }
 
 
 
-.buton_w{
-white-space: normal;
-word-wrap: break-word;
-}
-        </style>
+        li {
+            margin:5px;
+        }
+        li:first-child {
+            margin:0;
+        }
+
+        div.hid {
+            width: 150px;
+
+            overflow: hidden;
+        }
+
+
+
+        .buton_w{
+            white-space: normal;
+            word-wrap: break-word;
+        }
+    </style>
 
 </head>
 
 <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Pagina_principală skin-vector action-view vector-animateLayout">
-    <div id="mw-page-base" class="noprint"></div>
+<div id="mw-page-base" class="noprint"></div>
 
-    <div id="content" class="mw-body" role="main">
-        <div id="initial-content">
-         <h1  class="firstHeading" lang="ro">
-             <span dir="auto">Chat Bot</span>
-         </h1>
-             <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
-                 <p>
-                   <br /> Chatbot, un asistent personal inteligent, va juca rolul unui help-desk in procesul tau de invatare.
-                     Sunt multe intrebari din domeniul medical carora poate nu le acorzi completa atentie, insa daca nu le
-                     cunosti raspunsul poti ajunge confuz si stresat cand e vremea examenelor. Exista multe intrebari relevante
-                     care poate nu necisita un raspuns de la profesor dar cu care, cu siguranta, chatbot-ul te poate ajuta.
-                     Cu atat mai mult, sa cauti un raspuns pe google poate fi de cele mai multe ori complicat si fara folos,
-                     pentru ca, cum stim cu totii, internetul poate fi plin de stiri si informatii false.
-                     </br>
-                     </br>
-                  </p>
-                     <div id="holder">
-                         <img class="img-responsive" id="image" src="/static/chatbot.jpg">
-                      </div>
+<div id="content" class="mw-body" role="main">
+    <div id="initial-content">
+        <h1  class="firstHeading" lang="ro">
+            <span dir="auto">Chat Bot</span>
+        </h1>
+        <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
+            <p>
+                <br /> Chatbot, un asistent personal inteligent, va juca rolul unui help-desk in procesul tau de invatare.
+                Sunt multe intrebari din domeniul medical carora poate nu le acorzi completa atentie, insa daca nu le
+                cunosti raspunsul poti ajunge confuz si stresat cand e vremea examenelor. Exista multe intrebari relevante
+                care poate nu necisita un raspuns de la profesor dar cu care, cu siguranta, chatbot-ul te poate ajuta.
+                Cu atat mai mult, sa cauti un raspuns pe google poate fi de cele mai multe ori complicat si fara folos,
+                pentru ca, cum stim cu totii, internetul poate fi plin de stiri si informatii false.
+                </br>
+                </br>
+            </p>
+            <div id="holder">
+                <img class="img-responsive" id="image" src="/static/chatbot.jpg">
+            </div>
             {%for item in dialogue%}
-                {%if item[2]%}
-                    <h1 id="firstHeading" class="firstHeading" lang="ro">
+            {%if item[2]%}
+            <h1 id="firstHeading" class="firstHeading" lang="ro">
                         <span dir="auto">
                             <div class="row">
                                 <div class="col-sm-6">
@@ -129,20 +129,20 @@ word-wrap: break-word;
                             </div>
 
                         </span>
-                    </h1>
+            </h1>
 
-        <div dir="ltr" class=" mw-content-ltr">
-            <div class="row">
-              <div class="col-sm-6">
-                  <div class="margin_col"><p>{{item[1]}}</p></div>
-              </div>
-              <div class="col-sm-6">
-                  <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
-              </div>
+            <div dir="ltr" class=" mw-content-ltr">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="margin_col"><p>{{item[1]}}</p></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-                {%else%}
-                    <h1 id="firstHeading1" class="firstHeading" lang="ro">
+            {%else%}
+            <h1 id="firstHeading1" class="firstHeading" lang="ro">
                         <span dir="auto">
                              <div class="row">
                                 <div class="col-sm-6">
@@ -151,18 +151,18 @@ word-wrap: break-word;
                                 <div class="col-sm-6"></div>
                             </div>
                         </span>
-                    </h1>
+            </h1>
 
-                    <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
-                             <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="margin_col"> <p> {{item[1]}} </p></div>
-                                </div>
-                                <div class="col-sm-6"></div>
-                            </div>
-                            <br />
+            <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="margin_col"> <p> {{item[1]}} </p></div>
                     </div>
-                {%endif%}
+                    <div class="col-sm-6"></div>
+                </div>
+                <br />
+            </div>
+            {%endif%}
 
             {%endfor%}
             </br>
@@ -174,9 +174,7 @@ word-wrap: break-word;
             <form name="chat-form" action="secondPage.html" method="post">
                 <div class="form-group col-xs-4">
                     <label for="usr">Ai o intrebare?</label>
-                    <form id="form_input" name="form_input1">
-                    <input type="text" class="form-control" id="usr" name="querry" value="">
-                    </form>
+                    <input onkeypress="runScript(event)" type="text" class="form-control" id="usr" name="querry">
                 </div>
             </form>
 
@@ -246,11 +244,11 @@ word-wrap: break-word;
             <div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
                 <h3 id='p-Baze_de_date-label'>Capitole</h3>
 
-                
+
                 <!--AICI INSERAM CAPITOLELE  -->
-                 <div class="hid" id="0">
-                        
-                    </div>
+                <div class="hid" id="0">
+
+                </div>
 
             </div>
 
@@ -262,106 +260,108 @@ word-wrap: break-word;
 
         function showDetails(prop) {
             // console.log(prop.concat("este"));
-             document.getElementById("usr").setAttribute("value",prop.concat(" este")) ;
+            document.getElementById("usr").setAttribute("value",prop.concat(" este")) ;
 
-             //location.href = 'secondPage.html';
-             document.getElementById('usr').setAttribute("type", "submit");
-             document.getElementById("conversation").focus;
-             document.forms["form_input1"].submit()
-            }
+            //location.href = 'secondPage.html';
+            document.getElementById('usr').setAttribute("type", "submit");
+            document.getElementById("conversation").focus;
+        }
 
         function runScript(e) {
 
-			if (e.keyCode == 13 ) {
-				console.log("Da");
-			    document.getElementById("conversation").focus;
-			}
-		}
+            if (e.keyCode == 13 ) {
+                console.log("Da");
+                document.getElementById("conversation").focus;
+            }
+        }
 
-        
 
-		function my_compare(a,b) {
-		  if (a.parinte=="0") return -1;
-		  if (a.parinte < b.parinte)
-			return -1;
-		  if (a.parinte > b.parinte)
-			return 1;
-		  return 0;
-		}
+
+        function my_compare(a,b) {
+            if (a.parinte=="0") return -1;
+            if (a.parinte < b.parinte)
+                return -1;
+            if (a.parinte > b.parinte)
+                return 1;
+            return 0;
+        }
 
         $.getJSON("\\static\\data.json", function(json){
-          json1 = json;
+            json1 = json;
 
-          //sorteaza json dupa parinte id
-          var resultArray = $.map(json1['chapters'], function(value, index) { return [value]; });
-          resultArray.sort(my_compare);
-          chapters = resultArray;
-          console.log(resultArray)
-          var ia_id_div = document.getElementById("0");
+            //sorteaza json dupa parinte id
+            var resultArray = $.map(json1['chapters'], function(value, index) { return [value]; });
+            resultArray.sort(my_compare);
+            chapters = resultArray;
+            console.log(resultArray)
+            var ia_id_div = document.getElementById("0");
 
-          ids_butoane_dejaPePag = []
-          for(k=1;k<=5;k++) {
-            for (var i = 0; i < chapters.length; i++) {
-            try {
-              if (ids_butoane_dejaPePag.indexOf(resultArray[i].id)==-1) {
-                var ul = document.createElement("ul");
-                ul.setAttribute("id", resultArray[i].id);
+            ids_butoane_dejaPePag = []
+            for(k=1;k<=5;k++) {
+                for (var i = 0; i < chapters.length; i++) {
+                    try {
+                        if (ids_butoane_dejaPePag.indexOf(resultArray[i].id)==-1) {
+                            var ul = document.createElement("ul");
+                            ul.setAttribute("id", resultArray[i].id);
 
-                var father=resultArray[i].parinte;
-                var buton = document.createElement("button");
+                            var father=resultArray[i].parinte;
+                            var buton = document.createElement("button");
+                            buton.setAttribute("onclick", "showDetails(" +'"' + resultArray[i].nume +'"'+ ")");
+                            if (father=="0") {
+                                buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+                            }
+                            else
+                            {
+                                buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+                            }
+                            buton.setAttribute("data-toggle","collapse" );
+                            buton.setAttribute("data-target","#div".concat(resultArray[i].id) );
 
-                buton.setAttribute("onclick", "showDetails(" +'"' + resultArray[i].nume +'"'+ ")");
-                if (father=="0") {
-                buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+                            var li = document.createElement("li");
+
+                            var a = document.createElement("a");
+                            //a.setAttribute("href", json1.chapters[i].link);
+                            a.setAttribute("id", "1".concat(resultArray[i].id));
+
+                            a.textContent = resultArray[i].nume;
+                            //var father=json1.chapters[i].parinte;
+                            father2=document.getElementById(father);
+                            console.log(father2);
+                            var divfather="div".concat(resultArray[i].parinte);
+                            var divfather2=document.getElementById(divfather);
+
+                            var div1 = document.createElement("div");
+                            div1.setAttribute("id", "div".concat(resultArray[i].id));
+                            div1.setAttribute("class", "collapse margin_div");
+
+                            //culori:
+
+                            //sf culori
+
+                            if (father=="0") {
+
+                                var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                                var divv=ia_id_div.appendChild(ul).appendChild(div1);
+                            }
+                            else {
+
+                                var capp =divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                                var divv2=divfather2.appendChild(ul).appendChild(div1);
+                            }
+                            ids_butoane_dejaPePag.push(resultArray[i].id)
+                        }
+                    } catch(err) {
+                        console.log("naspa");
+                    }
                 }
-                else
-                {
-                buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
-                }
-                buton.setAttribute("data-toggle","collapse" );
-                buton.setAttribute("data-target","#div".concat(resultArray[i].id) );
-
-                var li = document.createElement("li");
-
-                var a = document.createElement("a");
-                //a.setAttribute("href", json1.chapters[i].link);
-                a.setAttribute("id", "1".concat(resultArray[i].id));
-
-                a.textContent = resultArray[i].nume;
-                 //var father=json1.chapters[i].parinte;
-                 father2=document.getElementById(father);
-                console.log(father2);
-                 var divfather="div".concat(resultArray[i].parinte);
-                 var divfather2=document.getElementById(divfather);
-
-                 var div1 = document.createElement("div");
-                div1.setAttribute("id", "div".concat(resultArray[i].id));
-                div1.setAttribute("class", "collapse margin_div");
-
-                //culori:
-
-                //sf culori
-
-                if (father=="0") {
-
-                  var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
-                  var divv=ia_id_div.appendChild(ul).appendChild(div1);
-                }
-                else {
-
-                  var capp =divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
-                  var divv2=divfather2.appendChild(ul).appendChild(div1);
-                }
-                ids_butoane_dejaPePag.push(resultArray[i].id)
-                }
-            } catch(err) {
-            console.log("naspa");
             }
-          }
-          }
-          console.log(ids_butoane_dejaPePag );
+            console.log(ids_butoane_dejaPePag );
 
-    });
+
+
+
+
+        });
 
 
     </script>

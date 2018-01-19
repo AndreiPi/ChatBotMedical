@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Chat Bot</title>
+    <meta name="generator" content="MediaWiki 1.24.3" />
+
+    <link rel="stylesheet" href="/static/mainStyle.css" />
+    <link rel="stylesheet" href="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*"/>
+
+    <meta name="ResourceLoaderDynamicStyles" content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <style>
+            li {
+                list-style: none;
+
+            }
+
+            .but {
+                margin-top: 10px;
+            }
+
+            a{
+                text-decoration: none;
+            }
+            a:active{
+                text-decoration: none;
+            }
+            a:visited{
+                text-decoration: none;
+            }
+            a:link {
+                 text-decoration: none;
+            }
+
+            .size_img{
+            width:190px !important;
+            height: 180px !important;
+            }
+
+            .margin_col{
+            margin-left: 30px !important;
+            }
+            .margin_col:first-letter {
+                text-transform: uppercase;
+            }
+
+            .margin_col1{
+            margin-left: 17px !important;
+            }
+            .margin_col1:first-letter {
+                text-transform: uppercase;
+            }
+
+
+     .margine_buton{
+         margin-top: 10px;
+     }
+
+     li {
+	 	margin:10px;
+	 }
+ 	li:first-child {
+ 		margin:0;
+ 	}
+
+div.hid {
+    width: 145px;
+
+    overflow: hidden;
+}
+
+
+.buton_w{
+white-space: normal;
+word-wrap: break-word;
+}
+        </style>
+
+</head>
+
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Pagina_principală skin-vector action-view vector-animateLayout">
+    <div id="mw-page-base" class="noprint"></div>
+
+    <div id="content" class="mw-body" role="main">
+        <div id="initial-content">
+         <h1  class="firstHeading" lang="ro">
+             <span dir="auto">Chat Bot</span>
+         </h1>
+             <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
+
+            {%for item in dialogue%}
+                {%if item[2]%}
+                    <h1 id="firstHeading" class="firstHeading" lang="ro">
+                        <span dir="auto">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="margin_col">{{item[0]}}</div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div>
+
+                        </span>
+                    </h1>
+
+        <div dir="ltr" class=" mw-content-ltr">
+            <div class="row">
+              <div class="col-sm-6">
+                  <div class="margin_col">
+                      <p><strong>Ce am gasit pe wiki: </strong>{{item[1]}}</p>
+                      <p><strong>Cunostintele mele: </strong>{{item[7]}}</p>
+                  </div>
+              </div>
+              <div class="col-sm-6">
+                  <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
+              </div>
+            </div>
+        </div>
+                 <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse{{item[6]}}" style="display:none">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="max-width: 40%; max-height: 40%;">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    {%
+                                    for integ in item[5]:%}
+                                        <li data-target="#myCarousel" data-slide-to="{{integ}}"></li>
+                                    {%endfor%}
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" >
+                                    <div class="item active">
+                                        <img src="{{item[2]}}" alt="prima" style="width:100%;">
+                                    </div>
+                                    {%for image in item[4]:%}
+                                        <div class="item">
+                                            <img src="{{image}}" alt="celelalte" style="width:100%;">
+                                        </div>
+                                    {%endfor%}
+                                </div>
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>
+                                {%for line in item[3]%}
+                                    {{line}}
+                                </p><p>
+                                {%endfor%}
+                            </p>
+                        </div>
+                {%else%}
+                    <h1 id="firstHeading1" class="firstHeading" lang="ro">
+                        <span dir="auto">
+                             <div>
+                                <div class="col-sm-6">
+                                    <div class="margin_col">{{item[0]}}</div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div>
+                        </span>
+                    </h1>
+
+                    <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
+                             <div>
+                                <div>
+                                    <div class="margin_col">
+                                        <p><strong>Ce am gasit pe wiki: </strong>{{item[1]}} </p>
+                                        <p><strong>Cunostintele mele: </strong>{{item[7]}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                    </div>
+                    <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse{{item[6]}}" style="display:none">
+                            <p>
+                                {%for line in item[3]%}
+                                    {{line}}
+                                </p><p>
+                                {%endfor%}
+                            </p>
+                        </div>
+                {%endif%}
+
+            {%endfor%}
+            </br>
+            </br>
+
+
+
+            <!-- Chat Bot -->
+            <form name="chat-form" action="secondPage.html" method="post">
+                <div class="form-group col-xs-4">
+                    <label for="usr">Ai o intrebare buna?</label>
+                    <input onkeypress="runScript(event)" type="text" class="form-control" id="usr" name="querry">
+                </div>
+            </form>
+
+            <div id="conversation">
+                <!-- Aici va fi conversatia -->
+            </div>
+
+            </br>
+
+        </div>
+    </div>
+
+    <div id="mw-navigation">
+        <h2>Meniu de navigare</h2>
+
+        <div id="mw-head">
+            <!-- <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+                    <ul>
+                    <li id="pt-login"><a href="#" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+                   </ul>j
+                </div> -->
+            <div id="left-navigation">
+                <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+                    <ul>
+                        <li id="ca-nstab-main" class="selected">
+                            <span>
+                                <a href="#" title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="right-navigation">
+
+                <!-- <div id="p-search" role="search">
+                        <h3>
+                            <label for="searchInput">Căutare</label>
+                        </h3>
+
+                        <form action="#" id="searchform">
+                            <div id="simpleSearch">
+                                <input type="search" name="search" placeholder="Căutare" title="Căutare "  id="searchInput" />
+                                <input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />
+                            </div>
+                        </form>
+                    </div> -->
+            </div>
+        </div>
+
+        <div id="mw-panel">
+            <div id="p-logo" role="banner">
+                <a style="background-image: url(../static/logo.PNG); background-size: cover" href="#" title="Pagina principală"></a>
+            </div>
+
+
+            <!-- <div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+                    <h3 id='p-navigation-label'>Navigare</h3>
+
+                    <div class="body">
+                        <ul>
+                            <li id="n-mainpage-description"><a href="#" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+
+                        </ul>
+                    </div>
+                </div> -->
+            <div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+                <h3 id='p-Baze_de_date-label'>Capitole</h3>
+
+
+                <!--AICI INSERAM CAPITOLELE  -->
+                 <div class="hid" id="0">
+
+                    </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Show');
+            } else {
+                toggle_switch.html('Hide');
+            }
+        });
+    });
+
+});
+
+         function showDetails(prop) {
+            // console.log(prop.concat("este"));
+             document.getElementById("usr").setAttribute("value",prop.concat(" este")) ;
+
+             //location.href = 'secondPage.html';
+             document.getElementById('usr').setAttribute("type", "submit");
+             document.getElementById("conversation").focus;
+            }
+
+        
+        function runScript(e) {
+
+        if (e.keyCode == 13 ) {
+            console.log("Da");
+          document.getElementById("conversation").focus;
+    }
+}
+
+        function my_compare(a,b) {
+          if (a.parinte=="0") return -1;
+          if (a.parinte < b.parinte)
+          return -1;
+          if (a.parinte > b.parinte)
+          return 1;
+          return 0;
+        }
+
+            $.getJSON("\\static\\data.json", function(json){
+          json1 = json;
+
+          //sorteaza json dupa parinte id
+          var resultArray = $.map(json1['chapters'], function(value, index) { return [value]; });
+          resultArray.sort(my_compare);
+          chapters = resultArray;
+          console.log(resultArray)
+          var ia_id_div = document.getElementById("0");
+
+          ids_butoane_dejaPePag = []
+          for(k=1;k<=5;k++) {
+            for (var i = 0; i < chapters.length; i++) {
+            try {
+              if (ids_butoane_dejaPePag.indexOf(resultArray[i].id)==-1) {
+                var ul = document.createElement("ul");
+                ul.setAttribute("id", resultArray[i].id);
+
+                var father=resultArray[i].parinte;
+                var buton = document.createElement("button");
+                buton.setAttribute("onclick", "showDetails(" +'"' + resultArray[i].nume +'"'+ ")");
+                if (father=="0") {
+                buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+                }
+                else
+                {
+                buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+                }
+                buton.setAttribute("data-toggle","collapse" );
+                buton.setAttribute("data-target","#div".concat(resultArray[i].id) );
+
+                var li = document.createElement("li");
+
+                var a = document.createElement("a");
+                //a.setAttribute("href", json1.chapters[i].link);
+                a.setAttribute("id", "1".concat(resultArray[i].id));
+
+                a.textContent = resultArray[i].nume;
+                 //var father=json1.chapters[i].parinte;
+                 father2=document.getElementById(father);
+                console.log(father2);
+                 var divfather="div".concat(resultArray[i].parinte);
+                 var divfather2=document.getElementById(divfather);
+
+                 var div1 = document.createElement("div");
+                div1.setAttribute("id", "div".concat(resultArray[i].id));
+                div1.setAttribute("class", "collapse margin_div");
+
+                //culori:
+
+                //sf culori
+
+                if (father=="0") {
+
+                  var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                  var divv=ia_id_div.appendChild(ul).appendChild(div1);
+                }
+                else {
+
+                  var capp =divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                  var divv2=divfather2.appendChild(ul).appendChild(div1);
+                }
+                ids_butoane_dejaPePag.push(resultArray[i].id)
+                }
+            } catch(err) {
+            console.log("naspa");
+            }
+          }
+          }
+          console.log(ids_butoane_dejaPePag );
+    });
+    </script>
+    </div>
+</body>
+
+</html>
