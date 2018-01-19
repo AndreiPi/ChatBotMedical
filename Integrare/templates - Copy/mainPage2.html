@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<html lang="ro"  > 
+    <head> 
+ 
+        <meta charset="UTF-8" /> 
+        <title>Chat Bot</title> 
+        <meta name="generator" content="MediaWiki 1.24.3" /> 
+ 
+        <link rel="stylesheet" href="/static/mainStyle.css"/> 
+        <link rel="stylesheet" href="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" /> 
+         
+        <meta name="ResourceLoaderDynamicStyles" content="" /> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"> 
+ 
+        <script src="https://profs.info.uaic.ro/~bd/wiki/load.php?debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script> 
+        <style> 
+                li { 
+                list-style:none; 
+                
+                } 
+                .but{ 
+                    margin-top: 10px; 
+                } 
+             
+                a{ 
+                    text-decoration: none; 
+                } 
+             
+            </style> 
+ 
+    </head> 
+ 
+    <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Pagina_principală skin-vector action-view vector-animateLayout"> 
+        <div id="mw-page-base" class="noprint"></div> 
+ 
+        <div id="content" class="mw-body" role="main"> 
+ 
+ 
+            <h1 id="firstHeading" class="firstHeading" lang="ro"><span id="subtitle" dir="auto"></span></h1> 
+            <div id="bodyContent" class="mw-body-content"> 
+                <!-- Add space betwwen titile and content --> 
+                <div id="contentSub"></div> 
+ 
+ 
+                <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><p><br /> 
+                    <!-- Se adauga textul --> 
+                    <div id="text_introdus"> 
+                          
+                    </div> 
+                </div> </br> </br> 
+ 
+ 
+                <!-- Chat Bot --> 
+                <form name="chat-form" action="." method="post"> 
+                    <div class="form-group col-xs-4"> 
+                        <label for="usr">Ai o intrebare?</label> 
+                        <input type="text" class="form-control" id="usr"> 
+                    </div>      
+                </form> 
+ 
+                <div id="conversation"> 
+                    <!-- Aici va fi conversatia --> 
+                </div> 
+ 
+            </br> 
+ 
+                </div> 
+            </div> 
+ 
+        <div id="mw-navigation"> 
+            <h2>Meniu de navigare</h2> 
+ 
+            <div id="mw-head"> 
+                <!-- <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label"> 
+                    <ul> 
+                    <li id="pt-login"><a href="#" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>            </ul> 
+                   </ul> 
+                </div> --> 
+                <div id="left-navigation"> 
+                    <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label"> 
+                        <ul> 
+                            <li  id="ca-nstab-main" class="selected"><span><a href="#"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li> 
+                        </ul> 
+                    </div> 
+ 
+                </div> 
+                <div id="right-navigation"> 
+ 
+                    <!-- <div id="p-search" role="search"> 
+                        <h3> 
+                            <label for="searchInput">Căutare</label> 
+                        </h3> 
+ 
+                        <form action="#" id="searchform"> 
+                            <div id="simpleSearch"> 
+                                <input type="search" name="search" placeholder="Căutare" title="Căutare "  id="searchInput" /> 
+                                <input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" /> 
+                            </div> 
+                        </form> 
+                    </div> 
+                </div> --> 
+            </div> 
+ 
+            <div id="mw-panel"> 
+                <div id="p-logo" role="banner"><a style="background-image: url(../static/logo.PNG); background-size: cover"  href="#"  title="Pagina principală"></a></div> 
+ 
+ 
+                <!-- <div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'> 
+                    <h3 id='p-navigation-label'>Navigare</h3> 
+ 
+                    <div class="body"> 
+                        <ul> 
+                            <li id="n-mainpage-description"><a href="#" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li> 
+ 
+                        </ul> 
+                    </div> 
+                </div> --> 
+                <div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'> 
+                    <h3 id='p-Baze_de_date-label'>Capitole</h3> 
+ 
+                    
+ 
+                    <!-- Aici se introduc subcapitolele --> 
+                    <div id="capitole"> 
+ 
+                    </div> 
+                    <p id="demo"></p> 
+                </div> 
+ 
+ 
+            </div> 
+        </div> 
+ 
+         
+     
+    <script> 
+             
+            // var nr_capitole=10; 
+            // nume capitole 
+             
+            // for (i=1;i<=nr_capitole;i++) 
+            // { 
+            //     var ia_id_div=document.getElementById("capitole"); 
+            //     var ul=document.createElement("ul"); 
+            //     ul.setAttribute("id", "capitol_".concat(i)); 
+         
+            //     var buton=document.createElement("button"); 
+            //     buton.setAttribute("class","btn btn-default btn-xs") 
+         
+            //     var li=document.createElement("li"); 
+            //     li.setAttribute("id", "capitol".concat(i)); 
+ 
+            //     var a=document.createElement("a"); 
+            //     a.setAttribute("href", "#"); 
+            //     a.textContent="capitol".concat(i); 
+ 
+            //     var cap=ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a); 
+            // } 
+ 
+             
+ 
+            var a=document.getElementById("subtitle").textContent="Subtitlu"; 
+            var a=document.getElementById("text_introdus").textContent="text introdus"; 
+             
+ 
+// $(document).ready(function(){ 
+// $('button').click(function() { 
+//     $(this).removeClass('btn btn-default'); 
+//     $(this).addClass('btn btn-success'); 
+// }); 
+// }); 
+ 
+        </script> 
+        </body> 
+</html> 

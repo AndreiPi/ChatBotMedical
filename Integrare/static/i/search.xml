@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FDG_Output>
+  <S id="1" offset="0">
+    <W Case="direct" Definiteness="yes" Gender="feminine" LEMMA="farmacologie" MSD="Ncfsry" Number="singular" POS="NOUN" Type="common" deprel="sbj." head="7" id="1.1" offset="0">Farmacologia</W>
+    <W LEMMA="și" MSD="Cc" POS="CONJUNCTION" Type="coordinating" deprel="coord." head="1" id="1.2" offset="13">şi</W>
+    <W Case="direct" Definiteness="yes" Gender="feminine" LEMMA="biotehnologie" MSD="Ncfsry" Number="singular" POS="NOUN" Type="common" deprel="coord." head="2" id="1.3" offset="16">biotehnologia</W>
+    <W LEMMA="cu" MSD="Sp" POS="ADPOSITION" deprel="a.subst." head="3" id="1.4" offset="30">cu</W>
+    <W Case="direct" Definiteness="yes" Gender="feminine" LEMMA="ram" MSD="Ncfpry" Number="plural" POS="NOUN" Type="common" deprel="prep." head="4" id="1.5" offset="33">ramurile</W>
+    <W LEMMA="lui" MSD="Ds3---p" POS="DETERMINER" Person="third" Possessor_number="plural" Type="possessive" deprel="a.adj." head="5" id="1.6" offset="42">lor</W>
+    <W EXTRA="tranzitiv" LEMMA="pătrunde" MSD="Vmip3p" Mood="indicative" Number="plural" POS="VERB" Person="third" Tense="present" Type="predicative" deprel="ap." head="36" id="1.7" offset="46">pătrund</W>
+    <W LEMMA="de~asemenea" MSD="Rg" POS="ADVERB" deprel="c.c.m." head="7" id="1.8" offset="54">de asemenea</W>
+    <W LEMMA="în" MSD="Sp" POS="ADPOSITION" deprel="c.c.l." head="7" id="1.9" offset="66">în</W>
+    <W Case="direct" Definiteness="yes" Gender="masculine" LEMMA="câmp" MSD="Ncmsry" Number="singular" POS="NOUN" Type="common" deprel="prep." head="9" id="1.10" offset="69">câmpul</W>
+    <W Case="oblique" Definiteness="yes" Gender="feminine" LEMMA="interdisciplinaritate" MSD="Ncfsoy" Number="singular" POS="NOUN" Type="common" deprel="a.subst." head="10" id="1.11" offset="76">interdisciplinarităţii</W>
+    <W Case="oblique" Definiteness="yes" Gender="feminine" LEMMA="neurochirurgie" MSD="Ncfsoy" Number="singular" POS="NOUN" Type="common" deprel="a.subst." head="11" id="1.12" offset="99">neurochirurgiei</W>
+    <W LEMMA="prin" MSD="Sp" POS="ADPOSITION" deprel="a.subst." head="11" id="1.13" offset="115">prin</W>
+    <W Case="direct" Definiteness="no" Gender="feminine" LEMMA="domeniu" MSD="Ncfprn" Number="plural" POS="NOUN" Type="common" deprel="prep." head="13" id="1.14" offset="120">domenii</W>
+    <W LEMMA="ca" MSD="Rg" POS="ADVERB" deprel="c.c.m." head="7" id="1.15" offset="128">ca</W>
+    <W LEMMA=":" MSD="COLON" deprel="a.adj." head="17" id="1.16" offset="131">:</W>
+    <W Case="direct" Definiteness="no" EXTRA="NotInDict" Gender="feminine" LEMMA="neurofarmacologie" MSD="Ncfsrn" Number="singular" POS="NOUN" Type="common" deprel="prep." head="15" id="1.17" offset="133">neurofarmacologie</W>
+    <W LEMMA="," MSD="COMMA" deprel="ROOT" head="36" id="1.18" offset="151">,</W>
+    <W Case="direct" Definiteness="no" Gender="feminine" LEMMA="psihofarmacologie" MSD="Ncfsrn" Number="singular" POS="NOUN" Type="common" deprel="coord." head="18" id="1.19" offset="153">psihofarmacologie</W>
+    <W LEMMA="," MSD="COMMA" deprel="ROOT" head="25" id="1.20" offset="171">,</W>
+    <W Case="direct" Definiteness="yes" Gender="masculine" LEMMA="transplant" MSD="Ncmsry" Number="singular" POS="NOUN" Type="common" deprel="coord." head="20" id="1.21" offset="173">transplantul</W>
+    <W LEMMA="de" MSD="Sp" POS="ADPOSITION" deprel="a.subst." head="21" id="1.22" offset="186">de</W>
+    <W Case="direct" Definiteness="no" Gender="masculine" LEMMA="țesut" MSD="Ncmsrn" Number="singular" POS="NOUN" Type="common" deprel="prep." head="22" id="1.23" offset="189">ţesut</W>
+    <W Case="direct" Definiteness="no" Gender="masculine" LEMMA="nervos" MSD="Afpmsrn" Number="singular" POS="ADJECTIVE" deprel="a.adj." head="23" id="1.24" offset="195">nervos</W>
+    <W LEMMA="," MSD="COMMA" deprel="ROOT" head="36" id="1.25" offset="202">,</W>
+    <W LEMMA="în~general" MSD="Rg" POS="ADVERB" deprel="a.adv." head="27" id="1.26" offset="204">în general</W>
+    <W Case="direct" Definiteness="yes" Gender="feminine" LEMMA="problemă" MSD="Ncfsry" Number="singular" POS="NOUN" Type="common" deprel="coord." head="25" id="1.27" offset="215">problema</W>
+    <W Case="oblique" Definiteness="yes" Gender="feminine" LEMMA="transplant" MSD="Ncfpoy" Number="plural" POS="NOUN" Type="common" deprel="a.subst." head="27" id="1.28" offset="224">transplantelor</W>
+    <W LEMMA="de" MSD="Sp" POS="ADPOSITION" deprel="a.subst." head="28" id="1.29" offset="239">de</W>
+    <W Case="direct" Definiteness="no" Gender="feminine" LEMMA="organ" MSD="Ncfprn" Number="plural" POS="NOUN" Type="common" deprel="prep." head="29" id="1.30" offset="242">organe</W>
+    <W LEMMA="," MSD="COMMA" deprel="ROOT" head="36" id="1.31" offset="249">,</W>
+    <W Case="direct" Gender="feminine" LEMMA="mult" MSD="Di3fpr" Number="plural" POS="DETERMINER" Person="third" Type="indefinite" deprel="a.adj." head="33" id="1.32" offset="251">multe</W>
+    <W Case="direct" Definiteness="no" Gender="feminine" LEMMA="organ" MSD="Ncfprn" Number="plural" POS="NOUN" Type="common" deprel="coord." head="31" id="1.33" offset="257">organe</W>
+    <W Case="direct" Definiteness="no" EXTRA="ParticipleLemma:transplanta" Gender="feminine" LEMMA="transplantat" MSD="Afpfprn" Number="plural" POS="ADJECTIVE" deprel="a.adj." head="33" id="1.34" offset="264">transplantate</W>
+    <W EXTRA="intranzitiv" LEMMA="fi" MSD="Vmg" Mood="gerund" POS="VERB" Type="predicative" deprel="aux." head="36" id="1.35" offset="278">fiind</W>
+    <W Case="direct" Definiteness="no" EXTRA="ParticipleLemma:furniza" Gender="feminine" LEMMA="furnizat" MSD="Afpfprn" Number="plural" POS="ADJECTIVE" deprel="ROOT" head="0" id="1.36" offset="284">furnizate</W>
+    <W LEMMA="în~urma" MSD="Sp" POS="ADPOSITION" deprel="c.i." head="36" id="1.37" offset="294">în urma</W>
+    <W Case="oblique" Definiteness="yes" Gender="feminine" LEMMA="stare" MSD="Ncfpoy" Number="plural" POS="NOUN" Type="common" deprel="prep." head="37" id="1.38" offset="302">stărilor</W>
+    <W Case="direct" Definiteness="no" Gender="feminine" LEMMA="final" MSD="Afpfprn" Number="plural" POS="ADJECTIVE" deprel="a.adj." head="38" id="1.39" offset="311">finale</W>
+    <W LEMMA="(" MSD="LPAR" deprel="ROOT" head="38" id="1.40" offset="318">(</W>
+    <W Case="direct" Definiteness="yes" Gender="feminine" LEMMA="moarte" MSD="Ncfsry" Number="singular" POS="NOUN" Type="common" deprel="ap." head="38" id="1.41" offset="320">moartea</W>
+    <W Case="oblique" Definiteness="yes" Gender="masculine" LEMMA="creier" MSD="Ncmsoy" Number="singular" POS="NOUN" Type="common" deprel="a.subst." head="41" id="1.42" offset="328">creierului</W>
+    <W LEMMA=")" MSD="RPAR" deprel="ROOT" head="36" id="1.43" offset="339">)</W>
+    <W LEMMA="din" MSD="Sp" POS="ADPOSITION" deprel="a.subst." head="36" id="1.44" offset="341">din</W>
+    <W Case="direct" Definiteness="yes" Gender="feminine" LEMMA="afecțiune" MSD="Ncfpry" Number="plural" POS="NOUN" Type="common" deprel="prep." head="44" id="1.45" offset="345">afecţiunile</W>
+    <W Case="direct" Definiteness="no" EXTRA="NotInDict" Gender="feminine" LEMMA="neurochirurgicale" MSD="Afpfprn" Number="plural" POS="ADJECTIVE" deprel="a.adj." head="45" id="1.46" offset="357">neurochirurgicale</W>
+    <W LEMMA="." MSD="PERIOD" deprel="ROOT" head="0" id="1.47" offset="375">.</W>
+  </S>
+</FDG_Output>

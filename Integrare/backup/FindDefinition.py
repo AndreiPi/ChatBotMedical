@@ -48,32 +48,29 @@ def ChooseProp(propoz,search,fileindex,depth):
    # print(search[0][0])
     pred=search[0][0]["S"][0][1]
     sub=search[0][0][pred][0][1]
-    subj=set()
-
+    subj=[]
+    subj.append(sub)
     try:
         compl=search[0][0][pred][1][1]
-
+        subj.append(compl)
     except :
         compl=""
     try:
         atrib=search[0][0][compl][0][1]
-
+        subj.append(atrib)
     except:
         atrib=""
 
-    #print(sub,pred,compl,atrib)
+    print(sub,pred,compl,atrib)
+
+
 
 
     props=set()
     if sub not in ["care","ce","unde","cand","cum"]:
         s_s, bestProp_s, bp_s, bs_s = searchprops(sub, pred, propoz)
         props.add(bestProp_s)
-        subj.add(sub)
     else :
-        if len(compl):
-            subj.add(compl)
-        if len(atrib):
-            subj.add(atrib)
         if compl!="":
             s_c, bestProp_c, bp_c, bs_c = searchprops(compl, pred, propoz)
             props.add(bestProp_c)
@@ -84,10 +81,8 @@ def ChooseProp(propoz,search,fileindex,depth):
     moreprops=set()
     if depth<1:
         for p in props:
-            sb,mp=get_prop(p,fileindex,depth+1)
+            mp=get_prop(p,fileindex,depth+1)[1]
             moreprops.add(p)
-            for s in sb:
-                subj.add(s)
             for m in mp:
                 moreprops.add(m)
 
@@ -110,15 +105,9 @@ def get_prop(input,fileIndex,depth):
     #subj=[]
     #mp=set()
     for i in range(1,6):
-        #
-        abspath=os.path.abspath(os.path.dirname(__file__))
-        name=r"Fisiere_pkl\dictionaries_list_Fisier"+str(i)+r".pkl"
-        name = os.path.join(abspath, r"Fisiere_pkl\\" +pklFileName + str(i) + ".pkl")
-
-        #os.chdir(r'D:\Al3lea')
-        f=open(name,"rb")
-        fileDict.append(pickle.load(f, encoding="bytes"))
-        f.close()
+        name=os.path.join("Fisiere_pkl",pklFileName+str(i)+".pkl")
+        with open(name,"rb") as f:
+            fileDict.append(pickle.load(f, encoding="bytes"))
     #print(searchDict)
     #print(fileDict[fileIndex])
     subj,mp=ChooseProp(fileDict[fileIndex],searchDict,fileIndex,depth)

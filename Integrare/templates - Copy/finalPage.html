@@ -174,9 +174,7 @@ word-wrap: break-word;
             <form name="chat-form" action="secondPage.html" method="post">
                 <div class="form-group col-xs-4">
                     <label for="usr">Ai o intrebare?</label>
-                    <form id="form_input" name="form_input1">
-                    <input type="text" class="form-control" id="usr" name="querry" value="">
-                    </form>
+                    <input onkeypress="runScript(event)" type="text" class="form-control" id="usr" name="querry">
                 </div>
             </form>
 
@@ -260,21 +258,12 @@ word-wrap: break-word;
 
     <script>
 
-        function showDetails(prop) {
-            // console.log(prop.concat("este"));
-             document.getElementById("usr").setAttribute("value",prop.concat(" este")) ;
-
-             //location.href = 'secondPage.html';
-             document.getElementById('usr').setAttribute("type", "submit");
-             document.getElementById("conversation").focus;
-             document.forms["form_input1"].submit()
-            }
 
         function runScript(e) {
 
 			if (e.keyCode == 13 ) {
 				console.log("Da");
-			    document.getElementById("conversation").focus;
+			  document.getElementById("conversation").focus;
 			}
 		}
 
@@ -290,80 +279,88 @@ word-wrap: break-word;
 		}
 
         $.getJSON("\\static\\data.json", function(json){
-          json1 = json;
+			json1 = json;
+			
+			//sorteaza json dupa parinte id 
+			var resultArray = $.map(json1['chapters'], function(value, index) { return [value]; });
+			resultArray.sort(my_compare);
+			chapters = resultArray;
+			console.log(resultArray)
+			var ia_id_div = document.getElementById("0");
+			
+			ids_butoane_dejaPePag = []
+			for(k=1;k<=5;k++) {
+				for (var i = 0; i < chapters.length; i++) {
+				try {
+					if (ids_butoane_dejaPePag.indexOf(resultArray[i].id)==-1) {
+						var ul = document.createElement("ul");
+						ul.setAttribute("id", resultArray[i].id);
+						
+						var father=resultArray[i].parinte;
+						var prop = resultArray[i].prop;
+						var buton = document.createElement("button");
+						
+						if (father=="0") {
+						buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+						buton.setAttribute("onclick", "showDetails(" +'"' + prop +'"'+ ")");
 
-          //sorteaza json dupa parinte id
-          var resultArray = $.map(json1['chapters'], function(value, index) { return [value]; });
-          resultArray.sort(my_compare);
-          chapters = resultArray;
-          console.log(resultArray)
-          var ia_id_div = document.getElementById("0");
 
-          ids_butoane_dejaPePag = []
-          for(k=1;k<=5;k++) {
-            for (var i = 0; i < chapters.length; i++) {
-            try {
-              if (ids_butoane_dejaPePag.indexOf(resultArray[i].id)==-1) {
-                var ul = document.createElement("ul");
-                ul.setAttribute("id", resultArray[i].id);
+						}
+						else
+						{
+						buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+						}
+						buton.setAttribute("data-toggle","collapse" );
+						buton.setAttribute("data-target","#div".concat(resultArray[i].id) );
+						
+						var li = document.createElement("li");
 
-                var father=resultArray[i].parinte;
-                var buton = document.createElement("button");
+						var a = document.createElement("a");
+						//a.setAttribute("href", json1.chapters[i].link);
+						a.setAttribute("id", "1".concat(resultArray[i].id));
 
-                buton.setAttribute("onclick", "showDetails(" +'"' + resultArray[i].nume +'"'+ ")");
-                if (father=="0") {
-                buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
-                }
-                else
-                {
-                buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
-                }
-                buton.setAttribute("data-toggle","collapse" );
-                buton.setAttribute("data-target","#div".concat(resultArray[i].id) );
+						a.textContent = resultArray[i].nume;
+						 //var father=json1.chapters[i].parinte;
+						 father2=document.getElementById(father);
+						console.log(father2);
+						 var divfather="div".concat(resultArray[i].parinte);
+						 var divfather2=document.getElementById(divfather);
 
-                var li = document.createElement("li");
+						 var div1 = document.createElement("div");
+						div1.setAttribute("id", "div".concat(resultArray[i].id));
+						div1.setAttribute("class", "collapse margin_div");
 
-                var a = document.createElement("a");
-                //a.setAttribute("href", json1.chapters[i].link);
-                a.setAttribute("id", "1".concat(resultArray[i].id));
+						//culori:
 
-                a.textContent = resultArray[i].nume;
-                 //var father=json1.chapters[i].parinte;
-                 father2=document.getElementById(father);
-                console.log(father2);
-                 var divfather="div".concat(resultArray[i].parinte);
-                 var divfather2=document.getElementById(divfather);
+						//sf culori
 
-                 var div1 = document.createElement("div");
-                div1.setAttribute("id", "div".concat(resultArray[i].id));
-                div1.setAttribute("class", "collapse margin_div");
+						if (father=="0") {
+							
+							var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+							var divv=ia_id_div.appendChild(ul).appendChild(div1);
+						}            	
+						else {
+							
+							var capp =divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+							var divv2=divfather2.appendChild(ul).appendChild(div1);
+						} WikiTextImage.safe_extaractContent
+						ids_butoane_dejaPePag.push(resultArray[i].id)
+						}
+				} catch(err) {
+				console.log("naspa");
+				}
+			}
+			}
+			console.log(ids_butoane_dejaPePag );
 
-                //culori:
 
-                //sf culori
+});
 
-                if (father=="0") {
+        	function showDetails(prop) {
+             location.href = 'secondPage.html';
+             console.log("da");
 
-                  var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
-                  var divv=ia_id_div.appendChild(ul).appendChild(div1);
-                }
-                else {
-
-                  var capp =divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
-                  var divv2=divfather2.appendChild(ul).appendChild(div1);
-                }
-                ids_butoane_dejaPePag.push(resultArray[i].id)
-                }
-            } catch(err) {
-            console.log("naspa");
             }
-          }
-          }
-          console.log(ids_butoane_dejaPePag );
-
-    });
-
-
     </script>
 </body>
 

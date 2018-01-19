@@ -31,18 +31,44 @@ def discutie(dialogue=None):
     #Adaugam data/timpul curent
     now = datetime.datetime.now()
     localtime = str(now.hour) + ":" + str(now.minute) + ":" + str(now.second) + " - " + str(now.day) + "/" + str(now.month) + "/" + str(now.year)
+    if query[len(query)-1] in  "?!.":
+        query=query[:-1
+              ]
+    if ' ' in query:
+        try:
+            sub,prop=FindDefinition.get_prop(query,0,0)
+            subject = next(iter(sub))
+        except Exception as e :
+            subject = query
+            sub = query
+            prop = ""
+            #raise e
 
-    # sub,prop=FindDefinition.get_prop(query,0)
 
+
+    abspath = os.path.abspath(os.path.dirname(__file__))
+    fname=os.path.join(abspath,"termeni.txt")
+    with open(fname,"r") as f:
+        terms=f.read().lower()
+        for s in sub:
+            if s in terms:
+                subject=s
+                break
     # lista=[(sub,prop,None)]
-
+    print(sub, subject)
     #Cautat prin aiml
     aimlResponse = ia.respond(query)
     #print(aimlResponse)
 
     #Cautat prin wiki
-    ok = WikiTextImage.extractContent(query)
-    theme = query
+    try:
+        ok = WikiTextImage.extractContent(subject)
+    except:
+        ok=False
+    theme = subject
+    bookresponse=""
+    for p in prop:
+        bookresponse+=p+"\n"
 
     if ok:
         find_An_Img = False
@@ -90,9 +116,11 @@ def discutie(dialogue=None):
             #Astfel, aimlResponse va avea in secondPage item[2], read_data va avea item[3], etc.
             #lista va fi de forma: (user/bot, raspuns_aiml, raspuns_wiki, cale_imagine)
 
-            lista += [("[" + localtime + "] Bot", read_data, path_img,lines,images,range(1,nr_images), len(lista) + 1, aimlResponse)]
+            lista += [(query, read_data, path_img,lines,images,range(1,nr_images), len(lista) + 1, aimlResponse+"\n"+bookresponse)]
+            #lista += [("", read_data, path_img, lines, images, range(1, nr_images),
+             #          len(lista) + 1, aimlResponse)]
     else:
-        lista = [(query, query + query, None)]
+        lista += [(query, "",aimlResponse + "\n" + bookresponse)]
         #lista = [(sub, prop, None)]
     # as vrea ca in lista sa fi pusa o lista de tuple de forma: (nume topic, text, cale_imagine)
     # cale_11imagine o sa fie ca calea spre imagine daca exista, None caz contrar

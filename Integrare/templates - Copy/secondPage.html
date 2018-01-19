@@ -100,7 +100,6 @@ word-wrap: break-word;
          </h1>
              <div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr">
 
-
             {%for item in dialogue%}
                 {%if item[2]%}
                     <h1 id="firstHeading" class="firstHeading" lang="ro">
@@ -118,16 +117,19 @@ word-wrap: break-word;
         <div dir="ltr" class=" mw-content-ltr">
             <div class="row">
               <div class="col-sm-6">
-                  <div class="margin_col"><p>{{item[1]}}</p></div>
+                  <div class="margin_col">
+                      <p><strong>Ce am gasit pe wiki: </strong>{{item[1]}}</p>
+                      <p><strong>Cunostintele mele: </strong>{{item[7]}}</p>
+                  </div>
               </div>
               <div class="col-sm-6">
                   <div class="margin_col"><img id="img" class="img-rounded size_img" alt="imagine lipsa" src="{{item[2]}}"></div>
               </div>
             </div>
         </div>
-                 <a href="#collapse" class="nav-toggle" style="color=black">Read More...</a>
-                        <div id="collapse" style="display:none">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                 <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse{{item[6]}}" style="display:none">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="max-width: 40%; max-height: 40%;">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -138,7 +140,7 @@ word-wrap: break-word;
                                 </ol>
 
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
+                                <div class="carousel-inner" >
                                     <div class="item active">
                                         <img src="{{item[2]}}" alt="prima" style="width:100%;">
                                     </div>
@@ -180,13 +182,16 @@ word-wrap: break-word;
                     <div id="mw-content-text1" lang="ro" dir="ltr" class="mw-content-ltr">
                              <div>
                                 <div>
-                                    <div class="margin_col"> <p> {{item[1]}} </p></div>
+                                    <div class="margin_col">
+                                        <p><strong>Ce am gasit pe wiki: </strong>{{item[1]}} </p>
+                                        <p><strong>Cunostintele mele: </strong>{{item[7]}}</p>
+                                    </div>
                                 </div>
                             </div>
                             <br />
                     </div>
-                    <a href="#collapse" class="nav-toggle" style="color=black">Read More...</a>
-                        <div id="collapse" style="display:none">
+                    <a href="#collapse{{item[6]}}" class="nav-toggle" style="color=black">Read More...</a>
+                        <div id="collapse{{item[6]}}" style="display:none">
                             <p>
                                 {%for line in item[3]%}
                                     {{line}}
@@ -206,9 +211,7 @@ word-wrap: break-word;
             <form name="chat-form" action="secondPage.html" method="post">
                 <div class="form-group col-xs-4">
                     <label for="usr">Ai o intrebare buna?</label>
-                    <form id="form_input" name="form_input1">
-                    <input type="text" class="form-control" id="usr" name="querry" value="">
-                    </form>
+                    <input onkeypress="runScript(event)" type="text" class="form-control" id="usr" name="querry">
                 </div>
             </form>
 
@@ -291,108 +294,104 @@ word-wrap: break-word;
     </div>
 
     <script>
-
-     function showDetails(prop) {
-            // console.log(prop.concat("este"));
-             document.getElementById("usr").setAttribute("value",prop.concat(" este")) ;
-
-             //location.href = 'secondPage.html';
-             document.getElementById('usr').setAttribute("type", "submit");
-             document.getElementById("conversation").focus;
+        $(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Show');
+            } else {
+                toggle_switch.html('Hide');
             }
+        });
+    });
+
+});
 
         function runScript(e) {
 
-			if (e.keyCode == 13 ) {
-				console.log("Da");
-			    document.getElementById("conversation").focus;
-			}
-		}
+        if (e.keyCode == 13 ) {
+            console.log("Da");
+          document.getElementById("conversation").focus;
+    }
+}
+
+        //var data = '{"name": "mkyong","age": 30,"address": {"streetAddress": "88 8nd Street","city": "New York"},"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
+        //var data = '{"phoneNumber": [{"type": "home","number": "111 111-1111"},{"type": "fax","number": "222 222-2222"}],"phoneNumber1": [{"type": "home","number": "111 111-1111"},{"type": "faxu","number": "222 222-2222"}]}';
+        //var capitole='{"capitole": [{"nume":"capitol1","id":"1","href":"#"},{"nume":"capitol2","id":"2","href":"#"},{"nume":"capitol3","id":"3","href":"#"}],"subcapitole1": [{"nume":"subcapitol1","id":"12","href":"#",parinte="1"},{"nume":"subcapitol2","id":"12","href":"#",parinte="2"},{"nume":"subcapitol3","id":"13","href":"#",parinte="3"}]}';
+        //var capitole = '{"capitole": [{"nume": "capitol1","id": "1","parinte":"0"},{"nume": "capitol2","id": "2","parinte":"0"}],"subcapitole1": [{"nume": "sub1","id": "1","parinte":"1"},{"nume": "sub2","id": "2","parinte":"2"}]}';
+        //var chapters = '{"chapters": [{"nume": "capitol1","id": "1","parinte":"0","link":"#"},{"nume": "capitol2","id": "2","parinte":"0","link":"#"},{"nume": "sub1","id": "3","parinte":"1","link":"#"},{"nume": "sub2","id": "4","parinte":"2","link":"#"},{"nume": "subb","id": "5","parinte":"4","link":"#"},{"nume": "subbb","id": "6","parinte":"5","link":"#"},{"nume": "sub3","id": "7","parinte":"2","link":"#"}]}';
 
 
+        var chapters='{"chapters": [{"nume": "PROBLEMATICA NEUROCHIRURGIEI", "id": "1", "parinte": "0"}, {"nume": "SINDROMUL COMATOS", "id": "24", "parinte": "0"}, {"nume": "ACCIDENTELE VASCULARE CEREBRALE NEUROCHIRURGIA VASCULAR\u0102", "id": "44", "parinte": "0"}, {"nume": "PATOLOGIA VERTEBROMEDULAR\u0102 NEUROCHIRURGICAL\u0102", "id": "63", "parinte": "0"}, {"nume": "Defini\u0163ie", "id": "25", "parinte": "1"}, {"nume": "Istoric", "id": "78", "parinte": "1"}, {"nume": "Ramurile neurochirurgiei", "id": "79", "parinte": "1"}, {"nume": "Raporturile neurochirurgiei cu celelalte \u015ftiin\u0163e neurale (neuro\u015ftiin\u0163e) \u015fi cu disciplinele de grani\u0163\u0103", "id": "80", "parinte": "1"}, {"nume": "Diagnosticul neurochirurgical", "id": "2", "parinte": "1"}]}'
+        var json1=JSON.stringify(chapters);
+        var json1 = JSON.parse(chapters);
 
-		function my_compare(a,b) {
-		  if (a.parinte=="0") return -1;
-		  if (a.parinte < b.parinte)
-			return -1;
-		  if (a.parinte > b.parinte)
-			return 1;
-		  return 0;
-		}
 
-         $.getJSON("\\static\\data.json", function(json){
-          json1 = json;
+        //var json1;
+        //$.getJSON("data.json", function(json){
+        //json1 = json;
 
-          //sorteaza json dupa parinte id
-          var resultArray = $.map(json1['chapters'], function(value, index) { return [value]; });
-          resultArray.sort(my_compare);
-          chapters = resultArray;
-          console.log(resultArray)
-          var ia_id_div = document.getElementById("0");
 
-          ids_butoane_dejaPePag = []
-          for(k=1;k<=5;k++) {
-            for (var i = 0; i < chapters.length; i++) {
-            try {
-              if (ids_butoane_dejaPePag.indexOf(resultArray[i].id)==-1) {
-                var ul = document.createElement("ul");
-                ul.setAttribute("id", resultArray[i].id);
+        var ia_id_div = document.getElementById("0");
 
-                var father=resultArray[i].parinte;
-                var buton = document.createElement("button");
+        for (var i = 0; i < chapters.length; i++) {
 
-                buton.setAttribute("onclick", "showDetails(" +'"' + resultArray[i].nume +'"'+ ")");
-                if (father=="0") {
-                buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
-                }
-                else
-                {
-                buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
-                }
-                buton.setAttribute("data-toggle","collapse" );
-                buton.setAttribute("data-target","#div".concat(resultArray[i].id) );
+            var ul = document.createElement("ul");
+            	ul.setAttribute("id", json1.chapters[i].id);
 
-                var li = document.createElement("li");
+            var father=json1.chapters[i].parinte;
+            var buton = document.createElement("button");
 
-                var a = document.createElement("a");
-                //a.setAttribute("href", json1.chapters[i].link);
-                a.setAttribute("id", "1".concat(resultArray[i].id));
-
-                a.textContent = resultArray[i].nume;
-                 //var father=json1.chapters[i].parinte;
-                 father2=document.getElementById(father);
-                console.log(father2);
-                 var divfather="div".concat(resultArray[i].parinte);
-                 var divfather2=document.getElementById(divfather);
-
-                 var div1 = document.createElement("div");
-                div1.setAttribute("id", "div".concat(resultArray[i].id));
-                div1.setAttribute("class", "collapse margin_div");
-
-                //culori:
-
-                //sf culori
-
-                if (father=="0") {
-
-                  var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
-                  var divv=ia_id_div.appendChild(ul).appendChild(div1);
-                }
-                else {
-
-                  var capp =divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
-                  var divv2=divfather2.appendChild(ul).appendChild(div1);
-                }
-                ids_butoane_dejaPePag.push(resultArray[i].id)
-                }
-            } catch(err) {
-            console.log("naspa");
+            if (father=="0") {
+            buton.setAttribute("class", "w3-button w3-teal w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
             }
-          }
-          }
-          console.log(ids_butoane_dejaPePag );
+            else
+            {
+            buton.setAttribute("class", "w3-button w3-green w3-tiny w3-round-large w3-padding-small margine_buton buton_w");
+            }
+            buton.setAttribute("data-toggle","collapse" );
+            buton.setAttribute("data-target","#div".concat(json1.chapters[i].id) );
 
-    });
+            var li = document.createElement("li");
+
+            var a = document.createElement("a");
+            //a.setAttribute("href", json1.chapters[i].link);
+            a.setAttribute("id", "1".concat(json1.chapters[i].id));
+
+            a.textContent = json1.chapters[i].nume;
+             //var father=json1.chapters[i].parinte;
+             var father2=document.getElementById(father);
+
+             var divfather="div".concat(json1.chapters[i].parinte);
+             var divfather2=document.getElementById(divfather);
+
+             var div1 = document.createElement("div");
+            div1.setAttribute("id", "div".concat(json1.chapters[i].id));
+            div1.setAttribute("class", "collapse margin_div");
+
+            //culori:
+
+            //sf culori
+
+            if (father=="0") {
+
+            	var capp = ia_id_div.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                var divv=ia_id_div.appendChild(ul).appendChild(div1);
+            }
+            else {
+
+            	var capp = divfather2.appendChild(ul).appendChild(buton).appendChild(li).appendChild(a);
+                var divv2=divfather2.appendChild(ul).appendChild(div1);
+            }
+
+        }
+
+
+
+
+//});
     </script>
     </div>
 </body>

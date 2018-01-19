@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FDG_Output>
+  <S id="1" offset="0">
+    <W Case="direct" LEMMA="ce" MSD="Pw3--r" POS="PRONOUN" Person="third" Type="relative" deprel="sbj." head="2" id="1.1" offset="0">Ce</W>
+    <W EXTRA="intranzitiv" LEMMA="fi" MSD="Vmip3s" Mood="indicative" Number="singular" POS="VERB" Person="third" Tense="present" Type="predicative" deprel="ROOT" head="0" id="1.2" offset="3">este</W>
+    <W Case="direct" Definiteness="yes" Gender="masculine" LEMMA="creier" MSD="Ncmsry" Number="singular" POS="NOUN" Type="common" deprel="n.pred." head="2" id="1.3" offset="8">creierul</W>
+  </S>
+</FDG_Output>
