@@ -81,26 +81,24 @@
 + Membri: Ursachi Anca, Balan Andreea, Vicol Robert, Minuti Vladut, Manolache Irinel
 + Au ajutat : Corfu Alexandru,Giurgila Andreea, Pintilie Andrei
 + Tasck-uri realizate:
-    1. Crearea unui template pentru o pagina wiki cu urmatoarele specificatii:          titlu, cuprins, recomandari, subcapitol (cu sau fara poza). Acest task presupune cautarea si implementarea de functionalitati interesante in interfata.
-        Membrii care au colaborat la acest task: Anca Ioana, Balan Andreea
-    2.Crearea unei prezantari PowerPoint in care se arata eficacitatea folosirii flask-ului in implementarea interfetei:
+    1. Crearea unei prezantari PowerPoint in care se arata eficacitatea folosirii flask-ului in implementarea interfetei:
         Membrii care au colaborat la acest task: Robert Vicol.
-    3.Crearea unui template pentru o pagina wiki cu urmatoarele specificatii: titlu, cuprins, recomandari, subcapitol (cu sau fara poza).
+    2. Crearea unui template pentru o pagina wiki cu urmatoarele specificatii: titlu, cuprins, recomandari, subcapitol (cu sau fara poza).
         -Acest task presupune cautarea si implementarea de functionalitati interesante in interfata.
         Membrii care au colaborat la acest task: Anca Ioana, Balan Andreea.
-    4.Invatarea toolului Flask si implementarea interfetei. Membrii care au colaborat la acest task
+    3. Invatarea toolului Flask si implementarea interfetei. Membrii care au colaborat la acest task
         Membrii care au colaborat la acest task: Minuti Vladut, Vicol Robert, Irinel Manolache.
-    5.Realizarea logicii de functionare a serverului (BackEnd) Membrii care au colaborat la acest task
+    4. Realizarea logicii de functionare a serverului (BackEnd) Membrii care au colaborat la acest task
         Membrii care au colaborat la acest task: Minuti Vladut, Vicol Robert, Irinel Manolache.
-    6.Adaugarea resurselor gasite pe wikipedia in interfata: 
+    5. Adaugarea resurselor gasite pe wikipedia in interfata: 
         Membrii care au colaborat la acest task: Minuti Vladut, Manolache Irinel, Iovu Gabriel, Dobos Iulia.
-    7.Crearea unui fisier json cu capitolele materiei
+    6. Crearea unui fisier json cu capitolele materiei
         Membrii care au colaborat la acest task: Andreea Giurgila.
-    8.Adaugarea capitolelor in interfata, si adaugarea actiunii de show hide pe capitole 
+    7. Adaugarea capitolelor in interfata, si adaugarea actiunii de show hide pe capitole 
         Membrii care au colaborat la acest task: Andreea Balan, Ursachi Anca.
-    9.Adaugarea actiunii de afisare a capitolului atunci cand se apasa click stanga pe el
+    8. Adaugarea actiunii de afisare a capitolului atunci cand se apasa click stanga pe el
         Membrii care au colaborat la acest task: Manolache Irinel.
-    10.Adaugarea butonului de show more care arata informatiile de pe wiki
+    9. Adaugarea butonului de show more care arata informatiile de pe wiki
         Membrii care au colaborat la acest task: Vladut Minuti.
 
     Realizarea taskurilor : Pintilie Andrei, Irinel Manolache
