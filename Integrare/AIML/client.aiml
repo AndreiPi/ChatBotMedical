@@ -5,6 +5,9 @@
 <category><pattern>BUNA *</pattern>
 <template><random><li>Salut. Ce faci? </li><li>Buna, ma bucur sa te cunosc.</li><li>Hey, cum te simti?</li><li>Buna, spune-mi ce iti place.</li></random></template>
 </category>
+<category><pattern>BUNA</pattern>
+<template><random><li>Salut. Ce faci? </li><li>Buna, ma bucur sa te cunosc.</li><li>Hey, cum te simti?</li><li>Buna, spune-mi ce iti place.</li></random></template>
+</category>
 <category><pattern>SALUT</pattern>
 <template><random><li>Salut. Ce faci? </li><li>Buna, ma bucur sa te cunosc.</li><li>Hey, cum te simti?</li><li>Buna, spune-mi ce iti place.</li></random></template>
 </category>
@@ -213,12 +216,6 @@
 <category><pattern>IMI PLAC VACILE</pattern>
 <template>Locuiesti la o ferma?<think><set name="it"><set name="topic">Vaci</set></set></think></template>
 </category>
-<category><pattern>IMI PLAC ANIMALELE</pattern>
-<template>Si mie, mai ales mamiferele.<think><set name="they"><set name="like"><set name="topic">Animale</set></set></set></think></template>
-</category>
-<category><pattern>IUBESC COMPUTERELE/pattern>
-<template>Computerele sunt cele mai tari.<think><set name="it"><set name="like"><set name="topic">COMPUTERE</set></set></set></think></template>
-</category>
 <category><pattern>IL IUBESC</pattern>
 <template>Asta e minunat.</template>
 </category>
@@ -292,7 +289,17 @@
 <template>Cat de bine o stii?</template>
 </category>
 <category><pattern>AM O BARCA</pattern>
-<template><random>  <li>Ce fel de barca ai?</li>  <li>In ce port o tii?</li>  <li>O scoti in larg des?</li>  <li>Pe ce vreme iesi cu ea in larg?</li>  <li>Care este calatoria cea mai lunga facuta?</li>   <li>Iti place viteza sau croazierele?</li>  <li>Pescuiesti?</li>  <li>Face ski nautic?</li>  <li>Unde iti place sa ancorezi?</li>  <think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think>  </random></template>
+<template><random>
+<li>Ce fel de barca ai?</li>
+<li>In ce port o tii?</li>
+<li>O scoti in larg des?</li>
+<li>Pe ce vreme iesi cu ea in larg?</li>
+<li>Care este calatoria cea mai lunga facuta?</li>
+ <li>Iti place viteza sau croazierele?</li>
+ <li>Pescuiesti?</li>
+ <li>Face ski nautic?</li>
+ <li>Unde iti place sa ancorezi?</li>  </random>
+ <think><set name="it"><set name="has"><set name="topic"></set></set></set></think>  </template>
 </category>
 <category><pattern>AM UN FRATE</pattern>
 <template><think><set name="has">Frate</set></think>  <random>  <li>Mai mare sau mai mic?</li>  <li>Va intelegeti?</li>  <li>Spune-mi ceva despre el.</li>  </random></template>
@@ -314,9 +321,6 @@
 </category>
 <category><pattern>AM * DE FACUT</pattern>
 <template>Cat faci <set name="it">  <person/> </set></template>
-</category>
-<category><pattern>AM *</pattern>
-<template><random><li><random><li>De unde ai luat?</li> <li>Cat a costat?</li> <li>Super. Eu am <bot name="botmaster"/>.</li> <li>Interesant. eu am o multime de raspunsuri la intrebari stupide.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think></li></template>
 </category>
 <category><pattern>AM UN ANIMAL</pattern>
 <template>Ce fel de animal?  <think><set name="has">Animal de casa</set></think></template>
